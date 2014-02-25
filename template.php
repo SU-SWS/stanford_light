@@ -11,7 +11,7 @@ function stanford_light_preprocess_page(&$vars) {
   if ($vars['color_palette'] == 'color-bold') {
   drupal_add_css(path_to_theme() . '/css/stanford_light_color_bold.css', array('group' => CSS_THEME, 'media' => 'all', 'weight' => 500, 'preprocess' => FALSE));
   }
-  if ($vars['color_palette'] == 'color-monochome') {
+  if ($vars['color_palette'] == 'color-monochrome') {
   drupal_add_css(path_to_theme() . '/css/stanford_light_color_monochrome.css', array('group' => CSS_THEME, 'media' => 'all', 'weight' => 500, 'preprocess' => FALSE));
   }
   
