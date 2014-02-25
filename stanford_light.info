@@ -5,6 +5,8 @@ core = 7.x
 version = 1.0
 
 stylesheets[all][] = css/stanford_light.css
+
+stylesheets[all][] = css/stanford_light_typography.css
 scripts[] = js/stanford_light.js
 
 regions[admin_shortcuts] = Admin Shortcuts (Authenticated Users Only)
@@ -49,3 +51,6 @@ settings[body_bg_preview] = ''
 settings[body_bg_upload] = ''
 settings[border_classes] = ''
 settings[corner_classes] = ''
+
+settings[color_palette] = 'color-default'
+settings[typography] = 'typography-default'
