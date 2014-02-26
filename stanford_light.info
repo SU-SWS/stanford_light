@@ -53,4 +53,5 @@ settings[corner_classes] = ''
 settings[styles] = 'styles-light'
 settings[fonts] = 'fonts-sans'
 settings[red_bar] = ''
-settings[logo] = 0
+
+settings[toggle_logo] = 0
