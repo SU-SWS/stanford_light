@@ -40,11 +40,11 @@ a.btn, .btn a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -ms-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
-  border-radius: 0.5em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
 }
 
 /* line 98, ../sass/includes/_base.scss */
@@ -65,11 +65,11 @@ a.more-link:after, .more-link a:after {
 
 /* line 114, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
-  -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -ms-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
-  border-radius: 0.5em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
   padding: 0.5em 1em;
   border: 1px solid #ccc;
   font-size: .8em;

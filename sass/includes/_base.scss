@@ -88,7 +88,7 @@ a.btn, .btn a {
     border: none;
     @include text-shadow(none);
     @include box-shadow(none);
-    @include border-radius(0.5em);
+    @include border-radius(0.3em);
 }
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
@@ -112,7 +112,7 @@ a.more-link:hover, a.more-link:focus,
 
 }
 a.edit-link, .edit-link a {
-	@include border-radius(0.5em);
+	@include border-radius(0.3em);
 	padding: 0.5em 1em;
 	border: 1px solid #ccc;
 	font-size: .8em;
