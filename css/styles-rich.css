@@ -142,3 +142,10 @@ a.edit-link:hover, a.edit-link:focus,
 .site-footer a:hover, .site-footer a:focus {
   text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+  /* line 24, ../sass/styles/_rich-styles.scss */
+  .navbar .btn-navbar {
+    background: #5e3032;
+  }
+}

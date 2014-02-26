@@ -19,3 +19,9 @@
 .site-footer a:hover, .site-footer a:focus {
 	text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+	.navbar .btn-navbar {
+		background: $clr-footer-bkg;
+	}
+}
