@@ -49,3 +49,6 @@ settings[body_bg_preview] = ''
 settings[body_bg_upload] = ''
 settings[border_classes] = ''
 settings[corner_classes] = ''
+
+settings[color_palette] = 'color-default'
+settings[typography] = 'typography-default'
