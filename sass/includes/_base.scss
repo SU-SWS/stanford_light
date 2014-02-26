@@ -100,3 +100,25 @@ a.edit-link:hover, a.edit-link:focus,
 .block.well h2 {
 
 }
+
+/* Override main menu */
+.navbar-inner {
+    background-color: transparent;
+    background-image: none;
+    border: medium none;
+	@include box-shadow(none);
+    padding: 0;
+}
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
+    background-color: #333;
+    color: #FFF;
+    @include box-shadow(none);
+}
+.navbar .nav > li > a {
+     padding: .5em 1em;
+     @include text-shadow(none);
+}
