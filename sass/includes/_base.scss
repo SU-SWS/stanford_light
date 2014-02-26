@@ -51,7 +51,10 @@ a:hover, a:focus {
 
 }
 a.btn, .btn a {
-
+    padding: 0.5em 1em;
+    border: none;
+    @include text-shadow(none);
+    @include box-shadow(none);
 }
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
