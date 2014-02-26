@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-weight: 300;
 	letter-spacing: -0.04em;
-	font-size: 3.25em;
+	font-size: 3em;
 	line-height: 1.3em;
 }
 h2 {
@@ -41,17 +41,19 @@ strong {
 }
 
 .site-name {
-
+	font-size: 3.5em;
 }
 .site-name a, .site-name a:hover {
-	
+	font-weight: 300;
+	letter-spacing: -0.04em;
 }
 #site-slogan {
-	
+	font-size: 1.2em;
+	font-weight: 400;
 }
 
 .summary {
-
+	font-size: 1.2em;
 }
 .descriptor {
 
@@ -107,4 +109,9 @@ a.edit-link:hover, a.edit-link:focus,
 }
 .block.well h2 {
 
+}
+
+.navbar .nav > li > a {
+	font-size: 1.2em;
+	font-weight: 600;
 }
