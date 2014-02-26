@@ -36,6 +36,16 @@ h2 {
   color: #333333;
 }
 
+/* line 47, ../sass/styles/styles.scss */
+.site-name a, .site-name a:hover {
+  color: #333333;
+}
+
+/* line 50, ../sass/styles/styles.scss */
+#site-slogan {
+  color: #333333;
+}
+
 /* line 70, ../sass/styles/styles.scss */
 a {
   color: #8c1515;
@@ -72,5 +82,21 @@ a.more-link:hover, a.more-link:focus,
 
 /* line 107, ../sass/styles/styles.scss */
 .well {
+  background: #e9e6df;
+}
+
+/* line 114, ../sass/styles/styles.scss */
+.navbar .nav > li > a {
+  color: #8c1515;
+  background: transparent;
+}
+
+/* line 122, ../sass/styles/styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #333333;
   background: #e9e6df;
 }

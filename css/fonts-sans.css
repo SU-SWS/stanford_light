@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-weight: 300;
   letter-spacing: -0.04em;
-  font-size: 3.25em;
+  font-size: 3em;
   line-height: 1.3em;
 }
 
@@ -41,23 +41,51 @@ h4 {
   line-height: 1.3em;
 }
 
-/* line 69, ../sass/fonts/_sans-styles.scss */
+/* line 43, ../sass/fonts/_sans-styles.scss */
+.site-name {
+  font-size: 3.5em;
+}
+
+/* line 46, ../sass/fonts/_sans-styles.scss */
+.site-name a, .site-name a:hover {
+  font-weight: 300;
+  letter-spacing: -0.04em;
+}
+
+/* line 50, ../sass/fonts/_sans-styles.scss */
+#site-slogan {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+/* line 55, ../sass/fonts/_sans-styles.scss */
+.summary {
+  font-size: 1.2em;
+}
+
+/* line 71, ../sass/fonts/_sans-styles.scss */
 a {
   font-weight: 600;
 }
 
-/* line 75, ../sass/fonts/_sans-styles.scss */
+/* line 77, ../sass/fonts/_sans-styles.scss */
 a.btn, .btn a {
   font-weight: 400;
   font-size: inherit;
 }
 
-/* line 84, ../sass/fonts/_sans-styles.scss */
+/* line 86, ../sass/fonts/_sans-styles.scss */
 a.more-link, .more-link a {
   font-weight: 600;
 }
 
-/* line 102, ../sass/fonts/_sans-styles.scss */
+/* line 104, ../sass/fonts/_sans-styles.scss */
 .block h2 {
   font-size: 1.5em;
+}
+
+/* line 114, ../sass/fonts/_sans-styles.scss */
+.navbar .nav > li > a {
+  font-size: 1.2em;
+  font-weight: 600;
 }

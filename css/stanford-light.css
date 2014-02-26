@@ -20,7 +20,17 @@ body.red-bar .header {
   padding: 40px 0 20px 0;
 }
 
-/* line 81, ../sass/includes/_base.scss */
+/* line 49, ../sass/includes/_base.scss */
+#name-and-slogan {
+  padding-left: 0;
+}
+
+/* line 52, ../sass/includes/_base.scss */
+.site-name {
+  margin-left: -4px;
+}
+
+/* line 84, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -35,7 +45,7 @@ a.btn, .btn a {
   border-radius: 0.5em;
 }
 
-/* line 93, ../sass/includes/_base.scss */
+/* line 96, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   background-image: none;
   padding-right: none;
@@ -46,12 +56,12 @@ a.more-link, .more-link a {
   letter-spacing: inherit;
 }
 
-/* line 102, ../sass/includes/_base.scss */
+/* line 105, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 109, ../sass/includes/_base.scss */
+/* line 112, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
@@ -63,18 +73,18 @@ a.edit-link, .edit-link a {
   font-size: .8em;
 }
 
-/* line 116, ../sass/includes/_base.scss */
+/* line 119, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #ddd;
 }
 
-/* line 123, ../sass/includes/_base.scss */
+/* line 126, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 126, ../sass/includes/_base.scss */
+/* line 129, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -88,7 +98,7 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* Override main menu */
-/* line 136, ../sass/includes/_base.scss */
+/* line 139, ../sass/includes/_base.scss */
 .navbar-inner {
   background-color: transparent;
   background-image: none;
@@ -99,7 +109,7 @@ a.edit-link:hover, a.edit-link:focus,
   padding: 0;
 }
 
-/* line 147, ../sass/includes/_base.scss */
+/* line 150, ../sass/includes/_base.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -112,14 +122,14 @@ a.edit-link:hover, a.edit-link:focus,
   box-shadow: none;
 }
 
-/* line 152, ../sass/includes/_base.scss */
+/* line 155, ../sass/includes/_base.scss */
 .navbar .nav > li > a {
   padding: 0;
   text-shadow: none;
   margin-right: 1em;
 }
 
-/* line 157, ../sass/includes/_base.scss */
+/* line 160, ../sass/includes/_base.scss */
 .navbar .nav > li:last-child > a {
   margin-right: 0;
 }
