@@ -113,14 +113,25 @@ a.edit-link:hover, a.edit-link:focus,
   background: transparent;
 }
 
+/* line 1, ../sass/styles/_dark-styles.scss */
+a.btn, .btn a {
+  border: 1px solid transparent;
+}
+
+/* line 5, ../sass/styles/_dark-styles.scss */
+a.btn:hover, a.btn:focus,
+.btn a:hover, .btn a:focus {
+  border: 1px solid #fbfbf9;
+}
+
 @media (max-width: 767px) {
-  /* line 2, ../sass/styles/_dark-styles.scss */
+  /* line 10, ../sass/styles/_dark-styles.scss */
   .navbar .btn-navbar {
     background: #b3995d;
     border: 1px solid transparent;
   }
 
-  /* line 6, ../sass/styles/_dark-styles.scss */
+  /* line 14, ../sass/styles/_dark-styles.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #232220;
     border: 1px solid #fbfbf9;

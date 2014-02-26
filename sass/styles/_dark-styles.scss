@@ -1,3 +1,11 @@
+a.btn, .btn a {
+	border: 1px solid transparent;
+}
+a.btn:hover, a.btn:focus,
+.btn a:hover, .btn a:focus {
+	border: 1px solid $clr-text;
+}
+
 @media (max-width: 767px) {
 	.navbar .btn-navbar {
 		background: $clr-btn-bkg;
