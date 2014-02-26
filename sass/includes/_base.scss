@@ -92,8 +92,10 @@ a.edit-link:hover, a.edit-link:focus,
 .block h2 {
 
 }
-.block.well {
-
+.well {
+	border: none;
+	@include border-radius(0);
+	@include box-shadow(none);
 }
 .block.well h2 {
 
