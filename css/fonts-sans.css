@@ -79,12 +79,13 @@ a.more-link, .more-link a {
   font-weight: 600;
 }
 
-/* line 104, ../sass/fonts/_sans-styles.scss */
-.block h2 {
-  font-size: 1.5em;
+/* line 110, ../sass/fonts/_sans-styles.scss */
+.block.well h2 {
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
-/* line 114, ../sass/fonts/_sans-styles.scss */
+/* line 115, ../sass/fonts/_sans-styles.scss */
 .navbar .nav > li > a {
   font-size: 1.2em;
   font-weight: 600;
