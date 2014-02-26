@@ -133,3 +133,16 @@ a.edit-link:hover, a.edit-link:focus,
 .navbar .nav > li:last-child > a {
   margin-right: 0;
 }
+
+@media (max-width: 767px) {
+  /* line 10, ../sass/includes/_responsive.scss */
+  body {
+    padding: 0;
+  }
+
+  /* line 13, ../sass/includes/_responsive.scss */
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
