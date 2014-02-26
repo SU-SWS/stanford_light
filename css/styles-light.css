@@ -18,17 +18,17 @@ h2 {
   color: #333333;
 }
 
-/* line 47, ../sass/styles/_light-styles.scss */
+/* line 57, ../sass/styles/_light-styles.scss */
 a {
   color: #8c1515;
 }
 
-/* line 50, ../sass/styles/_light-styles.scss */
+/* line 60, ../sass/styles/_light-styles.scss */
 a:hover, a:focus {
   color: #333333;
 }
 
-/* line 53, ../sass/styles/_light-styles.scss */
+/* line 63, ../sass/styles/_light-styles.scss */
 a.btn, .btn a {
   background: #8c1515;
   color: #fbfbf9;
