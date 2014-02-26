@@ -1,0 +1,35 @@
+/* line 1, ../sass/styles/_light-styles.scss */
+body {
+  color: #333333;
+}
+
+/* line 5, ../sass/styles/_light-styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+/* line 8, ../sass/styles/_light-styles.scss */
+h1 {
+  color: #333333;
+}
+
+/* line 11, ../sass/styles/_light-styles.scss */
+h2 {
+  color: #333333;
+}
+
+/* line 47, ../sass/styles/_light-styles.scss */
+a {
+  color: #8c1515;
+}
+
+/* line 50, ../sass/styles/_light-styles.scss */
+a:hover, a:focus {
+  color: #333333;
+}
+
+/* line 53, ../sass/styles/_light-styles.scss */
+a.btn, .btn a {
+  background: #8c1515;
+  color: #fbfbf9;
+}

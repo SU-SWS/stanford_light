@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:600,700,400italic,400);
+/* line 1, ../sass/fonts/_serif-styles.scss */
+body {
+  font-family: "Crimson Text", serif;
+}
+
+/* line 5, ../sass/fonts/_serif-styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Crimson Text", serif;
+}
