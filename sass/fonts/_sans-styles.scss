@@ -1,21 +1,33 @@
 body {
 	font-family: $font-body;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.4em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-header;
+	font-weight: 400;
 }
 h1 {
-
+	font-weight: 300;
+	letter-spacing: -0.04em;
+	font-size: 3.25em;
+	line-height: 1.3em;
 }
 h2 {
-
+	font-size: 1.8em;
+	letter-spacing: -0.02em;
+	line-height: 1.3em;
 }
 h3 {
-
+	font-size: 1.3em;
+	line-height: 1.3em;
 }
 h4 {
-
+	font-size: 1.1em;
+	font-weight: 600;
+	line-height: 1.3em;
 }
 h5 {
 
@@ -55,13 +67,14 @@ strong {
 }
 
 a {
-
+	font-weight: 600;
 }
 a:hover, a:focus {
 
 }
 a.btn, .btn a {
-
+	font-weight: 400;
+	font-size: inherit;
 }
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
@@ -69,7 +82,7 @@ a.btn:hover, a.btn:focus,
 }
 
 a.more-link, .more-link a {
-
+	font-weight: 600;
 }
 a.more-link:hover, a.more-link:focus,
 .more-link a:hover, .more-link a:focus {
@@ -87,7 +100,7 @@ a.edit-link:hover, a.edit-link:focus,
 
 }
 .block h2 {
-
+	font-size: 1.5em;
 }
 .block.well {
 
