@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+	.navbar .btn-navbar {
+		background: $clr-btn-bkg;
+		border: 1px solid transparent;
+	}
+	.navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+		background: $clr-btn-bkg-hvr;
+		border: 1px solid $clr-text;
+	}
+}

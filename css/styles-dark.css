@@ -112,3 +112,17 @@ a.edit-link:hover, a.edit-link:focus,
   color: #fbfbf9;
   background: transparent;
 }
+
+@media (max-width: 767px) {
+  /* line 2, ../sass/styles/_dark-styles.scss */
+  .navbar .btn-navbar {
+    background: #b3995d;
+    border: 1px solid transparent;
+  }
+
+  /* line 6, ../sass/styles/_dark-styles.scss */
+  .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    background: #232220;
+    border: 1px solid #fbfbf9;
+  }
+}
