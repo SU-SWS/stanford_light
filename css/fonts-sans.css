@@ -2,9 +2,62 @@
 /* line 1, ../sass/fonts/_sans-styles.scss */
 body {
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4em;
 }
 
-/* line 5, ../sass/fonts/_sans-styles.scss */
+/* line 8, ../sass/fonts/_sans-styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+/* line 12, ../sass/fonts/_sans-styles.scss */
+h1 {
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  font-size: 3.25em;
+  line-height: 1.3em;
+}
+
+/* line 18, ../sass/fonts/_sans-styles.scss */
+h2 {
+  font-size: 1.8em;
+  letter-spacing: -0.02em;
+  line-height: 1.3em;
+}
+
+/* line 23, ../sass/fonts/_sans-styles.scss */
+h3 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+/* line 27, ../sass/fonts/_sans-styles.scss */
+h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+/* line 69, ../sass/fonts/_sans-styles.scss */
+a {
+  font-weight: 600;
+}
+
+/* line 75, ../sass/fonts/_sans-styles.scss */
+a.btn, .btn a {
+  font-weight: 400;
+  font-size: inherit;
+}
+
+/* line 84, ../sass/fonts/_sans-styles.scss */
+a.more-link, .more-link a {
+  font-weight: 600;
+}
+
+/* line 102, ../sass/fonts/_sans-styles.scss */
+.block h2 {
+  font-size: 1.5em;
 }

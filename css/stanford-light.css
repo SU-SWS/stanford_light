@@ -1,4 +1,16 @@
-/* line 63, ../sass/includes/_base.scss */
+/* line 5, ../sass/includes/_base.scss */
+.header {
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* line 12, ../sass/includes/_base.scss */
+.site-footer {
+  margin: 0;
+  padding: 40px 0 20px 0;
+}
+
+/* line 75, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -6,9 +18,48 @@ a.btn, .btn a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
 }
 
-/* line 95, ../sass/includes/_base.scss */
+/* line 87, ../sass/includes/_base.scss */
+a.more-link, .more-link a {
+  background-image: none;
+  padding-right: none;
+  text-transform: none;
+  display: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
+/* line 96, ../sass/includes/_base.scss */
+a.more-link:after, .more-link a:after {
+  content: " »";
+}
+
+/* line 103, ../sass/includes/_base.scss */
+a.edit-link, .edit-link a {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;
+  font-size: .8em;
+}
+
+/* line 110, ../sass/includes/_base.scss */
+a.edit-link:hover, a.edit-link:focus,
+.edit-link a:hover, .edit-link a:focus {
+  background: #ddd;
+}
+
+/* line 120, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -22,7 +73,7 @@ a.btn, .btn a {
 }
 
 /* Override main menu */
-/* line 105, ../sass/includes/_base.scss */
+/* line 130, ../sass/includes/_base.scss */
 .navbar-inner {
   background-color: transparent;
   background-image: none;
@@ -33,7 +84,7 @@ a.btn, .btn a {
   padding: 0;
 }
 
-/* line 116, ../sass/includes/_base.scss */
+/* line 141, ../sass/includes/_base.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -46,7 +97,7 @@ a.btn, .btn a {
   box-shadow: none;
 }
 
-/* line 121, ../sass/includes/_base.scss */
+/* line 146, ../sass/includes/_base.scss */
 .navbar .nav > li > a {
   padding: .5em 1em;
   text-shadow: none;
