@@ -55,4 +55,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
 
 // Background image
 
+// Border Style Override
+$form['border_container'] = array();
+
 }
