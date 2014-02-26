@@ -45,10 +45,10 @@ strong {
 
 }
 .site-name a, .site-name a:hover {
-	
+	color: $clr-text;	
 }
 #site-slogan {
-	
+	color: $clr-text;
 }
 
 .summary {
@@ -109,4 +109,17 @@ a.edit-link:hover, a.edit-link:focus,
 }
 .block.well h2 {
 
+}
+
+.navbar .nav > li > a {
+	color: $clr-menu-text;
+	background: $clr-menu-bkg;
+}
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
+    color: $clr-menu-text-hvr;
+    background: $clr-menu-bkg-hvr;
 }
