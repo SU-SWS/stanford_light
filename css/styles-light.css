@@ -1,35 +1,76 @@
 /* line 1, ../sass/styles/_light-styles.scss */
 body {
   color: #333333;
+  background: #fbfbf9;
 }
 
-/* line 5, ../sass/styles/_light-styles.scss */
+/* line 6, ../sass/styles/_light-styles.scss */
+.header {
+  background: #f8f7f2;
+}
+
+/* line 9, ../sass/styles/_light-styles.scss */
+.site-main-menu {
+  background: #f8f7f2;
+  border-bottom: 1px solid #e9e6df;
+}
+
+/* line 13, ../sass/styles/_light-styles.scss */
+.site-footer {
+  background: #f8f7f2;
+  border-top: 1px solid #e9e6df;
+}
+
+/* line 18, ../sass/styles/_light-styles.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #333333;
 }
 
-/* line 8, ../sass/styles/_light-styles.scss */
+/* line 21, ../sass/styles/_light-styles.scss */
 h1 {
   color: #333333;
 }
 
-/* line 11, ../sass/styles/_light-styles.scss */
+/* line 24, ../sass/styles/_light-styles.scss */
 h2 {
   color: #333333;
 }
 
-/* line 57, ../sass/styles/_light-styles.scss */
+/* line 70, ../sass/styles/_light-styles.scss */
 a {
   color: #8c1515;
 }
 
-/* line 60, ../sass/styles/_light-styles.scss */
+/* line 73, ../sass/styles/_light-styles.scss */
 a:hover, a:focus {
   color: #333333;
 }
 
-/* line 63, ../sass/styles/_light-styles.scss */
+/* line 76, ../sass/styles/_light-styles.scss */
 a.btn, .btn a {
   background: #8c1515;
   color: #fbfbf9;
+}
+
+/* line 81, ../sass/styles/_light-styles.scss */
+a.btn:hover, a.btn:focus,
+.btn a:hover, .btn a:focus {
+  background: #333333;
+  color: #fbfbf9;
+}
+
+/* line 86, ../sass/styles/_light-styles.scss */
+a.more-link, .more-link a {
+  color: #8c1515;
+}
+
+/* line 90, ../sass/styles/_light-styles.scss */
+a.more-link:hover, a.more-link:focus,
+.more-link a:hover, .more-link a:focus {
+  color: #333333;
+}
+
+/* line 107, ../sass/styles/_light-styles.scss */
+.well {
+  background: #e9e6df;
 }
