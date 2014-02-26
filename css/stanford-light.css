@@ -90,8 +90,8 @@ a.edit-link:hover, a.edit-link:focus,
 .navbar .nav > .active > a:focus,
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: #333;
-  color: #FFF;
+  background-color: transparent;
+  color: #000;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -99,6 +99,12 @@ a.edit-link:hover, a.edit-link:focus,
 
 /* line 146, ../sass/includes/_base.scss */
 .navbar .nav > li > a {
-  padding: .5em 1em;
+  padding: 0;
   text-shadow: none;
+  margin-right: 1em;
+}
+
+/* line 151, ../sass/includes/_base.scss */
+.navbar .nav > li:last-child > a {
+  margin-right: 0;
 }

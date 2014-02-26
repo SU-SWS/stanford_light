@@ -139,11 +139,15 @@ a.edit-link:hover, a.edit-link:focus,
 .navbar .nav > .active > a:focus,
 .navbar .nav > li > a:focus, 
 .navbar .nav > li > a:hover {
-    background-color: #333;
-    color: #FFF;
+    background-color: transparent;
+    color: #000;
     @include box-shadow(none);
 }
 .navbar .nav > li > a {
-     padding: .5em 1em;
+     padding: 0;
      @include text-shadow(none);
+     margin-right: 1em;
+}
+.navbar .nav > li:last-child > a {
+	margin-right: 0;
 }
