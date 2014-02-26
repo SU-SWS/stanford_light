@@ -1,9 +1,14 @@
 <?php
+function stanford_light_preprocess_html(&$vars) {
+  // theme option variables
+  $vars['redbar'] = theme_get_setting('redbar');
+}
+
 function stanford_light_preprocess_page(&$vars) {
   // theme option variables
   $styles = theme_get_setting('styles'); 
   $fonts = theme_get_setting('fonts');
-  
+
   // styles variables
   if ($styles == 'styles-light') {
   drupal_add_css(path_to_theme() . '/css/styles-light.css', array('group' => CSS_THEME, 'media' => 'all', 'weight' => 500, 'preprocess' => FALSE));
