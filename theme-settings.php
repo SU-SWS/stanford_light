@@ -16,7 +16,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('styles'),
     '#options'       => array(
 	  'styles-light' => t('Light - <strong><em>Default</em></strong>'),
-      'styles-dark' => t('Dark'),
+	  'styles-dark' => t('Dark'),
 	  'styles-bright' => t('Bright'),
 	  'styles-plain' => t('Plain'),
 	  'styles-rich' => t('Rich'),
