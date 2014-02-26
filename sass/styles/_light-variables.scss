@@ -1,0 +1,55 @@
+$clr-cardinal: 		#8c1515;
+
+$clr-page-bkg: 		#fbfbf9;
+$clr-header-bkg: 	#f8f7f2;
+$clr-footer-bkg: 	#f8f7f2;
+
+$clr-well-bkg: 		#e9e6df;
+$clr-line: 			#e9e6df;
+$clr-hr: 			#e9e6df;
+$clr-img-border: 	#e9e6df;
+
+$clr-text: 			#333333;
+$clr-headers: 		#333333;
+$clr-header1: 		#333333;
+$clr-header2: 		#333333;
+
+$clr-link: 			#8c1515;
+$clr-link-hvr: 		#333333;
+$clr-btn-text: 		#fbfbf9;
+$clr-btn-bkg: 		#8c1515;
+$clr-btn-bkg-hvr: 	#333333;
+
+$clr-menu-text: 	#8c1515;
+$clr-menu-bkg:		transparent;
+$clr-menu-text-hvr: #333333;
+$clr-menu-bkg-hvr:	#e9e6df;
+
+$clr-icons: 		#928b81;
+
+
+body {
+	color: $clr-text;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $clr-headers;
+}
+h1 {
+	color: $clr-header1;
+}
+h2 {
+	color: $clr-header2;
+}
+a {
+	color: $clr-link;
+}
+a:hover, a:focus {
+	color: $clr-link-hvr;
+}
+.btn {
+	background: $clr-btn-bkg;
+	color: $clr-btn-text;
+}
+.btn:hover, .btn:focus {
+	
+}
