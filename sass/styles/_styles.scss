@@ -1,6 +1,6 @@
 body {
 	color: $clr-text;
-	background: $clr-page-bkg;
+	background: $clr-header-bkg;
 }
 
 .header {
@@ -9,6 +9,9 @@ body {
 .site-main-menu {
 	background: $clr-header-bkg;
 	border-bottom: 1px solid $clr-line;
+}
+.main {
+	background: $clr-page-bkg;
 }
 .site-footer {
 	background: $clr-footer-bkg;
