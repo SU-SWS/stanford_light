@@ -6,8 +6,14 @@ body {
 	margin: 0;
 	padding: 20px 0;
 }
+body.red-bar .header {
+	border-top: 10px solid $clr-cardinal;
+}
 .site-main-menu {
 
+}
+.main {
+	padding-top: 20px;
 }
 .site-footer {
 	margin: 0;
