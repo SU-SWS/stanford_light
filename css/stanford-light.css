@@ -136,6 +136,16 @@ a.edit-link:hover, a.edit-link:focus,
 
 @media (max-width: 767px) {
   /* line 164, ../sass/includes/_base.scss */
+  .navbar {
+    margin-bottom: 20px;
+  }
+
+  /* line 167, ../sass/includes/_base.scss */
+  #main-nav {
+    margin-top: 20px;
+  }
+
+  /* line 170, ../sass/includes/_base.scss */
   .navbar .nav > li > a {
     margin-right: 0;
     margin-bottom: 0.5em;
@@ -146,26 +156,26 @@ a.edit-link:hover, a.edit-link:focus,
     border-radius: 0;
   }
 
-  /* line 169, ../sass/includes/_base.scss */
+  /* line 175, ../sass/includes/_base.scss */
   .navbar .btn-navbar {
     background-image: none;
     background: #8c1515;
     border: none;
-    margin: 0 0 20px 0;
+    margin: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
     text-shadow: none;
   }
 
-  /* line 177, ../sass/includes/_base.scss */
+  /* line 183, ../sass/includes/_base.scss */
   .navbar .btn-navbar .icon-bar {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
 
-  /* line 180, ../sass/includes/_base.scss */
+  /* line 186, ../sass/includes/_base.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #333;
   }
