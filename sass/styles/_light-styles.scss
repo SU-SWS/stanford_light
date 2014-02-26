@@ -105,3 +105,14 @@ a.edit-link:hover, a.edit-link:focus,
 .block.well h2 {
 
 }
+
+.navbar .nav > li > a {
+	padding-bottom: .25em;
+}
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
+	border-bottom: 5px solid $clr-line;
+}
