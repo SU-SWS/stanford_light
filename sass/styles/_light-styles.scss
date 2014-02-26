@@ -1,5 +1,18 @@
 body {
 	color: $clr-text;
+	background: $clr-page-bkg;
+}
+
+.header {
+	background: $clr-header-bkg;
+}
+.site-main-menu {
+	background: $clr-header-bkg;
+	border-bottom: 1px solid $clr-line;
+}
+.site-footer {
+	background: $clr-footer-bkg;
+	border-top: 1px solid $clr-line;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,15 +79,16 @@ a.btn, .btn a {
 }
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
-	
+	background: $clr-btn-bkg-hvr;
+	color: $clr-btn-text-hvr;
 }
 
 a.more-link, .more-link a {
-
+	color: $clr-link;
 }
 a.more-link:hover, a.more-link:focus,
 .more-link a:hover, .more-link a:focus {
-
+	color: $clr-link-hvr;
 }
 a.edit-link, .edit-link a {
 
@@ -90,8 +104,8 @@ a.edit-link:hover, a.edit-link:focus,
 .block h2 {
 
 }
-.block.well {
-
+.well {
+	background: $clr-well-bkg;
 }
 .block.well h2 {
 
