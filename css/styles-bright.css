@@ -85,18 +85,25 @@ a.more-link:hover, a.more-link:focus,
   color: #333333;
 }
 
-/* line 110, ../sass/styles/_styles.scss */
+/* line 100, ../sass/styles/_styles.scss */
+a.edit-link:hover, a.edit-link:focus,
+.edit-link a:hover, .edit-link a:focus {
+  background: #333333;
+  color: #fbfbf9;
+}
+
+/* line 111, ../sass/styles/_styles.scss */
 .well {
   background: #e9e6df;
 }
 
-/* line 117, ../sass/styles/_styles.scss */
+/* line 118, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
   color: #8c1515;
   background: transparent;
 }
 
-/* line 125, ../sass/styles/_styles.scss */
+/* line 126, ../sass/styles/_styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,

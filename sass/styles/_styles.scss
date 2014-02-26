@@ -98,7 +98,8 @@ a.edit-link, .edit-link a {
 }
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
-
+	background: $clr-btn-bkg-hvr;
+	color: $clr-btn-text-hvr;
 }
 
 .block {
