@@ -1,18 +1,18 @@
 /* line 1, ../sass/styles/_styles.scss */
 body {
-  color: #333333;
-  background: #f8f7f2;
+  color: #3f3c30;
+  background: #5e3032;
 }
 
 /* line 6, ../sass/styles/_styles.scss */
 .header {
-  background: #f8f7f2;
+  background: #d5d0c0;
 }
 
 /* line 9, ../sass/styles/_styles.scss */
 .site-main-menu {
-  background: #f8f7f2;
-  border-bottom: 1px solid #e9e6df;
+  background: #d5d0c0;
+  border-bottom: 1px solid #d5d0c0;
 }
 
 /* line 13, ../sass/styles/_styles.scss */
@@ -22,84 +22,84 @@ body {
 
 /* line 16, ../sass/styles/_styles.scss */
 .site-footer {
-  background: #f8f7f2;
-  border-top: 1px solid #e9e6df;
+  background: #5e3032;
+  border-top: 1px solid #d5d0c0;
 }
 
 /* line 21, ../sass/styles/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #333333;
+  color: #3f3c30;
 }
 
 /* line 24, ../sass/styles/_styles.scss */
 h1 {
-  color: #333333;
+  color: #3f3c30;
 }
 
 /* line 27, ../sass/styles/_styles.scss */
 h2 {
-  color: #333333;
+  color: #3f3c30;
 }
 
 /* line 50, ../sass/styles/_styles.scss */
 .site-name a, .site-name a:hover {
-  color: #333333;
+  color: #3f3c30;
 }
 
 /* line 53, ../sass/styles/_styles.scss */
 #site-slogan {
-  color: #333333;
+  color: #3f3c30;
 }
 
 /* line 73, ../sass/styles/_styles.scss */
 a {
-  color: #8c1515;
+  color: #8f7029;
 }
 
 /* line 76, ../sass/styles/_styles.scss */
 a:hover, a:focus {
-  color: #333333;
+  color: #3f3c30;
 }
 
 /* line 79, ../sass/styles/_styles.scss */
 a.btn, .btn a {
-  background: #8c1515;
+  background: #5e3032;
   color: #fbfbf9;
 }
 
 /* line 84, ../sass/styles/_styles.scss */
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
-  background: #333333;
+  background: #3f3c30;
   color: #fbfbf9;
 }
 
 /* line 89, ../sass/styles/_styles.scss */
 a.more-link, .more-link a {
-  color: #8c1515;
+  color: #8f7029;
 }
 
 /* line 93, ../sass/styles/_styles.scss */
 a.more-link:hover, a.more-link:focus,
 .more-link a:hover, .more-link a:focus {
-  color: #333333;
+  color: #3f3c30;
 }
 
 /* line 100, ../sass/styles/_styles.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
-  background: #333333;
+  background: #3f3c30;
   color: #fbfbf9;
 }
 
 /* line 111, ../sass/styles/_styles.scss */
 .well {
-  background: #e9e6df;
+  background: #d5d0c0;
 }
 
 /* line 118, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
-  color: #8c1515;
+  color: #3f3c30;
   background: transparent;
 }
 
@@ -109,6 +109,36 @@ a.edit-link:hover, a.edit-link:focus,
 .navbar .nav > .active > a:focus,
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  color: #333333;
-  background: #e9e6df;
+  color: #5e3032;
+  background: transparent;
+}
+
+/* line 1, ../sass/styles/_rich-styles.scss */
+.navbar .nav > li > a {
+  padding-bottom: .25em;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 9, ../sass/styles/_rich-styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  border-bottom: 5px solid #5e3032;
+}
+
+/* line 13, ../sass/styles/_rich-styles.scss */
+.site-footer {
+  color: #fbfbf9;
+}
+
+/* line 16, ../sass/styles/_rich-styles.scss */
+.site-footer a, .site-footer a:hover, .site-footer a:focus {
+  color: #fbfbf9;
+}
+
+/* line 19, ../sass/styles/_rich-styles.scss */
+.site-footer a:hover, .site-footer a:focus {
+  text-decoration: underline;
 }
