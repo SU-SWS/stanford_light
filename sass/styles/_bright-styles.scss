@@ -1,15 +1,25 @@
 body {
-	color: $clr-text;
+
+}
+
+.header {
+
+}
+.site-main-menu {
+
+}
+.site-footer {
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: $clr-headers;
+
 }
 h1 {
-	color: $clr-header1;
+
 }
 h2 {
-	color: $clr-header2;
+
 }
 h3 {
 
@@ -35,7 +45,7 @@ strong {
 	
 }
 #site-slogan {
-
+	
 }
 
 .summary {
@@ -55,18 +65,17 @@ strong {
 }
 
 a {
-	color: $clr-link;
+
 }
 a:hover, a:focus {
-	color: $clr-link-hvr;
+
 }
 a.btn, .btn a {
-	background: $clr-btn-bkg;
-	color: $clr-btn-text;
+
 }
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
-	
+
 }
 
 a.more-link, .more-link a {
@@ -90,7 +99,7 @@ a.edit-link:hover, a.edit-link:focus,
 .block h2 {
 
 }
-.block.well {
+.well {
 
 }
 .block.well h2 {
