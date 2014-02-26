@@ -1,0 +1,25 @@
+body {
+	color: $clr-text;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $clr-headers;
+}
+h1 {
+	color: $clr-header1;
+}
+h2 {
+	color: $clr-header2;
+}
+a {
+	color: $clr-link;
+}
+a:hover, a:focus {
+	color: $clr-link-hvr;
+}
+.btn {
+	background: $clr-btn-bkg;
+	color: $clr-btn-text;
+}
+.btn:hover, .btn:focus {
+	
+}
