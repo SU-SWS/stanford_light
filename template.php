@@ -1,7 +1,7 @@
 <?php
 function stanford_light_preprocess_html(&$vars) {
   // theme option variables
-  $vars['redbar'] = theme_get_setting('redbar');
+  $vars['red_bar'] = theme_get_setting('red_bar');
 }
 
 function stanford_light_preprocess_page(&$vars) {
