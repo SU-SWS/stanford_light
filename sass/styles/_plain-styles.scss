@@ -1,0 +1,88 @@
+body {
+	color: $clr-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $clr-headers;
+}
+h1 {
+	color: $clr-header1;
+}
+h2 {
+	color: $clr-header2;
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+strong {
+
+}
+
+.summary {
+
+}
+.descriptor {
+
+}
+.credits {
+
+}
+.caption {
+
+}
+.quote {
+
+}
+
+a {
+	color: $clr-link;
+}
+a:hover, a:focus {
+	color: $clr-link-hvr;
+}
+a.btn, .btn a {
+	background: $clr-btn-bkg;
+	color: $clr-btn-text;
+}
+a.btn:hover, a.btn:focus,
+.btn a:hover, .btn a:focus {
+	
+}
+
+a.more-link, .more-link a {
+
+}
+a.more-link:hover, a.more-link:focus,
+.more-link a:hover, .more-link a:focus {
+
+}
+a.edit-link, .edit-link a {
+
+}
+a.edit-link:hover, a.edit-link:focus,
+.edit-link a:hover, .edit-link a:focus {
+
+}
+
+.block {
+
+}
+.block h2 {
+
+}
+.block.well {
+
+}
+.block.well h2 {
+
+}
