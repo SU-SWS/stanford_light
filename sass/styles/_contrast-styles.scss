@@ -28,7 +28,9 @@ a:hover, a:focus {
 	color: $clr-link;
 }
 
-.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
+.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active,
+.site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
+	color: $clr-page-bkg;
 	text-decoration: underline;
 }
 
@@ -39,11 +41,11 @@ a:hover, a:focus {
 	color: $clr-page-bkg;
 }
 .well a,
-.main .well .menu li a {
+.well .menu li a {
 	color: #b3995d;
 }
 .well a:hover, .well a:focus,
-.main .well .menu li a:hover, .main .well .menu li a:focus, .main .well .menu li a.active {
+.well .menu li a:hover, .well .menu li a:focus,  .well .menu li a.active {
 	color: $clr-page-bkg;
 	text-decoration: underline;
 }

@@ -154,45 +154,52 @@ a.edit-link:hover, a.edit-link:focus,
   color: #333333;
 }
 
-/* line 27, ../sass/styles/_bright-styles.scss */
-.well {
-  color: white;
-}
-
-/* line 30, ../sass/styles/_bright-styles.scss */
-.well h2 {
-  color: white;
-}
-
-/* line 34, ../sass/styles/_bright-styles.scss */
-.well a,
-.main .well .menu li a {
-  color: #EAAB00;
-}
-
-/* line 38, ../sass/styles/_bright-styles.scss */
-.well a:hover, .well a:focus,
-.main .well .menu li a:hover, .main .well .menu li a:focus, .main .well .menu li a.active {
+/* line 28, ../sass/styles/_bright-styles.scss */
+.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active,
+.site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 43, ../sass/styles/_bright-styles.scss */
+/* line 33, ../sass/styles/_bright-styles.scss */
+.well {
+  color: white;
+}
+
+/* line 36, ../sass/styles/_bright-styles.scss */
+.well h2 {
+  color: white;
+}
+
+/* line 40, ../sass/styles/_bright-styles.scss */
+.well a,
+.well .menu li a {
+  color: #EAAB00;
+}
+
+/* line 44, ../sass/styles/_bright-styles.scss */
+.well a:hover, .well a:focus,
+.well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 49, ../sass/styles/_bright-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 46, ../sass/styles/_bright-styles.scss */
+/* line 52, ../sass/styles/_bright-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 49, ../sass/styles/_bright-styles.scss */
+/* line 55, ../sass/styles/_bright-styles.scss */
 .site-footer a {
   color: #EAAB00;
 }
 
-/* line 52, ../sass/styles/_bright-styles.scss */
+/* line 58, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   color: white;
   text-decoration: underline;
