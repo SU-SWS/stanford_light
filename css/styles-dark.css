@@ -113,6 +113,11 @@ a.edit-link:hover, a.edit-link:focus,
   background: transparent;
 }
 
+/* line 131, ../sass/styles/_styles.scss */
+.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+  color: #fbfbf9;
+}
+
 /* line 1, ../sass/styles/_dark-styles.scss */
 .navbar .nav > li > a {
   padding-bottom: .25em;

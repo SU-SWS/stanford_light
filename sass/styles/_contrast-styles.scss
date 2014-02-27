@@ -1,3 +1,6 @@
+a:hover, a:focus {
+	text-decoration: underline;
+}
 .site-name a, .site-name a:hover {
 	color: $clr-page-bkg;	
 }
@@ -8,8 +11,10 @@
 .site-main-menu {
 	border-bottom: 0;
 }
-.navbar {
-	margin-bottom: 0;
+@media (min-width: 768px) {
+	.navbar {
+		margin-bottom: 0;
+	}
 }
 .navbar .nav > li > a {
 	padding: 0.5em 1em;
@@ -23,16 +28,22 @@
 	color: $clr-link;
 }
 
+.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+	text-decoration: underline;
+}
+
 .well {
 	color: $clr-page-bkg;
 }
 .well h2 {
 	color: $clr-page-bkg;
 }
-.well a {
+.well a,
+.sidebar .well .nav li a {
 	color: #b3995d;
 }
-.well a:hover, .well a:focus {
+.well a:hover, .well a:focus,
+.sidebar .well .nav li a:hover, .sidebar .well .nav li a:focus, .sidebar .well .nav li a.active {
 	color: $clr-page-bkg;
 	text-decoration: underline;
 }

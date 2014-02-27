@@ -113,33 +113,44 @@ a.edit-link:hover, a.edit-link:focus,
   background: white;
 }
 
+/* line 131, ../sass/styles/_styles.scss */
+.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+  color: #333333;
+}
+
 /* line 1, ../sass/styles/_contrast-styles.scss */
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* line 4, ../sass/styles/_contrast-styles.scss */
 .site-name a, .site-name a:hover {
   color: white;
 }
 
-/* line 4, ../sass/styles/_contrast-styles.scss */
+/* line 7, ../sass/styles/_contrast-styles.scss */
 #site-slogan {
   color: white;
 }
 
-/* line 8, ../sass/styles/_contrast-styles.scss */
+/* line 11, ../sass/styles/_contrast-styles.scss */
 .site-main-menu {
   border-bottom: 0;
 }
 
-/* line 11, ../sass/styles/_contrast-styles.scss */
-.navbar {
-  margin-bottom: 0;
+@media (min-width: 768px) {
+  /* line 15, ../sass/styles/_contrast-styles.scss */
+  .navbar {
+    margin-bottom: 0;
+  }
 }
-
-/* line 14, ../sass/styles/_contrast-styles.scss */
+/* line 19, ../sass/styles/_contrast-styles.scss */
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
 }
 
-/* line 22, ../sass/styles/_contrast-styles.scss */
+/* line 27, ../sass/styles/_contrast-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -148,49 +159,56 @@ a.edit-link:hover, a.edit-link:focus,
   color: #8c1515;
 }
 
-/* line 26, ../sass/styles/_contrast-styles.scss */
+/* line 31, ../sass/styles/_contrast-styles.scss */
+.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+  text-decoration: underline;
+}
+
+/* line 35, ../sass/styles/_contrast-styles.scss */
 .well {
   color: white;
 }
 
-/* line 29, ../sass/styles/_contrast-styles.scss */
+/* line 38, ../sass/styles/_contrast-styles.scss */
 .well h2 {
   color: white;
 }
 
-/* line 32, ../sass/styles/_contrast-styles.scss */
-.well a {
+/* line 42, ../sass/styles/_contrast-styles.scss */
+.well a,
+.sidebar .well .nav li a {
   color: #b3995d;
 }
 
-/* line 35, ../sass/styles/_contrast-styles.scss */
-.well a:hover, .well a:focus {
+/* line 46, ../sass/styles/_contrast-styles.scss */
+.well a:hover, .well a:focus,
+.sidebar .well .nav li a:hover, .sidebar .well .nav li a:focus, .sidebar .well .nav li a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 40, ../sass/styles/_contrast-styles.scss */
+/* line 51, ../sass/styles/_contrast-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 43, ../sass/styles/_contrast-styles.scss */
+/* line 54, ../sass/styles/_contrast-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 46, ../sass/styles/_contrast-styles.scss */
+/* line 57, ../sass/styles/_contrast-styles.scss */
 .site-footer a {
   color: #b3995d;
 }
 
-/* line 49, ../sass/styles/_contrast-styles.scss */
+/* line 60, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   color: white;
   text-decoration: underline;
 }
 
-/* line 53, ../sass/styles/_contrast-styles.scss */
+/* line 64, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   text-decoration: underline;
 }

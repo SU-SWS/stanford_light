@@ -112,3 +112,8 @@ a.edit-link:hover, a.edit-link:focus,
   color: #333333;
   background: transparent;
 }
+
+/* line 131, ../sass/styles/_styles.scss */
+.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+  color: #333333;
+}

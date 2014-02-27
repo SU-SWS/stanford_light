@@ -30,10 +30,12 @@
 .well h2 {
 	color: $clr-page-bkg;
 }
-.well a {
+.well a,
+.sidebar .well .nav li a {
 	color: #EAAB00;
 }
-.well a:hover, .well a:focus {
+.well a:hover, .well a:focus,
+.sidebar .well .nav li a:hover, .sidebar .well .nav li a:focus, .sidebar .well .nav li a.active {
 	color: $clr-page-bkg;
 	text-decoration: underline;
 }

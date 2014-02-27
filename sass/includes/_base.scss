@@ -205,3 +205,26 @@ a.edit-link:hover, a.edit-link:focus,
 		background: #333;
 	}
 }
+
+/* Sidebar menu */
+.sidebar .nav {
+	margin: 0;
+}
+.sidebar .nav li {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+.sidebar .nav li a {
+	padding: 0.25em 0;
+}
+.sidebar .content > .nav > li > a {
+	font-weight: 600;
+}
+.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active, .sidebar .nav li a.active-trail {
+	background: transparent;
+}
+.sidebar .nav li ul {
+	padding-left: 1em;
+}
