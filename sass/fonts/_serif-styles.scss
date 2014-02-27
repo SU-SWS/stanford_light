@@ -29,17 +29,17 @@ strong {
 }
 
 .site-name {
-
+	font-family: $font-header;
 }
 .site-name a, .site-name a:hover {
 	
 }
 #site-slogan {
-	
+	font-family: $font-header;
 }
 
 .summary {
-
+	font-family: $font-header;
 }
 .descriptor {
 
@@ -69,7 +69,7 @@ a.btn:hover, a.btn:focus,
 }
 
 a.more-link, .more-link a {
-
+	font-family: $font-header;
 }
 a.more-link:hover, a.more-link:focus,
 .more-link a:hover, .more-link a:focus {

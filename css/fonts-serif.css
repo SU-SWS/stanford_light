@@ -8,3 +8,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Crimson Text", serif;
 }
+
+/* line 31, ../sass/fonts/_serif-styles.scss */
+.site-name {
+  font-family: "Crimson Text", serif;
+}
+
+/* line 37, ../sass/fonts/_serif-styles.scss */
+#site-slogan {
+  font-family: "Crimson Text", serif;
+}
+
+/* line 41, ../sass/fonts/_serif-styles.scss */
+.summary {
+  font-family: "Crimson Text", serif;
+}
+
+/* line 71, ../sass/fonts/_serif-styles.scss */
+a.more-link, .more-link a {
+  font-family: "Crimson Text", serif;
+}
