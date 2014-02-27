@@ -1,3 +1,7 @@
+.header-bkg .site-main-menu {
+	padding-top: 0px;
+}
+
 .site-name a, .site-name a:hover {
 	color: $clr-page-bkg;	
 }
@@ -9,8 +13,10 @@
 	border-bottom: 0;
 	background: $clr-btn-bkg;
 }
-.navbar {
-	margin-bottom: 0;
+@media (min-width: 768px) {
+	.navbar {
+		margin-bottom: 0;
+	}
 }
 .navbar .nav > li > a {
 	padding: 0.5em 1em;
@@ -22,6 +28,16 @@
 .navbar .nav > li > a:focus, 
 .navbar .nav > li > a:hover {
 	color: $clr-text;
+}
+@media (max-width: 767px) {
+	.navbar .btn-navbar {
+		border: 1px solid transparent;
+		background: $clr-link;
+	}
+	.navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+		background: $clr-header-bkg;
+		border: 1px solid $clr-page-bkg;
+	}
 }
 
 .main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {

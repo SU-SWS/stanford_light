@@ -1,3 +1,9 @@
+.header-bkg .navbar {
+	margin-bottom: 10px;
+}
+.header-bkg .site-main-menu {
+	border-top: 1px solid $clr-line;
+}
 .navbar .nav > li > a {
 	padding-bottom: .25em;
 	border-bottom: 5px solid transparent;
@@ -8,4 +14,9 @@
 .navbar .nav > li > a:focus, 
 .navbar .nav > li > a:hover {
 	border-bottom: 5px solid $clr-line;
+}
+@media (max-width: 767px) {
+	.navbar {
+		margin-top:0;
+	}
 }
