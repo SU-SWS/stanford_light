@@ -131,3 +131,31 @@ a.edit-link:hover, a.edit-link:focus,
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
 	color: $clr-link-hvr;
 }
+
+.dropdown-menu {
+	background: $clr-header-bkg;
+	border: 1px solid $clr-line;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+	background: $clr-menu-bkg;
+	color: $clr-menu-text;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+	color: $clr-menu-text-hvr;
+    background: $clr-menu-bkg-hvr;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+	border-bottom-color: $clr-menu-text;
+	border-top-color: $clr-menu-text;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	color: $clr-header-bkg;
+	background: $clr-text;
+}

@@ -118,6 +118,43 @@ a.edit-link:hover, a.edit-link:focus,
   color: #fbfbf9;
 }
 
+/* line 135, ../sass/styles/_styles.scss */
+.dropdown-menu {
+  background: #282724;
+  border: 1px solid #232220;
+}
+
+/* line 141, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  background: transparent;
+  color: #b3995d;
+}
+
+/* line 150, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+  color: #fbfbf9;
+  background: transparent;
+}
+
+/* line 154, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-bottom-color: #b3995d;
+  border-top-color: #b3995d;
+}
+
+/* line 158, ../sass/styles/_styles.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  color: #282724;
+  background: #fbfbf9;
+}
+
 /* line 1, ../sass/styles/_dark-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
@@ -166,4 +203,19 @@ a.btn:hover, a.btn:focus,
     background: #232220;
     border: 1px solid #fbfbf9;
   }
+}
+/* line 39, ../sass/styles/_dark-styles.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  color: #232220;
+}
+
+/* line 43, ../sass/styles/_dark-styles.scss */
+.dropdown-menu {
+  background: #fbfbf9;
+}
+
+/* line 46, ../sass/styles/_dark-styles.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  color: #fbfbf9;
+  background: #282724;
 }

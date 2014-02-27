@@ -118,6 +118,43 @@ a.edit-link:hover, a.edit-link:focus,
   color: #333333;
 }
 
+/* line 135, ../sass/styles/_styles.scss */
+.dropdown-menu {
+  background: #333333;
+  border: 1px solid transparent;
+}
+
+/* line 141, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  background: transparent;
+  color: white;
+}
+
+/* line 150, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+  color: #333333;
+  background: white;
+}
+
+/* line 154, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-bottom-color: white;
+  border-top-color: white;
+}
+
+/* line 158, ../sass/styles/_styles.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  color: #333333;
+  background: #333333;
+}
+
 /* line 1, ../sass/styles/_contrast-styles.scss */
 a:hover, a:focus {
   text-decoration: underline;
@@ -229,4 +266,15 @@ a:hover, a:focus {
 /* line 80, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   text-decoration: underline;
+}
+
+/* line 84, ../sass/styles/_contrast-styles.scss */
+.dropdown-menu {
+  background: white;
+}
+
+/* line 87, ../sass/styles/_contrast-styles.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  color: white;
+  background: #333333;
 }

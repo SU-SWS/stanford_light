@@ -80,3 +80,11 @@ a:hover, a:focus {
 .site-footer a:hover, .site-footer a:focus {
 	text-decoration: underline;
 }
+
+.dropdown-menu {
+	background: $clr-page-bkg;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	color: $clr-page-bkg;
+	background: $clr-header-bkg;
+}

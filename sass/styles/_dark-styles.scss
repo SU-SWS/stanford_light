@@ -35,3 +35,15 @@ a.btn:hover, a.btn:focus,
 		border: 1px solid $clr-text;
 	}
 }
+
+.nav > li > a:hover, .nav > li > a:focus {
+	color: $clr-well-bkg;
+}
+
+.dropdown-menu {
+	background: $clr-text;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	color: $clr-text;
+	background: $clr-header-bkg;
+}

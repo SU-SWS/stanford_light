@@ -118,6 +118,43 @@ a.edit-link:hover, a.edit-link:focus,
   color: #333333;
 }
 
+/* line 135, ../sass/styles/_styles.scss */
+.dropdown-menu {
+  background: #f8f7f2;
+  border: 1px solid #e9e6df;
+}
+
+/* line 141, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  background: transparent;
+  color: #8c1515;
+}
+
+/* line 150, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+  color: #333333;
+  background: transparent;
+}
+
+/* line 154, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-bottom-color: #8c1515;
+  border-top-color: #8c1515;
+}
+
+/* line 158, ../sass/styles/_styles.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  color: #f8f7f2;
+  background: #333333;
+}
+
 /* line 1, ../sass/styles/_light-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
