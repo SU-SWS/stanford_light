@@ -20,6 +20,18 @@
     background-size: cover;
   }
 }
+.header-bkg.header-bkg-text-light .site-name a,
+.header-bkg.header-bkg-text-light .site-name a:hover,
+.header-bkg.header-bkg-text-light #site-slogan {
+  color: white;
+}
+
+.header-bkg.header-bkg-text-dark .site-name a,
+.header-bkg.header-bkg-text-dark .site-name a:hover,
+.header-bkg.header-bkg-text-dark #site-slogan {
+  color: #333333;
+}
+
 .red-bar .header {
   border-top: 10px solid #8c1515;
 }

@@ -21,6 +21,16 @@ body {
 		background-size: cover;
 	}
 }
+.header-bkg.header-bkg-text-light .site-name a,
+.header-bkg.header-bkg-text-light .site-name a:hover,
+.header-bkg.header-bkg-text-light #site-slogan {
+    color: $clr-text-light;
+}
+.header-bkg.header-bkg-text-dark .site-name a,
+.header-bkg.header-bkg-text-dark .site-name a:hover,
+.header-bkg.header-bkg-text-dark #site-slogan {
+    color: $clr-text-dark;
+}
 
 .red-bar .header {
 	border-top: 10px solid $clr-cardinal;
