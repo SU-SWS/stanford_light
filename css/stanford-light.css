@@ -200,7 +200,7 @@ a.edit-link:hover, a.edit-link:focus,
   margin: 0px;
   padding: 8px 10px 3px 10px;
   color: white;
-  font-family: lucida grande;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
 
 /* line 2, ../sass/includes/_admin-shortcuts.scss */
