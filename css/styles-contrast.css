@@ -139,6 +139,15 @@ a.edit-link:hover, a.edit-link:focus,
   margin-right: 0.25em;
 }
 
+/* line 22, ../sass/styles/_contrast-styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #8c1515;
+}
+
 /* line 26, ../sass/styles/_contrast-styles.scss */
 .well {
   color: white;
