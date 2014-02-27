@@ -18,12 +18,12 @@ body {
 /* line 13, ../sass/styles/_styles.scss */
 .main {
   background: #fbfbf9;
+  border-bottom: 1px solid #d5d0c0;
 }
 
-/* line 16, ../sass/styles/_styles.scss */
+/* line 17, ../sass/styles/_styles.scss */
 .site-footer {
   background: #5e3032;
-  border-top: 1px solid #d5d0c0;
 }
 
 /* line 21, ../sass/styles/_styles.scss */

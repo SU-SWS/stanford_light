@@ -18,12 +18,12 @@ body {
 /* line 13, ../sass/styles/_styles.scss */
 .main {
   background: white;
+  border-bottom: 1px solid transparent;
 }
 
-/* line 16, ../sass/styles/_styles.scss */
+/* line 17, ../sass/styles/_styles.scss */
 .site-footer {
   background: white;
-  border-top: 1px solid transparent;
 }
 
 /* line 21, ../sass/styles/_styles.scss */

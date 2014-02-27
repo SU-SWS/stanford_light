@@ -12,10 +12,10 @@ body {
 }
 .main {
 	background: $clr-page-bkg;
+	border-bottom: 1px solid $clr-line;
 }
 .site-footer {
 	background: $clr-footer-bkg;
-	border-top: 1px solid $clr-line;
 }
 
 h1, h2, h3, h4, h5, h6 {
