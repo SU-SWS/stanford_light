@@ -32,7 +32,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
     '#options'       => array(
       'fonts-sans' => t('Sans Serif - <strong><em>Default</em></strong>'),
 	  'fonts-serif' => t('Serif'),
-	  'fonts-slab' => t('Slab'),
+	  'fonts-slab' => t('Slab Serif'),
     ),
   );
 
@@ -42,8 +42,8 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title'         => t('Enable red bar'),
     '#default_value' => theme_get_setting('red_bar'),
     '#options'       => array(
-      '' => t('Do not show red bar above header - <strong><em>Default</em></strong>'),
-	  'red-bar' => t('Show red bar above header'),
+      'red-bar' => t('Show red bar above header - <strong><em>Default</em></strong>'),
+	  '' => t('Do not show red bar above header'),
     ),
   );
   
