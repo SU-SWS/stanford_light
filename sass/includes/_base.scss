@@ -10,9 +10,13 @@ body {
 	min-height: 100px;
 	background-repeat: no-repeat;
 	background-position: center 30%;
-	background-size: cover;
+	background-size: 100%;
 	margin: 0;
+	@media (max-width: 480px) {
+		background-size: cover;
+	}
 }
+
 .front.header-bkg.header-bkg-image .header {
 	min-height: 200px;
 }
@@ -27,20 +31,26 @@ body {
 		min-height: 150px;
 	}
 }
-@media (max-width: 480px) {
-	.header-bkg.header-bkg-image .header { 
-		background-size: cover;
-	}
+
+.header-bkg.header-bkg-wallpaper .header {
+	min-height: 100px;
+	background-repeat: repeat;
+	background-position: center top;
+	margin: 0;
 }
+.front.header-bkg.header-bkg-wallpaper .header {
+	min-height: 250px;
+}
+
 .header-bkg.header-bkg-text-light .site-name a,
 .header-bkg.header-bkg-text-light .site-name a:hover,
 .header-bkg.header-bkg-text-light #site-slogan {
-    color: $clr-text-light;
+    color: $clr-light;
 }
 .header-bkg.header-bkg-text-dark .site-name a,
 .header-bkg.header-bkg-text-dark .site-name a:hover,
 .header-bkg.header-bkg-text-dark #site-slogan {
-    color: $clr-text-dark;
+    color: $clr-dark;
 }
 
 .red-bar .header {
