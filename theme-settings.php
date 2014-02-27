@@ -59,7 +59,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
  $form['header_bkg_container']['header_bkg'] = array(
     '#type'          => 'radios',
     '#title'         => t('Enable header background image'),
-    '#default_value' => theme_get_setting('header_bg_classes'),
+    '#default_value' => theme_get_setting('header_bkg'),
     '#options'       => array(
       '' => t('None - <strong><em>Default</em></strong>'),
 	  'header-bkg' => t('Use my image (upload below):'),
@@ -75,7 +75,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
   // Helpful text showing the file name, disabled to avoid the user thinking it can be used for any purpose.
   $form['header_bkg_container']['header_bkg_path'] = array(
     '#type' => 'hidden',
-    '#title' => 'Path to background image',
+    '#title' => 'Path to header background image',
     '#default_value' => $header_bkg_path,
   );
   if (!empty($header_bkg_path)) {
@@ -107,7 +107,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['header_bkg_container']['header_bkg_text'] = array(
     '#type'          => 'radios',
     '#title'         => t('Choose header text color'),
-    '#default_value' => theme_get_setting('header_bkg_style'),
+    '#default_value' => theme_get_setting('header_bkg_text'),
     '#options'       => array(
       'header-bkg-text-light' => t('Light - <strong><em>Default</em></strong>'),
 	  'header-bkg-text-dark' => t('Dark'),
@@ -119,7 +119,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
 // Logo
 
 // Body background image Override
-$form['background_container'] = array();
+// $form['background_container'] = array();
 
 // Border Style Override
 $form['border_container'] = array();

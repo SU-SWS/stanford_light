@@ -38,7 +38,7 @@ regions[main_lower] = Main: Lower
 regions[main_bottom] = Main: Bottom
 regions[footer] = Footer
 
-; Settings
+; OFW Settings
 settings[content_order_classes] = ''
 settings[front_heading_classes] = ''
 settings[breadcrumb_classes] = ''
@@ -50,8 +50,14 @@ settings[body_bg_upload] = ''
 settings[border_classes] = ''
 settings[corner_classes] = ''
 
+; Stanford Light Settings
 settings[styles] = 'styles-light'
 settings[fonts] = 'fonts-sans'
 settings[red_bar] = 'red-bar'
-
+settings[header_bkg] = ''
+settings[header_bkg_path] = ''
+settings[header_bkg_preview] = ''
+settings[header_bkg_upload] = ''
+settings[header_bkg_style] = 'header-bkg-image'
+settings[header_bkg_text] = 'header-bkg-text-light'
 settings[toggle_logo] = 0
