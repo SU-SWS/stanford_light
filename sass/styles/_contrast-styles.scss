@@ -28,7 +28,7 @@ a:hover, a:focus {
 	color: $clr-link;
 }
 
-.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+.main .nav li a:hover, .main .nav li a:focus, .main .nav li a.active {
 	text-decoration: underline;
 }
 
@@ -39,11 +39,11 @@ a:hover, a:focus {
 	color: $clr-page-bkg;
 }
 .well a,
-.sidebar .well .nav li a {
+.main .well .nav li a {
 	color: #b3995d;
 }
 .well a:hover, .well a:focus,
-.sidebar .well .nav li a:hover, .sidebar .well .nav li a:focus, .sidebar .well .nav li a.active {
+.main .well .nav li a:hover, .main .well .nav li a:focus, .main .well .nav li a.active {
 	color: $clr-page-bkg;
 	text-decoration: underline;
 }

@@ -160,7 +160,7 @@ a:hover, a:focus {
 }
 
 /* line 31, ../sass/styles/_contrast-styles.scss */
-.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+.main .nav li a:hover, .main .nav li a:focus, .main .nav li a.active {
   text-decoration: underline;
 }
 
@@ -176,13 +176,13 @@ a:hover, a:focus {
 
 /* line 42, ../sass/styles/_contrast-styles.scss */
 .well a,
-.sidebar .well .nav li a {
+.main .well .nav li a {
   color: #b3995d;
 }
 
 /* line 46, ../sass/styles/_contrast-styles.scss */
 .well a:hover, .well a:focus,
-.sidebar .well .nav li a:hover, .sidebar .well .nav li a:focus, .sidebar .well .nav li a.active {
+.main .well .nav li a:hover, .main .well .nav li a:focus, .main .well .nav li a.active {
   color: white;
   text-decoration: underline;
 }
