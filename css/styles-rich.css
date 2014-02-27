@@ -134,17 +134,22 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 16, ../sass/styles/_rich-styles.scss */
-.site-footer a, .site-footer a:hover, .site-footer a:focus {
+.site-footer .block h2 {
   color: #fbfbf9;
 }
 
 /* line 19, ../sass/styles/_rich-styles.scss */
+.site-footer a, .site-footer a:hover, .site-footer a:focus {
+  color: #fbfbf9;
+}
+
+/* line 22, ../sass/styles/_rich-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   text-decoration: underline;
 }
 
 @media (max-width: 767px) {
-  /* line 24, ../sass/styles/_rich-styles.scss */
+  /* line 27, ../sass/styles/_rich-styles.scss */
   .navbar .btn-navbar {
     background: #5e3032;
   }

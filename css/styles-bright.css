@@ -165,11 +165,16 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 37, ../sass/styles/_bright-styles.scss */
-.site-footer a, .site-footer a:hover, .site-footer a:focus {
+.site-footer .block h2 {
   color: white;
 }
 
 /* line 40, ../sass/styles/_bright-styles.scss */
+.site-footer a, .site-footer a:hover, .site-footer a:focus {
+  color: white;
+}
+
+/* line 43, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   text-decoration: underline;
 }
