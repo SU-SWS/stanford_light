@@ -6,6 +6,22 @@ body {
 	margin: 0;
 	padding: 20px 0;
 }
+.header-bkg .header {
+	min-height: 250px;
+	background-repeat: no-repeat;
+	background-position: center 30%;
+	background-size: 100%;
+	margin: 0;
+}
+.front.header-bkg .header {
+	min-height: 100px;
+}
+@media (max-width: 480px) {
+	.header-bkg .header { 
+		background-size: auto 100%;
+	}
+}
+
 body.red-bar .header {
 	border-top: 10px solid $clr-cardinal;
 }

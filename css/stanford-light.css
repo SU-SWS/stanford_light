@@ -5,34 +5,54 @@
 }
 
 /* line 9, ../sass/includes/_base.scss */
+.header-bkg .header {
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: 100%;
+  margin: 0;
+}
+
+/* line 16, ../sass/includes/_base.scss */
+.front.header-bkg .header {
+  min-height: 100px;
+}
+
+@media (max-width: 480px) {
+  /* line 20, ../sass/includes/_base.scss */
+  .header-bkg .header {
+    background-size: auto 100%;
+  }
+}
+/* line 25, ../sass/includes/_base.scss */
 body.red-bar .header {
   border-top: 10px solid #8c1515;
 }
 
-/* line 15, ../sass/includes/_base.scss */
+/* line 31, ../sass/includes/_base.scss */
 .main {
   padding-top: 40px;
   padding-bottom: 20px;
   margin: 0;
 }
 
-/* line 20, ../sass/includes/_base.scss */
+/* line 36, ../sass/includes/_base.scss */
 .site-footer {
   margin: 0;
   padding: 40px 0 20px 0;
 }
 
-/* line 51, ../sass/includes/_base.scss */
+/* line 67, ../sass/includes/_base.scss */
 #name-and-slogan {
   padding-left: 0;
 }
 
-/* line 54, ../sass/includes/_base.scss */
+/* line 70, ../sass/includes/_base.scss */
 .site-name {
   margin-left: -4px;
 }
 
-/* line 86, ../sass/includes/_base.scss */
+/* line 102, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -47,7 +67,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 98, ../sass/includes/_base.scss */
+/* line 114, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   background-image: none;
   padding-right: none;
@@ -58,12 +78,12 @@ a.more-link, .more-link a {
   letter-spacing: inherit;
 }
 
-/* line 107, ../sass/includes/_base.scss */
+/* line 123, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 114, ../sass/includes/_base.scss */
+/* line 130, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -75,18 +95,18 @@ a.edit-link, .edit-link a {
   font-size: .8em;
 }
 
-/* line 121, ../sass/includes/_base.scss */
+/* line 137, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #ddd;
 }
 
-/* line 128, ../sass/includes/_base.scss */
+/* line 144, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 131, ../sass/includes/_base.scss */
+/* line 147, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -100,7 +120,7 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* Override main menu */
-/* line 141, ../sass/includes/_base.scss */
+/* line 157, ../sass/includes/_base.scss */
 .navbar-inner {
   background-color: transparent;
   background-image: none;
@@ -111,7 +131,7 @@ a.edit-link:hover, a.edit-link:focus,
   padding: 0;
 }
 
-/* line 152, ../sass/includes/_base.scss */
+/* line 168, ../sass/includes/_base.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -124,30 +144,30 @@ a.edit-link:hover, a.edit-link:focus,
   box-shadow: none;
 }
 
-/* line 157, ../sass/includes/_base.scss */
+/* line 173, ../sass/includes/_base.scss */
 .navbar .nav > li > a {
   padding: 0;
   text-shadow: none;
   margin-right: 1em;
 }
 
-/* line 162, ../sass/includes/_base.scss */
+/* line 178, ../sass/includes/_base.scss */
 .navbar .nav > li:last-child > a {
   margin-right: 0;
 }
 
 @media (max-width: 767px) {
-  /* line 166, ../sass/includes/_base.scss */
+  /* line 182, ../sass/includes/_base.scss */
   .navbar {
     margin-bottom: 20px;
   }
 
-  /* line 169, ../sass/includes/_base.scss */
+  /* line 185, ../sass/includes/_base.scss */
   #main-nav {
     margin-top: 20px;
   }
 
-  /* line 172, ../sass/includes/_base.scss */
+  /* line 188, ../sass/includes/_base.scss */
   .navbar .nav > li > a {
     margin-right: 0;
     margin-bottom: 0.5em;
@@ -158,7 +178,7 @@ a.edit-link:hover, a.edit-link:focus,
     border-radius: 0;
   }
 
-  /* line 177, ../sass/includes/_base.scss */
+  /* line 193, ../sass/includes/_base.scss */
   .navbar .btn-navbar {
     background-image: none;
     background: #8c1515;
@@ -170,14 +190,14 @@ a.edit-link:hover, a.edit-link:focus,
     text-shadow: none;
   }
 
-  /* line 185, ../sass/includes/_base.scss */
+  /* line 201, ../sass/includes/_base.scss */
   .navbar .btn-navbar .icon-bar {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
 
-  /* line 188, ../sass/includes/_base.scss */
+  /* line 204, ../sass/includes/_base.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #333;
   }
