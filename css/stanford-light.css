@@ -5,7 +5,7 @@
 }
 
 /* line 9, ../sass/includes/_base.scss */
-.header-bkg .header {
+.header-bkg.header-bkg-image .header {
   min-height: 250px;
   background-repeat: no-repeat;
   background-position: center 30%;
@@ -14,13 +14,13 @@
 }
 
 /* line 16, ../sass/includes/_base.scss */
-.front.header-bkg .header {
+.front.header-bkg.header-bkg-image .header {
   min-height: 100px;
 }
 
 @media (max-width: 480px) {
   /* line 20, ../sass/includes/_base.scss */
-  .header-bkg .header {
+  .header-bkg.header-bkg-image .header {
     background-size: auto 100%;
   }
 }
