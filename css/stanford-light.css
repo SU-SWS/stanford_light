@@ -1,79 +1,434 @@
-/*
-Syntax error: File to import not found or unreadable: includes/responsive.
-              Load paths:
-                /Applications/MAMP/htdocs/d7/themes/stanford_light/sass
-                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets
-                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets
-                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-960-plugin-0.10.4/stylesheets
-                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/yui-compass-plugin-0.3/stylesheets
-                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-h5bp-0.0.5/stylesheets
-                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/zen-grids-1.2/stylesheets
-                Compass::SpriteImporter
-        on line 7 of /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/stanford-light.scss
+@media (max-width: 767px) {
+  /* line 5, ../sass/includes/_base.scss */
+  body {
+    padding: 0;
+  }
 
-Backtrace:
-/Applications/MAMP/htdocs/d7/themes/stanford_light/sass/stanford-light.scss:7
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `import'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/import_node.rb:62:in `import'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
-org/jruby/RubyKernel.java:2096:in `send'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2336:in `collect'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `visit_children'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-org/jruby/RubyKernel.java:2096:in `send'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-org/jruby/RubyKernel.java:2096:in `send'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:95:in `perform'
-org/jruby/RubyProc.java:268:in `call'
-org/jruby/RubyProc.java:228:in `call'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:39:in `delete'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:32:in `deleted'
-org/jruby/RubyArray.java:1603:in `each'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:31:in `deleted'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:16:in `refresh'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyKernel.java:1419:in `loop'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/Scout.app/Contents/Resources/bin/compass:12:in `(root)'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: includes/responsive.\A               Load paths:\A                 /Applications/MAMP/htdocs/d7/themes/stanford_light/sass\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-960-plugin-0.10.4/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/yui-compass-plugin-0.3/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-h5bp-0.0.5/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/zen-grids-1.2/stylesheets\A                 Compass::SpriteImporter\A         on line 7 of /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/stanford-light.scss"; }
+  /* line 8, ../sass/includes/_base.scss */
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+/* line 14, ../sass/includes/_base.scss */
+.header {
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* line 19, ../sass/includes/_base.scss */
+.red-bar .header {
+  border-top: 10px solid #8c1515;
+}
+
+/* line 25, ../sass/includes/_base.scss */
+.main {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+/* line 30, ../sass/includes/_base.scss */
+.site-footer {
+  margin: 0;
+  padding: 30px 0 20px 0;
+}
+
+/* line 61, ../sass/includes/_base.scss */
+#name-and-slogan {
+  padding-left: 0;
+}
+
+/* line 64, ../sass/includes/_base.scss */
+.site-name {
+  margin-left: -4px;
+}
+
+/* line 96, ../sass/includes/_base.scss */
+a.btn, .btn a {
+  padding: 0.5em 1em;
+  border: none;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+
+/* line 108, ../sass/includes/_base.scss */
+a.more-link, .more-link a {
+  background-image: none;
+  padding-right: none;
+  text-transform: none;
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
+/* line 117, ../sass/includes/_base.scss */
+a.more-link:after, .more-link a:after {
+  content: " »";
+}
+
+/* line 124, ../sass/includes/_base.scss */
+a.edit-link, .edit-link a {
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  padding: 0.5em 1em;
+  border: 1px solid #cccccc;
+  font-size: .8em;
+}
+
+/* line 131, ../sass/includes/_base.scss */
+a.edit-link:hover, a.edit-link:focus,
+.edit-link a:hover, .edit-link a:focus {
+  background: #dddddd;
+}
+
+/* line 138, ../sass/includes/_base.scss */
+.block > h2 {
+  margin-top: 0;
+}
+
+/* line 141, ../sass/includes/_base.scss */
+.well {
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 1, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-image .header {
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: 100%;
+  margin: 0;
+}
+@media (max-width: 480px) {
+  /* line 1, ../sass/includes/_module-header-bkg-img.scss */
+  .header-bkg.header-bkg-image .header {
+    background-size: auto 100%;
+  }
+}
+
+/* line 12, ../sass/includes/_module-header-bkg-img.scss */
+.front.header-bkg.header-bkg-image .header {
+  min-height: 200px;
+}
+
+/* line 15, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg .site-main-menu {
+  padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 19, ../sass/includes/_module-header-bkg-img.scss */
+  .header-bkg .site-main-menu {
+    padding-top: 0px;
+  }
+
+  /* line 22, ../sass/includes/_module-header-bkg-img.scss */
+  .front.header-bkg.header-bkg-image .header {
+    min-height: 150px;
+  }
+}
+/* line 27, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-wallpaper .header {
+  min-height: 100px;
+  background-repeat: repeat;
+  background-position: center top;
+  margin: 0;
+}
+
+/* line 33, ../sass/includes/_module-header-bkg-img.scss */
+.front.header-bkg.header-bkg-wallpaper .header {
+  min-height: 250px;
+}
+
+/* line 39, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-text-light .site-name a,
+.header-bkg.header-bkg-text-light .site-name a:hover,
+.header-bkg.header-bkg-text-light #site-slogan {
+  color: white;
+}
+
+/* line 44, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-text-dark .site-name a,
+.header-bkg.header-bkg-text-dark .site-name a:hover,
+.header-bkg.header-bkg-text-dark #site-slogan {
+  color: #333333;
+}
+
+/* line 1, ../sass/includes/_module-navbar.scss */
+.navbar-inner {
+  background-color: transparent;
+  background-image: none;
+  border: medium none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* line 12, ../sass/includes/_module-navbar.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  background-color: transparent;
+  color: #000;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 17, ../sass/includes/_module-navbar.scss */
+.navbar .nav > li > a {
+  padding: 0;
+  text-shadow: none;
+  margin-right: 1em;
+}
+
+/* line 22, ../sass/includes/_module-navbar.scss */
+.navbar .nav > li:last-child > a {
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  /* line 26, ../sass/includes/_module-navbar.scss */
+  .navbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  /* line 30, ../sass/includes/_module-navbar.scss */
+  #main-nav {
+    margin-top: 20px;
+  }
+
+  /* line 33, ../sass/includes/_module-navbar.scss */
+  .navbar .nav > li > a {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+  }
+
+  /* line 38, ../sass/includes/_module-navbar.scss */
+  .navbar .btn-navbar {
+    background-image: none;
+    background: #8c1515;
+    border: none;
+    margin: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+  }
+
+  /* line 46, ../sass/includes/_module-navbar.scss */
+  .navbar .btn-navbar .icon-bar {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /* line 49, ../sass/includes/_module-navbar.scss */
+  .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    background: #333333;
+  }
+}
+/* line 1, ../sass/includes/_module-navbar-dropdown.scss */
+.dropdown-menu {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: white;
+  border: 0;
+}
+
+/* line 6, ../sass/includes/_module-navbar-dropdown.scss */
+.navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+
+/* line 9, ../sass/includes/_module-navbar-dropdown.scss */
+.navbar .nav > li > .dropdown-menu:after {
+  display: none;
+}
+
+/* line 12, ../sass/includes/_module-navbar-dropdown.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  background: transparent;
+  color: #333333;
+}
+
+/* line 16, ../sass/includes/_module-navbar-dropdown.scss */
+.nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover, .nav > li.dropdown.open.active > a:focus {
+  border-color: transparent;
+}
+
+/* line 19, ../sass/includes/_module-navbar-dropdown.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-bottom-color: #333333;
+  border-top-color: #333333;
+}
+
+/* line 23, ../sass/includes/_module-navbar-dropdown.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  background: #333333;
+  color: white;
+}
+
+/* line 2, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu,
+.site-footer .menu {
+  margin: 0;
+}
+
+/* line 6, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu li,
+.site-footer .menu li {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu li a,
+.site-footer .menu li a {
+  padding: 0.25em 0;
+}
+
+/* line 17, ../sass/includes/_module-sidebar-nav.scss */
+.main .content > .menu > li > a,
+.site-footer .content > .menu > li > a {
+  font-weight: 600;
+}
+
+/* line 27, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu li a:hover,
+.main .menu li a:focus,
+.main .menu li a.active,
+.main .menu li a.active-trail,
+.site-footer .menu li a:hover,
+.site-footer .menu li a:focus,
+.site-footer .menu li a.active,
+.site-footer .menu li a.active-trail {
+  background: transparent;
+}
+
+/* line 31, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu li ul,
+.site-footer .menu li ul {
+  padding-left: 1em;
+}
+
+/* line 1, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts {
+  background: #4D4F53;
+  margin: 0px;
+  padding: 8px 10px 3px 10px;
+  color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+/* line 2, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts .nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 4, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu a,
+#admin-shortcuts .content a {
+  background: #4D4F53;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+/* line 8, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu a:hover,
+#admin-shortcuts ul.menu a:active,
+#admin-shortcuts .content a:hover,
+#admin-shortcuts .content a:active {
+  background: #222;
+  border-radius: 5px;
+}
+
+/* line 12, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu > li > a:hover,
+#admin-shortcuts ul.menu > li > a:active,
+#admin-shortcuts .content > ul > li > a:hover,
+#admin-shortcuts .content > ul > li > a:active {
+  background: #222;
+  border-radius: 10px;
+}
+
+/* line 14, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu,
+#admin-shortcuts .content ul {
+  background: #4D4F53;
+}
+
+/* line 16, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu li,
+#admin-shortcuts .content ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 18, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu li ul,
+#admin-shortcuts .content ul li ul {
+  display: none;
+}
+
+/* line 20, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu li:hover ul,
+#admin-shortcuts .content ul li:hover ul {
+  display: block;
+  position: absolute;
+  width: 200px;
+}
+
+/* line 22, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu ul li,
+#admin-shortcuts .content ul ul li {
+  display: block;
+}
+
+/* line 24, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu ul a,
+#admin-shortcuts .content ul ul a {
+  padding-left: 20px;
+}
+
+/* line 26, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu .caret,
+#admin-shortcuts .content .caret {
+  border-bottom-color: #fff;
+  border-top-color: #fff;
+}
