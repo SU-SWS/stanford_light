@@ -12,7 +12,7 @@
 }
 @media (max-width: 480px) {
   .header-bkg.header-bkg-image .header {
-    background-size: cover;
+    background-size: auto 100%;
   }
 }
 
