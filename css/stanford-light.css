@@ -15,7 +15,7 @@
 @media (max-width: 480px) {
   /* line 9, ../sass/includes/_base.scss */
   .header-bkg.header-bkg-image .header {
-    background-size: cover;
+    background-size: auto 100%;
   }
 }
 
