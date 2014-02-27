@@ -43,7 +43,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('red_bar'),
     '#options'       => array(
       'red-bar' => t('Show red bar above header - <strong><em>Default</em></strong>'),
-	  '' => t('Do not show red bar above header'),
+	  'no-red-bar' => t('Do not show red bar above header'),
     ),
   );
   
