@@ -207,24 +207,24 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* Sidebar menu */
-.sidebar .nav {
+.main .nav {
 	margin: 0;
 }
-.sidebar .nav li {
+.main .nav li {
 	list-style-type: none;
 	list-style-image: none;
 	margin: 0;
 	padding: 0;
 }
-.sidebar .nav li a {
+.main .nav li a {
 	padding: 0.25em 0;
 }
-.sidebar .content > .nav > li > a {
+.main .content > .nav > li > a {
 	font-weight: 600;
 }
-.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active, .sidebar .nav li a.active-trail {
+.main .nav li a:hover, .main .nav li a:focus, .main .nav li a.active, .main .nav li a.active-trail {
 	background: transparent;
 }
-.sidebar .nav li ul {
+.main .nav li ul {
 	padding-left: 1em;
 }
