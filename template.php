@@ -9,6 +9,11 @@ function stanford_light_preprocess_page(&$vars) {
   $styles = theme_get_setting('styles'); 
   $fonts = theme_get_setting('fonts');
 
+  $vars['header_bkg'] = theme_get_setting('header_bkg'); 
+  $vars['header_bkg_path'] = theme_get_setting('header_bkg_path'); 
+  $vars['header_bkg_style'] = theme_get_setting('header_bkg_style'); 
+  $vars['header_bkg_text'] = theme_get_setting('header_bkg_text');
+
   // styles variables
   if ($styles == 'styles-light') {
   drupal_add_css(path_to_theme() . '/css/styles-light.css', array('group' => CSS_THEME, 'media' => 'all', 'weight' => 500, 'preprocess' => FALSE));
