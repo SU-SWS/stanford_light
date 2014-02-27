@@ -1,89 +1,109 @@
+/* line 1, ../sass/styles/_styles.scss */
 body {
   color: #333333;
   background: #53284f;
 }
 
+/* line 6, ../sass/styles/_styles.scss */
 .header {
   background: #53284f;
 }
 
+/* line 9, ../sass/styles/_styles.scss */
 .site-main-menu {
   background: #53284f;
   border-bottom: 1px solid #53284f;
 }
 
+/* line 13, ../sass/styles/_styles.scss */
 .main {
   background: white;
   border-bottom: 1px solid #53284f;
 }
 
+/* line 17, ../sass/styles/_styles.scss */
 .site-footer {
   background: #53284f;
 }
 
+/* line 21, ../sass/styles/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #53284f;
 }
 
+/* line 24, ../sass/styles/_styles.scss */
 h1 {
   color: #333333;
 }
 
+/* line 27, ../sass/styles/_styles.scss */
 h2 {
   color: #53284f;
 }
 
+/* line 50, ../sass/styles/_styles.scss */
 .site-name a, .site-name a:hover {
   color: #333333;
 }
 
+/* line 53, ../sass/styles/_styles.scss */
 #site-slogan {
   color: #333333;
 }
 
+/* line 73, ../sass/styles/_styles.scss */
 a {
   color: #007c92;
 }
 
+/* line 76, ../sass/styles/_styles.scss */
 a:hover, a:focus {
   color: #333333;
 }
 
+/* line 79, ../sass/styles/_styles.scss */
 a.btn, .btn a {
   background: #53284f;
   color: white;
 }
 
+/* line 84, ../sass/styles/_styles.scss */
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
   background: #333333;
   color: white;
 }
 
+/* line 89, ../sass/styles/_styles.scss */
 a.more-link, .more-link a {
   color: #007c92;
 }
 
+/* line 93, ../sass/styles/_styles.scss */
 a.more-link:hover, a.more-link:focus,
 .more-link a:hover, .more-link a:focus {
   color: #333333;
 }
 
+/* line 100, ../sass/styles/_styles.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #333333;
   color: white;
 }
 
+/* line 111, ../sass/styles/_styles.scss */
 .well {
   background: #00505c;
 }
 
+/* line 118, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
   color: white;
   background: transparent;
 }
 
+/* line 126, ../sass/styles/_styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -93,32 +113,45 @@ a.edit-link:hover, a.edit-link:focus,
   background: white;
 }
 
+/* line 131, ../sass/styles/_styles.scss */
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
   color: #333333;
 }
 
+/* line 1, ../sass/styles/_bright-styles.scss */
+.header-bkg .site-main-menu {
+  padding-top: 0px;
+}
+
+/* line 5, ../sass/styles/_bright-styles.scss */
 .site-name a, .site-name a:hover {
   color: white;
 }
 
+/* line 8, ../sass/styles/_bright-styles.scss */
 #site-slogan {
   color: white;
 }
 
+/* line 12, ../sass/styles/_bright-styles.scss */
 .site-main-menu {
   border-bottom: 0;
   background: #53284f;
 }
 
-.navbar {
-  margin-bottom: 0;
+@media (min-width: 768px) {
+  /* line 17, ../sass/styles/_bright-styles.scss */
+  .navbar {
+    margin-bottom: 0;
+  }
 }
-
+/* line 21, ../sass/styles/_bright-styles.scss */
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
 }
 
+/* line 29, ../sass/styles/_bright-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -127,23 +160,41 @@ a.edit-link:hover, a.edit-link:focus,
   color: #333333;
 }
 
+@media (max-width: 767px) {
+  /* line 33, ../sass/styles/_bright-styles.scss */
+  .navbar .btn-navbar {
+    border: 1px solid transparent;
+    background: #007c92;
+  }
+
+  /* line 37, ../sass/styles/_bright-styles.scss */
+  .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    background: #53284f;
+    border: 1px solid white;
+  }
+}
+/* line 43, ../sass/styles/_bright-styles.scss */
 .main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
   text-decoration: underline;
 }
 
+/* line 47, ../sass/styles/_bright-styles.scss */
 .well {
   color: white;
 }
 
+/* line 50, ../sass/styles/_bright-styles.scss */
 .well h2 {
   color: white;
 }
 
+/* line 54, ../sass/styles/_bright-styles.scss */
 .well a,
 .well .menu li a {
   color: #EAAB00;
 }
 
+/* line 59, ../sass/styles/_bright-styles.scss */
 .well a:hover, .well a:focus,
 .well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active,
 .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
@@ -151,18 +202,22 @@ a.edit-link:hover, a.edit-link:focus,
   text-decoration: underline;
 }
 
+/* line 64, ../sass/styles/_bright-styles.scss */
 .site-footer {
   color: white;
 }
 
+/* line 67, ../sass/styles/_bright-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
+/* line 70, ../sass/styles/_bright-styles.scss */
 .site-footer a {
   color: #EAAB00;
 }
 
+/* line 73, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   color: white;
   text-decoration: underline;
