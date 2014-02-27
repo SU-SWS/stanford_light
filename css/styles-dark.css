@@ -1,109 +1,89 @@
-/* line 1, ../sass/styles/_styles.scss */
 body {
   color: #fbfbf9;
   background: #282724;
 }
 
-/* line 6, ../sass/styles/_styles.scss */
 .header {
   background: #282724;
 }
 
-/* line 9, ../sass/styles/_styles.scss */
 .site-main-menu {
   background: #282724;
   border-bottom: 1px solid #232220;
 }
 
-/* line 13, ../sass/styles/_styles.scss */
 .main {
   background: #2e2d29;
   border-bottom: 1px solid #232220;
 }
 
-/* line 17, ../sass/styles/_styles.scss */
 .site-footer {
   background: #282724;
 }
 
-/* line 21, ../sass/styles/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #fbfbf9;
 }
 
-/* line 24, ../sass/styles/_styles.scss */
 h1 {
   color: #fbfbf9;
 }
 
-/* line 27, ../sass/styles/_styles.scss */
 h2 {
   color: #fbfbf9;
 }
 
-/* line 50, ../sass/styles/_styles.scss */
 .site-name a, .site-name a:hover {
   color: #fbfbf9;
 }
 
-/* line 53, ../sass/styles/_styles.scss */
 #site-slogan {
   color: #fbfbf9;
 }
 
-/* line 73, ../sass/styles/_styles.scss */
 a {
   color: #b3995d;
 }
 
-/* line 76, ../sass/styles/_styles.scss */
 a:hover, a:focus {
   color: #fbfbf9;
 }
 
-/* line 79, ../sass/styles/_styles.scss */
 a.btn, .btn a {
   background: #b3995d;
   color: #fbfbf9;
 }
 
-/* line 84, ../sass/styles/_styles.scss */
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
   background: #232220;
   color: #fbfbf9;
 }
 
-/* line 89, ../sass/styles/_styles.scss */
 a.more-link, .more-link a {
   color: #b3995d;
 }
 
-/* line 93, ../sass/styles/_styles.scss */
 a.more-link:hover, a.more-link:focus,
 .more-link a:hover, .more-link a:focus {
   color: #fbfbf9;
 }
 
-/* line 100, ../sass/styles/_styles.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #232220;
   color: #fbfbf9;
 }
 
-/* line 111, ../sass/styles/_styles.scss */
 .well {
   background: #232220;
 }
 
-/* line 118, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
   color: #b3995d;
   background: transparent;
 }
 
-/* line 126, ../sass/styles/_styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -113,18 +93,15 @@ a.edit-link:hover, a.edit-link:focus,
   background: transparent;
 }
 
-/* line 131, ../sass/styles/_styles.scss */
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
   color: #fbfbf9;
 }
 
-/* line 1, ../sass/styles/_dark-styles.scss */
 .navbar .nav > li > a {
   padding-bottom: .25em;
   border-bottom: 5px solid transparent;
 }
 
-/* line 9, ../sass/styles/_dark-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -133,25 +110,21 @@ a.edit-link:hover, a.edit-link:focus,
   border-bottom: 5px solid #232220;
 }
 
-/* line 13, ../sass/styles/_dark-styles.scss */
 a.btn, .btn a {
   border: 1px solid transparent;
 }
 
-/* line 17, ../sass/styles/_dark-styles.scss */
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
   border: 1px solid #fbfbf9;
 }
 
 @media (max-width: 767px) {
-  /* line 22, ../sass/styles/_dark-styles.scss */
   .navbar .btn-navbar {
     background: #b3995d;
     border: 1px solid transparent;
   }
 
-  /* line 26, ../sass/styles/_dark-styles.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #232220;
     border: 1px solid #fbfbf9;

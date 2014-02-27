@@ -7,18 +7,18 @@ body {
 	padding: 20px 0;
 }
 .header-bkg.header-bkg-image .header {
-	min-height: 250px;
+	min-height: 100px;
 	background-repeat: no-repeat;
 	background-position: center 30%;
-	background-size: 100%;
+	background-size: cover;
 	margin: 0;
 }
 .front.header-bkg.header-bkg-image .header {
-	min-height: 100px;
+	min-height: 250px;
 }
 @media (max-width: 480px) {
 	.header-bkg.header-bkg-image .header { 
-		background-size: auto 100%;
+		background-size: cover;
 	}
 }
 
