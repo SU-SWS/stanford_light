@@ -98,7 +98,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title'         => t('Choose header background image style'),
     '#default_value' => theme_get_setting('header_bkg_style'),
     '#options'       => array(
-      'header-bkg-image' => t('Photo image - <strong><em>Default</em></strong>'),
+      'header-bkg-image' => t('Stretch to fill header - <strong><em>Default</em></strong>'),
 	  'header-bkg-wallpaper' => t('Wallpaper pattern'),
     ),
   );
