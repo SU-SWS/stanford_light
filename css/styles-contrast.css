@@ -159,58 +159,57 @@ a:hover, a:focus {
   color: #8c1515;
 }
 
-/* line 32, ../sass/styles/_contrast-styles.scss */
-.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active,
-.site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
-  color: white;
+/* line 31, ../sass/styles/_contrast-styles.scss */
+.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
   text-decoration: underline;
 }
 
-/* line 37, ../sass/styles/_contrast-styles.scss */
+/* line 35, ../sass/styles/_contrast-styles.scss */
 .well {
   color: white;
 }
 
-/* line 40, ../sass/styles/_contrast-styles.scss */
+/* line 38, ../sass/styles/_contrast-styles.scss */
 .well h2 {
   color: white;
 }
 
-/* line 44, ../sass/styles/_contrast-styles.scss */
+/* line 42, ../sass/styles/_contrast-styles.scss */
 .well a,
 .well .menu li a {
   color: #b3995d;
 }
 
-/* line 48, ../sass/styles/_contrast-styles.scss */
+/* line 47, ../sass/styles/_contrast-styles.scss */
 .well a:hover, .well a:focus,
-.well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active {
+.well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active,
+.site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 53, ../sass/styles/_contrast-styles.scss */
+/* line 52, ../sass/styles/_contrast-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 56, ../sass/styles/_contrast-styles.scss */
+/* line 55, ../sass/styles/_contrast-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 59, ../sass/styles/_contrast-styles.scss */
+/* line 58, ../sass/styles/_contrast-styles.scss */
 .site-footer a {
   color: #b3995d;
 }
 
-/* line 62, ../sass/styles/_contrast-styles.scss */
+/* line 61, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   color: white;
   text-decoration: underline;
 }
 
-/* line 66, ../sass/styles/_contrast-styles.scss */
+/* line 65, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   text-decoration: underline;
 }
