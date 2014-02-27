@@ -1,34 +1,34 @@
 /* line 1, ../sass/styles/_styles.scss */
 body {
   color: #333333;
-  background: #f8f7f2;
+  background: #53284f;
 }
 
 /* line 6, ../sass/styles/_styles.scss */
 .header {
-  background: #f8f7f2;
+  background: #53284f;
 }
 
 /* line 9, ../sass/styles/_styles.scss */
 .site-main-menu {
-  background: #f8f7f2;
-  border-bottom: 1px solid #e9e6df;
+  background: #53284f;
+  border-bottom: 1px solid #53284f;
 }
 
 /* line 13, ../sass/styles/_styles.scss */
 .main {
-  background: #fbfbf9;
+  background: white;
 }
 
 /* line 16, ../sass/styles/_styles.scss */
 .site-footer {
-  background: #f8f7f2;
-  border-top: 1px solid #e9e6df;
+  background: #53284f;
+  border-top: 1px solid #53284f;
 }
 
 /* line 21, ../sass/styles/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #333333;
+  color: #53284f;
 }
 
 /* line 24, ../sass/styles/_styles.scss */
@@ -38,7 +38,7 @@ h1 {
 
 /* line 27, ../sass/styles/_styles.scss */
 h2 {
-  color: #333333;
+  color: #53284f;
 }
 
 /* line 50, ../sass/styles/_styles.scss */
@@ -53,7 +53,7 @@ h2 {
 
 /* line 73, ../sass/styles/_styles.scss */
 a {
-  color: #8c1515;
+  color: #007c92;
 }
 
 /* line 76, ../sass/styles/_styles.scss */
@@ -63,20 +63,20 @@ a:hover, a:focus {
 
 /* line 79, ../sass/styles/_styles.scss */
 a.btn, .btn a {
-  background: #8c1515;
-  color: #fbfbf9;
+  background: #53284f;
+  color: white;
 }
 
 /* line 84, ../sass/styles/_styles.scss */
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
   background: #333333;
-  color: #fbfbf9;
+  color: white;
 }
 
 /* line 89, ../sass/styles/_styles.scss */
 a.more-link, .more-link a {
-  color: #8c1515;
+  color: #007c92;
 }
 
 /* line 93, ../sass/styles/_styles.scss */
@@ -89,17 +89,17 @@ a.more-link:hover, a.more-link:focus,
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #333333;
-  color: #fbfbf9;
+  color: white;
 }
 
 /* line 111, ../sass/styles/_styles.scss */
 .well {
-  background: #e9e6df;
+  background: #007c92;
 }
 
 /* line 118, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
-  color: #8c1515;
+  color: white;
   background: transparent;
 }
 
@@ -110,5 +110,66 @@ a.edit-link:hover, a.edit-link:focus,
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   color: #333333;
-  background: #e9e6df;
+  background: white;
+}
+
+/* line 1, ../sass/styles/_bright-styles.scss */
+.site-name a, .site-name a:hover {
+  color: white;
+}
+
+/* line 4, ../sass/styles/_bright-styles.scss */
+#site-slogan {
+  color: white;
+}
+
+/* line 8, ../sass/styles/_bright-styles.scss */
+.site-main-menu {
+  border-bottom: 0;
+  background: #53284f;
+}
+
+/* line 12, ../sass/styles/_bright-styles.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 15, ../sass/styles/_bright-styles.scss */
+.navbar .nav > li > a {
+  padding: 0.5em 1em;
+  margin-right: 0.25em;
+}
+
+/* line 23, ../sass/styles/_bright-styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #333333;
+}
+
+/* line 27, ../sass/styles/_bright-styles.scss */
+.well {
+  color: white;
+}
+
+/* line 30, ../sass/styles/_bright-styles.scss */
+.well h2 {
+  color: white;
+}
+
+/* line 34, ../sass/styles/_bright-styles.scss */
+.site-footer {
+  color: white;
+}
+
+/* line 37, ../sass/styles/_bright-styles.scss */
+.site-footer a, .site-footer a:hover, .site-footer a:focus {
+  color: white;
+}
+
+/* line 40, ../sass/styles/_bright-styles.scss */
+.site-footer a:hover, .site-footer a:focus {
+  text-decoration: underline;
 }

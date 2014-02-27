@@ -1,0 +1,42 @@
+.site-name a, .site-name a:hover {
+	color: $clr-page-bkg;	
+}
+#site-slogan {
+	color: $clr-page-bkg;
+}
+
+.site-main-menu {
+	border-bottom: 0;
+	background: $clr-btn-bkg;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.navbar .nav > li > a {
+	padding: 0.5em 1em;
+	margin-right: 0.25em;
+}
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
+	color: $clr-text;
+}
+
+.well {
+	color: $clr-page-bkg;
+}
+.well h2 {
+	color: $clr-page-bkg;
+}
+
+.site-footer {
+	color: $clr-page-bkg;
+}
+.site-footer a, .site-footer a:hover, .site-footer a:focus {
+	color: $clr-page-bkg;
+}
+.site-footer a:hover, .site-footer a:focus {
+	text-decoration: underline;
+}
