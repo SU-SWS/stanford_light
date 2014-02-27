@@ -17,9 +17,9 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
     '#options'       => array(
 	  'styles-light' => t('Light - <strong><em>Default</em></strong>'),
 	  'styles-dark' => t('Dark'),
-	  'styles-bright' => t('Bright'),
 	  'styles-plain' => t('Plain'),
 	  'styles-rich' => t('Rich'),
+	  'styles-bright' => t('Bright'),
 	  'styles-contrast' => t('High Contrast'),
     ),
   );
@@ -81,7 +81,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
   if (!empty($header_bkg_path)) {
     $form['header_bkg_container']['header_bkg_preview'] = array(
       '#markup' => !empty($header_bkg_path) ? 
-       theme('image', array('path' => theme_get_setting('header_bkg_path'))) : '',
+       theme('image', array('path' => $header_bkg_path)) : '',
     );
   }
 
@@ -124,4 +124,44 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
 // Border Style Override
 $form['border_container'] = array();
 
+// Attach custom submit handler to the form
+$form['#submit'][] = 'stanford_light_settings_submit';
+$form['#validate'][] = 'stanford_light_settings_validate';
+}
+
+function stanford_light_settings_submit($form, &$form_state) {
+  $settings = array();
+  // Get the previous value
+  $previous = 'public://' . $form['header_bkg_container']['header_bkg_path']['#default_value'];
+  $file = file_save_upload('header_bkg_upload');
+  if ($file) {
+    $parts = pathinfo($file->filename);
+    $destination = 'public://' . $parts['basename'];
+    $file->status = FILE_STATUS_PERMANENT;
+   
+    if(file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
+      $_POST['header_bkg_path'] = $form_state['values']['header_bkg_path'] = $destination;
+    }
+  } else {
+    // Avoid error when the form is submitted without specifying a new image
+    $_POST['header_bkg_path'] = $form_state['values']['header_bkg_path'] = $previous;
+  }
+ 
+}
+
+function stanford_light_settings_validate($form, &$form_state) {
+  $validators = array('file_validate_is_image' => array());
+  // Check for a new uploaded logo.
+  $file = file_save_upload('header_bkg_upload', $validators);
+  if (isset($file)) {
+    // File upload was attempted.
+    if ($file) {
+      // Put the temporary file in form_values so we can save it on submit.
+      $form_state['values']['header_bkg_upload'] = $file;
+    }
+    else {
+      // File upload failed.
+      form_set_error('header_bkg_upload', t('The background image could not be uploaded.'));
+    }
+  }
 }

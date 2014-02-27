@@ -8,7 +8,7 @@
 <?php endif; ?>
 <!-- /#admin-shortcuts -->
 <?php if ($logo || $site_name || $site_slogan || ($page['header']) || ($page['search_box'])): ?>
-<div id="header" class="clearfix header" role="banner">
+<div id="header" class="clearfix header <?php print $header_bkg; ?> <?php print $header_bkg_style; ?> <?php print $header_bkg_text; ?>" role="banner" <?php if ($header_bkg): ?>style="background: url('<?php print file_create_url(theme_get_setting('header_bkg_path')); ?>') repeat top left;" <?php endif; ?>>
   <div class="container">
     <div class="row">
       <div class="<?php if ($page['search_box']): print 'span8'; else: print 'span12'; endif; ?>">
