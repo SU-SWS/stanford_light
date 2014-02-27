@@ -1,30 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,300italic);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:600,700,400italic,400);
 /* line 1, ../sass/fonts/_serif-styles.scss */
 body {
-  font-family: "Crimson Text", serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4em;
 }
 
-/* line 5, ../sass/fonts/_serif-styles.scss */
+/* line 8, ../sass/fonts/_serif-styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Crimson Text", serif;
+  font-weight: 400;
 }
 
-/* line 31, ../sass/fonts/_serif-styles.scss */
+/* line 12, ../sass/fonts/_serif-styles.scss */
+h1 {
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  font-size: 3em;
+  line-height: 1.3em;
+}
+
+/* line 18, ../sass/fonts/_serif-styles.scss */
+h2 {
+  font-size: 1.8em;
+  letter-spacing: -0.02em;
+  line-height: 1.3em;
+}
+
+/* line 23, ../sass/fonts/_serif-styles.scss */
+h3 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+/* line 27, ../sass/fonts/_serif-styles.scss */
+h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+/* line 43, ../sass/fonts/_serif-styles.scss */
 .site-name {
   font-family: "Crimson Text", serif;
+  font-size: 3.5em;
 }
 
-/* line 37, ../sass/fonts/_serif-styles.scss */
+/* line 47, ../sass/fonts/_serif-styles.scss */
+.site-name a, .site-name a:hover {
+  font-weight: 300;
+  letter-spacing: -0.04em;
+}
+
+/* line 51, ../sass/fonts/_serif-styles.scss */
 #site-slogan {
   font-family: "Crimson Text", serif;
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
-/* line 41, ../sass/fonts/_serif-styles.scss */
+/* line 57, ../sass/fonts/_serif-styles.scss */
 .summary {
-  font-family: "Crimson Text", serif;
+  font-size: 1.2em;
 }
 
-/* line 71, ../sass/fonts/_serif-styles.scss */
+/* line 73, ../sass/fonts/_serif-styles.scss */
+a {
+  font-weight: 600;
+}
+
+/* line 79, ../sass/fonts/_serif-styles.scss */
+a.btn, .btn a {
+  font-weight: 400;
+  font-size: inherit;
+}
+
+/* line 88, ../sass/fonts/_serif-styles.scss */
 a.more-link, .more-link a {
+  font-weight: 600;
+}
+
+/* line 112, ../sass/fonts/_serif-styles.scss */
+.block.well h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* line 117, ../sass/fonts/_serif-styles.scss */
+.navbar .nav > li > a {
   font-family: "Crimson Text", serif;
+  font-size: 1.2em;
+  font-weight: 600;
 }
