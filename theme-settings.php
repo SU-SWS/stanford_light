@@ -81,7 +81,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
   if (!empty($header_bkg_path)) {
     $form['header_bkg_container']['header_bkg_preview'] = array(
       '#markup' => !empty($header_bkg_path) ? 
-       theme('image', array('path' => $header_bkg_path)) : '',
+       theme('image', array('path' => theme_get_setting('header_bkg_path'))) : '',
     );
   }
 
@@ -113,10 +113,6 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
 	  'header-bkg-text-dark' => t('Dark'),
     ),
   );
-  
-// Slogan
-
-// Logo
 
 // Body background image Override
 // $form['background_container'] = array();
