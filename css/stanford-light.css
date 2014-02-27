@@ -25,7 +25,7 @@
   }
 }
 /* line 25, ../sass/includes/_base.scss */
-body.red-bar .header {
+.red-bar .header {
   border-top: 10px solid #8c1515;
 }
 
