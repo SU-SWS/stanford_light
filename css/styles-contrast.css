@@ -158,22 +158,39 @@ a.edit-link:hover, a.edit-link:focus,
   color: white;
 }
 
-/* line 33, ../sass/styles/_contrast-styles.scss */
+/* line 32, ../sass/styles/_contrast-styles.scss */
+.well a {
+  color: #b3995d;
+}
+
+/* line 35, ../sass/styles/_contrast-styles.scss */
+.well a:hover, .well a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 40, ../sass/styles/_contrast-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 36, ../sass/styles/_contrast-styles.scss */
+/* line 43, ../sass/styles/_contrast-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 39, ../sass/styles/_contrast-styles.scss */
-.site-footer a, .site-footer a:hover, .site-footer a:focus {
-  color: white;
+/* line 46, ../sass/styles/_contrast-styles.scss */
+.site-footer a {
+  color: #b3995d;
 }
 
-/* line 42, ../sass/styles/_contrast-styles.scss */
+/* line 49, ../sass/styles/_contrast-styles.scss */
+.site-footer a:hover, .site-footer a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 53, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
   text-decoration: underline;
 }

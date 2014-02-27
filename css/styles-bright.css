@@ -94,7 +94,7 @@ a.edit-link:hover, a.edit-link:focus,
 
 /* line 111, ../sass/styles/_styles.scss */
 .well {
-  background: #007c92;
+  background: #00505c;
 }
 
 /* line 118, ../sass/styles/_styles.scss */
@@ -159,22 +159,34 @@ a.edit-link:hover, a.edit-link:focus,
   color: white;
 }
 
-/* line 34, ../sass/styles/_bright-styles.scss */
+/* line 33, ../sass/styles/_bright-styles.scss */
+.well a {
+  color: #EAAB00;
+}
+
+/* line 36, ../sass/styles/_bright-styles.scss */
+.well a:hover, .well a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 41, ../sass/styles/_bright-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 37, ../sass/styles/_bright-styles.scss */
+/* line 44, ../sass/styles/_bright-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 40, ../sass/styles/_bright-styles.scss */
-.site-footer a, .site-footer a:hover, .site-footer a:focus {
-  color: white;
+/* line 47, ../sass/styles/_bright-styles.scss */
+.site-footer a {
+  color: #EAAB00;
 }
 
-/* line 43, ../sass/styles/_bright-styles.scss */
+/* line 50, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover, .site-footer a:focus {
+  color: white;
   text-decoration: underline;
 }

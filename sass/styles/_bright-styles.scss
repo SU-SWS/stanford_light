@@ -30,6 +30,13 @@
 .well h2 {
 	color: $clr-page-bkg;
 }
+.well a {
+	color: #EAAB00;
+}
+.well a:hover, .well a:focus {
+	color: $clr-page-bkg;
+	text-decoration: underline;
+}
 
 .site-footer {
 	color: $clr-page-bkg;
@@ -37,9 +44,10 @@
 .site-footer .block h2 {
 	color: $clr-page-bkg;
 }
-.site-footer a, .site-footer a:hover, .site-footer a:focus {
-	color: $clr-page-bkg;
+.site-footer a {
+	color: #EAAB00;
 }
 .site-footer a:hover, .site-footer a:focus {
+	color: $clr-page-bkg;
 	text-decoration: underline;
 }
