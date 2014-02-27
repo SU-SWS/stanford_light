@@ -114,24 +114,39 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 1, ../sass/styles/_dark-styles.scss */
+.navbar .nav > li > a {
+  padding-bottom: .25em;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 9, ../sass/styles/_dark-styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  border-bottom: 5px solid #232220;
+}
+
+/* line 13, ../sass/styles/_dark-styles.scss */
 a.btn, .btn a {
   border: 1px solid transparent;
 }
 
-/* line 5, ../sass/styles/_dark-styles.scss */
+/* line 17, ../sass/styles/_dark-styles.scss */
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
   border: 1px solid #fbfbf9;
 }
 
 @media (max-width: 767px) {
-  /* line 10, ../sass/styles/_dark-styles.scss */
+  /* line 22, ../sass/styles/_dark-styles.scss */
   .navbar .btn-navbar {
     background: #b3995d;
     border: 1px solid transparent;
   }
 
-  /* line 14, ../sass/styles/_dark-styles.scss */
+  /* line 26, ../sass/styles/_dark-styles.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #232220;
     border: 1px solid #fbfbf9;
