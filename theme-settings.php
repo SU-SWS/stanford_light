@@ -118,7 +118,8 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
 
 // Logo
 
-// Background image
+// Body background image Override
+$form['background_container'] = array();
 
 // Border Style Override
 $form['border_container'] = array();
