@@ -15,11 +15,17 @@
   min-height: 250px;
 }
 
-@media (max-width: 480px) {
-  .header-bkg.header-bkg-image .header {
-    background-size: cover;
-  }
+.header-bkg.header-bkg-wallpaper .header {
+  min-height: 100px;
+  background-repeat: repeat;
+  background-position: center top;
+  margin: 0;
 }
+
+.front.header-bkg.header-bkg-wallpaper .header {
+  min-height: 250px;
+}
+
 .header-bkg.header-bkg-text-light .site-name a,
 .header-bkg.header-bkg-text-light .site-name a:hover,
 .header-bkg.header-bkg-text-light #site-slogan {
