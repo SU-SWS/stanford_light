@@ -127,3 +127,7 @@ a.edit-link:hover, a.edit-link:focus,
     color: $clr-menu-text-hvr;
     background: $clr-menu-bkg-hvr;
 }
+
+.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+	color: $clr-link-hvr;
+}
