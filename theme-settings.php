@@ -48,7 +48,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
   );
   
 // Header Background Container
-  $form['header_background_container'] = array('#type' => 'fieldset',
+  $form['header_bkg_container'] = array('#type' => 'fieldset',
     '#title' => t('Header Background'),
     '#description' => t('Use these settings to select a different header background image.'),
     '#collapsible' => TRUE,
@@ -56,57 +56,70 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
   );
   
 // Header background image
-  $form['header_background_container']['header_bg_style'] = array(
+ $form['header_bkg_container']['header_bkg'] = array(
     '#type'          => 'radios',
-    '#title'         => t('Choose image style'),
-    '#default_value' => theme_get_setting('header_bg_style'),
-    '#options'       => array(
-      '' => t('Wallpaper pattern - <strong><em>Default</em></strong>'),
-	  'photobg ' => t('Photo image'),
-    ),
-  );
-  
- $form['header_background_container']['header_bg_classes'] = array(
-    '#type'          => 'radios',
-    '#title'         => t('Header background image'),
+    '#title'         => t('Enable header background image'),
     '#default_value' => theme_get_setting('header_bg_classes'),
     '#options'       => array(
       '' => t('None - <strong><em>Default</em></strong>'),
-	  'bodybg ' => t('Use my image (upload below):'),
+	  'header-bkg' => t('Use my image (upload below):'),
     ),
   );
    
-  // Default path for image
-  $header_bg_path = theme_get_setting('header_bg_path');
-  if (file_uri_scheme($header_bg_path) == 'public') {
-    $header_bg_path = file_uri_target($header_bg_path);
+  // Default path for header background image
+  $header_bkg_path = theme_get_setting('header_bkg_path');
+  if (file_uri_scheme($header_bkg_path) == 'public') {
+    $header_bkg_path = file_uri_target($header_bkg_path);
   }
  
   // Helpful text showing the file name, disabled to avoid the user thinking it can be used for any purpose.
-  $form['header_background_container']['header_bg_path'] = array(
+  $form['header_bkg_container']['header_bkg_path'] = array(
     '#type' => 'hidden',
     '#title' => 'Path to background image',
-    '#default_value' => $header_bg_path,
+    '#default_value' => $header_bkg_path,
   );
-  if (!empty($header_bg_path)) {
-    $form['design_container']['header_bg_preview'] = array(
-      '#markup' => !empty($header_bg_path) ? 
-       theme('image', array('path' => theme_get_setting('header_bg_path'))) : '',
+  if (!empty($header_bkg_path)) {
+    $form['header_bkg_container']['header_bkg_preview'] = array(
+      '#markup' => !empty($header_bkg_path) ? 
+       theme('image', array('path' => theme_get_setting('header_bkg_path'))) : '',
     );
   }
 
-  // Upload field
-  $form['header_background_container']['header_bg_upload'] = array(
+  // Upload header background image field
+  $form['header_bkg_container']['header_bkg_upload'] = array(
     '#type' => 'file',
-    '#title' => 'Upload background image',
+    '#title' => 'Upload header background image',
     '#description' => 'You can upload the following image file types: *.jpg, *.gif, or *.png',
   );
-
+  
+  // Header background image style
+  $form['header_bkg_container']['header_bkg_style'] = array(
+    '#type'          => 'radios',
+    '#title'         => t('Choose header background image style'),
+    '#default_value' => theme_get_setting('header_bkg_style'),
+    '#options'       => array(
+      'header-bkg-image' => t('Photo image - <strong><em>Default</em></strong>'),
+	  'header-bkg-wallpaper' => t('Wallpaper pattern'),
+    ),
+  );
+  
+  // Header background text color
+  $form['header_bkg_container']['header_bkg_text'] = array(
+    '#type'          => 'radios',
+    '#title'         => t('Choose header text color'),
+    '#default_value' => theme_get_setting('header_bkg_style'),
+    '#options'       => array(
+      'header-bkg-text-light' => t('Light - <strong><em>Default</em></strong>'),
+	  'header-bkg-text-dark' => t('Dark'),
+    ),
+  );
+  
 // Slogan
 
 // Logo
 
-// Background image
+// Body background image Override
+$form['background_container'] = array();
 
 // Border Style Override
 $form['border_container'] = array();
