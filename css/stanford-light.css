@@ -209,60 +209,74 @@ a.edit-link:hover, a.edit-link:focus,
   padding: 0;
 }
 
-/* line 3, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu a, #admin-shortcuts .content a {
+/* line 4, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu a,
+#admin-shortcuts .content a {
   background: #4D4F53;
   color: #fff;
   padding: 3px 10px;
 }
 
-/* line 4, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu a:hover, #admin-shortcuts ul.menu a:active, #admin-shortcuts .content a:hover, #admin-shortcuts .content a:active {
+/* line 8, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu a:hover,
+#admin-shortcuts ul.menu a:active,
+#admin-shortcuts .content a:hover,
+#admin-shortcuts .content a:active {
   background: #222;
   border-radius: 5px;
 }
 
-/* line 5, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu > li > a:hover, #admin-shortcuts ul.menu > li > a:active, #admin-shortcuts .content > ul > li > a:hover, #admin-shortcuts .content > ul > li > a:active {
+/* line 12, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu > li > a:hover,
+#admin-shortcuts ul.menu > li > a:active,
+#admin-shortcuts .content > ul > li > a:hover,
+#admin-shortcuts .content > ul > li > a:active {
   background: #222;
   border-radius: 10px;
 }
 
-/* line 6, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu, #admin-shortcuts .content ul {
+/* line 14, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu,
+#admin-shortcuts .content ul {
   background: #4D4F53;
 }
 
-/* line 7, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu li, #admin-shortcuts .content ul li {
+/* line 16, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu li,
+#admin-shortcuts .content ul li {
   display: inline-block;
   margin: 0;
 }
 
-/* line 8, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu li ul, #admin-shortcuts .content ul li ul {
+/* line 18, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu li ul,
+#admin-shortcuts .content ul li ul {
   display: none;
 }
 
-/* line 9, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu li:hover ul, #admin-shortcuts .content ul li:hover ul {
+/* line 20, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu li:hover ul,
+#admin-shortcuts .content ul li:hover ul {
   display: block;
   position: absolute;
   width: 200px;
 }
 
-/* line 10, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu ul li, #admin-shortcuts .content ul ul li {
+/* line 22, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu ul li,
+#admin-shortcuts .content ul ul li {
   display: block;
 }
 
-/* line 11, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu ul a, #admin-shortcuts .content ul ul a {
+/* line 24, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu ul a,
+#admin-shortcuts .content ul ul a {
   padding-left: 20px;
 }
 
-/* line 12, ../sass/includes/_admin-shortcuts.scss */
-#admin-shortcuts ul.menu .caret, #admin-shortcuts .content .caret {
+/* line 26, ../sass/includes/_admin-shortcuts.scss */
+#admin-shortcuts ul.menu .caret,
+#admin-shortcuts .content .caret {
   border-bottom-color: #fff;
   border-top-color: #fff;
 }
