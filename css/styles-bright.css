@@ -166,13 +166,13 @@ a.edit-link:hover, a.edit-link:focus,
 
 /* line 34, ../sass/styles/_bright-styles.scss */
 .well a,
-.main .well .nav li a {
+.main .well .menu li a {
   color: #EAAB00;
 }
 
 /* line 38, ../sass/styles/_bright-styles.scss */
 .well a:hover, .well a:focus,
-.main .well .nav li a:hover, .main .well .nav li a:focus, .main .well .nav li a.active {
+.main .well .menu li a:hover, .main .well .menu li a:focus, .main .well .menu li a.active {
   color: white;
   text-decoration: underline;
 }

@@ -204,12 +204,12 @@ a.edit-link:hover, a.edit-link:focus,
 }
 /* Sidebar menu */
 /* line 210, ../sass/includes/_base.scss */
-.main .nav {
+.main .menu {
   margin: 0;
 }
 
 /* line 213, ../sass/includes/_base.scss */
-.main .nav li {
+.main .menu li {
   list-style-type: none;
   list-style-image: none;
   margin: 0;
@@ -217,22 +217,22 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 219, ../sass/includes/_base.scss */
-.main .nav li a {
+.main .menu li a {
   padding: 0.25em 0;
 }
 
 /* line 222, ../sass/includes/_base.scss */
-.main .content > .nav > li > a {
+.main .content > .menu > li > a {
   font-weight: 600;
 }
 
 /* line 225, ../sass/includes/_base.scss */
-.main .nav li a:hover, .main .nav li a:focus, .main .nav li a.active, .main .nav li a.active-trail {
+.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active, .main .menu li a.active-trail {
   background: transparent;
 }
 
 /* line 228, ../sass/includes/_base.scss */
-.main .nav li ul {
+.main .menu li ul {
   padding-left: 1em;
 }
 
