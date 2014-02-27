@@ -47,7 +47,60 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
     ),
   );
   
+// Header Background Container
+  $form['header_background_container'] = array('#type' => 'fieldset',
+    '#title' => t('Header Background'),
+    '#description' => t('Use these settings to select a different header background image.'),
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+  );
+  
 // Header background image
+  $form['header_background_container']['header_bg_style'] = array(
+    '#type'          => 'radios',
+    '#title'         => t('Choose image style'),
+    '#default_value' => theme_get_setting('header_bg_style'),
+    '#options'       => array(
+      '' => t('Wallpaper pattern - <strong><em>Default</em></strong>'),
+	  'photobg ' => t('Photo image'),
+    ),
+  );
+  
+ $form['header_background_container']['header_bg_classes'] = array(
+    '#type'          => 'radios',
+    '#title'         => t('Header background image'),
+    '#default_value' => theme_get_setting('header_bg_classes'),
+    '#options'       => array(
+      '' => t('None - <strong><em>Default</em></strong>'),
+	  'bodybg ' => t('Use my image (upload below):'),
+    ),
+  );
+   
+  // Default path for image
+  $header_bg_path = theme_get_setting('header_bg_path');
+  if (file_uri_scheme($header_bg_path) == 'public') {
+    $header_bg_path = file_uri_target($header_bg_path);
+  }
+ 
+  // Helpful text showing the file name, disabled to avoid the user thinking it can be used for any purpose.
+  $form['header_background_container']['header_bg_path'] = array(
+    '#type' => 'hidden',
+    '#title' => 'Path to background image',
+    '#default_value' => $header_bg_path,
+  );
+  if (!empty($header_bg_path)) {
+    $form['design_container']['header_bg_preview'] = array(
+      '#markup' => !empty($header_bg_path) ? 
+       theme('image', array('path' => theme_get_setting('header_bg_path'))) : '',
+    );
+  }
+
+  // Upload field
+  $form['header_background_container']['header_bg_upload'] = array(
+    '#type' => 'file',
+    '#title' => 'Upload background image',
+    '#description' => 'You can upload the following image file types: *.jpg, *.gif, or *.png',
+  );
 
 // Slogan
 
