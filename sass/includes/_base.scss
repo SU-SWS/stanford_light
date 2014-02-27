@@ -10,9 +10,13 @@ body {
 	min-height: 100px;
 	background-repeat: no-repeat;
 	background-position: center 30%;
-	background-size: cover;
+	background-size: 100%;
 	margin: 0;
+	@media (max-width: 480px) {
+		background-size: cover;
+	}
 }
+
 .front.header-bkg.header-bkg-image .header {
 	min-height: 250px;
 }
