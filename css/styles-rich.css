@@ -57,6 +57,11 @@ h2 a:hover, h2 a:focus {
   color: #3f3c30;
 }
 
+/* line 70, ../sass/styles/_styles.scss */
+.caption {
+  color: #8a887d;
+}
+
 /* line 77, ../sass/styles/_styles.scss */
 a {
   color: #8f7029;
