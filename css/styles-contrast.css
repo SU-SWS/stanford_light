@@ -290,3 +290,14 @@ a:hover, a:focus {
   color: white;
   background: #333333;
 }
+
+/* line 100, ../sass/styles/_contrast-styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+  border-bottom-color: #333333;
+  border-top-color: #333333;
+}

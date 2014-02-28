@@ -86,3 +86,12 @@
 	color: $clr-page-bkg;
 	background: $clr-header-bkg;
 }
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+	border-bottom-color: $clr-menu-text-hvr;
+	border-top-color: $clr-menu-text-hvr;
+}

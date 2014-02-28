@@ -282,3 +282,14 @@ a.edit-link:hover, a.edit-link:focus,
   color: white;
   background: #53284f;
 }
+
+/* line 94, ../sass/styles/_bright-styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+  border-bottom-color: #333333;
+  border-top-color: #333333;
+}
