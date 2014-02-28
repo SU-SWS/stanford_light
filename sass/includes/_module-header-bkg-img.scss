@@ -35,9 +35,11 @@
 .header-bkg.header-bkg-text-light .site-name a:hover,
 .header-bkg.header-bkg-text-light #site-slogan {
     color: $clr-light;
+    text-shadow: 0 0 2px $clr-dark;
 }
 .header-bkg.header-bkg-text-dark .site-name a,
 .header-bkg.header-bkg-text-dark .site-name a:hover,
 .header-bkg.header-bkg-text-dark #site-slogan {
     color: $clr-dark;
+    text-shadow: 0 0 2px $clr-light;
 }

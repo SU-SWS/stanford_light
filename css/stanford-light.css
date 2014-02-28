@@ -159,13 +159,15 @@ a.edit-link:hover, a.edit-link:focus,
 .header-bkg.header-bkg-text-light .site-name a:hover,
 .header-bkg.header-bkg-text-light #site-slogan {
   color: white;
+  text-shadow: 0 0 2px #333333;
 }
 
-/* line 41, ../sass/includes/_module-header-bkg-img.scss */
+/* line 42, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-text-dark .site-name a,
 .header-bkg.header-bkg-text-dark .site-name a:hover,
 .header-bkg.header-bkg-text-dark #site-slogan {
   color: #333333;
+  text-shadow: 0 0 2px white;
 }
 
 /* line 1, ../sass/includes/_module-navbar.scss */
