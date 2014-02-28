@@ -200,6 +200,11 @@ a.edit-link:hover, a.edit-link:focus,
   padding: 8px 15px;
 }
 
+/* line 195, ../sass/styles/_styles.scss */
+.roundedcorners .breadcrumb {
+  border-radius: 5px;
+}
+
 /* line 1, ../sass/styles/_rich-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
