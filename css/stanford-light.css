@@ -397,12 +397,13 @@ a.edit-link:hover, a.edit-link:focus,
   padding: 0;
 }
 
-/* line 13, ../sass/includes/_module-breadcrumb.scss */
+/* line 14, ../sass/includes/_module-breadcrumb.scss */
+.bodybg .breadcrumb,
 .borders .breadcrumb {
-  padding: 8px 15px;
+  padding: 8px 10px;
 }
 
-/* line 17, ../sass/includes/_module-breadcrumb.scss */
+/* line 18, ../sass/includes/_module-breadcrumb.scss */
 .roundedcorners .breadcrumb {
   border-radius: 5px;
 }
