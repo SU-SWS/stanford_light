@@ -1,3 +1,6 @@
+a:hover, a:focus {
+	text-decoration: underline;
+}
 .header-bkg .navbar {
 	margin-bottom: 10px;
 }
@@ -19,4 +22,14 @@
 	.navbar {
 		margin-top:0;
 	}
+}
+.main .menu li a:hover, 
+.main .menu li a:focus, 
+.main .menu li a.active, 
+.main .menu li a.active-trail,
+.site-footer .menu li a:hover, 
+.site-footer .menu li a:focus, 
+.site-footer .menu li a.active, 
+.site-footer .menu li a.active-trail {
+	text-decoration: underline;
 }
