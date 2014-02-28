@@ -28,7 +28,21 @@
   margin: 0;
 }
 
-/* line 30, ../sass/includes/_base.scss */
+/* line 31, ../sass/includes/_base.scss */
+#breadcrumb {
+  padding: 0 1% 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  /* line 31, ../sass/includes/_base.scss */
+  #breadcrumb {
+    padding: 0;
+  }
+}
+
+/* line 39, ../sass/includes/_base.scss */
 .mc-content {
   padding: 0 1%;
   -webkit-box-sizing: border-box;
@@ -36,34 +50,34 @@
   box-sizing: border-box;
 }
 @media (max-width: 767px) {
-  /* line 30, ../sass/includes/_base.scss */
+  /* line 39, ../sass/includes/_base.scss */
   .mc-content {
     padding: 0;
   }
 }
 
-/* line 37, ../sass/includes/_base.scss */
+/* line 46, ../sass/includes/_base.scss */
 .site-footer {
   margin: 0;
   padding: 30px 0 20px 0;
 }
 
-/* line 68, ../sass/includes/_base.scss */
+/* line 77, ../sass/includes/_base.scss */
 .content ul li {
   list-style-type: square;
 }
 
-/* line 72, ../sass/includes/_base.scss */
+/* line 81, ../sass/includes/_base.scss */
 #name-and-slogan {
   padding-left: 0;
 }
 
-/* line 75, ../sass/includes/_base.scss */
+/* line 84, ../sass/includes/_base.scss */
 .site-name {
   margin-left: -4px;
 }
 
-/* line 107, ../sass/includes/_base.scss */
+/* line 116, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -78,7 +92,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 119, ../sass/includes/_base.scss */
+/* line 128, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   background-image: none;
   padding-right: none;
@@ -89,12 +103,12 @@ a.more-link, .more-link a {
   letter-spacing: inherit;
 }
 
-/* line 128, ../sass/includes/_base.scss */
+/* line 137, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 135, ../sass/includes/_base.scss */
+/* line 144, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -106,18 +120,18 @@ a.edit-link, .edit-link a {
   font-size: .8em;
 }
 
-/* line 142, ../sass/includes/_base.scss */
+/* line 151, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 149, ../sass/includes/_base.scss */
+/* line 158, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 152, ../sass/includes/_base.scss */
+/* line 161, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;

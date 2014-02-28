@@ -178,6 +178,11 @@ background-color: $clr-page-bkg;
 }
 
 .borders .sidebar .region, 
-.borders .content-wrapper {
+.borders .content-wrapper,
+.borders .breadcrumb {
 	border: 1px solid $clr-header-bkg;
+}
+
+.breadcrumb {
+	background-color: $clr-page-bkg;
 }

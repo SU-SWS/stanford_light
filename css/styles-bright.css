@@ -62,6 +62,11 @@ h2 a:hover, h2 a:focus {
   color: #333333;
 }
 
+/* line 74, ../sass/styles/_styles.scss */
+.caption {
+  color: #888888;
+}
+
 /* line 81, ../sass/styles/_styles.scss */
 a {
   color: #007c92;
@@ -177,10 +182,16 @@ a.edit-link:hover, a.edit-link:focus,
   opacity: 1;
 }
 
-/* line 181, ../sass/styles/_styles.scss */
+/* line 182, ../sass/styles/_styles.scss */
 .borders .sidebar .region,
-.borders .content-wrapper {
+.borders .content-wrapper,
+.borders .breadcrumb {
   border: 1px solid #53284f;
+}
+
+/* line 186, ../sass/styles/_styles.scss */
+.breadcrumb {
+  background-color: white;
 }
 
 /* line 1, ../sass/styles/_bright-styles.scss */
