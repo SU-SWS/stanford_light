@@ -168,8 +168,13 @@ a.edit-link:hover, a.edit-link:focus,
 	background: $clr-text;
 }
 
+.bodybg .sidebar .region,
+.bodybg .content-wrapper {
+background-color: $clr-page-bkg;
+}
+
 .bodybg .sidebar .region {
-	background-color: rgba(255,255,255,1);
+	opacity: 1;
 }
 
 .borders .sidebar .region, 

@@ -166,12 +166,18 @@ a.edit-link:hover, a.edit-link:focus,
   background: #333333;
 }
 
-/* line 171, ../sass/styles/_styles.scss */
-.bodybg .sidebar .region {
+/* line 172, ../sass/styles/_styles.scss */
+.bodybg .sidebar .region,
+.bodybg .content-wrapper {
   background-color: white;
 }
 
 /* line 176, ../sass/styles/_styles.scss */
+.bodybg .sidebar .region {
+  opacity: 1;
+}
+
+/* line 181, ../sass/styles/_styles.scss */
 .borders .sidebar .region,
 .borders .content-wrapper {
   border: 1px solid #53284f;
