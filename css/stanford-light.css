@@ -348,6 +348,12 @@ a.edit-link:hover, a.edit-link:focus,
   padding-left: 1em;
 }
 
+/* line 2, ../sass/includes/_module-border.scss */
+.borders .sidebar .region,
+.borders .content-wrapper {
+  padding: 30px;
+}
+
 /* line 1, ../sass/includes/_admin-shortcuts.scss */
 #admin-shortcuts {
   background: #4D4F53;

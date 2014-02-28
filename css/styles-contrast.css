@@ -166,6 +166,12 @@ a.edit-link:hover, a.edit-link:focus,
   background: #333333;
 }
 
+/* line 172, ../sass/styles/_styles.scss */
+.borders .sidebar .region,
+.borders .content-wrapper {
+  border: 1px solid #333333;
+}
+
 /* line 1, ../sass/styles/_contrast-styles.scss */
 a:hover, a:focus {
   text-decoration: underline;

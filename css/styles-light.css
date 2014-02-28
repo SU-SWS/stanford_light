@@ -166,6 +166,12 @@ a.edit-link:hover, a.edit-link:focus,
   background: #333333;
 }
 
+/* line 172, ../sass/styles/_styles.scss */
+.borders .sidebar .region,
+.borders .content-wrapper {
+  border: 1px solid #f8f7f2;
+}
+
 /* line 1, ../sass/styles/_light-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;

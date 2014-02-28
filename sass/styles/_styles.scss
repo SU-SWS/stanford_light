@@ -167,3 +167,8 @@ a.edit-link:hover, a.edit-link:focus,
 	color: $clr-header-bkg;
 	background: $clr-text;
 }
+
+.borders .sidebar .region, 
+.borders .content-wrapper {
+	border: 1px solid $clr-header-bkg;
+}
