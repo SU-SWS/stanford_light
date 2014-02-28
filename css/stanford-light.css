@@ -29,22 +29,36 @@
 }
 
 /* line 30, ../sass/includes/_base.scss */
+.mc-content {
+  padding: 0 1%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  /* line 30, ../sass/includes/_base.scss */
+  .mc-content {
+    padding: 0;
+  }
+}
+
+/* line 37, ../sass/includes/_base.scss */
 .site-footer {
   margin: 0;
   padding: 30px 0 20px 0;
 }
 
-/* line 61, ../sass/includes/_base.scss */
+/* line 68, ../sass/includes/_base.scss */
 #name-and-slogan {
   padding-left: 0;
 }
 
-/* line 64, ../sass/includes/_base.scss */
+/* line 71, ../sass/includes/_base.scss */
 .site-name {
   margin-left: -4px;
 }
 
-/* line 96, ../sass/includes/_base.scss */
+/* line 103, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -59,7 +73,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 108, ../sass/includes/_base.scss */
+/* line 115, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   background-image: none;
   padding-right: none;
@@ -70,12 +84,12 @@ a.more-link, .more-link a {
   letter-spacing: inherit;
 }
 
-/* line 117, ../sass/includes/_base.scss */
+/* line 124, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 124, ../sass/includes/_base.scss */
+/* line 131, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -87,18 +101,18 @@ a.edit-link, .edit-link a {
   font-size: .8em;
 }
 
-/* line 131, ../sass/includes/_base.scss */
+/* line 138, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 138, ../sass/includes/_base.scss */
+/* line 145, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 141, ../sass/includes/_base.scss */
+/* line 148, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
