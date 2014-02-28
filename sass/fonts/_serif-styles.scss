@@ -7,10 +7,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-header;
-	font-weight: 400;
+	font-weight: 600;
 }
 h1 {
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: -0.04em;
 	font-size: 3em;
 	line-height: 1.3em;
@@ -18,16 +18,20 @@ h1 {
 h2 {
 	font-size: 1.8em;
 	letter-spacing: -0.02em;
-	line-height: 1.3em;
+	line-height: 1.2em;
+    margin: 0.7em 0 0.5em;
 }
 h3 {
 	font-size: 1.3em;
+	font-weight: 600;
 	line-height: 1.3em;
+	margin: 0.9em 0 0.5em;
 }
 h4 {
 	font-size: 1.1em;
 	font-weight: 600;
 	line-height: 1.3em;
+	margin: 1em 0 .5em;
 }
 h5 {
 
@@ -50,12 +54,12 @@ strong {
 }
 #site-slogan {
 	font-family: $font-header;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 400;
 }
 
 .summary {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 .descriptor {
 	font-size: .8em;
@@ -78,6 +82,7 @@ a:hover, a:focus {
 
 }
 a.btn, .btn a {
+	font-family: $font-header;
 	font-weight: 400;
 	font-size: inherit;
 }
@@ -87,6 +92,7 @@ a.btn:hover, a.btn:focus,
 }
 
 a.more-link, .more-link a {
+	font-family: $font-header;
 	font-weight: 600;
 }
 a.more-link:hover, a.more-link:focus,
@@ -111,7 +117,7 @@ a.edit-link:hover, a.edit-link:focus,
 
 }
 .block.well h2 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 600;
 }
 #footer .block {
