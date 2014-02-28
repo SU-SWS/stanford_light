@@ -119,29 +119,35 @@ a.edit-link:hover, a.edit-link:focus,
   background-size: 100%;
   margin: 0;
 }
+@media (max-width: 380px) {
+  /* line 1, ../sass/includes/_module-header-bkg-img.scss */
+  .header-bkg.header-bkg-image .header {
+    background-size: cover;
+  }
+}
 
-/* line 9, ../sass/includes/_module-header-bkg-img.scss */
+/* line 12, ../sass/includes/_module-header-bkg-img.scss */
 .front.header-bkg.header-bkg-image .header {
   min-height: 200px;
 }
 
-/* line 12, ../sass/includes/_module-header-bkg-img.scss */
+/* line 15, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg .site-main-menu {
   padding-top: 10px;
 }
 
 @media (max-width: 767px) {
-  /* line 16, ../sass/includes/_module-header-bkg-img.scss */
+  /* line 19, ../sass/includes/_module-header-bkg-img.scss */
   .header-bkg .site-main-menu {
     padding-top: 0px;
   }
 
-  /* line 19, ../sass/includes/_module-header-bkg-img.scss */
+  /* line 22, ../sass/includes/_module-header-bkg-img.scss */
   .front.header-bkg.header-bkg-image .header {
     min-height: 150px;
   }
 }
-/* line 24, ../sass/includes/_module-header-bkg-img.scss */
+/* line 27, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-wallpaper .header {
   min-height: 100px;
   background-repeat: repeat;
@@ -149,12 +155,12 @@ a.edit-link:hover, a.edit-link:focus,
   margin: 0;
 }
 
-/* line 30, ../sass/includes/_module-header-bkg-img.scss */
+/* line 33, ../sass/includes/_module-header-bkg-img.scss */
 .front.header-bkg.header-bkg-wallpaper .header {
   min-height: 250px;
 }
 
-/* line 36, ../sass/includes/_module-header-bkg-img.scss */
+/* line 39, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-text-light .site-name a,
 .header-bkg.header-bkg-text-light .site-name a:hover,
 .header-bkg.header-bkg-text-light #site-slogan {
@@ -162,7 +168,7 @@ a.edit-link:hover, a.edit-link:focus,
   text-shadow: 0 0 2px #333333;
 }
 
-/* line 42, ../sass/includes/_module-header-bkg-img.scss */
+/* line 45, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-text-dark .site-name a,
 .header-bkg.header-bkg-text-dark .site-name a:hover,
 .header-bkg.header-bkg-text-dark #site-slogan {

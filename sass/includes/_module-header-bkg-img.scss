@@ -4,6 +4,9 @@
 	background-position: center 30%;
 	background-size: 100%;
 	margin: 0;
+	@media (max-width: 380px) {
+		background-size: cover;
+	}
 }
 
 .front.header-bkg.header-bkg-image .header {
