@@ -2,7 +2,7 @@ body {
 	font-family: $font-header;
 	font-weight: 300;
 	font-size: 15px;
-	line-height: 1.5em;
+	line-height: 1.6em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,21 +13,24 @@ h1 {
 	font-weight: 400;
 	letter-spacing: -0.04em;
 	font-size: 2.5em;
-	line-height: 1.3em;
+	line-height: 1.4em;
 }
 h2 {
 	font-size: 1.5em;
 	letter-spacing: -0.02em;
-	line-height: 1.3em;
+	line-height: 1.4em;
+	margin: 1.3em 0 0.7em;
 }
 h3 {
 	font-size: 1.2em;
-	line-height: 1.3em;
+	line-height: 1.5em;
+	margin: 1.3em 0 .8em;
 }
 h4 {
 	font-size: 1em;
 	font-weight: 700;
-	line-height: 1.3em;
+	line-height: 1.5em;
+	margin: 1.5em 0 1em;
 }
 h5 {
 
@@ -37,7 +40,7 @@ h6 {
 }
 
 strong {
-
+	font-weight: 500;
 }
 
 .site-name {
@@ -50,23 +53,25 @@ strong {
 }
 #site-slogan {
 	font-family: $font-header;
-	font-size: 1.2em;
-	font-weight: 300;
+	font-size: 1.5em;
+    font-weight: 400;
 }
 
 .summary {
 	font-family: $font-header;
 	font-size: 1.2em;
 	font-weight: 100;
+	line-height: 1.5em;
 }
 .descriptor {
-
+	font-size: .8em;
 }
 .credits {
-
+	font-size: .8em;
+	letter-spacing: 0.02em;	
 }
 .caption {
-
+	font-size: .8em;
 }
 .quote {
 
