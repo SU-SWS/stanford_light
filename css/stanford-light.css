@@ -49,16 +49,21 @@
 }
 
 /* line 68, ../sass/includes/_base.scss */
+.content ul li {
+  list-style-type: square;
+}
+
+/* line 72, ../sass/includes/_base.scss */
 #name-and-slogan {
   padding-left: 0;
 }
 
-/* line 71, ../sass/includes/_base.scss */
+/* line 75, ../sass/includes/_base.scss */
 .site-name {
   margin-left: -4px;
 }
 
-/* line 103, ../sass/includes/_base.scss */
+/* line 107, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -73,7 +78,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 115, ../sass/includes/_base.scss */
+/* line 119, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   background-image: none;
   padding-right: none;
@@ -84,12 +89,12 @@ a.more-link, .more-link a {
   letter-spacing: inherit;
 }
 
-/* line 124, ../sass/includes/_base.scss */
+/* line 128, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 131, ../sass/includes/_base.scss */
+/* line 135, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -101,18 +106,18 @@ a.edit-link, .edit-link a {
   font-size: .8em;
 }
 
-/* line 138, ../sass/includes/_base.scss */
+/* line 142, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 145, ../sass/includes/_base.scss */
+/* line 149, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 148, ../sass/includes/_base.scss */
+/* line 152, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;

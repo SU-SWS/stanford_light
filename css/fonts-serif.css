@@ -24,15 +24,15 @@ h1 {
 
 /* line 18, ../sass/fonts/_serif-styles.scss */
 h2 {
-  font-size: 1.8em;
+  font-size: 1.9em;
   letter-spacing: -0.02em;
-  line-height: 1.2em;
+  line-height: 1.1em;
   margin: 0.7em 0 0.5em;
 }
 
 /* line 24, ../sass/fonts/_serif-styles.scss */
 h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: 600;
   line-height: 1.3em;
   margin: 0.9em 0 0.5em;
@@ -40,7 +40,7 @@ h3 {
 
 /* line 30, ../sass/fonts/_serif-styles.scss */
 h4 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 600;
   line-height: 1.3em;
   margin: 1em 0 .5em;
@@ -61,7 +61,7 @@ h4 {
 /* line 55, ../sass/fonts/_serif-styles.scss */
 #site-slogan {
   font-family: "Crimson Text", serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
@@ -96,28 +96,32 @@ a.btn, .btn a {
   font-family: "Crimson Text", serif;
   font-weight: 400;
   font-size: inherit;
+  font-size: 1.1em;
 }
 
-/* line 94, ../sass/fonts/_serif-styles.scss */
+/* line 95, ../sass/fonts/_serif-styles.scss */
 a.more-link, .more-link a {
   font-family: "Crimson Text", serif;
   font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: -0.02em;
 }
 
-/* line 119, ../sass/fonts/_serif-styles.scss */
+/* line 122, ../sass/fonts/_serif-styles.scss */
 .block.well h2 {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: 600;
 }
 
-/* line 123, ../sass/fonts/_serif-styles.scss */
+/* line 126, ../sass/fonts/_serif-styles.scss */
 #footer .block {
   font-size: 14px;
 }
 
-/* line 127, ../sass/fonts/_serif-styles.scss */
+/* line 130, ../sass/fonts/_serif-styles.scss */
 .navbar .nav > li > a {
   font-family: "Crimson Text", serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 600;
+  letter-spacing: -0.02em;
 }
