@@ -194,13 +194,3 @@ a.edit-link:hover, a.edit-link:focus,
   background-color: white;
   border-radius: 0;
 }
-
-/* line 191, ../sass/styles/_styles.scss */
-.borders .breadcrumb {
-  padding: 8px 15px;
-}
-
-/* line 195, ../sass/styles/_styles.scss */
-.roundedcorners .breadcrumb {
-  border-radius: 5px;
-}

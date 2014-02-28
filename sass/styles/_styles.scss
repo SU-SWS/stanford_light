@@ -170,7 +170,7 @@ a.edit-link:hover, a.edit-link:focus,
 
 .bodybg .sidebar .region,
 .bodybg .content-wrapper {
-background-color: $clr-page-bkg;
+	background-color: $clr-page-bkg;
 }
 
 .bodybg .sidebar .region {
@@ -186,12 +186,4 @@ background-color: $clr-page-bkg;
 .breadcrumb {
 	background-color: $clr-page-bkg;
 	border-radius: 0;
-}
-
-.borders .breadcrumb {
-	padding: 8px 15px;
-}
-
-.roundedcorners .breadcrumb {
-	border-radius: 5px;
 }
