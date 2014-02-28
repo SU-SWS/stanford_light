@@ -372,10 +372,15 @@ a.edit-link:hover, a.edit-link:focus,
   padding-left: 1em;
 }
 
-/* line 2, ../sass/includes/_module-border.scss */
-.borders .sidebar .region,
-.borders .content-wrapper {
+/* line 2, ../sass/includes/_module-bodybg.scss */
+.bodybg .sidebar .region,
+.bodybg .content-wrapper {
   padding: 30px;
+}
+
+/* line 5, ../sass/includes/_module-bodybg.scss */
+.bodybg .breadcrumb {
+  padding: 8px 30px;
 }
 
 /* line 1, ../sass/includes/_module-breadcrumb.scss */
@@ -394,16 +399,10 @@ a.edit-link:hover, a.edit-link:focus,
 
 /* line 9, ../sass/includes/_module-breadcrumb.scss */
 .breadcrumb {
-  padding: 0;
-}
-
-/* line 14, ../sass/includes/_module-breadcrumb.scss */
-.bodybg .breadcrumb,
-.borders .breadcrumb {
   padding: 8px 10px;
 }
 
-/* line 18, ../sass/includes/_module-breadcrumb.scss */
+/* line 13, ../sass/includes/_module-breadcrumb.scss */
 .roundedcorners .breadcrumb {
   border-radius: 5px;
 }
