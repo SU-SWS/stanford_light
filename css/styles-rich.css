@@ -185,13 +185,19 @@ a.edit-link:hover, a.edit-link:focus,
 /* line 182, ../sass/styles/_styles.scss */
 .borders .sidebar .region,
 .borders .content-wrapper,
-.borders .breadcrumb {
+.bodybg.borders .breadcrumb {
   border: 1px solid #d5d0c0;
 }
 
 /* line 186, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: #fbfbf9;
+  border-radius: 0;
+}
+
+/* line 191, ../sass/styles/_styles.scss */
+.borders .breadcrumb {
+  padding: 8px 15px;
 }
 
 /* line 1, ../sass/styles/_rich-styles.scss */

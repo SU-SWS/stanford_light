@@ -36,6 +36,10 @@ body {
 	}
 }
 
+.breadcrumb {
+	padding: 0;
+}
+
 .mc-content {
 	padding: 0 1%;
 	@include box-sizing(border-box);

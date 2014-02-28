@@ -179,10 +179,15 @@ background-color: $clr-page-bkg;
 
 .borders .sidebar .region, 
 .borders .content-wrapper,
-.borders .breadcrumb {
+.bodybg.borders .breadcrumb {
 	border: 1px solid $clr-header-bkg;
 }
 
 .breadcrumb {
 	background-color: $clr-page-bkg;
+	border-radius: 0;
+}
+
+.borders .breadcrumb {
+	padding: 8px 15px;
 }
