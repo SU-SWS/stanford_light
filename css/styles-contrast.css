@@ -292,12 +292,22 @@ a:hover, a:focus {
 }
 
 /* line 100, ../sass/styles/_contrast-styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+  color: #8c1515;
+}
+
+/* line 108, ../sass/styles/_contrast-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
-  border-bottom-color: #333333;
-  border-top-color: #333333;
+  border-bottom-color: #8c1515;
+  border-top-color: #8c1515;
 }

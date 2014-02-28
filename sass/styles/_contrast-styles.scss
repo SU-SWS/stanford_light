@@ -92,12 +92,20 @@ a:hover, a:focus {
 	color: $clr-page-bkg;
 	background: $clr-header-bkg;
 }
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+	color: $clr-link;
+}
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, 
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, 
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, 
 .navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, 
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
-	border-bottom-color: $clr-menu-text-hvr;
-	border-top-color: $clr-menu-text-hvr;
+	border-bottom-color: $clr-link;
+	border-top-color: $clr-link;
 }
