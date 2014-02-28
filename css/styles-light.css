@@ -171,15 +171,27 @@ a.edit-link:hover, a.edit-link:focus,
   background: #333333;
 }
 
-/* line 171, ../sass/styles/_styles.scss */
-.bodybg .sidebar .region {
-  background-color: white;
+/* line 172, ../sass/styles/_styles.scss */
+.bodybg .sidebar .region,
+.bodybg .content-wrapper {
+  background-color: #fbfbf9;
 }
 
 /* line 176, ../sass/styles/_styles.scss */
+.bodybg .sidebar .region {
+  opacity: 1;
+}
+
+/* line 182, ../sass/styles/_styles.scss */
 .borders .sidebar .region,
-.borders .content-wrapper {
+.borders .content-wrapper,
+.borders .breadcrumb {
   border: 1px solid #f8f7f2;
+}
+
+/* line 186, ../sass/styles/_styles.scss */
+.breadcrumb {
+  background-color: #fbfbf9;
 }
 
 /* line 1, ../sass/styles/_light-styles.scss */
