@@ -14,6 +14,10 @@ body {
 	background: $clr-page-bkg;
 	border-bottom: 1px solid $clr-line;
 }
+.bodybg .main {
+	background: transparent;
+}
+
 .site-footer {
 	background: $clr-footer-bkg;
 }
