@@ -36,74 +36,80 @@ h1 {
   color: #3f3c30;
 }
 
-/* line 27, ../sass/styles/_styles.scss */
-h2 {
+/* line 28, ../sass/styles/_styles.scss */
+h2, h2 a,
+h2 a:hover, h2 a:focus {
   color: #3f3c30;
 }
 
-/* line 50, ../sass/styles/_styles.scss */
+/* line 31, ../sass/styles/_styles.scss */
+h2 a:hover, h2 a:focus {
+  text-decoration: underline;
+}
+
+/* line 54, ../sass/styles/_styles.scss */
 .site-name a, .site-name a:hover {
   color: #3f3c30;
 }
 
-/* line 53, ../sass/styles/_styles.scss */
+/* line 57, ../sass/styles/_styles.scss */
 #site-slogan {
   color: #3f3c30;
 }
 
-/* line 73, ../sass/styles/_styles.scss */
+/* line 77, ../sass/styles/_styles.scss */
 a {
   color: #8f7029;
 }
 
-/* line 76, ../sass/styles/_styles.scss */
+/* line 80, ../sass/styles/_styles.scss */
 a:hover, a:focus {
   color: #3f3c30;
 }
 
-/* line 79, ../sass/styles/_styles.scss */
+/* line 83, ../sass/styles/_styles.scss */
 a.btn, .btn a {
   background: #5e3032;
   color: #fbfbf9;
 }
 
-/* line 84, ../sass/styles/_styles.scss */
+/* line 88, ../sass/styles/_styles.scss */
 a.btn:hover, a.btn:focus,
 .btn a:hover, .btn a:focus {
   background: #3f3c30;
   color: #fbfbf9;
 }
 
-/* line 89, ../sass/styles/_styles.scss */
+/* line 93, ../sass/styles/_styles.scss */
 a.more-link, .more-link a {
   color: #8f7029;
 }
 
-/* line 93, ../sass/styles/_styles.scss */
+/* line 97, ../sass/styles/_styles.scss */
 a.more-link:hover, a.more-link:focus,
 .more-link a:hover, .more-link a:focus {
   color: #3f3c30;
 }
 
-/* line 100, ../sass/styles/_styles.scss */
+/* line 104, ../sass/styles/_styles.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #3f3c30;
   color: #fbfbf9;
 }
 
-/* line 111, ../sass/styles/_styles.scss */
+/* line 115, ../sass/styles/_styles.scss */
 .well {
   background: #d5d0c0;
 }
 
-/* line 118, ../sass/styles/_styles.scss */
+/* line 122, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
   color: #3f3c30;
   background: transparent;
 }
 
-/* line 126, ../sass/styles/_styles.scss */
+/* line 130, ../sass/styles/_styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -113,18 +119,18 @@ a.edit-link:hover, a.edit-link:focus,
   background: transparent;
 }
 
-/* line 131, ../sass/styles/_styles.scss */
+/* line 135, ../sass/styles/_styles.scss */
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
   color: #3f3c30;
 }
 
-/* line 135, ../sass/styles/_styles.scss */
+/* line 139, ../sass/styles/_styles.scss */
 .dropdown-menu {
   background: #d5d0c0;
   border: 1px solid #d5d0c0;
 }
 
-/* line 141, ../sass/styles/_styles.scss */
+/* line 145, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
@@ -132,7 +138,7 @@ a.edit-link:hover, a.edit-link:focus,
   color: #3f3c30;
 }
 
-/* line 150, ../sass/styles/_styles.scss */
+/* line 154, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.open > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
@@ -143,13 +149,13 @@ a.edit-link:hover, a.edit-link:focus,
   background: transparent;
 }
 
-/* line 154, ../sass/styles/_styles.scss */
+/* line 158, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: #3f3c30;
   border-top-color: #3f3c30;
 }
 
-/* line 158, ../sass/styles/_styles.scss */
+/* line 162, ../sass/styles/_styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: #d5d0c0;
   background: #3f3c30;
