@@ -47,8 +47,12 @@
 .well {
 	color: $clr-page-bkg;
 }
-.well h2 {
+.well h2, .well h2 a,
+.well h2 a:hover, .well h2 a:focus {
 	color: $clr-page-bkg;
+}
+.well h2 a:hover, .well h2 a:focus {
+	text-decoration: underline;
 }
 .well a,
 .well .menu li a {
