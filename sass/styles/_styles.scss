@@ -183,6 +183,10 @@ a.edit-link:hover, a.edit-link:focus,
 	border: 1px solid $clr-header-bkg;
 }
 
+.roundedcorners .well {
+	border-radius: 5px;
+}
+
 .breadcrumb {
 	background-color: $clr-page-bkg;
 	border-radius: 0;

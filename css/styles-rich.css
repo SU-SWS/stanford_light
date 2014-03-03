@@ -190,6 +190,11 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 186, ../sass/styles/_styles.scss */
+.roundedcorners .well {
+  border-radius: 5px;
+}
+
+/* line 190, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: #fbfbf9;
   border-radius: 0;
