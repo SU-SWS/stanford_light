@@ -373,16 +373,22 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 1, ../sass/includes/_module-bodybg.scss */
-.bodybg .sidebar .region .block {
-  padding: 13px;
+.bodybg .sidebar .region {
+  padding: 15px;
 }
 
 /* line 5, ../sass/includes/_module-bodybg.scss */
 .bodybg .content-wrapper {
   padding: 30px;
 }
+@media (max-width: 767px) {
+  /* line 5, ../sass/includes/_module-bodybg.scss */
+  .bodybg .content-wrapper {
+    padding: 15px;
+  }
+}
 
-/* line 8, ../sass/includes/_module-bodybg.scss */
+/* line 12, ../sass/includes/_module-bodybg.scss */
 .bodybg .breadcrumb {
   padding: 8px 30px;
 }

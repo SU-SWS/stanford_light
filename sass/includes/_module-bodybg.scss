@@ -1,10 +1,14 @@
-.bodybg .sidebar .region .block {
-    padding: 13px;
+.bodybg .sidebar .region {
+	padding: 15px;
 }
 
 .bodybg .content-wrapper {
 	padding: 30px;
+	@media (max-width: 767px) {
+	padding: 15px;
+	}
 }
+
 .bodybg .breadcrumb {
 	padding: 8px 30px;
 }
