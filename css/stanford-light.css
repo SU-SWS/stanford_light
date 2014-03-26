@@ -85,21 +85,19 @@ a.btn, .btn a {
 
 /* line 120, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
-  background-image: none;
-  padding-right: none;
   text-transform: none;
   display: inline;
-  font-size: inherit;
-  font-weight: inherit;
-  letter-spacing: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
-/* line 129, ../sass/includes/_base.scss */
+/* line 127, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 136, ../sass/includes/_base.scss */
+/* line 134, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -111,18 +109,18 @@ a.edit-link, .edit-link a {
   font-size: .8em;
 }
 
-/* line 143, ../sass/includes/_base.scss */
+/* line 141, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus,
 .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 150, ../sass/includes/_base.scss */
+/* line 148, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 153, ../sass/includes/_base.scss */
+/* line 151, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;

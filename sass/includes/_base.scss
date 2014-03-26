@@ -118,13 +118,11 @@ a.btn:hover, a.btn:focus,
 }
 
 a.more-link, .more-link a {
-	background-image: none;
-	padding-right: none;
 	text-transform: none;
 	display: inline;
-    font-size: inherit;
-    font-weight: inherit;
-    letter-spacing: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
 }
 a.more-link:after, .more-link a:after {
 	content: " »";
