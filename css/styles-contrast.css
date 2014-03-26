@@ -309,28 +309,23 @@ a:hover, a:focus {
 }
 
 /* line 80, ../sass/styles/_contrast-styles.scss */
-.site-footer a:hover, .site-footer a:focus {
+.site-footer a:hover, .site-footer a:focus, .site-footer a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 84, ../sass/styles/_contrast-styles.scss */
-.site-footer a:hover, .site-footer a:focus {
-  text-decoration: underline;
-}
-
-/* line 88, ../sass/styles/_contrast-styles.scss */
+/* line 85, ../sass/styles/_contrast-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 91, ../sass/styles/_contrast-styles.scss */
+/* line 88, ../sass/styles/_contrast-styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: white;
   background: #333333;
 }
 
-/* line 100, ../sass/styles/_contrast-styles.scss */
+/* line 97, ../sass/styles/_contrast-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.open > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
@@ -340,7 +335,7 @@ a:hover, a:focus {
   color: #8c1515;
 }
 
-/* line 108, ../sass/styles/_contrast-styles.scss */
+/* line 105, ../sass/styles/_contrast-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,

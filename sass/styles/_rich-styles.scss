@@ -22,10 +22,10 @@
 .site-footer .block h2 {
 	color: $clr-page-bkg;
 }
-.site-footer a, .site-footer a:hover, .site-footer a:focus {
+.site-footer a, .site-footer a:hover, .site-footer a:focus, .site-footer a.active {
 	color: $clr-page-bkg;
 }
-.site-footer a:hover, .site-footer a:focus {
+.site-footer a:hover, .site-footer a:focus, .site-footer a.active {
 	text-decoration: underline;
 }
 

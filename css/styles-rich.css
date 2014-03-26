@@ -236,12 +236,12 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 25, ../sass/styles/_rich-styles.scss */
-.site-footer a, .site-footer a:hover, .site-footer a:focus {
+.site-footer a, .site-footer a:hover, .site-footer a:focus, .site-footer a.active {
   color: #fbfbf9;
 }
 
 /* line 28, ../sass/styles/_rich-styles.scss */
-.site-footer a:hover, .site-footer a:focus {
+.site-footer a:hover, .site-footer a:focus, .site-footer a.active {
   text-decoration: underline;
 }
 

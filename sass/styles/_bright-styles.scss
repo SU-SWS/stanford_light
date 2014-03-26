@@ -74,7 +74,7 @@
 .site-footer a {
 	color: #EAAB00;
 }
-.site-footer a:hover, .site-footer a:focus {
+.site-footer a:hover, .site-footer a:focus, .site-footer a.active {
 	color: $clr-page-bkg;
 	text-decoration: underline;
 }

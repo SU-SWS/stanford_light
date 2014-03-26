@@ -306,7 +306,7 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 /* line 77, ../sass/styles/_bright-styles.scss */
-.site-footer a:hover, .site-footer a:focus {
+.site-footer a:hover, .site-footer a:focus, .site-footer a.active {
   color: white;
   text-decoration: underline;
 }
