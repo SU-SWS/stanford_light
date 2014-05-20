@@ -1,197 +1,147 @@
 body {
-	color: $clr-text;
-	background: $clr-footer-bkg;
+    color: $clr-text;
+    background: $clr-footer-bkg;
 }
-
 .header {
-	background: $clr-header-bkg;
+    background: $clr-header-bkg;
 }
 .site-main-menu {
-	background: $clr-header-bkg;
-	border-bottom: 1px solid $clr-line;
+    background: $clr-header-bkg;
+    border-bottom: 1px solid $clr-line;
 }
 .main {
-	background: $clr-page-bkg;
-	border-bottom: 1px solid $clr-line;
+    background: $clr-page-bkg;
+    border-bottom: 1px solid $clr-line;
 }
 .bodybg .main {
-	background: transparent;
+    background: transparent;
 }
-
 .site-footer {
-	background: $clr-footer-bkg;
+    background: $clr-footer-bkg;
 }
-
 h1, h2, h3, h4, h5, h6 {
-	color: $clr-headers;
+    color: $clr-headers;
 }
 h1 {
-	color: $clr-header1;
+    color: $clr-header1;
 }
-h2, h2 a,
-h2 a:hover, h2 a:focus {
-	color: $clr-header2;
+h2, h2 a, h2 a:hover, h2 a:focus {
+    color: $clr-header2;
 }
 h2 a:hover, h2 a:focus {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 h3 {
-
 }
 h4 {
-
 }
 h5 {
-
 }
 h6 {
-
 }
-
 strong {
-
 }
-
 .site-name {
-
 }
 .site-name a, .site-name a:hover {
-	color: $clr-text;	
+    color: $clr-text;
 }
 #site-slogan {
-	color: $clr-text;
+    color: $clr-text;
 }
-
 .summary {
-
 }
 .descriptor {
-
 }
 .credits {
-
 }
 .caption {
-	color: $clr-icons;
+    color: $clr-icons;
 }
 .quote {
-
 }
-
 a {
-	color: $clr-link;
+    color: $clr-link;
 }
 a:hover, a:focus {
-	color: $clr-link-hvr;
+    color: $clr-link-hvr;
 }
 a.btn, .btn a {
-	background: $clr-btn-bkg;
-	color: $clr-btn-text;
+    background: $clr-btn-bkg;
+    color: $clr-btn-text;
 }
-a.btn:hover, a.btn:focus,
-.btn a:hover, .btn a:focus {
-	background: $clr-btn-bkg-hvr;
-	color: $clr-btn-text-hvr;
+a.btn:hover, a.btn:focus, .btn a:hover, .btn a:focus {
+    background: $clr-btn-bkg-hvr;
+    color: $clr-btn-text-hvr;
 }
-
 a.more-link, .more-link a {
-	color: $clr-link;
+    color: $clr-link;
 }
-a.more-link:hover, a.more-link:focus,
-.more-link a:hover, .more-link a:focus {
-	color: $clr-link-hvr;
+a.more-link:hover, a.more-link:focus, .more-link a:hover, .more-link a:focus {
+    color: $clr-link-hvr;
 }
 a.edit-link, .edit-link a {
-
 }
-a.edit-link:hover, a.edit-link:focus,
-.edit-link a:hover, .edit-link a:focus {
-	background: $clr-btn-bkg-hvr;
-	color: $clr-btn-text-hvr;
+a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
+    background: $clr-btn-bkg-hvr;
+    color: $clr-btn-text-hvr;
 }
-
 .block {
-
 }
 .block h2 {
-
 }
 .well {
-	background: $clr-well-bkg;
+    background: $clr-well-bkg;
 }
 .block.well h2 {
-
 }
-
 .navbar .nav > li > a {
-	color: $clr-menu-text;
-	background: $clr-menu-bkg;
+    color: $clr-menu-text;
+    background: $clr-menu-bkg;
 }
-.navbar .nav > .active > a, 
-.navbar .nav > .active > a:hover, 
-.navbar .nav > .active > a:focus,
-.navbar .nav > li > a:focus, 
-.navbar .nav > li > a:hover {
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
     color: $clr-menu-text-hvr;
     background: $clr-menu-bkg-hvr;
 }
-
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
-	color: $clr-link-hvr;
+    color: $clr-link-hvr;
 }
-
 .dropdown-menu {
-	background: $clr-header-bkg;
-	border: 1px solid $clr-line;
+    background: $clr-header-bkg;
+    border: 1px solid $clr-line;
 }
-.navbar .nav li.dropdown.open > .dropdown-toggle, 
-.navbar .nav li.dropdown.active > .dropdown-toggle, 
-.navbar .nav li.dropdown.open.active > .dropdown-toggle {
-	background: $clr-menu-bkg;
-	color: $clr-menu-text;
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background: $clr-menu-bkg;
+    color: $clr-menu-text;
 }
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover, 
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.active > .dropdown-toggle:focus, 
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
-	color: $clr-menu-text-hvr;
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+    color: $clr-menu-text-hvr;
     background: $clr-menu-bkg-hvr;
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-	border-bottom-color: $clr-menu-text;
-	border-top-color: $clr-menu-text;
+    border-bottom-color: $clr-menu-text;
+    border-top-color: $clr-menu-text;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
-	color: $clr-header-bkg;
-	background: $clr-text;
+    color: $clr-header-bkg;
+    background: $clr-text;
 }
-
-.bodybg .sidebar .region,
-.bodybg .content-wrapper {
-	background-color: $clr-page-bkg;
+.bodybg .sidebar .region, .bodybg .content-wrapper {
+    background-color: $clr-page-bkg;
 }
-
 .bodybg .sidebar .region {
-	opacity: 1;
+    opacity: 1;
 }
-
-.borders .sidebar .region, 
-.borders .content-wrapper,
-.bodybg.borders .breadcrumb {
-	border: 1px solid $clr-header-bkg;
+.borders .sidebar .region, .borders .content-wrapper, .bodybg.borders .breadcrumb {
+    border: 1px solid $clr-header-bkg;
 }
-
 .roundedcorners .navbar .nav > li > a {
-	border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
 }
-
 .roundedcorners .well {
-	border-radius: 5px;
+    border-radius: 5px;
 }
-
 .breadcrumb {
-	background-color: $clr-page-bkg;
-	border-radius: 0;
+    background-color: $clr-page-bkg;
+    border-radius: 0;
 }

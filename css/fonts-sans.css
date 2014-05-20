@@ -7,13 +7,13 @@ body {
   line-height: 1.4em;
 }
 
-/* line 8, ../sass/fonts/_sans-styles.scss */
+/* line 7, ../sass/fonts/_sans-styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
-/* line 12, ../sass/fonts/_sans-styles.scss */
+/* line 11, ../sass/fonts/_sans-styles.scss */
 h1 {
   font-weight: 300;
   letter-spacing: -0.04em;
@@ -21,7 +21,7 @@ h1 {
   line-height: 1.3em;
 }
 
-/* line 18, ../sass/fonts/_sans-styles.scss */
+/* line 17, ../sass/fonts/_sans-styles.scss */
 h2 {
   font-size: 1.8em;
   letter-spacing: -0.02em;
@@ -29,7 +29,7 @@ h2 {
   margin: 0.7em 0 0.5em;
 }
 
-/* line 24, ../sass/fonts/_sans-styles.scss */
+/* line 23, ../sass/fonts/_sans-styles.scss */
 h3 {
   font-size: 1.3em;
   font-weight: 600;
@@ -37,7 +37,7 @@ h3 {
   margin: 0.9em 0 0.5em;
 }
 
-/* line 30, ../sass/fonts/_sans-styles.scss */
+/* line 29, ../sass/fonts/_sans-styles.scss */
 h4 {
   font-size: 1.1em;
   font-weight: 600;
@@ -45,73 +45,73 @@ h4 {
   margin: 1em 0 .5em;
 }
 
-/* line 47, ../sass/fonts/_sans-styles.scss */
+/* line 41, ../sass/fonts/_sans-styles.scss */
 .site-name {
   font-size: 3.5em;
 }
 
-/* line 50, ../sass/fonts/_sans-styles.scss */
+/* line 44, ../sass/fonts/_sans-styles.scss */
 .site-name a, .site-name a:hover {
   font-weight: 300;
   letter-spacing: -0.04em;
 }
 
-/* line 54, ../sass/fonts/_sans-styles.scss */
+/* line 48, ../sass/fonts/_sans-styles.scss */
 #site-slogan {
   font-size: 1.3em;
   font-weight: 400;
 }
 
-/* line 59, ../sass/fonts/_sans-styles.scss */
+/* line 52, ../sass/fonts/_sans-styles.scss */
 .summary {
   font-size: 1.3em;
 }
 
-/* line 62, ../sass/fonts/_sans-styles.scss */
+/* line 55, ../sass/fonts/_sans-styles.scss */
 .descriptor {
   font-size: .8em;
 }
 
-/* line 65, ../sass/fonts/_sans-styles.scss */
+/* line 58, ../sass/fonts/_sans-styles.scss */
 .credits {
   font-size: .8em;
   letter-spacing: 0.02em;
 }
 
-/* line 69, ../sass/fonts/_sans-styles.scss */
+/* line 62, ../sass/fonts/_sans-styles.scss */
 .caption {
   font-size: .8em;
 }
 
-/* line 76, ../sass/fonts/_sans-styles.scss */
+/* line 67, ../sass/fonts/_sans-styles.scss */
 a {
   font-weight: 600;
 }
 
-/* line 82, ../sass/fonts/_sans-styles.scss */
+/* line 72, ../sass/fonts/_sans-styles.scss */
 a.btn, .btn a {
   font-weight: 400;
   font-size: inherit;
 }
 
-/* line 91, ../sass/fonts/_sans-styles.scss */
+/* line 78, ../sass/fonts/_sans-styles.scss */
 a.more-link, .more-link a {
   font-weight: 600;
   font-size: 16px;
 }
 
-/* line 116, ../sass/fonts/_sans-styles.scss */
+/* line 94, ../sass/fonts/_sans-styles.scss */
 .block.well h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
 
-/* line 120, ../sass/fonts/_sans-styles.scss */
+/* line 98, ../sass/fonts/_sans-styles.scss */
 #footer .block {
   font-size: 14px;
 }
 
-/* line 124, ../sass/fonts/_sans-styles.scss */
+/* line 101, ../sass/fonts/_sans-styles.scss */
 .navbar .nav > li > a {
   font-size: 1.2em;
   font-weight: 600;

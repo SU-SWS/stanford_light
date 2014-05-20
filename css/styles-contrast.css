@@ -4,202 +4,184 @@ body {
   background: #333333;
 }
 
-/* line 6, ../sass/styles/_styles.scss */
+/* line 5, ../sass/styles/_styles.scss */
 .header {
   background: #333333;
 }
 
-/* line 9, ../sass/styles/_styles.scss */
+/* line 8, ../sass/styles/_styles.scss */
 .site-main-menu {
   background: #333333;
   border-bottom: 1px solid transparent;
 }
 
-/* line 13, ../sass/styles/_styles.scss */
+/* line 12, ../sass/styles/_styles.scss */
 .main {
   background: white;
   border-bottom: 1px solid transparent;
 }
 
-/* line 17, ../sass/styles/_styles.scss */
+/* line 16, ../sass/styles/_styles.scss */
 .bodybg .main {
   background: transparent;
 }
 
-/* line 21, ../sass/styles/_styles.scss */
+/* line 19, ../sass/styles/_styles.scss */
 .site-footer {
   background: #333333;
 }
 
-/* line 25, ../sass/styles/_styles.scss */
+/* line 22, ../sass/styles/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #333333;
 }
 
-/* line 28, ../sass/styles/_styles.scss */
+/* line 25, ../sass/styles/_styles.scss */
 h1 {
   color: #333333;
 }
 
-/* line 32, ../sass/styles/_styles.scss */
-h2, h2 a,
-h2 a:hover, h2 a:focus {
+/* line 28, ../sass/styles/_styles.scss */
+h2, h2 a, h2 a:hover, h2 a:focus {
   color: #333333;
 }
 
-/* line 35, ../sass/styles/_styles.scss */
+/* line 31, ../sass/styles/_styles.scss */
 h2 a:hover, h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 58, ../sass/styles/_styles.scss */
+/* line 46, ../sass/styles/_styles.scss */
 .site-name a, .site-name a:hover {
   color: #333333;
 }
 
-/* line 61, ../sass/styles/_styles.scss */
+/* line 49, ../sass/styles/_styles.scss */
 #site-slogan {
   color: #333333;
 }
 
-/* line 74, ../sass/styles/_styles.scss */
+/* line 58, ../sass/styles/_styles.scss */
 .caption {
   color: #888888;
 }
 
-/* line 81, ../sass/styles/_styles.scss */
+/* line 63, ../sass/styles/_styles.scss */
 a {
   color: #8c1515;
 }
 
-/* line 84, ../sass/styles/_styles.scss */
+/* line 66, ../sass/styles/_styles.scss */
 a:hover, a:focus {
   color: #333333;
 }
 
-/* line 87, ../sass/styles/_styles.scss */
+/* line 69, ../sass/styles/_styles.scss */
 a.btn, .btn a {
   background: #8c1515;
   color: white;
 }
 
-/* line 92, ../sass/styles/_styles.scss */
-a.btn:hover, a.btn:focus,
-.btn a:hover, .btn a:focus {
+/* line 73, ../sass/styles/_styles.scss */
+a.btn:hover, a.btn:focus, .btn a:hover, .btn a:focus {
   background: #333333;
   color: white;
 }
 
-/* line 97, ../sass/styles/_styles.scss */
+/* line 77, ../sass/styles/_styles.scss */
 a.more-link, .more-link a {
   color: #8c1515;
 }
 
-/* line 101, ../sass/styles/_styles.scss */
-a.more-link:hover, a.more-link:focus,
-.more-link a:hover, .more-link a:focus {
+/* line 80, ../sass/styles/_styles.scss */
+a.more-link:hover, a.more-link:focus, .more-link a:hover, .more-link a:focus {
   color: #333333;
 }
 
-/* line 108, ../sass/styles/_styles.scss */
-a.edit-link:hover, a.edit-link:focus,
-.edit-link a:hover, .edit-link a:focus {
+/* line 85, ../sass/styles/_styles.scss */
+a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #333333;
   color: white;
 }
 
-/* line 119, ../sass/styles/_styles.scss */
+/* line 93, ../sass/styles/_styles.scss */
 .well {
   background: #333333;
 }
 
-/* line 126, ../sass/styles/_styles.scss */
+/* line 98, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
   color: white;
   background: transparent;
 }
 
-/* line 134, ../sass/styles/_styles.scss */
-.navbar .nav > .active > a,
-.navbar .nav > .active > a:hover,
-.navbar .nav > .active > a:focus,
-.navbar .nav > li > a:focus,
-.navbar .nav > li > a:hover {
+/* line 102, ../sass/styles/_styles.scss */
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   color: #333333;
   background: white;
 }
 
-/* line 139, ../sass/styles/_styles.scss */
+/* line 106, ../sass/styles/_styles.scss */
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
   color: #333333;
 }
 
-/* line 143, ../sass/styles/_styles.scss */
+/* line 109, ../sass/styles/_styles.scss */
 .dropdown-menu {
   background: #333333;
   border: 1px solid transparent;
 }
 
-/* line 149, ../sass/styles/_styles.scss */
-.navbar .nav li.dropdown.open > .dropdown-toggle,
-.navbar .nav li.dropdown.active > .dropdown-toggle,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+/* line 113, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background: transparent;
   color: white;
 }
 
-/* line 158, ../sass/styles/_styles.scss */
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+/* line 117, ../sass/styles/_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
   color: #333333;
   background: white;
 }
 
-/* line 162, ../sass/styles/_styles.scss */
+/* line 121, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: white;
   border-top-color: white;
 }
 
-/* line 166, ../sass/styles/_styles.scss */
+/* line 125, ../sass/styles/_styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: #333333;
   background: #333333;
 }
 
-/* line 172, ../sass/styles/_styles.scss */
-.bodybg .sidebar .region,
-.bodybg .content-wrapper {
+/* line 129, ../sass/styles/_styles.scss */
+.bodybg .sidebar .region, .bodybg .content-wrapper {
   background-color: white;
 }
 
-/* line 176, ../sass/styles/_styles.scss */
+/* line 132, ../sass/styles/_styles.scss */
 .bodybg .sidebar .region {
   opacity: 1;
 }
 
-/* line 182, ../sass/styles/_styles.scss */
-.borders .sidebar .region,
-.borders .content-wrapper,
-.bodybg.borders .breadcrumb {
+/* line 135, ../sass/styles/_styles.scss */
+.borders .sidebar .region, .borders .content-wrapper, .bodybg.borders .breadcrumb {
   border: 1px solid #333333;
 }
 
-/* line 186, ../sass/styles/_styles.scss */
+/* line 138, ../sass/styles/_styles.scss */
 .roundedcorners .navbar .nav > li > a {
   border-radius: 5px 5px 0 0;
 }
 
-/* line 190, ../sass/styles/_styles.scss */
+/* line 141, ../sass/styles/_styles.scss */
 .roundedcorners .well {
   border-radius: 5px;
 }
 
-/* line 194, ../sass/styles/_styles.scss */
+/* line 144, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: white;
   border-radius: 0;
@@ -210,143 +192,125 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-/* line 5, ../sass/styles/_contrast-styles.scss */
+/* line 4, ../sass/styles/_contrast-styles.scss */
 .header-bkg .site-main-menu {
   padding-top: 0px;
 }
 
-/* line 9, ../sass/styles/_contrast-styles.scss */
+/* line 7, ../sass/styles/_contrast-styles.scss */
 .site-name a, .site-name a:hover {
   color: white;
 }
 
-/* line 12, ../sass/styles/_contrast-styles.scss */
+/* line 10, ../sass/styles/_contrast-styles.scss */
 #site-slogan {
   color: white;
 }
 
-/* line 16, ../sass/styles/_contrast-styles.scss */
+/* line 13, ../sass/styles/_contrast-styles.scss */
 .site-main-menu {
   border-bottom: 0;
 }
 
 @media (min-width: 768px) {
-  /* line 21, ../sass/styles/_contrast-styles.scss */
+  /* line 17, ../sass/styles/_contrast-styles.scss */
   .navbar {
     margin-bottom: 0;
   }
 }
-/* line 25, ../sass/styles/_contrast-styles.scss */
+/* line 21, ../sass/styles/_contrast-styles.scss */
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
 }
 
-/* line 33, ../sass/styles/_contrast-styles.scss */
-.navbar .nav > .active > a,
-.navbar .nav > .active > a:hover,
-.navbar .nav > .active > a:focus,
-.navbar .nav > li > a:focus,
-.navbar .nav > li > a:hover {
+/* line 25, ../sass/styles/_contrast-styles.scss */
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   color: #8c1515;
 }
 
 @media (max-width: 767px) {
-  /* line 37, ../sass/styles/_contrast-styles.scss */
+  /* line 29, ../sass/styles/_contrast-styles.scss */
   .navbar .btn-navbar {
     border: 1px solid transparent;
   }
 
-  /* line 40, ../sass/styles/_contrast-styles.scss */
+  /* line 32, ../sass/styles/_contrast-styles.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #232220;
     border: 1px solid white;
   }
 }
-/* line 46, ../sass/styles/_contrast-styles.scss */
+/* line 37, ../sass/styles/_contrast-styles.scss */
 .main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
   text-decoration: underline;
 }
 
-/* line 50, ../sass/styles/_contrast-styles.scss */
+/* line 40, ../sass/styles/_contrast-styles.scss */
 .well {
   color: white;
 }
 
-/* line 54, ../sass/styles/_contrast-styles.scss */
-.well h2, .well h2 a,
-.well h2 a:hover, .well h2 a:focus {
+/* line 43, ../sass/styles/_contrast-styles.scss */
+.well h2, .well h2 a, .well h2 a:hover, .well h2 a:focus {
   color: white;
 }
 
-/* line 57, ../sass/styles/_contrast-styles.scss */
+/* line 46, ../sass/styles/_contrast-styles.scss */
 .well h2 a:hover, .well h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 61, ../sass/styles/_contrast-styles.scss */
-.well a,
-.well .menu li a {
+/* line 49, ../sass/styles/_contrast-styles.scss */
+.well a, .well .menu li a {
   color: #b3995d;
 }
 
-/* line 66, ../sass/styles/_contrast-styles.scss */
-.well a:hover, .well a:focus,
-.well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active,
-.site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
+/* line 52, ../sass/styles/_contrast-styles.scss */
+.well a:hover, .well a:focus, .well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active, .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 71, ../sass/styles/_contrast-styles.scss */
+/* line 56, ../sass/styles/_contrast-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 74, ../sass/styles/_contrast-styles.scss */
+/* line 59, ../sass/styles/_contrast-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 77, ../sass/styles/_contrast-styles.scss */
+/* line 62, ../sass/styles/_contrast-styles.scss */
 .site-footer a {
   color: #b3995d;
 }
 
-/* line 80, ../sass/styles/_contrast-styles.scss */
+/* line 65, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover, .site-footer a:focus, .site-footer a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 85, ../sass/styles/_contrast-styles.scss */
+/* line 69, ../sass/styles/_contrast-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 88, ../sass/styles/_contrast-styles.scss */
+/* line 72, ../sass/styles/_contrast-styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: white;
   background: #333333;
 }
 
-/* line 97, ../sass/styles/_contrast-styles.scss */
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+/* line 76, ../sass/styles/_contrast-styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
   color: #8c1515;
 }
 
-/* line 105, ../sass/styles/_contrast-styles.scss */
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret,
-.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+/* line 79, ../sass/styles/_contrast-styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
   border-bottom-color: #8c1515;
   border-top-color: #8c1515;
 }
