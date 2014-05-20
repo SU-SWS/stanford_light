@@ -21,7 +21,6 @@
 .navbar .nav > li > a {
 	padding: 0.5em 1em;
 	margin-right: 0.25em;
-	border-radius: 4px 4px 0 0;
 	text-transform: uppercase;
 }
 .navbar .nav > .active > a, 
@@ -48,7 +47,6 @@
 
 .well {
 	color: $clr-page-bkg;
-	border-radius: 8px
 }
 .well h2, .well h2 a,
 .well h2 a:hover, .well h2 a:focus {
