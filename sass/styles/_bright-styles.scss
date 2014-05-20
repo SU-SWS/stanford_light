@@ -21,6 +21,8 @@
 .navbar .nav > li > a {
 	padding: 0.5em 1em;
 	margin-right: 0.25em;
+	border-radius: 4px 4px 0 0;
+	text-transform: uppercase;
 }
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover, 
@@ -46,6 +48,7 @@
 
 .well {
 	color: $clr-page-bkg;
+	border-radius: 8px
 }
 .well h2, .well h2 a,
 .well h2 a:hover, .well h2 a:focus {
@@ -94,4 +97,8 @@
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
 	border-bottom-color: $clr-menu-text-hvr;
 	border-top-color: $clr-menu-text-hvr;
+}
+
+hr {
+	border-top: 1px solid $clr-hr;
 }

@@ -110,7 +110,7 @@ a.edit-link:hover, a.edit-link:focus,
 
 /* line 119, ../sass/styles/_styles.scss */
 .well {
-  background: #00505c;
+  background: #007c92;
 }
 
 /* line 126, ../sass/styles/_styles.scss */
@@ -231,9 +231,11 @@ a.edit-link:hover, a.edit-link:focus,
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
+  border-radius: 4px 4px 0 0;
+  text-transform: uppercase;
 }
 
-/* line 29, ../sass/styles/_bright-styles.scss */
+/* line 31, ../sass/styles/_bright-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -243,46 +245,47 @@ a.edit-link:hover, a.edit-link:focus,
 }
 
 @media (max-width: 767px) {
-  /* line 33, ../sass/styles/_bright-styles.scss */
+  /* line 35, ../sass/styles/_bright-styles.scss */
   .navbar .btn-navbar {
     border: 1px solid transparent;
     background: #007c92;
   }
 
-  /* line 37, ../sass/styles/_bright-styles.scss */
+  /* line 39, ../sass/styles/_bright-styles.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #53284f;
     border: 1px solid white;
   }
 }
-/* line 43, ../sass/styles/_bright-styles.scss */
+/* line 45, ../sass/styles/_bright-styles.scss */
 .main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
   text-decoration: underline;
 }
 
-/* line 47, ../sass/styles/_bright-styles.scss */
+/* line 49, ../sass/styles/_bright-styles.scss */
 .well {
   color: white;
+  border-radius: 8px;
 }
 
-/* line 51, ../sass/styles/_bright-styles.scss */
+/* line 54, ../sass/styles/_bright-styles.scss */
 .well h2, .well h2 a,
 .well h2 a:hover, .well h2 a:focus {
   color: white;
 }
 
-/* line 54, ../sass/styles/_bright-styles.scss */
+/* line 57, ../sass/styles/_bright-styles.scss */
 .well h2 a:hover, .well h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 58, ../sass/styles/_bright-styles.scss */
+/* line 61, ../sass/styles/_bright-styles.scss */
 .well a,
 .well .menu li a {
   color: #EAAB00;
 }
 
-/* line 63, ../sass/styles/_bright-styles.scss */
+/* line 66, ../sass/styles/_bright-styles.scss */
 .well a:hover, .well a:focus,
 .well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active,
 .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
@@ -290,39 +293,39 @@ a.edit-link:hover, a.edit-link:focus,
   text-decoration: underline;
 }
 
-/* line 68, ../sass/styles/_bright-styles.scss */
+/* line 71, ../sass/styles/_bright-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 71, ../sass/styles/_bright-styles.scss */
+/* line 74, ../sass/styles/_bright-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 74, ../sass/styles/_bright-styles.scss */
+/* line 77, ../sass/styles/_bright-styles.scss */
 .site-footer a {
   color: #EAAB00;
 }
 
-/* line 77, ../sass/styles/_bright-styles.scss */
+/* line 80, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover, .site-footer a:focus, .site-footer a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 82, ../sass/styles/_bright-styles.scss */
+/* line 85, ../sass/styles/_bright-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 85, ../sass/styles/_bright-styles.scss */
+/* line 88, ../sass/styles/_bright-styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: white;
   background: #53284f;
 }
 
-/* line 94, ../sass/styles/_bright-styles.scss */
+/* line 97, ../sass/styles/_bright-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -331,4 +334,9 @@ a.edit-link:hover, a.edit-link:focus,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
   border-bottom-color: #333333;
   border-top-color: #333333;
+}
+
+/* line 102, ../sass/styles/_bright-styles.scss */
+hr {
+  border-top: 1px solid #888888;
 }
