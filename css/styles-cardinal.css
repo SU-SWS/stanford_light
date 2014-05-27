@@ -251,61 +251,45 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   text-decoration: underline;
 }
 
-/* line 41, ../sass/styles/_cardinal-styles.scss */
-.well h2 a:hover, .well h2 a:focus {
-  text-decoration: underline;
-}
-
-/* line 44, ../sass/styles/_cardinal-styles.scss */
-.well a, .well .menu li a {
-  color: #EAAB00;
-}
-
-/* line 47, ../sass/styles/_cardinal-styles.scss */
-.well a:hover, .well a:focus, .well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active, .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
-  color: white;
-  text-decoration: underline;
-}
-
-/* line 51, ../sass/styles/_cardinal-styles.scss */
+/* line 40, ../sass/styles/_cardinal-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 54, ../sass/styles/_cardinal-styles.scss */
+/* line 43, ../sass/styles/_cardinal-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 57, ../sass/styles/_cardinal-styles.scss */
+/* line 46, ../sass/styles/_cardinal-styles.scss */
 .site-footer a {
   color: white;
 }
 
-/* line 60, ../sass/styles/_cardinal-styles.scss */
+/* line 49, ../sass/styles/_cardinal-styles.scss */
 .site-footer a:hover, .site-footer a:focus, .site-footer a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 64, ../sass/styles/_cardinal-styles.scss */
+/* line 53, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 67, ../sass/styles/_cardinal-styles.scss */
+/* line 56, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: white;
   background: #8c1515;
 }
 
-/* line 71, ../sass/styles/_cardinal-styles.scss */
+/* line 60, ../sass/styles/_cardinal-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
   border-bottom-color: #333333;
   border-top-color: #333333;
 }
 
-/* line 75, ../sass/styles/_cardinal-styles.scss */
+/* line 64, ../sass/styles/_cardinal-styles.scss */
 hr {
   border-top: 1px solid #f2f1eb;
 }

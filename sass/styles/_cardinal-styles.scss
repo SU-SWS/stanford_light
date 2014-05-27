@@ -37,17 +37,6 @@
 .main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
     text-decoration: underline;
 }
-
-.well h2 a:hover, .well h2 a:focus {
-    text-decoration: underline;
-}
-.well a, .well .menu li a {
-    color: #EAAB00;
-}
-.well a:hover, .well a:focus, .well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active, .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
-    color: $clr-page-bkg;
-    text-decoration: underline;
-}
 .site-footer {
     color: $clr-page-bkg;
 }
