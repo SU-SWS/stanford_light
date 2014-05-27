@@ -37,6 +37,9 @@
 .main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
     text-decoration: underline;
 }
+.main .border-simple-nowidth img, .main .border-simple img {
+    background-color: $clr-img-border;
+}
 .site-footer {
     color: $clr-page-bkg;
 }
