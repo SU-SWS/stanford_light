@@ -33,6 +33,9 @@ function stanford_light_preprocess_page(&$vars) {
   if ($styles == 'styles-contrast') {
   drupal_add_css(path_to_theme() . '/css/styles-contrast.css', array('group' => CSS_THEME, 'media' => 'all', 'weight' => 500, 'preprocess' => FALSE));
   }
+  if ($styles == 'styles-cardinal') {
+  drupal_add_css(path_to_theme() . '/css/styles-cardinal.css', array('group' => CSS_THEME, 'media' => 'all', 'weight' => 500, 'preprocess' => FALSE));
+  }
     
   // fonts variables
   if ($fonts == 'fonts-sans') {

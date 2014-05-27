@@ -21,6 +21,7 @@ function stanford_light_form_system_theme_settings_alter(&$form, &$form_state) {
 	  'styles-rich' => t('Rich'),
 	  'styles-bright' => t('Bright'),
 	  'styles-contrast' => t('High Contrast'),
+    'styles-cardinal' => t('Cardinal'),
     ),
   );
     
