@@ -197,14 +197,24 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   min-height: 250px;
 }
 
-/* line 34, ../sass/includes/_module-header-bkg-img.scss */
-.header-bkg.header-bkg-text-light .site-name a, .header-bkg.header-bkg-text-light .site-name a:hover, .header-bkg.header-bkg-text-light #site-slogan {
+/* line 39, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-text-light .site-name a,
+.header-bkg.header-bkg-text-light .site-name a:hover,
+.header-bkg.header-bkg-text-light .site-name a:active,
+.header-bkg.header-bkg-text-light #site-slogan,
+.header-bkg.header-bkg-text-light .site-login,
+.header-bkg.header-bkg-text-light .site-login a {
   color: white;
   text-shadow: 0 0 2px #333333;
 }
 
-/* line 38, ../sass/includes/_module-header-bkg-img.scss */
-.header-bkg.header-bkg-text-dark .site-name a, .header-bkg.header-bkg-text-dark .site-name a:hover, .header-bkg.header-bkg-text-dark #site-slogan {
+/* line 48, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-text-dark .site-name a,
+.header-bkg.header-bkg-text-dark .site-name a:hover,
+.header-bkg.header-bkg-text-dark .site-name a:active,
+.header-bkg.header-bkg-text-dark #site-slogan,
+.header-bkg.header-bkg-text-dark .site-login,
+.header-bkg.header-bkg-text-dark .site-login a {
   color: #333333;
   text-shadow: 0 0 2px white;
 }

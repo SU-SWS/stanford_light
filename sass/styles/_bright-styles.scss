@@ -1,8 +1,18 @@
 .header-bkg .site-main-menu {
     padding-top: 0px;
 }
-.site-name a, .site-name a:hover {
+.site-name a, 
+.site-name a:hover, 
+.site-name a:active {
     color: $clr-page-bkg;
+}
+.site-login, 
+.site-login a {
+    color: $clr-page-bkg;
+}
+.site-login a:hover, 
+.site-login a:active {
+    text-decoration: underline;
 }
 #site-slogan {
     color: $clr-page-bkg;
@@ -21,35 +31,65 @@
     margin-right: 0.25em;
     text-transform: uppercase;
 }
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus, 
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover {
     color: $clr-text;
+}
+.roundedcorners .navbar .nav > li > a {
+    border-radius: 5px 5px 0 0;
 }
 @media (max-width: 767px) {
     .navbar .btn-navbar {
         border: 1px solid transparent;
         background: $clr-link;
     }
-    .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    .navbar .btn-navbar:hover, 
+    .navbar .btn-navbar:focus, 
+    .navbar .btn-navbar:active, 
+    .navbar .btn-navbar.active, 
+    .navbar .btn-navbar.disabled, 
+    .navbar .btn-navbar[disabled] {
         background: $clr-header-bkg;
         border: 1px solid $clr-page-bkg;
     }
+    .roundedcorners .navbar .nav > li > a {
+        border-radius: 5px;
+        margin-right: 0;
+    }
 }
-.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
+.main .menu li a:hover, 
+.main .menu li a:focus, 
+.main .menu li a.active {
     text-decoration: underline;
 }
 .well {
     color: $clr-page-bkg;
 }
-.well h2, .well h2 a, .well h2 a:hover, .well h2 a:focus {
+.well h2, 
+.well h2 a, 
+.well h2 a:hover, 
+.well h2 a:focus {
     color: $clr-page-bkg;
 }
-.well h2 a:hover, .well h2 a:focus {
+.well h2 a:hover, 
+.well h2 a:focus {
     text-decoration: underline;
 }
-.well a, .well .menu li a {
+.well a, 
+.well .menu li a {
     color: #EAAB00;
 }
-.well a:hover, .well a:focus, .well .menu li a:hover, .well .menu li a:focus, .well .menu li a.active, .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active {
+.well a:hover, 
+.well a:focus, 
+.well .menu li a:hover, 
+.well .menu li a:focus, 
+.well .menu li a.active, 
+.site-footer .menu li a:hover, 
+.site-footer .menu li a:focus, 
+.site-footer .menu li a.active {
     color: $clr-page-bkg;
     text-decoration: underline;
 }
@@ -62,18 +102,28 @@
 .site-footer a {
     color: #EAAB00;
 }
-.site-footer a:hover, .site-footer a:focus, .site-footer a.active {
+.site-footer a:hover, 
+.site-footer a:focus, 
+.site-footer a.active {
     color: $clr-page-bkg;
     text-decoration: underline;
 }
 .dropdown-menu {
     background: $clr-page-bkg;
 }
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus, 
+.dropdown-submenu:hover > a, 
+.dropdown-submenu:focus > a {
     color: $clr-page-bkg;
     background: $clr-header-bkg;
 }
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
     border-bottom-color: $clr-menu-text-hvr;
     border-top-color: $clr-menu-text-hvr;
 }

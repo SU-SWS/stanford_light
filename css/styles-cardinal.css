@@ -85,7 +85,7 @@ a.btn, .btn a {
 /* line 73, ../sass/styles/_styles.scss */
 a.btn:hover, a.btn:focus, .btn a:hover, .btn a:focus {
   background: #333333;
-  color: #fbfbf9;
+  color: white;
 }
 
 /* line 77, ../sass/styles/_styles.scss */
@@ -101,7 +101,7 @@ a.more-link:hover, a.more-link:focus, .more-link a:hover, .more-link a:focus {
 /* line 85, ../sass/styles/_styles.scss */
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #333333;
-  color: #fbfbf9;
+  color: white;
 }
 
 /* line 93, ../sass/styles/_styles.scss */
@@ -172,23 +172,11 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 
 /* line 138, ../sass/styles/_styles.scss */
-.roundedcorners .navbar .nav > li > a {
-  border-radius: 5px 5px 0 0;
-}
-
-@media (max-width: 767px) {
-  /* line 142, ../sass/styles/_styles.scss */
-  .roundedcorners .navbar .nav > li > a {
-    border-radius: 5px;
-    margin-right: 0;
-  }
-}
-/* line 147, ../sass/styles/_styles.scss */
 .roundedcorners .well {
   border-radius: 5px;
 }
 
-/* line 150, ../sass/styles/_styles.scss */
+/* line 141, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: white;
   border-radius: 0;
@@ -199,102 +187,149 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   padding-top: 0px;
 }
 
-/* line 4, ../sass/styles/_cardinal-styles.scss */
-.site-name a, .site-name a:hover {
-  color: white;
-}
-
-/* line 7, ../sass/styles/_cardinal-styles.scss */
-#site-slogan {
+/* line 6, ../sass/styles/_cardinal-styles.scss */
+.site-name a,
+.site-name a:hover,
+.site-name a:active {
   color: white;
 }
 
 /* line 10, ../sass/styles/_cardinal-styles.scss */
+.site-login,
+.site-login a {
+  color: white;
+}
+
+/* line 14, ../sass/styles/_cardinal-styles.scss */
+.site-login a:hover,
+.site-login a:active {
+  text-decoration: underline;
+}
+
+/* line 17, ../sass/styles/_cardinal-styles.scss */
+#site-slogan {
+  color: white;
+}
+
+/* line 20, ../sass/styles/_cardinal-styles.scss */
 .site-main-menu {
   border-bottom: 0;
   background: #8c1515;
 }
 
 @media (min-width: 768px) {
-  /* line 15, ../sass/styles/_cardinal-styles.scss */
+  /* line 25, ../sass/styles/_cardinal-styles.scss */
   .navbar {
     margin-bottom: 0;
   }
 }
-/* line 19, ../sass/styles/_cardinal-styles.scss */
+/* line 29, ../sass/styles/_cardinal-styles.scss */
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
   text-transform: uppercase;
 }
 
-/* line 24, ../sass/styles/_cardinal-styles.scss */
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+/* line 38, ../sass/styles/_cardinal-styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
   color: #333333;
 }
 
-@media (max-width: 767px) {
-  /* line 28, ../sass/styles/_cardinal-styles.scss */
-  .navbar .btn-navbar {
-    background: #8c1515;
-    border: 1px solid transparent;
-  }
+/* line 41, ../sass/styles/_cardinal-styles.scss */
+.roundedcorners .navbar .nav > li > a {
+  border-radius: 5px 5px 0 0;
+}
 
-  /* line 32, ../sass/styles/_cardinal-styles.scss */
-  .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+@media (max-width: 767px) {
+  /* line 45, ../sass/styles/_cardinal-styles.scss */
+  .navbar .btn-navbar {
     background: #8c1515;
     border: 1px solid white;
   }
+
+  /* line 54, ../sass/styles/_cardinal-styles.scss */
+  .navbar .btn-navbar:hover,
+  .navbar .btn-navbar:focus,
+  .navbar .btn-navbar:active,
+  .navbar .btn-navbar.active,
+  .navbar .btn-navbar.disabled,
+  .navbar .btn-navbar[disabled] {
+    background: #333333;
+    border: 1px solid white;
+  }
+
+  /* line 58, ../sass/styles/_cardinal-styles.scss */
+  .roundedcorners .navbar .nav > li > a {
+    border-radius: 5px;
+    margin-right: 0;
+  }
 }
-/* line 37, ../sass/styles/_cardinal-styles.scss */
-.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active {
+/* line 65, ../sass/styles/_cardinal-styles.scss */
+.main .menu li a:hover,
+.main .menu li a:focus,
+.main .menu li a.active {
   text-decoration: underline;
 }
 
-/* line 40, ../sass/styles/_cardinal-styles.scss */
-.main .border-simple-nowidth img, .main .border-simple img {
+/* line 69, ../sass/styles/_cardinal-styles.scss */
+.main .border-simple-nowidth img,
+.main .border-simple img {
   background-color: #c4bfa9;
 }
 
-/* line 43, ../sass/styles/_cardinal-styles.scss */
+/* line 72, ../sass/styles/_cardinal-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 46, ../sass/styles/_cardinal-styles.scss */
+/* line 75, ../sass/styles/_cardinal-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 49, ../sass/styles/_cardinal-styles.scss */
+/* line 78, ../sass/styles/_cardinal-styles.scss */
 .site-footer a {
   color: white;
 }
 
-/* line 52, ../sass/styles/_cardinal-styles.scss */
-.site-footer a:hover, .site-footer a:focus, .site-footer a.active {
+/* line 83, ../sass/styles/_cardinal-styles.scss */
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer a.active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 56, ../sass/styles/_cardinal-styles.scss */
+/* line 87, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 59, ../sass/styles/_cardinal-styles.scss */
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+/* line 93, ../sass/styles/_cardinal-styles.scss */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
   color: white;
   background: #8c1515;
 }
 
-/* line 63, ../sass/styles/_cardinal-styles.scss */
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret, .navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+/* line 102, ../sass/styles/_cardinal-styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
   border-bottom-color: #333333;
   border-top-color: #333333;
 }
 
-/* line 67, ../sass/styles/_cardinal-styles.scss */
+/* line 106, ../sass/styles/_cardinal-styles.scss */
 hr {
   border-top: 1px solid #f2f1eb;
 }

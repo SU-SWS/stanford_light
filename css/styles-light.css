@@ -172,61 +172,61 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 
 /* line 138, ../sass/styles/_styles.scss */
-.roundedcorners .navbar .nav > li > a {
-  border-radius: 5px 5px 0 0;
-}
-
-@media (max-width: 767px) {
-  /* line 142, ../sass/styles/_styles.scss */
-  .roundedcorners .navbar .nav > li > a {
-    border-radius: 5px;
-    margin-right: 0;
-  }
-}
-/* line 147, ../sass/styles/_styles.scss */
 .roundedcorners .well {
   border-radius: 5px;
 }
 
-/* line 150, ../sass/styles/_styles.scss */
+/* line 141, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: #fbfbf9;
   border-radius: 0;
 }
 
-/* line 1, ../sass/styles/_light-styles.scss */
-a:hover, a:focus {
+/* line 2, ../sass/styles/_light-styles.scss */
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
-/* line 4, ../sass/styles/_light-styles.scss */
+/* line 5, ../sass/styles/_light-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
 }
 
-/* line 7, ../sass/styles/_light-styles.scss */
+/* line 8, ../sass/styles/_light-styles.scss */
 .header-bkg .site-main-menu {
   border-top: 1px solid #e9e6df;
 }
 
-/* line 10, ../sass/styles/_light-styles.scss */
+/* line 11, ../sass/styles/_light-styles.scss */
 .navbar .nav > li > a {
   padding-bottom: .25em;
   border-bottom: 5px solid transparent;
 }
 
-/* line 14, ../sass/styles/_light-styles.scss */
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+/* line 19, ../sass/styles/_light-styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
   border-bottom: 5px solid #e9e6df;
 }
 
 @media (max-width: 767px) {
-  /* line 18, ../sass/styles/_light-styles.scss */
+  /* line 23, ../sass/styles/_light-styles.scss */
   .navbar {
     margin-top: 0;
   }
 }
-/* line 22, ../sass/styles/_light-styles.scss */
-.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active, .main .menu li a.active-trail, .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active, .site-footer .menu li a.active-trail {
+/* line 34, ../sass/styles/_light-styles.scss */
+.main .menu li a:hover,
+.main .menu li a:focus,
+.main .menu li a.active,
+.main .menu li a.active-trail,
+.site-footer .menu li a:hover,
+.site-footer .menu li a:focus,
+.site-footer .menu li a.active,
+.site-footer .menu li a.active-trail {
   text-decoration: underline;
 }

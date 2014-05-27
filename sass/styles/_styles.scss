@@ -135,15 +135,6 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 .borders .sidebar .region, .borders .content-wrapper, .bodybg.borders .breadcrumb {
     border: 1px solid $clr-header-bkg;
 }
-.roundedcorners .navbar .nav > li > a {
-    border-radius: 5px 5px 0 0;
-}
-@media (max-width: 767px) {
-    .roundedcorners .navbar .nav > li > a {
-        border-radius: 5px;
-        margin-right: 0;
-    }
-}
 .roundedcorners .well {
     border-radius: 5px;
 }
