@@ -493,3 +493,8 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   border-bottom-color: #fff;
   border-top-color: #fff;
 }
+
+/* line 1, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-webauth h2 {
+  display: none;
+}
