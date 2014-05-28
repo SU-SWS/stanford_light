@@ -123,19 +123,20 @@ a.edit-link, .edit-link a {
   padding: 0.5em 1em;
   border: 1px solid #cccccc;
   font-size: .8em;
+  text-decoration: none;
 }
 
-/* line 117, ../sass/includes/_base.scss */
+/* line 118, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 122, ../sass/includes/_base.scss */
+/* line 123, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 125, ../sass/includes/_base.scss */
+/* line 126, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;

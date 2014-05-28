@@ -113,6 +113,7 @@ a.edit-link, .edit-link a {
     padding: 0.5em 1em;
     border: 1px solid $clr-gray;
     font-size: .8em;
+    text-decoration: none;
 }
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     background: $clr-gray-light;
