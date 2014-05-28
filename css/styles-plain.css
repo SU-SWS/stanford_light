@@ -181,3 +181,8 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background-color: white;
   border-radius: 0;
 }
+
+/* line 145, ../sass/styles/_styles.scss */
+.bean-stanford-social-media-connect a {
+  opacity: 0.75;
+}

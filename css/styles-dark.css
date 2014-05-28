@@ -182,6 +182,11 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   border-radius: 0;
 }
 
+/* line 145, ../sass/styles/_styles.scss */
+.bean-stanford-social-media-connect a {
+  opacity: 0.75;
+}
+
 /* line 1, ../sass/styles/_dark-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;

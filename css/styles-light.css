@@ -182,6 +182,11 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   border-radius: 0;
 }
 
+/* line 145, ../sass/styles/_styles.scss */
+.bean-stanford-social-media-connect a {
+  opacity: 0.75;
+}
+
 /* line 2, ../sass/styles/_light-styles.scss */
 a:hover,
 a:focus {
