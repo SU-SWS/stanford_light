@@ -285,7 +285,12 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   color: white;
 }
 
-/* line 74, ../sass/styles/_bright-styles.scss */
+/* line 71, ../sass/styles/_bright-styles.scss */
+.well .caption {
+  color: #d9d9d9;
+}
+
+/* line 77, ../sass/styles/_bright-styles.scss */
 .well h2,
 .well h2 a,
 .well h2 a:hover,
@@ -293,19 +298,19 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   color: white;
 }
 
-/* line 78, ../sass/styles/_bright-styles.scss */
+/* line 81, ../sass/styles/_bright-styles.scss */
 .well h2 a:hover,
 .well h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 82, ../sass/styles/_bright-styles.scss */
+/* line 85, ../sass/styles/_bright-styles.scss */
 .well a,
 .well .menu li a {
   color: #EAAB00;
 }
 
-/* line 92, ../sass/styles/_bright-styles.scss */
+/* line 95, ../sass/styles/_bright-styles.scss */
 .well a:hover,
 .well a:focus,
 .well .menu li a:hover,
@@ -318,22 +323,22 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   text-decoration: underline;
 }
 
-/* line 96, ../sass/styles/_bright-styles.scss */
+/* line 99, ../sass/styles/_bright-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 99, ../sass/styles/_bright-styles.scss */
+/* line 102, ../sass/styles/_bright-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 102, ../sass/styles/_bright-styles.scss */
+/* line 105, ../sass/styles/_bright-styles.scss */
 .site-footer a {
   color: #EAAB00;
 }
 
-/* line 107, ../sass/styles/_bright-styles.scss */
+/* line 110, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -341,12 +346,12 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   text-decoration: underline;
 }
 
-/* line 111, ../sass/styles/_bright-styles.scss */
+/* line 114, ../sass/styles/_bright-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 117, ../sass/styles/_bright-styles.scss */
+/* line 120, ../sass/styles/_bright-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -355,7 +360,7 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #53284f;
 }
 
-/* line 126, ../sass/styles/_bright-styles.scss */
+/* line 129, ../sass/styles/_bright-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -366,7 +371,7 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   border-top-color: #333333;
 }
 
-/* line 130, ../sass/styles/_bright-styles.scss */
+/* line 133, ../sass/styles/_bright-styles.scss */
 hr {
   border-top: 1px solid #888888;
 }

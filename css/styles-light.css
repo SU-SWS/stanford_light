@@ -235,3 +235,8 @@ a:focus {
 .site-footer .menu li a.active-trail {
   text-decoration: underline;
 }
+
+/* line 37, ../sass/styles/_light-styles.scss */
+.well .caption {
+  color: #6a655c;
+}

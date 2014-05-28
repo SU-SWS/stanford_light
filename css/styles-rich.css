@@ -243,3 +243,7 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     background: #5e3032;
   }
 }
+/* line 40, ../sass/styles/_rich-styles.scss */
+.well .caption {
+  color: #474640;
+}

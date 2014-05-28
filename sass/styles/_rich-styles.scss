@@ -37,3 +37,6 @@
         background: $clr-footer-bkg;
     }
 }
+.well .caption {
+    color: darken( $clr-icons, 25% );
+}

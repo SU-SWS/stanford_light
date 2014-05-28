@@ -34,3 +34,6 @@ a:focus {
 .site-footer .menu li a.active-trail {
     text-decoration: underline;
 }
+.well .caption {
+    color: darken( $clr-icons, 15% );
+}

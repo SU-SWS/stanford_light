@@ -69,6 +69,9 @@ a:focus {
 .well {
     color: $clr-page-bkg;
 }
+.well .caption {
+    color: darken( $clr-page-bkg, 15% );
+}
 .well h2, 
 .well h2 a, 
 .well h2 a:hover, 

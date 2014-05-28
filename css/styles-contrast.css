@@ -288,7 +288,12 @@ a:focus {
   color: white;
 }
 
-/* line 75, ../sass/styles/_contrast-styles.scss */
+/* line 72, ../sass/styles/_contrast-styles.scss */
+.well .caption {
+  color: #d9d9d9;
+}
+
+/* line 78, ../sass/styles/_contrast-styles.scss */
 .well h2,
 .well h2 a,
 .well h2 a:hover,
@@ -296,19 +301,19 @@ a:focus {
   color: white;
 }
 
-/* line 79, ../sass/styles/_contrast-styles.scss */
+/* line 82, ../sass/styles/_contrast-styles.scss */
 .well h2 a:hover,
 .well h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 83, ../sass/styles/_contrast-styles.scss */
+/* line 86, ../sass/styles/_contrast-styles.scss */
 .well a,
 .well .menu li a {
   color: #b3995d;
 }
 
-/* line 93, ../sass/styles/_contrast-styles.scss */
+/* line 96, ../sass/styles/_contrast-styles.scss */
 .well a:hover,
 .well a:focus,
 .well .menu li a:hover,
@@ -321,22 +326,22 @@ a:focus {
   text-decoration: underline;
 }
 
-/* line 97, ../sass/styles/_contrast-styles.scss */
+/* line 100, ../sass/styles/_contrast-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 100, ../sass/styles/_contrast-styles.scss */
+/* line 103, ../sass/styles/_contrast-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 103, ../sass/styles/_contrast-styles.scss */
+/* line 106, ../sass/styles/_contrast-styles.scss */
 .site-footer a {
   color: #b3995d;
 }
 
-/* line 108, ../sass/styles/_contrast-styles.scss */
+/* line 111, ../sass/styles/_contrast-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -344,12 +349,12 @@ a:focus {
   text-decoration: underline;
 }
 
-/* line 112, ../sass/styles/_contrast-styles.scss */
+/* line 115, ../sass/styles/_contrast-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 118, ../sass/styles/_contrast-styles.scss */
+/* line 121, ../sass/styles/_contrast-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -358,7 +363,7 @@ a:focus {
   background: #333333;
 }
 
-/* line 127, ../sass/styles/_contrast-styles.scss */
+/* line 130, ../sass/styles/_contrast-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.open > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
@@ -368,7 +373,7 @@ a:focus {
   color: #8c1515;
 }
 
-/* line 135, ../sass/styles/_contrast-styles.scss */
+/* line 138, ../sass/styles/_contrast-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,

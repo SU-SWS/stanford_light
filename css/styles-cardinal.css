@@ -287,21 +287,26 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 
 /* line 72, ../sass/styles/_cardinal-styles.scss */
+.well .caption {
+  color: #a59d7c;
+}
+
+/* line 75, ../sass/styles/_cardinal-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 75, ../sass/styles/_cardinal-styles.scss */
+/* line 78, ../sass/styles/_cardinal-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 78, ../sass/styles/_cardinal-styles.scss */
+/* line 81, ../sass/styles/_cardinal-styles.scss */
 .site-footer a {
   color: white;
 }
 
-/* line 83, ../sass/styles/_cardinal-styles.scss */
+/* line 86, ../sass/styles/_cardinal-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -309,12 +314,12 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   text-decoration: underline;
 }
 
-/* line 87, ../sass/styles/_cardinal-styles.scss */
+/* line 90, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 93, ../sass/styles/_cardinal-styles.scss */
+/* line 96, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -323,7 +328,7 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #8c1515;
 }
 
-/* line 102, ../sass/styles/_cardinal-styles.scss */
+/* line 105, ../sass/styles/_cardinal-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -334,7 +339,7 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   border-top-color: #333333;
 }
 
-/* line 106, ../sass/styles/_cardinal-styles.scss */
+/* line 109, ../sass/styles/_cardinal-styles.scss */
 hr {
   border-top: 1px solid #f2f1eb;
 }
