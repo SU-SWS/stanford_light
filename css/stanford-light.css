@@ -494,7 +494,77 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   border-top-color: #fff;
 }
 
-/* line 1, ../sass/includes/_module-site-login.scss */
+/* WebAuth Authentication */
+/* line 2, ../sass/includes/_module-site-login.scss */
 .region-site-login .block-webauth h2 {
   display: none;
+}
+
+/* User Login */
+/* line 6, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-user {
+  display: table;
+  float: right;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* line 12, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-user h2 {
+  display: none;
+}
+
+/* line 15, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-user form {
+  display: table-row;
+}
+
+/* line 18, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-user .form-item {
+  display: table-cell;
+  padding-right: 10px;
+}
+
+/* line 22, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-user .form-item input {
+  width: 120px;
+}
+
+/* line 25, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-user .item-list {
+  display: none;
+}
+
+/* line 28, ../sass/includes/_module-site-login.scss */
+.region-site-login .block-user .form-actions {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+@media (max-width: 480px) {
+  /* line 34, ../sass/includes/_module-site-login.scss */
+  .region-site-login .block-user {
+    display: block;
+    float: none;
+  }
+
+  /* line 35, ../sass/includes/_module-site-login.scss */
+  .region-site-login .block-user form {
+    display: block;
+  }
+
+  /* line 36, ../sass/includes/_module-site-login.scss */
+  .region-site-login .block-user .form-item {
+    display: block;
+  }
+
+  /* line 37, ../sass/includes/_module-site-login.scss */
+  .region-site-login .block-user .form-item input {
+    width: 100%;
+  }
+
+  /* line 40, ../sass/includes/_module-site-login.scss */
+  .region-site-login .block-user .form-actions {
+    display: block;
+  }
 }
