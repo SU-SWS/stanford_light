@@ -23,19 +23,27 @@
     width: 120px;
 }
 .region-site-login .block-user .item-list {
-display: none;
+    display: none;
 }
 .region-site-login .block-user .form-actions {
     display: table-cell;
     vertical-align: bottom;
 }
-
 @media (max-width: 480px) {
- .region-site-login .block-user {display: block; float: none;}
- .region-site-login .block-user form {display: block;}
- .region-site-login .block-user .form-item {display: block;}
- .region-site-login .block-user .form-item input {
-    width: 100%;
-}
- .region-site-login .block-user .form-actions {display: block;}
+    .region-site-login .block-user {
+        display: block;
+        float: none;
+    }
+    .region-site-login .block-user form {
+        display: block;
+    }
+    .region-site-login .block-user .form-item {
+        display: block;
+    }
+    .region-site-login .block-user .form-item input {
+        width: 100%;
+    }
+    .region-site-login .block-user .form-actions {
+        display: block;
+    }
 }

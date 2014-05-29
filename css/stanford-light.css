@@ -543,29 +543,56 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 
 @media (max-width: 480px) {
-  /* line 34, ../sass/includes/_module-site-login.scss */
+  /* line 33, ../sass/includes/_module-site-login.scss */
   .region-site-login .block-user {
     display: block;
     float: none;
   }
 
-  /* line 35, ../sass/includes/_module-site-login.scss */
+  /* line 37, ../sass/includes/_module-site-login.scss */
   .region-site-login .block-user form {
     display: block;
   }
 
-  /* line 36, ../sass/includes/_module-site-login.scss */
+  /* line 40, ../sass/includes/_module-site-login.scss */
   .region-site-login .block-user .form-item {
     display: block;
   }
 
-  /* line 37, ../sass/includes/_module-site-login.scss */
+  /* line 43, ../sass/includes/_module-site-login.scss */
   .region-site-login .block-user .form-item input {
     width: 100%;
   }
 
-  /* line 40, ../sass/includes/_module-site-login.scss */
+  /* line 46, ../sass/includes/_module-site-login.scss */
   .region-site-login .block-user .form-actions {
     display: block;
   }
+}
+/* ----- Sticky Global Footer --------------- */
+/* line 2, ../sass/includes/_module-sticky-footer.scss */
+html, body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+/* line 7, ../sass/includes/_module-sticky-footer.scss */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -90px auto;
+}
+
+/* Set the fixed height of the push div */
+/* line 15, ../sass/includes/_module-sticky-footer.scss */
+#push {
+  height: 90px;
+}
+
+/* line 18, ../sass/includes/_module-sticky-footer.scss */
+body.admin-menu {
+  height: calc(100% - 28px);
 }
