@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,400italic,300italic);
-/* line 1, ../sass/fonts/_sans-styles.scss */
+/* line 1, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
@@ -7,13 +7,13 @@ body {
   line-height: 1.4em;
 }
 
-/* line 7, ../sass/fonts/_sans-styles.scss */
+/* line 7, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
-/* line 11, ../sass/fonts/_sans-styles.scss */
+/* line 11, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 h1 {
   font-weight: 300;
   letter-spacing: -0.04em;
@@ -21,7 +21,7 @@ h1 {
   line-height: 1.3em;
 }
 
-/* line 17, ../sass/fonts/_sans-styles.scss */
+/* line 17, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 h2 {
   font-size: 1.8em;
   letter-spacing: -0.02em;
@@ -29,7 +29,7 @@ h2 {
   margin: 0.7em 0 0.5em;
 }
 
-/* line 23, ../sass/fonts/_sans-styles.scss */
+/* line 23, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 h3 {
   font-size: 1.3em;
   font-weight: 600;
@@ -37,7 +37,7 @@ h3 {
   margin: 0.9em 0 0.5em;
 }
 
-/* line 29, ../sass/fonts/_sans-styles.scss */
+/* line 29, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 h4 {
   font-size: 1.1em;
   font-weight: 600;
@@ -45,73 +45,73 @@ h4 {
   margin: 1em 0 .5em;
 }
 
-/* line 41, ../sass/fonts/_sans-styles.scss */
+/* line 41, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .site-name {
   font-size: 3.5em;
 }
 
-/* line 44, ../sass/fonts/_sans-styles.scss */
+/* line 44, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .site-name a, .site-name a:hover {
   font-weight: 300;
   letter-spacing: -0.04em;
 }
 
-/* line 48, ../sass/fonts/_sans-styles.scss */
+/* line 48, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 #site-slogan {
   font-size: 1.3em;
   font-weight: 400;
 }
 
-/* line 52, ../sass/fonts/_sans-styles.scss */
+/* line 52, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .summary {
   font-size: 1.3em;
 }
 
-/* line 55, ../sass/fonts/_sans-styles.scss */
+/* line 55, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .descriptor {
   font-size: .8em;
 }
 
-/* line 58, ../sass/fonts/_sans-styles.scss */
+/* line 58, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .credits {
   font-size: .8em;
   letter-spacing: 0.02em;
 }
 
-/* line 62, ../sass/fonts/_sans-styles.scss */
+/* line 62, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .caption {
   font-size: .8em;
 }
 
-/* line 67, ../sass/fonts/_sans-styles.scss */
+/* line 67, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 a {
   font-weight: 600;
 }
 
-/* line 72, ../sass/fonts/_sans-styles.scss */
+/* line 72, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 a.btn, .btn a {
   font-weight: 400;
   font-size: inherit;
 }
 
-/* line 78, ../sass/fonts/_sans-styles.scss */
+/* line 78, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 a.more-link, .more-link a {
   font-weight: 600;
   font-size: 16px;
 }
 
-/* line 94, ../sass/fonts/_sans-styles.scss */
+/* line 94, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .block.well h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
 
-/* line 98, ../sass/fonts/_sans-styles.scss */
+/* line 98, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 #footer .block {
   font-size: 14px;
 }
 
-/* line 101, ../sass/fonts/_sans-styles.scss */
+/* line 101, C:/wamp/www/d7/stanford/sites/all/themes/stanford_light/sass/fonts/_sans-styles.scss */
 .navbar .nav > li > a {
   font-size: 1.2em;
   font-weight: 600;
