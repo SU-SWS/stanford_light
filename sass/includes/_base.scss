@@ -27,11 +27,7 @@ body {
     margin: 0;
 }
 .mc-content {
-    padding: 0 1%;
     @include box-sizing(border-box);
-    @media (max-width: 767px) {
-        padding: 0;
-    }
 }
 .site-footer {
     margin: 0;
