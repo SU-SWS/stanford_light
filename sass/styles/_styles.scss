@@ -94,6 +94,13 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 .block.well h2 {
 }
+.banner-overlay > div {
+    background: $clr-well-bkg;
+    background: rgba($clr-well-bkg, 0.8);
+}
+.banner-overlay h2, .banner-overlay p, .banner-overlay-caption {
+    color: $clr-text;
+}
 .navbar .nav > li > a {
     color: $clr-menu-text;
     background: $clr-menu-bkg;

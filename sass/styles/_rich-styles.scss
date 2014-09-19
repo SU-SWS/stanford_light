@@ -15,6 +15,10 @@
 .navbar .nav > li > a:hover {
     border-bottom: 5px solid $clr-menu-link-border;
 }
+.well a, 
+.well .menu li a {
+    color: #5e4a1b;
+}
 .site-footer {
     color: $clr-page-bkg;
 }

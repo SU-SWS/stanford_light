@@ -71,7 +71,9 @@
 .well .caption {
     color: darken( $clr-page-bkg, 15% );
 }
-.well h2, 
+.well h2,
+.well h3,
+.well h4, 
 .well h2 a, 
 .well h2 a:hover, 
 .well h2 a:focus {
@@ -83,7 +85,7 @@
 }
 .well a, 
 .well .menu li a {
-    color: #EAAB00;
+    color: #ffce49;
 }
 .well a:hover, 
 .well a:focus, 
