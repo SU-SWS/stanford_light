@@ -207,6 +207,30 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #d5d0c0;
 }
 
+/* line 160, ../sass/styles/_styles.scss */
+.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main {
+  color: #fbfbf9;
+  /* page background color */
+}
+
+/* line 163, ../sass/styles/_styles.scss */
+.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main a {
+  color: #fbfbf9;
+  /* well link color */
+}
+
+/* line 166, ../sass/styles/_styles.scss */
+.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well {
+  color: #3f3c30;
+  /* well text color */
+}
+
+/* line 169, ../sass/styles/_styles.scss */
+.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well a {
+  color: #8f7029;
+  /* well link color */
+}
+
 /* line 1, ../sass/styles/_rich-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
