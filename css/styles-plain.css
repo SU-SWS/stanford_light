@@ -1,203 +1,203 @@
-/* line 1, ../sass/styles/_styles.scss */
+/* line 1, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 body {
   color: #333333;
   background: white;
 }
 
-/* line 5, ../sass/styles/_styles.scss */
+/* line 5, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .header {
   background: white;
 }
 
-/* line 8, ../sass/styles/_styles.scss */
+/* line 8, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .site-main-menu {
   background: white;
   border-bottom: 1px solid transparent;
 }
 
-/* line 12, ../sass/styles/_styles.scss */
+/* line 12, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .main {
   background: white;
 }
 
-/* line 15, ../sass/styles/_styles.scss */
+/* line 15, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .bodybg .main {
   background: transparent;
 }
 
-/* line 18, ../sass/styles/_styles.scss */
+/* line 18, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .site-footer {
   background: white;
 }
 
-/* line 21, ../sass/styles/_styles.scss */
+/* line 21, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #333333;
 }
 
-/* line 24, ../sass/styles/_styles.scss */
+/* line 24, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 h1 {
   color: #333333;
 }
 
-/* line 27, ../sass/styles/_styles.scss */
+/* line 27, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 h2, h2 a, h2 a:hover, h2 a:focus {
   color: #333333;
 }
 
-/* line 30, ../sass/styles/_styles.scss */
+/* line 30, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 h2 a:hover, h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 45, ../sass/styles/_styles.scss */
+/* line 45, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .site-name a, .site-name a:hover {
   color: #333333;
 }
 
-/* line 48, ../sass/styles/_styles.scss */
+/* line 48, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 #site-slogan {
   color: #333333;
 }
 
-/* line 57, ../sass/styles/_styles.scss */
+/* line 57, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .caption {
   color: #888888;
 }
 
-/* line 62, ../sass/styles/_styles.scss */
+/* line 62, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 a {
   color: #8c1515;
 }
 
-/* line 65, ../sass/styles/_styles.scss */
+/* line 65, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 a:hover, a:focus {
   color: #333333;
 }
 
-/* line 68, ../sass/styles/_styles.scss */
+/* line 68, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 a.btn, .btn a {
   background: #8c1515;
   color: white;
 }
 
-/* line 72, ../sass/styles/_styles.scss */
+/* line 72, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 a.btn:hover, a.btn:focus, .btn a:hover, .btn a:focus {
   background: #333333;
   color: white;
 }
 
-/* line 76, ../sass/styles/_styles.scss */
+/* line 76, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 a.more-link, .more-link a {
   color: #8c1515;
 }
 
-/* line 79, ../sass/styles/_styles.scss */
+/* line 79, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 a.more-link:hover, a.more-link:focus, .more-link a:hover, .more-link a:focus {
   color: #333333;
 }
 
-/* line 84, ../sass/styles/_styles.scss */
+/* line 84, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #333333;
   color: white;
 }
 
-/* line 92, ../sass/styles/_styles.scss */
+/* line 92, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .well {
   background: #e9e9e9;
 }
 
-/* line 97, ../sass/styles/_styles.scss */
+/* line 97, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .banner-overlay > div {
   background: #e9e9e9;
   background: rgba(233, 233, 233, 0.8);
 }
 
-/* line 101, ../sass/styles/_styles.scss */
+/* line 101, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .banner-overlay h2, .banner-overlay p, .banner-overlay-caption {
   color: #333333;
 }
 
-/* line 104, ../sass/styles/_styles.scss */
+/* line 104, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .navbar .nav > li > a {
   color: #686868;
   background: transparent;
 }
 
-/* line 108, ../sass/styles/_styles.scss */
+/* line 108, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   color: #333333;
   background: transparent;
 }
 
-/* line 112, ../sass/styles/_styles.scss */
+/* line 112, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
   color: #333333;
 }
 
-/* line 115, ../sass/styles/_styles.scss */
+/* line 115, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .dropdown-menu {
   background: white;
   border: 1px solid transparent;
 }
 
-/* line 119, ../sass/styles/_styles.scss */
+/* line 119, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background: transparent;
   color: #686868;
 }
 
-/* line 123, ../sass/styles/_styles.scss */
+/* line 123, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
   color: #333333;
   background: transparent;
 }
 
-/* line 127, ../sass/styles/_styles.scss */
+/* line 127, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: #686868;
   border-top-color: #686868;
 }
 
-/* line 131, ../sass/styles/_styles.scss */
+/* line 131, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: white;
   background: #333333;
 }
 
-/* line 135, ../sass/styles/_styles.scss */
+/* line 135, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .bodybg .sidebar .region, .bodybg .content-wrapper {
   background-color: white;
 }
 
-/* line 138, ../sass/styles/_styles.scss */
+/* line 138, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .bodybg .sidebar .region {
   opacity: 1;
 }
 
-/* line 141, ../sass/styles/_styles.scss */
+/* line 141, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .borders .sidebar .region, .borders .content-wrapper, .bodybg.borders .breadcrumb {
   border: 1px solid white;
 }
 
-/* line 144, ../sass/styles/_styles.scss */
+/* line 144, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .roundedcorners .well {
   border-radius: 5px;
 }
 
-/* line 147, ../sass/styles/_styles.scss */
+/* line 147, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .breadcrumb {
   background-color: white;
   border-radius: 0;
 }
 
-/* line 151, ../sass/styles/_styles.scss */
+/* line 151, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .bean-stanford-social-media-connect a {
   opacity: 0.75;
 }
 
-/* line 154, ../sass/styles/_styles.scss */
+/* line 154, /Applications/MAMP/htdocs/d7/themes/stanford_light/sass/styles/_styles.scss */
 .site-footer {
   border-top: 1px solid transparent;
 }
