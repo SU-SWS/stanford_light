@@ -191,6 +191,23 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     max-width: 100%;
   }
 }
+/* line 166, ../sass/includes/_base.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+  border: 0;
+  background: transparent;
+}
+
+/* line 170, ../sass/includes/_base.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
+  padding: 0.5em;
+}
+
+/* line 173, ../sass/includes/_base.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
 /* line 1, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-image .header {
   min-height: 100px;

@@ -154,3 +154,6 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 .site-footer {
     border-top: 1px solid $clr-line;
 }
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
+    background: $clr-line;
+}
