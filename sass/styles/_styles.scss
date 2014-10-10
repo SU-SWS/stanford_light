@@ -154,18 +154,18 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 .site-footer {
     border-top: 1px solid $clr-line;
 }
-.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
-    background: $clr-line;
+.front.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
+    background: $clr-page-bkg;
 }
-.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main {
+.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main {
     color: $clr-page-bkg; /* page background color */
 }
-.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main a {
+.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main a {
     color: $clr-page-bkg; /* well link color */
 }
-.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well {
+.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well {
     color: $clr-text; /* well text color */
 }
-.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well a {
+.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well a {
     color: $clr-link; /* well link color */
 }
