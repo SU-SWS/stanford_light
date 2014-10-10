@@ -81,7 +81,7 @@
 
 /* line 83, ../sass/includes/_base.scss */
 .quote {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.5em;
   quotes: '\201c' '\201d';
 }
@@ -101,7 +101,7 @@ blockquote.quote {
 
 /* line 97, ../sass/includes/_base.scss */
 blockquote p {
-  font-size: 24px;
+  font-size: 20.8px;
   line-height: 1.5em;
   margin-bottom: 1em;
 }
