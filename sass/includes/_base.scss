@@ -189,6 +189,9 @@ a.edit-link, .edit-link a {
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     background: $clr-gray-light;
 }
+a.btn.btn-red, .btn.btn-red a {
+    background: $clr-cardinal;
+}
 a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus { 
     background-image: url("../../images/btn-arrow-left.png"); 
     background-position: 10px center; 

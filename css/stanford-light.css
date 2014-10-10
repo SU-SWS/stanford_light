@@ -229,6 +229,11 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 
 /* line 192, ../sass/includes/_base.scss */
+a.btn.btn-red, .btn.btn-red a {
+  background: #8c1515;
+}
+
+/* line 195, ../sass/includes/_base.scss */
 a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   background-image: url("../../images/btn-arrow-left.png");
   background-position: 10px center;
@@ -237,7 +242,7 @@ a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   text-align: right;
 }
 
-/* line 199, ../sass/includes/_base.scss */
+/* line 202, ../sass/includes/_base.scss */
 a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
   background-image: url("../../images/btn-arrow-right.png");
   background-position: 93% center;
@@ -247,12 +252,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   text-align: left;
 }
 
-/* line 210, ../sass/includes/_base.scss */
+/* line 213, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 213, ../sass/includes/_base.scss */
+/* line 216, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -265,13 +270,13 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   box-shadow: none;
 }
 
-/* line 221, ../sass/includes/_base.scss */
+/* line 224, ../sass/includes/_base.scss */
 .banner-overlay {
   height: auto;
   position: absolute;
 }
 
-/* line 225, ../sass/includes/_base.scss */
+/* line 228, ../sass/includes/_base.scss */
 .banner-overlay > div {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
   color: #F2F1EB;
@@ -282,19 +287,19 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   top: -170px;
 }
 
-/* line 234, ../sass/includes/_base.scss */
+/* line 237, ../sass/includes/_base.scss */
 .banner-overlay p {
   display: inline;
   margin-right: 15px;
   font-size: 14px;
 }
 
-/* line 239, ../sass/includes/_base.scss */
+/* line 242, ../sass/includes/_base.scss */
 .banner-overlay h2, .banner-overlay h3, .banner-overlay h4 {
   margin-top: 0;
 }
 
-/* line 242, ../sass/includes/_base.scss */
+/* line 245, ../sass/includes/_base.scss */
 .banner-overlay-caption {
   font-size: 16px;
   line-height: 1em;
@@ -302,12 +307,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 }
 
 @media (max-width: 480px) {
-  /* line 248, ../sass/includes/_base.scss */
+  /* line 251, ../sass/includes/_base.scss */
   .banner-overlay {
     position: inherit;
   }
 
-  /* line 251, ../sass/includes/_base.scss */
+  /* line 254, ../sass/includes/_base.scss */
   .banner-overlay > div {
     position: inherit;
     margin: 0px;
