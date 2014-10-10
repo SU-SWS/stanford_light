@@ -139,6 +139,21 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
     top: 20px;
 }
 
+.big-text {
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1.1em;
+    margin-bottom: 0.5em;
+}
+.infotext {
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1em;
+    margin-bottom: 0;
+    letter-spacing: -0.05em;
+}
+
 a {
 }
 a:hover, a:focus {
