@@ -49,3 +49,14 @@
     color: $clr-dark;
     text-shadow: 0 0 2px $clr-light;
 }
+.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+    border: 0;
+    background: transparent;
+}
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
+    padding: 0.75em 1em;
+}
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
+    border-bottom: 0;
+    padding-bottom: 0;
+}

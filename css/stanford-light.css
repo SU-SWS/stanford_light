@@ -191,23 +191,6 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     max-width: 100%;
   }
 }
-/* line 166, ../sass/includes/_base.scss */
-.header-bkg.header-bkg-style-frontbleed .site-main-menu {
-  border: 0;
-  background: transparent;
-}
-
-/* line 170, ../sass/includes/_base.scss */
-.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
-  padding: 0.75em 1em;
-}
-
-/* line 173, ../sass/includes/_base.scss */
-.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-
 /* line 1, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-image .header {
   min-height: 100px;
@@ -277,6 +260,23 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 .header-bkg.header-bkg-text-dark .site-login a {
   color: #333333;
   text-shadow: 0 0 2px white;
+}
+
+/* line 52, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+  border: 0;
+  background: transparent;
+}
+
+/* line 56, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
+  padding: 0.75em 1em;
+}
+
+/* line 59, ../sass/includes/_module-header-bkg-img.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* line 1, ../sass/includes/_module-navbar.scss */
