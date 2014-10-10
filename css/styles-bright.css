@@ -66,12 +66,12 @@ h2 a:hover, h2 a:focus {
 }
 
 /* line 62, ../sass/styles/_styles.scss */
-a {
+a, .normal-link a {
   color: #007c92;
 }
 
 /* line 65, ../sass/styles/_styles.scss */
-a:hover, a:focus {
+a:hover, a:focus, .normal-link a:hover, .normal-link a:focus {
   color: #333333;
 }
 

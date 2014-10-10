@@ -66,12 +66,12 @@ h2 a:hover, h2 a:focus {
 }
 
 /* line 62, ../sass/styles/_styles.scss */
-a {
+a, .normal-link a {
   color: #8f7029;
 }
 
 /* line 65, ../sass/styles/_styles.scss */
-a:hover, a:focus {
+a:hover, a:focus, .normal-link a:hover, .normal-link a:focus {
   color: #3f3c30;
 }
 
@@ -256,23 +256,28 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   border-bottom: 5px solid #5e3032;
 }
 
-/* line 19, ../sass/styles/_rich-styles.scss */
+/* line 18, ../sass/styles/_rich-styles.scss */
+h2 a:hover, h2 a:focus {
+  text-decoration: none;
+}
+
+/* line 22, ../sass/styles/_rich-styles.scss */
 .well a,
 .well .menu li a {
   color: #5e4a1b;
 }
 
-/* line 22, ../sass/styles/_rich-styles.scss */
+/* line 25, ../sass/styles/_rich-styles.scss */
 .site-footer {
   color: #fbfbf9;
 }
 
-/* line 25, ../sass/styles/_rich-styles.scss */
+/* line 28, ../sass/styles/_rich-styles.scss */
 .site-footer .block h2 {
   color: #fbfbf9;
 }
 
-/* line 31, ../sass/styles/_rich-styles.scss */
+/* line 34, ../sass/styles/_rich-styles.scss */
 .site-footer a,
 .site-footer a:hover,
 .site-footer a:focus,
@@ -280,7 +285,7 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   color: #fbfbf9;
 }
 
-/* line 36, ../sass/styles/_rich-styles.scss */
+/* line 39, ../sass/styles/_rich-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -288,12 +293,12 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 
 @media (max-width: 767px) {
-  /* line 40, ../sass/styles/_rich-styles.scss */
+  /* line 43, ../sass/styles/_rich-styles.scss */
   .navbar .btn-navbar {
     background: #5e3032;
   }
 }
-/* line 44, ../sass/styles/_rich-styles.scss */
+/* line 47, ../sass/styles/_rich-styles.scss */
 .well .caption {
   color: #474640;
 }

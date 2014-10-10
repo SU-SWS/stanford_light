@@ -59,10 +59,10 @@ strong {
 }
 .quote {
 }
-a {
+a, .normal-link a {
     color: $clr-link;
 }
-a:hover, a:focus {
+a:hover, a:focus, .normal-link a:hover, .normal-link a:focus {
     color: $clr-link-hvr;
 }
 a.btn, .btn a {

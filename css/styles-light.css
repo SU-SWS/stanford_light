@@ -66,12 +66,12 @@ h2 a:hover, h2 a:focus {
 }
 
 /* line 62, ../sass/styles/_styles.scss */
-a {
+a, .normal-link a {
   color: #8c1515;
 }
 
 /* line 65, ../sass/styles/_styles.scss */
-a:hover, a:focus {
+a:hover, a:focus, .normal-link a:hover, .normal-link a:focus {
   color: #333333;
 }
 
@@ -231,29 +231,32 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   /* well link color */
 }
 
-/* line 2, ../sass/styles/_light-styles.scss */
+/* line 5, ../sass/styles/_light-styles.scss */
 a:hover,
-a:focus {
+a:focus,
+.normal-link a:hover, .normal-link a:focus,
+.normal-link h2 a:hover, .normal-link h2 a:focus,
+.normal-link h3 a:hover, .normal-link h3 a:focus {
   text-decoration: underline;
 }
 
-/* line 5, ../sass/styles/_light-styles.scss */
+/* line 8, ../sass/styles/_light-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
 }
 
-/* line 8, ../sass/styles/_light-styles.scss */
+/* line 11, ../sass/styles/_light-styles.scss */
 .header-bkg .site-main-menu {
   border-top: 1px solid #e9e6df;
 }
 
-/* line 11, ../sass/styles/_light-styles.scss */
+/* line 14, ../sass/styles/_light-styles.scss */
 .navbar .nav > li > a {
   padding-bottom: .25em;
   border-bottom: 5px solid transparent;
 }
 
-/* line 19, ../sass/styles/_light-styles.scss */
+/* line 22, ../sass/styles/_light-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -263,12 +266,12 @@ a:focus {
 }
 
 @media (max-width: 767px) {
-  /* line 23, ../sass/styles/_light-styles.scss */
+  /* line 26, ../sass/styles/_light-styles.scss */
   .navbar {
     margin-top: 0;
   }
 }
-/* line 34, ../sass/styles/_light-styles.scss */
+/* line 37, ../sass/styles/_light-styles.scss */
 .main .menu li a:hover,
 .main .menu li a:focus,
 .main .menu li a.active,
@@ -280,7 +283,7 @@ a:focus {
   text-decoration: underline;
 }
 
-/* line 37, ../sass/styles/_light-styles.scss */
+/* line 40, ../sass/styles/_light-styles.scss */
 .well .caption {
   color: #6a655c;
 }

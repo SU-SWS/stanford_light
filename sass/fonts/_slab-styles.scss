@@ -1,7 +1,7 @@
 body {
     font-family: $font-header;
     font-weight: 300;
-    font-size: 15px;
+    font-size: $base-font-size;
     line-height: 1.6em;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -73,6 +73,9 @@ a {
     font-weight: 400;
 }
 a:hover, a:focus {
+}
+.normal-link h2, .normal-link h3, h2.normal-link, h3.normal-link {
+    font-size: $base-font-size;
 }
 a.btn, .btn a {
     font-family: $font-header;
