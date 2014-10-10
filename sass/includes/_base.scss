@@ -79,8 +79,66 @@ strong {
 .caption {
     margin-bottom: 0;
 }
+
 .quote {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    quotes: '\201c' '\201d';
 }
+blockquote {
+    padding: 2em 3em 1em;
+    border: 0;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 0 60px 30px;
+}
+blockquote.quote {
+    padding: .5em 3em 1em;
+}
+blockquote p {
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+blockquote > p:first-child {
+    line-height: 1.5em;
+    padding-left: 0;
+    text-indent: 0;
+ }
+p.quote {
+    text-indent: -1em;
+}
+p.quote:before {
+    position: relative;
+    left: -5px;
+}
+.quote:before, .quote:after,
+div.quote p:last-child:after, blockquote.quote p:last-child:after  {
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.quote:before {
+    content: open-quote;
+}
+.quote:after {
+    content: close-quote;
+}
+div.quote:before, blockquote.quote:before {
+    left: -27px;
+    position: relative;
+    top: 34px;
+}
+div.quote:after, blockquote.quote:after {
+    display: none;
+}
+div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after {
+    content: close-quote;
+    line-height: 0;
+    position: relative;
+    left: 8px;
+    top: 20px;
+}
+
 a {
 }
 a:hover, a:focus {

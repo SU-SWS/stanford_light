@@ -79,7 +79,91 @@
   margin-bottom: 0;
 }
 
+/* line 83, ../sass/includes/_base.scss */
+.quote {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  quotes: '\201c' '\201d';
+}
+
 /* line 88, ../sass/includes/_base.scss */
+blockquote {
+  padding: 2em 3em 1em;
+  border: 0;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 60px 30px;
+}
+
+/* line 94, ../sass/includes/_base.scss */
+blockquote.quote {
+  padding: .5em 3em 1em;
+}
+
+/* line 97, ../sass/includes/_base.scss */
+blockquote p {
+  font-size: 24px;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* line 102, ../sass/includes/_base.scss */
+blockquote > p:first-child {
+  line-height: 1.5em;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+/* line 107, ../sass/includes/_base.scss */
+p.quote {
+  text-indent: -1em;
+}
+
+/* line 110, ../sass/includes/_base.scss */
+p.quote:before {
+  position: relative;
+  left: -5px;
+}
+
+/* line 115, ../sass/includes/_base.scss */
+.quote:before, .quote:after,
+div.quote p:last-child:after, blockquote.quote p:last-child:after {
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+/* line 120, ../sass/includes/_base.scss */
+.quote:before {
+  content: open-quote;
+}
+
+/* line 123, ../sass/includes/_base.scss */
+.quote:after {
+  content: close-quote;
+}
+
+/* line 126, ../sass/includes/_base.scss */
+div.quote:before, blockquote.quote:before {
+  left: -27px;
+  position: relative;
+  top: 34px;
+}
+
+/* line 131, ../sass/includes/_base.scss */
+div.quote:after, blockquote.quote:after {
+  display: none;
+}
+
+/* line 134, ../sass/includes/_base.scss */
+div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after {
+  content: close-quote;
+  line-height: 0;
+  position: relative;
+  left: 8px;
+  top: 20px;
+}
+
+/* line 146, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -94,7 +178,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 97, ../sass/includes/_base.scss */
+/* line 155, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   text-transform: none;
   display: inline;
@@ -103,12 +187,12 @@ a.more-link, .more-link a {
   letter-spacing: 0;
 }
 
-/* line 104, ../sass/includes/_base.scss */
+/* line 162, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 109, ../sass/includes/_base.scss */
+/* line 167, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -121,17 +205,17 @@ a.edit-link, .edit-link a {
   text-decoration: none;
 }
 
-/* line 116, ../sass/includes/_base.scss */
+/* line 174, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 121, ../sass/includes/_base.scss */
+/* line 179, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 124, ../sass/includes/_base.scss */
+/* line 182, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -144,13 +228,13 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   box-shadow: none;
 }
 
-/* line 132, ../sass/includes/_base.scss */
+/* line 190, ../sass/includes/_base.scss */
 .banner-overlay {
   height: auto;
   position: absolute;
 }
 
-/* line 136, ../sass/includes/_base.scss */
+/* line 194, ../sass/includes/_base.scss */
 .banner-overlay > div {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
   color: #F2F1EB;
@@ -161,19 +245,19 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   top: -170px;
 }
 
-/* line 145, ../sass/includes/_base.scss */
+/* line 203, ../sass/includes/_base.scss */
 .banner-overlay p {
   display: inline;
   margin-right: 15px;
   font-size: 14px;
 }
 
-/* line 150, ../sass/includes/_base.scss */
+/* line 208, ../sass/includes/_base.scss */
 .banner-overlay h2, .banner-overlay h3, .banner-overlay h4 {
   margin-top: 0;
 }
 
-/* line 153, ../sass/includes/_base.scss */
+/* line 211, ../sass/includes/_base.scss */
 .banner-overlay-caption {
   font-size: 16px;
   line-height: 1em;
@@ -181,12 +265,12 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 }
 
 @media (max-width: 480px) {
-  /* line 159, ../sass/includes/_base.scss */
+  /* line 217, ../sass/includes/_base.scss */
   .banner-overlay {
     position: inherit;
   }
 
-  /* line 162, ../sass/includes/_base.scss */
+  /* line 220, ../sass/includes/_base.scss */
   .banner-overlay > div {
     position: inherit;
     margin: 0px;
