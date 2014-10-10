@@ -230,7 +230,7 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
 
 /* line 192, ../sass/includes/_base.scss */
 a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
-  background-image: url("../images/btn-arrow-left.png");
+  background-image: url("../../images/btn-arrow-left.png");
   background-position: 10px center;
   background-repeat: no-repeat;
   padding-left: 30px;
@@ -239,7 +239,7 @@ a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
 
 /* line 199, ../sass/includes/_base.scss */
 a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
-  background-image: url("../images/btn-arrow-right.png");
+  background-image: url("../../images/btn-arrow-right.png");
   background-position: 93% center;
   background-position: calc(100% - 10px) center;
   background-repeat: no-repeat;
