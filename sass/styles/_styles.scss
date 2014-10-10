@@ -52,6 +52,14 @@ strong {
 }
 .descriptor {
 }
+.descriptor-btn a, a.descriptor-btn {
+    color: $clr-text; 
+    background-color: $clr-well-bkg; 
+}
+.descriptor-btn a:hover, a.descriptor-btn:hover, .descriptor-btn a:focus, a.descriptor-btn:focus {
+    background-color: $clr-link-hvr;
+    color: $clr-page-bkg;
+}
 .credits {
 }
 .caption {

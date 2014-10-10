@@ -74,6 +74,14 @@ strong {
 }
 .descriptor {
 }
+.descriptor-btn a, a.descriptor-btn {
+    padding:3px 9px; 
+    @include border-radius(5px); 
+    font-weight: 500; 
+    margin-bottom: 0.5em; 
+    margin-right: 0.5em; 
+    display:inline-block;
+}
 .credits {
 }
 .caption {
