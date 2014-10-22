@@ -68,9 +68,11 @@ strong {
 }
 .big-text {
     font-family: $font-header;
+    letter-spacing: -0.01em;
 }
 .infotext {
     font-family: $font-header;
+    letter-spacing: -0.02em;
 }
 a {
     font-weight: 600;
