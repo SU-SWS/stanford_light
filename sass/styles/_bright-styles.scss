@@ -135,3 +135,10 @@
 hr {
     border-top: 1px solid $clr-hr;
 }
+th, td {
+    border-color: $clr-well-bkg;
+}
+th, td.active {
+    background: $clr-well-bkg;
+    color: $clr-page-bkg;
+}

@@ -54,3 +54,10 @@ a.btn:focus,
     color: $clr-text;
     background: $clr-header-bkg;
 }
+th, td {
+    border-color: $clr-text;
+}
+th, td.active {
+    background: $clr-text;
+    color: $clr-well-bkg;
+}

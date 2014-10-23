@@ -93,6 +93,17 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     background: $clr-btn-bkg-hvr;
     color: $clr-btn-text-hvr;
 }
+
+td {
+
+}
+th, td {
+    border: 1px solid $clr-well-bkg;
+}
+th, td.active {
+    background: $clr-well-bkg;
+}
+
 .block {
 }
 .block h2 {

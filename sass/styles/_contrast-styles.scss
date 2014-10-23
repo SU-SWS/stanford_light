@@ -142,3 +142,10 @@ a:focus,
     border-bottom-color: $clr-link;
     border-top-color: $clr-link;
 }
+th, td {
+    border-color: $clr-text;
+}
+th, td.active {
+    background: $clr-text;
+    color: $clr-page-bkg;
+}
