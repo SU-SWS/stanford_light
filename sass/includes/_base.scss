@@ -246,6 +246,9 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 }
 .border-simple .banner-overlay > div {
     margin-left: 6px;
+    @media (max-width: 480px) {
+        margin-left: 0;
+    }
 }
 .banner-overlay p {
     margin-bottom: 0;

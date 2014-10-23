@@ -313,25 +313,31 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 .border-simple .banner-overlay > div {
   margin-left: 6px;
 }
+@media (max-width: 480px) {
+  /* line 247, ../sass/includes/_base.scss */
+  .border-simple .banner-overlay > div {
+    margin-left: 0;
+  }
+}
 
-/* line 250, ../sass/includes/_base.scss */
+/* line 253, ../sass/includes/_base.scss */
 .banner-overlay p {
   margin-bottom: 0;
 }
 
-/* line 253, ../sass/includes/_base.scss */
+/* line 256, ../sass/includes/_base.scss */
 .banner-overlay h2, .banner-overlay h3, .banner-overlay h4 {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
 
 @media (max-width: 480px) {
-  /* line 260, ../sass/includes/_base.scss */
+  /* line 263, ../sass/includes/_base.scss */
   .banner-overlay {
     position: inherit;
   }
 
-  /* line 263, ../sass/includes/_base.scss */
+  /* line 266, ../sass/includes/_base.scss */
   .banner-overlay > div {
     position: inherit;
     margin: 0px;
