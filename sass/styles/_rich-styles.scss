@@ -47,3 +47,6 @@ h2 a:hover, h2 a:focus {
 .well .caption {
     color: darken( $clr-icons, 25% );
 }
+th a {
+    color: shade($clr-link, 30%);
+}

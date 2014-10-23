@@ -5,6 +5,16 @@ a:focus,
 .normal-link h3 a:hover, .normal-link h3 a:focus {
     text-decoration: underline;
 }
+.descriptor-btn a, a.descriptor-btn {
+    color: $clr-page-bkg;
+    border: 1px solid $clr-well-bkg;
+}
+.descriptor-btn a:hover, a.descriptor-btn:hover, .descriptor-btn a:focus, a.descriptor-btn:focus {
+    text-decoration: none;
+    background: $clr-page-bkg;
+    border: 1px solid $clr-well-bkg;
+    color: $clr-well-bkg;
+}
 .header-bkg .site-main-menu {
     padding-top: 0px;
 }
@@ -145,7 +155,16 @@ a:focus,
 th, td {
     border-color: $clr-text;
 }
-th, td.active {
+th {
     background: $clr-text;
+    color: $clr-page-bkg;
+}
+td.active {
+    background: rgba($clr-text, 0.2);
+}
+th a {
+    color: #b3995d;
+}
+th a:hover, th a:focus {
     color: $clr-page-bkg;
 }

@@ -57,7 +57,17 @@ a.btn:focus,
 th, td {
     border-color: $clr-text;
 }
-th, td.active {
+th {
     background: $clr-text;
     color: $clr-well-bkg;
+}
+td.active {
+    background: rgba($clr-text, 0.2);
+}
+th a {
+    color: shade($clr-link, 30%);
+}
+th a:hover, th a:focus {
+    color: $clr-page-bkg;
+    text-decoration: underline;
 }

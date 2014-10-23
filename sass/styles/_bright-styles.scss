@@ -21,6 +21,9 @@
     border-bottom: 0;
     background: $clr-btn-bkg;
 }
+.descriptor-btn a, a.descriptor-btn {
+    color: $clr-page-bkg;
+}
 @media (min-width: 768px) {
     .navbar {
         margin-bottom: 0;
@@ -138,7 +141,17 @@ hr {
 th, td {
     border-color: $clr-well-bkg;
 }
-th, td.active {
+th {
     background: $clr-well-bkg;
     color: $clr-page-bkg;
+}
+td.active {
+    background: rgba($clr-well-bkg, 0.5);
+}
+th a {
+    color: #ffce49;
+}
+th a:hover, th a:focus {
+    color: $clr-page-bkg;
+    text-decoration: underline;
 }

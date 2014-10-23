@@ -100,8 +100,11 @@ td {
 th, td {
     border: 1px solid $clr-well-bkg;
 }
-th, td.active {
+th {
     background: $clr-well-bkg;
+}
+td.active {
+    background: rgba($clr-well-bkg, 0.5);
 }
 
 .block {

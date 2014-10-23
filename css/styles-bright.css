@@ -121,133 +121,138 @@ th, td {
 }
 
 /* line 103, ../sass/styles/_styles.scss */
-th, td.active {
+th {
   background: #006374;
 }
 
-/* line 111, ../sass/styles/_styles.scss */
+/* line 106, ../sass/styles/_styles.scss */
+td.active {
+  background: rgba(0, 99, 116, 0.5);
+}
+
+/* line 114, ../sass/styles/_styles.scss */
 .well {
   background: #006374;
 }
 
-/* line 116, ../sass/styles/_styles.scss */
+/* line 119, ../sass/styles/_styles.scss */
 .banner-overlay > div {
   background: #006374;
   background: rgba(0, 99, 116, 0.8);
 }
 
-/* line 120, ../sass/styles/_styles.scss */
+/* line 123, ../sass/styles/_styles.scss */
 .banner-overlay h2, .banner-overlay p, .banner-overlay-caption {
   color: #333333;
 }
 
-/* line 123, ../sass/styles/_styles.scss */
+/* line 126, ../sass/styles/_styles.scss */
 .navbar .nav > li > a {
   color: white;
   background: transparent;
 }
 
-/* line 127, ../sass/styles/_styles.scss */
+/* line 130, ../sass/styles/_styles.scss */
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   color: #333333;
   background: white;
 }
 
-/* line 131, ../sass/styles/_styles.scss */
+/* line 134, ../sass/styles/_styles.scss */
 .sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
   color: #333333;
 }
 
-/* line 134, ../sass/styles/_styles.scss */
+/* line 137, ../sass/styles/_styles.scss */
 .dropdown-menu {
   background: #53284f;
   border: 1px solid #53284f;
 }
 
-/* line 138, ../sass/styles/_styles.scss */
+/* line 141, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background: transparent;
   color: white;
 }
 
-/* line 142, ../sass/styles/_styles.scss */
+/* line 145, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
   color: #333333;
   background: white;
 }
 
-/* line 146, ../sass/styles/_styles.scss */
+/* line 149, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: white;
   border-top-color: white;
 }
 
-/* line 150, ../sass/styles/_styles.scss */
+/* line 153, ../sass/styles/_styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   color: #53284f;
   background: #333333;
 }
 
-/* line 154, ../sass/styles/_styles.scss */
+/* line 157, ../sass/styles/_styles.scss */
 .bodybg .sidebar .region, .bodybg .content-wrapper {
   background-color: white;
 }
 
-/* line 157, ../sass/styles/_styles.scss */
+/* line 160, ../sass/styles/_styles.scss */
 .bodybg .sidebar .region {
   opacity: 1;
 }
 
-/* line 160, ../sass/styles/_styles.scss */
+/* line 163, ../sass/styles/_styles.scss */
 .borders .sidebar .region, .borders .content-wrapper, .bodybg.borders .breadcrumb {
   border: 1px solid #53284f;
 }
 
-/* line 163, ../sass/styles/_styles.scss */
+/* line 166, ../sass/styles/_styles.scss */
 .roundedcorners .well {
   border-radius: 5px;
 }
 
-/* line 166, ../sass/styles/_styles.scss */
+/* line 169, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: white;
   border-radius: 0;
 }
 
-/* line 170, ../sass/styles/_styles.scss */
+/* line 173, ../sass/styles/_styles.scss */
 .bean-stanford-social-media-connect a {
   opacity: 0.75;
 }
 
-/* line 173, ../sass/styles/_styles.scss */
+/* line 176, ../sass/styles/_styles.scss */
 .site-footer {
   border-top: 1px solid #53284f;
 }
 
-/* line 176, ../sass/styles/_styles.scss */
+/* line 179, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
   background: white;
 }
 
-/* line 179, ../sass/styles/_styles.scss */
+/* line 182, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main {
   color: white;
   /* page background color */
 }
 
-/* line 182, ../sass/styles/_styles.scss */
+/* line 185, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main a {
   color: white;
   /* well link color */
 }
 
-/* line 185, ../sass/styles/_styles.scss */
+/* line 188, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well {
   color: #333333;
   /* well text color */
 }
 
-/* line 188, ../sass/styles/_styles.scss */
+/* line 191, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well a {
   color: #007c92;
   /* well link color */
@@ -288,20 +293,25 @@ th, td.active {
   background: #53284f;
 }
 
+/* line 24, ../sass/styles/_bright-styles.scss */
+.descriptor-btn a, a.descriptor-btn {
+  color: white;
+}
+
 @media (min-width: 768px) {
-  /* line 25, ../sass/styles/_bright-styles.scss */
+  /* line 28, ../sass/styles/_bright-styles.scss */
   .navbar {
     margin-bottom: 0;
   }
 }
-/* line 29, ../sass/styles/_bright-styles.scss */
+/* line 32, ../sass/styles/_bright-styles.scss */
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
   text-transform: uppercase;
 }
 
-/* line 38, ../sass/styles/_bright-styles.scss */
+/* line 41, ../sass/styles/_bright-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -310,19 +320,19 @@ th, td.active {
   color: #333333;
 }
 
-/* line 41, ../sass/styles/_bright-styles.scss */
+/* line 44, ../sass/styles/_bright-styles.scss */
 .roundedcorners .navbar .nav > li > a {
   border-radius: 5px 5px 0 0;
 }
 
 @media (max-width: 767px) {
-  /* line 45, ../sass/styles/_bright-styles.scss */
+  /* line 48, ../sass/styles/_bright-styles.scss */
   .navbar .btn-navbar {
     border: 1px solid transparent;
     background: #007c92;
   }
 
-  /* line 54, ../sass/styles/_bright-styles.scss */
+  /* line 57, ../sass/styles/_bright-styles.scss */
   .navbar .btn-navbar:hover,
   .navbar .btn-navbar:focus,
   .navbar .btn-navbar:active,
@@ -333,30 +343,30 @@ th, td.active {
     border: 1px solid white;
   }
 
-  /* line 58, ../sass/styles/_bright-styles.scss */
+  /* line 61, ../sass/styles/_bright-styles.scss */
   .roundedcorners .navbar .nav > li > a {
     border-radius: 5px;
     margin-right: 0;
   }
 }
-/* line 65, ../sass/styles/_bright-styles.scss */
+/* line 68, ../sass/styles/_bright-styles.scss */
 .main .menu li a:hover,
 .main .menu li a:focus,
 .main .menu li a.active {
   text-decoration: underline;
 }
 
-/* line 68, ../sass/styles/_bright-styles.scss */
+/* line 71, ../sass/styles/_bright-styles.scss */
 .well {
   color: white;
 }
 
-/* line 71, ../sass/styles/_bright-styles.scss */
+/* line 74, ../sass/styles/_bright-styles.scss */
 .well .caption {
   color: #d9d9d9;
 }
 
-/* line 79, ../sass/styles/_bright-styles.scss */
+/* line 82, ../sass/styles/_bright-styles.scss */
 .well h2,
 .well h3,
 .well h4,
@@ -366,19 +376,19 @@ th, td.active {
   color: white;
 }
 
-/* line 83, ../sass/styles/_bright-styles.scss */
+/* line 86, ../sass/styles/_bright-styles.scss */
 .well h2 a:hover,
 .well h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 87, ../sass/styles/_bright-styles.scss */
+/* line 90, ../sass/styles/_bright-styles.scss */
 .well a,
 .well .menu li a {
   color: #ffce49;
 }
 
-/* line 97, ../sass/styles/_bright-styles.scss */
+/* line 100, ../sass/styles/_bright-styles.scss */
 .well a:hover,
 .well a:focus,
 .well .menu li a:hover,
@@ -391,22 +401,22 @@ th, td.active {
   text-decoration: underline;
 }
 
-/* line 101, ../sass/styles/_bright-styles.scss */
+/* line 104, ../sass/styles/_bright-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 104, ../sass/styles/_bright-styles.scss */
+/* line 107, ../sass/styles/_bright-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 107, ../sass/styles/_bright-styles.scss */
+/* line 110, ../sass/styles/_bright-styles.scss */
 .site-footer a {
   color: #ffce49;
 }
 
-/* line 112, ../sass/styles/_bright-styles.scss */
+/* line 115, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -414,12 +424,12 @@ th, td.active {
   text-decoration: underline;
 }
 
-/* line 116, ../sass/styles/_bright-styles.scss */
+/* line 119, ../sass/styles/_bright-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 122, ../sass/styles/_bright-styles.scss */
+/* line 125, ../sass/styles/_bright-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -428,7 +438,7 @@ th, td.active {
   background: #53284f;
 }
 
-/* line 131, ../sass/styles/_bright-styles.scss */
+/* line 134, ../sass/styles/_bright-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -439,18 +449,34 @@ th, td.active {
   border-top-color: #333333;
 }
 
-/* line 135, ../sass/styles/_bright-styles.scss */
+/* line 138, ../sass/styles/_bright-styles.scss */
 hr {
   border-top: 1px solid #888888;
 }
 
-/* line 138, ../sass/styles/_bright-styles.scss */
+/* line 141, ../sass/styles/_bright-styles.scss */
 th, td {
   border-color: #006374;
 }
 
-/* line 141, ../sass/styles/_bright-styles.scss */
-th, td.active {
+/* line 144, ../sass/styles/_bright-styles.scss */
+th {
   background: #006374;
   color: white;
+}
+
+/* line 148, ../sass/styles/_bright-styles.scss */
+td.active {
+  background: rgba(0, 99, 116, 0.5);
+}
+
+/* line 151, ../sass/styles/_bright-styles.scss */
+th a {
+  color: #ffce49;
+}
+
+/* line 154, ../sass/styles/_bright-styles.scss */
+th a:hover, th a:focus {
+  color: white;
+  text-decoration: underline;
 }
