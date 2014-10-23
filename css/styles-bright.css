@@ -480,3 +480,18 @@ th a:hover, th a:focus {
   color: white;
   text-decoration: underline;
 }
+
+/* line 159, ../sass/styles/_bright-styles.scss */
+.banner-overlay h2, .banner-overlay p {
+  color: white;
+}
+/* line 162, ../sass/styles/_bright-styles.scss */
+.banner-overlay a.more-link, .banner-overlay .more-link a {
+  color: #ffce49;
+}
+/* line 166, ../sass/styles/_bright-styles.scss */
+.banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
+.banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
+  color: white;
+  text-decoration: underline;
+}

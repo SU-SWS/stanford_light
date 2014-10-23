@@ -497,3 +497,18 @@ th a {
 th a:hover, th a:focus {
   color: white;
 }
+
+/* line 172, ../sass/styles/_contrast-styles.scss */
+.banner-overlay h2, .banner-overlay p {
+  color: white;
+}
+/* line 175, ../sass/styles/_contrast-styles.scss */
+.banner-overlay a.more-link, .banner-overlay .more-link a {
+  color: #b3995d;
+}
+/* line 179, ../sass/styles/_contrast-styles.scss */
+.banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
+.banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
+  color: white;
+  text-decoration: underline;
+}

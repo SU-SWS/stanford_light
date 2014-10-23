@@ -237,26 +237,24 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     position: absolute;
 }
 .banner-overlay > div {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75); 
+    background: rgba(0, 0, 0, 0.75); 
     color: #F2F1EB; 
     position: relative; 
-    margin-left: 6px; 
     max-width: 60%; 
-    padding: 10px; 
-    top: -170px;
+    padding: 1.25em 1.5em 1.5em 1.5em; 
+    top: -190px;
+}
+.border-simple .banner-overlay > div {
+    margin-left: 6px;
 }
 .banner-overlay p {
-    display: inline; 
-    margin-right: 15px; 
-    font-size: 14px;
+    margin-bottom: 0;
 }
 .banner-overlay h2, .banner-overlay h3, .banner-overlay h4 {
     margin-top: 0;
+    margin-bottom: 0.5em;
 }
 .banner-overlay-caption {
-    font-size: 16px; 
-    line-height: 1em; 
-    margin-bottom: 8px;
 }
 @media (max-width: 480px) {
     .banner-overlay {

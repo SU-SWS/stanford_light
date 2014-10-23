@@ -334,3 +334,13 @@ h2 a:hover, h2 a:focus {
 th a {
   color: #644e1c;
 }
+
+/* line 54, ../sass/styles/_rich-styles.scss */
+.banner-overlay a.more-link, .banner-overlay .more-link a {
+  color: #3f3c30;
+}
+/* line 58, ../sass/styles/_rich-styles.scss */
+.banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
+.banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
+  text-decoration: underline;
+}

@@ -168,3 +168,16 @@ th a {
 th a:hover, th a:focus {
     color: $clr-page-bkg;
 }
+.banner-overlay {
+    h2, p  {
+        color: $clr-page-bkg;
+    }
+    a.more-link, .more-link a {
+        color: #b3995d;
+    }
+    a.more-link:hover, .more-link a:hover,
+    a.more-link:focus, .more-link a:focus {
+        color: $clr-page-bkg;
+        text-decoration: underline;
+    }
+}

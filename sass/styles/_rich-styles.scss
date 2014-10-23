@@ -50,3 +50,12 @@ h2 a:hover, h2 a:focus {
 th a {
     color: shade($clr-link, 30%);
 }
+.banner-overlay {
+    a.more-link, .more-link a {
+        color: $clr-text;
+    }
+    a.more-link:hover, .more-link a:hover,
+    a.more-link:focus, .more-link a:focus {
+        text-decoration: underline;
+    }
+}
