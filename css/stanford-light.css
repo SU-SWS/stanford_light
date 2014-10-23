@@ -195,7 +195,16 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   letter-spacing: -0.05em;
 }
 
-/* line 169, ../sass/includes/_base.scss */
+/* line 164, ../sass/includes/_base.scss */
+.circle-image img {
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  -ms-border-radius: 10em;
+  -o-border-radius: 10em;
+  border-radius: 10em;
+}
+
+/* line 172, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -210,7 +219,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 178, ../sass/includes/_base.scss */
+/* line 181, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   text-transform: none;
   display: inline;
@@ -219,12 +228,12 @@ a.more-link, .more-link a {
   letter-spacing: 0;
 }
 
-/* line 185, ../sass/includes/_base.scss */
+/* line 188, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 190, ../sass/includes/_base.scss */
+/* line 193, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -237,17 +246,17 @@ a.edit-link, .edit-link a {
   text-decoration: none;
 }
 
-/* line 197, ../sass/includes/_base.scss */
+/* line 200, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 200, ../sass/includes/_base.scss */
+/* line 203, ../sass/includes/_base.scss */
 a.btn.btn-red, .btn.btn-red a {
   background: #8c1515;
 }
 
-/* line 203, ../sass/includes/_base.scss */
+/* line 206, ../sass/includes/_base.scss */
 a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   background-image: url("../../images/btn-arrow-left.png");
   background-position: 10px center;
@@ -256,7 +265,7 @@ a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   text-align: right;
 }
 
-/* line 210, ../sass/includes/_base.scss */
+/* line 213, ../sass/includes/_base.scss */
 a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
   background-image: url("../../images/btn-arrow-right.png");
   background-position: 93% center;
@@ -266,12 +275,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   text-align: left;
 }
 
-/* line 221, ../sass/includes/_base.scss */
+/* line 224, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 224, ../sass/includes/_base.scss */
+/* line 227, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -284,13 +293,13 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   box-shadow: none;
 }
 
-/* line 232, ../sass/includes/_base.scss */
+/* line 235, ../sass/includes/_base.scss */
 .banner-overlay {
   height: auto;
   position: absolute;
 }
 
-/* line 236, ../sass/includes/_base.scss */
+/* line 239, ../sass/includes/_base.scss */
 .banner-overlay > div {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
   color: #F2F1EB;
@@ -301,19 +310,19 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   top: -170px;
 }
 
-/* line 245, ../sass/includes/_base.scss */
+/* line 248, ../sass/includes/_base.scss */
 .banner-overlay p {
   display: inline;
   margin-right: 15px;
   font-size: 14px;
 }
 
-/* line 250, ../sass/includes/_base.scss */
+/* line 253, ../sass/includes/_base.scss */
 .banner-overlay h2, .banner-overlay h3, .banner-overlay h4 {
   margin-top: 0;
 }
 
-/* line 253, ../sass/includes/_base.scss */
+/* line 256, ../sass/includes/_base.scss */
 .banner-overlay-caption {
   font-size: 16px;
   line-height: 1em;
@@ -321,12 +330,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 }
 
 @media (max-width: 480px) {
-  /* line 259, ../sass/includes/_base.scss */
+  /* line 262, ../sass/includes/_base.scss */
   .banner-overlay {
     position: inherit;
   }
 
-  /* line 262, ../sass/includes/_base.scss */
+  /* line 265, ../sass/includes/_base.scss */
   .banner-overlay > div {
     position: inherit;
     margin: 0px;

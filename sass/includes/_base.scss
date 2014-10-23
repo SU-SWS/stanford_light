@@ -161,6 +161,9 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
     margin-bottom: 0;
     letter-spacing: -0.05em;
 }
+.circle-image img {
+    @include border-radius(10em);
+}
 
 a {
 }
