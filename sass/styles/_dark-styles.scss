@@ -77,15 +77,20 @@ th a:hover, th a:focus {
         color: $clr-text;
     }
 }
-.calendar-calendar tr td.today a, .calendar-calendar tr td.today a:hover {
+.calendar-calendar tr td.today a, 
+.calendar-calendar tr td.today a:hover,
+.calendar-calendar tr td.has-events a:hover {
     background: $clr-text; 
     color: $clr-page-bkg;
 }
 .calendar-calendar .mini td.has-events {
     background: $clr-link;
 }
-.calendar-calendar td.mini a, .calendar-calendar td.mini .mini-day-off {
+.calendar-calendar td.mini a {
     color: $clr-page-bkg;
+}
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
+    background: tint($clr-page-bkg, 20%); 
 }
 #block-search-form input.search-query {
     color: $clr-page-bkg; 

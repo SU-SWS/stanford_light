@@ -172,3 +172,29 @@ ul.pager li a {
     color: $clr-page-bkg;
     background: $clr-text;
 }
+.calendar-calendar th.days,
+.calendar-calendar td.mini .mini-day-off,
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a,
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a:hover,
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a:focus {
+    color: $clr-page-bkg;
+}
+.calendar-calendar tr td.today a, 
+.calendar-calendar tr td.today a:hover,
+.calendar-calendar tr td.has-events a:hover {
+    background: $clr-page-bkg; 
+    color: $clr-text;
+}
+.calendar-calendar .mini td.has-events {
+    background: $clr-link;
+}
+.calendar-calendar td.mini a {
+    color: $clr-page-bkg;
+}
+.calendar-calendar table.mini td.empty {
+    background: tint($clr-well-bkg, 10%);
+}
+.calendar-calendar .mini td,
+.calendar-calendar table.mini td.empty {
+    border-color: tint($clr-well-bkg, 10%);
+}

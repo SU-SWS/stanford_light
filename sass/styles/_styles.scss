@@ -243,7 +243,6 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     background: $clr-link; 
     color: $clr-page-bkg; 
 }
-.calendar-calendar table.mini td .month {}
 .calendar-calendar tr td.today a, .calendar-calendar tr td.today a:hover {
     background: $clr-link; 
     color: $clr-page-bkg;
@@ -258,25 +257,16 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 .view-stanford-events-calendar .date-nav-wrapper {
     background: $clr-well-bkg; 
 }
-.view-stanford-events-calendar .date-nav-wrapper .date-nav {
-}
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a { 
     color: $clr-link; 
 }
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a:hover {
     color: $clr-link;
 }
-.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager {}
-.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next {}
-.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {}
-.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev {}
-.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next {}
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
     background: $clr-page-bkg; 
     color: shade($clr-well-bkg, 10%); 
 }
-.view .date-nav-wrapper .date-next a {}
-.view .date-nav-wrapper .date-prev a {}
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a:hover, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a:hover {
     background-color: $clr-link; 
     color: $clr-page-bkg;
