@@ -84,39 +84,44 @@ h4 {
 }
 
 /* line 67, ../sass/fonts/_sans-styles.scss */
+.banner-overlay p {
+  font-size: 16px;
+}
+
+/* line 70, ../sass/fonts/_sans-styles.scss */
 a {
   font-weight: 600;
 }
 
-/* line 72, ../sass/fonts/_sans-styles.scss */
+/* line 75, ../sass/fonts/_sans-styles.scss */
 .normal-link h2, .normal-link h3, h2.normal-link, h3.normal-link {
   font-size: 16px;
 }
 
-/* line 75, ../sass/fonts/_sans-styles.scss */
+/* line 78, ../sass/fonts/_sans-styles.scss */
 a.btn, .btn a {
   font-weight: 400;
   font-size: inherit;
 }
 
-/* line 81, ../sass/fonts/_sans-styles.scss */
+/* line 84, ../sass/fonts/_sans-styles.scss */
 a.more-link, .more-link a {
   font-weight: 600;
   font-size: 16px;
 }
 
-/* line 97, ../sass/fonts/_sans-styles.scss */
+/* line 100, ../sass/fonts/_sans-styles.scss */
 .block.well h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
 
-/* line 101, ../sass/fonts/_sans-styles.scss */
+/* line 104, ../sass/fonts/_sans-styles.scss */
 #footer .block {
   font-size: 14px;
 }
 
-/* line 104, ../sass/fonts/_sans-styles.scss */
+/* line 107, ../sass/fonts/_sans-styles.scss */
 .navbar .nav > li > a {
   font-size: 1.2em;
   font-weight: 600;

@@ -74,6 +74,9 @@ strong {
     font-family: $font-header;
     letter-spacing: -0.02em;
 }
+.banner-overlay p {
+    font-size: $base-font-size;
+}
 a {
     font-weight: 600;
 }

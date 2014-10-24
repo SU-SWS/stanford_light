@@ -94,41 +94,46 @@ strong {
 }
 
 /* line 72, ../sass/fonts/_slab-styles.scss */
+.banner-overlay p {
+  font-size: 16px;
+}
+
+/* line 75, ../sass/fonts/_slab-styles.scss */
 a {
   font-weight: 400;
 }
 
-/* line 77, ../sass/fonts/_slab-styles.scss */
+/* line 80, ../sass/fonts/_slab-styles.scss */
 .normal-link h2, .normal-link h3, h2.normal-link, h3.normal-link {
   font-size: 16px;
 }
 
-/* line 80, ../sass/fonts/_slab-styles.scss */
+/* line 83, ../sass/fonts/_slab-styles.scss */
 a.btn, .btn a {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: inherit;
 }
 
-/* line 87, ../sass/fonts/_slab-styles.scss */
+/* line 90, ../sass/fonts/_slab-styles.scss */
 a.more-link, .more-link a {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: 16px;
 }
 
-/* line 104, ../sass/fonts/_slab-styles.scss */
+/* line 107, ../sass/fonts/_slab-styles.scss */
 .block.well h2 {
   font-size: 1.2em;
   font-weight: 400;
 }
 
-/* line 108, ../sass/fonts/_slab-styles.scss */
+/* line 111, ../sass/fonts/_slab-styles.scss */
 #footer .block {
   font-size: 13px;
 }
 
-/* line 111, ../sass/fonts/_slab-styles.scss */
+/* line 114, ../sass/fonts/_slab-styles.scss */
 .navbar .nav > li > a {
   font-family: "Roboto Slab", serif;
   font-size: 1.2em;

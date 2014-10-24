@@ -99,16 +99,21 @@ h4 {
 }
 
 /* line 77, ../sass/fonts/_serif-styles.scss */
+.banner-overlay p {
+  font-size: 16px;
+}
+
+/* line 80, ../sass/fonts/_serif-styles.scss */
 a {
   font-weight: 600;
 }
 
-/* line 82, ../sass/fonts/_serif-styles.scss */
+/* line 85, ../sass/fonts/_serif-styles.scss */
 .normal-link h2, .normal-link h3, h2.normal-link, h3.normal-link {
   font-size: 16px;
 }
 
-/* line 85, ../sass/fonts/_serif-styles.scss */
+/* line 88, ../sass/fonts/_serif-styles.scss */
 a.btn, .btn a {
   font-family: "Crimson Text", serif;
   font-weight: 400;
@@ -116,7 +121,7 @@ a.btn, .btn a {
   font-size: 1.1em;
 }
 
-/* line 93, ../sass/fonts/_serif-styles.scss */
+/* line 96, ../sass/fonts/_serif-styles.scss */
 a.more-link, .more-link a {
   font-family: "Crimson Text", serif;
   font-weight: 600;
@@ -124,18 +129,18 @@ a.more-link, .more-link a {
   letter-spacing: -0.02em;
 }
 
-/* line 111, ../sass/fonts/_serif-styles.scss */
+/* line 114, ../sass/fonts/_serif-styles.scss */
 .block.well h2 {
   font-size: 1.4em;
   font-weight: 600;
 }
 
-/* line 115, ../sass/fonts/_serif-styles.scss */
+/* line 118, ../sass/fonts/_serif-styles.scss */
 #footer .block {
   font-size: 14px;
 }
 
-/* line 118, ../sass/fonts/_serif-styles.scss */
+/* line 121, ../sass/fonts/_serif-styles.scss */
 .navbar .nav > li > a {
   font-family: "Crimson Text", serif;
   font-size: 1.3em;
