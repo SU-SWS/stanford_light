@@ -71,3 +71,9 @@ th a:hover, th a:focus {
     color: $clr-page-bkg;
     text-decoration: underline;
 }
+.date-stacked {
+    background: tint($clr-well-bkg, 30%);
+    .date-month, .date-day {
+        color: $clr-text;
+    }
+}

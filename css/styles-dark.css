@@ -400,3 +400,12 @@ th a:hover, th a:focus {
   color: #2e2d29;
   text-decoration: underline;
 }
+
+/* line 74, ../sass/styles/_dark-styles.scss */
+.date-stacked {
+  background: #656462;
+}
+/* line 76, ../sass/styles/_dark-styles.scss */
+.date-stacked .date-month, .date-stacked .date-day {
+  color: #fbfbf9;
+}
