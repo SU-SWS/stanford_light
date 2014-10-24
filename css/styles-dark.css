@@ -311,7 +311,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 
 /* line 227, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td.has-events {
-  background: #1c1b19;
+  background: #1f1e1c;
 }
 
 /* line 230, ../sass/styles/_styles.scss */
@@ -343,7 +343,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 
 /* line 248, ../sass/styles/_styles.scss */
 .calendar-calendar table.mini td.empty {
-  background: #1c1b19;
+  background: #1f1e1c;
 }
 
 /* line 251, ../sass/styles/_styles.scss */
@@ -370,7 +370,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 /* line 271, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
   background: #2e2d29;
-  color: #1c1b19;
+  color: #1f1e1c;
 }
 
 /* line 277, ../sass/styles/_styles.scss */
