@@ -297,6 +297,94 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   color: #fbfbf9;
 }
 
+/* Mini-calendar navigtaion */
+/* line 220, ../sass/styles/_styles.scss */
+.calendar-calendar td.mini a, .calendar-calendar td.mini .mini-day-off {
+  color: #333333;
+}
+
+/* line 223, ../sass/styles/_styles.scss */
+.calendar-calendar .mini td {
+  border-color: #fbfbf9;
+  background: #e9e6df;
+}
+
+/* line 227, ../sass/styles/_styles.scss */
+.calendar-calendar .mini td.has-events {
+  background: #74736f;
+}
+
+/* line 230, ../sass/styles/_styles.scss */
+.calendar-calendar .mini td.today {
+  background: #8c1515;
+}
+
+/* line 233, ../sass/styles/_styles.scss */
+.calendar-calendar td.mini .mini-day-off {
+  color: #333333;
+}
+
+/* line 236, ../sass/styles/_styles.scss */
+.calendar-calendar td.today .mini-day-off {
+  color: #fbfbf9;
+}
+
+/* line 239, ../sass/styles/_styles.scss */
+.calendar-calendar tr td.has-events a:hover {
+  background: #8c1515;
+  color: #fbfbf9;
+}
+
+/* line 244, ../sass/styles/_styles.scss */
+.calendar-calendar tr td.today a, .calendar-calendar tr td.today a:hover {
+  background: #8c1515;
+  color: #fbfbf9;
+}
+
+/* line 248, ../sass/styles/_styles.scss */
+.calendar-calendar table.mini td.empty {
+  background: #74736f;
+}
+
+/* line 251, ../sass/styles/_styles.scss */
+.calendar-calendar th.days {
+  background: #e9e6df;
+  color: #333333;
+}
+
+/* line 255, ../sass/styles/_styles.scss */
+.view-stanford-events-calendar .date-nav-wrapper {
+  background: #e9e6df;
+}
+
+/* line 260, ../sass/styles/_styles.scss */
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a {
+  color: #8c1515;
+}
+
+/* line 263, ../sass/styles/_styles.scss */
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a:hover {
+  color: #8c1515;
+}
+
+/* line 271, ../sass/styles/_styles.scss */
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
+  background: #fbfbf9;
+  color: #74736f;
+}
+
+/* line 277, ../sass/styles/_styles.scss */
+.view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a:hover, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a:hover {
+  background-color: #8c1515;
+  color: #fbfbf9;
+}
+
+/* line 281, ../sass/styles/_styles.scss */
+.calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
+  background-color: #8c1515;
+  color: #fbfbf9;
+}
+
 /* line 5, ../sass/styles/_light-styles.scss */
 a:hover,
 a:focus,
