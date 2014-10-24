@@ -272,3 +272,25 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
         max-width:100%;
     }
 }
+ul.pager li {
+    margin:0;
+}
+ul.nav-pills a.active {
+    background: transparent;
+}
+ul.pager li a {
+    border-radius: 6px; 
+    border: 0px; 
+    padding: 4px 10px;
+}
+ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
+}
+ul.pager li.pager-current {
+    border-radius: 6px; 
+    border: 0px; 
+    padding: 4px 10px; 
+    margin: 0;
+}
+.item-list .pager li {
+    padding: 0;
+}

@@ -263,6 +263,17 @@ td.active {
   border-color: #232220;
 }
 
+/* line 197, ../sass/styles/_styles.scss */
+ul.pager li a {
+  background-color: #232220;
+}
+
+/* line 200, ../sass/styles/_styles.scss */
+ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
+  background-color: #b3995d;
+  color: #2e2d29;
+}
+
 /* line 1, ../sass/styles/_dark-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;

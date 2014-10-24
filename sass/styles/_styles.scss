@@ -194,3 +194,10 @@ td.active {
 .views-row-lines .views-row {
     border-color: $clr-hr;
 }
+ul.pager li a {
+    background-color: $clr-well-bkg; 
+}
+ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
+    background-color: $clr-link; 
+    color: $clr-page-bkg;
+}

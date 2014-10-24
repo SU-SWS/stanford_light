@@ -263,6 +263,17 @@ td.active {
   border-color: #888888;
 }
 
+/* line 197, ../sass/styles/_styles.scss */
+ul.pager li a {
+  background-color: #006374;
+}
+
+/* line 200, ../sass/styles/_styles.scss */
+ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
+  background-color: #007c92;
+  color: white;
+}
+
 /* line 1, ../sass/styles/_bright-styles.scss */
 .header-bkg .site-main-menu {
   padding-top: 0px;

@@ -349,6 +349,36 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     max-width: 100%;
   }
 }
+/* line 275, ../sass/includes/_base.scss */
+ul.pager li {
+  margin: 0;
+}
+
+/* line 278, ../sass/includes/_base.scss */
+ul.nav-pills a.active {
+  background: transparent;
+}
+
+/* line 281, ../sass/includes/_base.scss */
+ul.pager li a {
+  border-radius: 6px;
+  border: 0px;
+  padding: 4px 10px;
+}
+
+/* line 288, ../sass/includes/_base.scss */
+ul.pager li.pager-current {
+  border-radius: 6px;
+  border: 0px;
+  padding: 4px 10px;
+  margin: 0;
+}
+
+/* line 294, ../sass/includes/_base.scss */
+.item-list .pager li {
+  padding: 0;
+}
+
 /* line 1, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg .header {
   min-height: 60px;
