@@ -65,10 +65,6 @@
 .main .menu li a.active {
     text-decoration: underline;
 }
-.main .border-simple-nowidth img, 
-.main .border-simple img {
-    background-color: $clr-img-border;
-}
 .well .caption {
     color: darken( $clr-icons, 15% );
 }

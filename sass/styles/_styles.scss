@@ -106,7 +106,15 @@ th {
 td.active {
     background: rgba($clr-well-bkg, 0.5);
 }
-
+.main .border-simple-nowidth img, 
+.main .border-simple img {
+    background-color: $clr-well-bkg;
+}
+.main .border-underline img,
+.main .border-hairline img,
+.main .border-bottom img {
+    border-color: $clr-well-bkg;
+}
 .block {
 }
 .block h2 {
