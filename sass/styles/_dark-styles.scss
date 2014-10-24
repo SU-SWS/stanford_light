@@ -77,6 +77,16 @@ th a:hover, th a:focus {
         color: $clr-text;
     }
 }
+.calendar-calendar tr td.today a, .calendar-calendar tr td.today a:hover {
+    background: $clr-text; 
+    color: $clr-page-bkg;
+}
+.calendar-calendar .mini td.has-events {
+    background: $clr-link;
+}
+.calendar-calendar td.mini a, .calendar-calendar td.mini .mini-day-off {
+    color: $clr-page-bkg;
+}
 #block-search-form input.search-query {
     color: $clr-page-bkg; 
 }

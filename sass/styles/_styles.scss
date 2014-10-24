@@ -224,6 +224,9 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     border-color: $clr-page-bkg;
     background: $clr-well-bkg; 
 }
+.calendar-calendar table.mini td.empty {
+    border-color: $clr-page-bkg;
+}
 .calendar-calendar .mini td.has-events {
     background: shade($clr-well-bkg, 10%);
 }
