@@ -184,3 +184,6 @@ th a:hover, th a:focus {
 ul.pager li a {
     color: $clr-page-bkg;
 }
+.date-stacked {
+    background: tint($clr-well-bkg, 20%);
+}

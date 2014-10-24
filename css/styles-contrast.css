@@ -556,3 +556,8 @@ th a:hover, th a:focus {
 ul.pager li a {
   color: white;
 }
+
+/* line 187, ../sass/styles/_contrast-styles.scss */
+.date-stacked {
+  background: #5b5b5b;
+}
