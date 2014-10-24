@@ -619,7 +619,7 @@ ul.pager li.pager-current {
 
 /* line 10, ../sass/includes/_module-sidebar-nav.scss */
 .main .menu li a, .site-footer .menu li a {
-  padding: 0.25em 0;
+  padding: 0 0 0.25em 0;
 }
 
 /* line 13, ../sass/includes/_module-sidebar-nav.scss */

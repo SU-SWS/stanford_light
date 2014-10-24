@@ -210,3 +210,9 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     background-color: $clr-link; 
     color: $clr-page-bkg;
 }
+.date-stacked {
+    background: shade($clr-well-bkg, 50%);
+    .date-month, .date-day {
+        color: $clr-page-bkg;
+    }
+}

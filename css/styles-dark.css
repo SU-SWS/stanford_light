@@ -288,6 +288,15 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   color: #2e2d29;
 }
 
+/* line 213, ../sass/styles/_styles.scss */
+.date-stacked {
+  background: #111110;
+}
+/* line 215, ../sass/styles/_styles.scss */
+.date-stacked .date-month, .date-stacked .date-day {
+  color: #2e2d29;
+}
+
 /* line 1, ../sass/styles/_dark-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
