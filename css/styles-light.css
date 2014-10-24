@@ -258,6 +258,11 @@ td.active {
   /* well link color */
 }
 
+/* line 194, ../sass/styles/_styles.scss */
+.views-row-lines .views-row {
+  border-color: #e9e6df;
+}
+
 /* line 5, ../sass/styles/_light-styles.scss */
 a:hover,
 a:focus,

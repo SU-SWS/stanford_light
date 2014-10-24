@@ -258,6 +258,11 @@ td.active {
   /* well link color */
 }
 
+/* line 194, ../sass/styles/_styles.scss */
+.views-row-lines .views-row {
+  border-color: #d5d0c0;
+}
+
 /* line 1, ../sass/styles/_rich-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;

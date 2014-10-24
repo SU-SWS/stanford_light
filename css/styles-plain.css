@@ -257,3 +257,8 @@ td.active {
   color: #8c1515;
   /* well link color */
 }
+
+/* line 194, ../sass/styles/_styles.scss */
+.views-row-lines .views-row {
+  border-color: #e9e9e9;
+}

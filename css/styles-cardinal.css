@@ -258,6 +258,11 @@ td.active {
   /* well link color */
 }
 
+/* line 194, ../sass/styles/_styles.scss */
+.views-row-lines .views-row {
+  border-color: #f2f1eb;
+}
+
 /* line 1, ../sass/styles/_cardinal-styles.scss */
 .header-bkg .site-main-menu {
   padding-top: 0px;
