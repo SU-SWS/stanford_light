@@ -404,55 +404,76 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   box-shadow: 0px 0px 5px 3px #f2f1eb;
 }
 
-/* line 1, ../sass/styles/_cardinal-styles.scss */
+/* Stanford Framework Specific */
+/* line 2, ../sass/styles/_cardinal-styles.scss */
+#header #logo {
+  border-right: 1px solid white;
+}
+
+/* line 15, ../sass/styles/_cardinal-styles.scss */
+#site-name a,
+#site-name a:hover,
+#site-name a,
+#site-name a:focus,
+#site-title-first-line a,
+#site-title-first-line a:hover,
+#site-title-first-line a:focus,
+#site-title-second-line a,
+#site-title-second-line a:hover,
+#site-title-second-line a:focus {
+  color: white;
+}
+
+/* General */
+/* line 20, ../sass/styles/_cardinal-styles.scss */
 .header-bkg .site-main-menu {
   padding-top: 0px;
 }
 
-/* line 6, ../sass/styles/_cardinal-styles.scss */
+/* line 25, ../sass/styles/_cardinal-styles.scss */
 .site-name a,
 .site-name a:hover,
 .site-name a:active {
   color: white;
 }
 
-/* line 10, ../sass/styles/_cardinal-styles.scss */
+/* line 29, ../sass/styles/_cardinal-styles.scss */
 .site-login,
 .site-login a {
   color: white;
 }
 
-/* line 14, ../sass/styles/_cardinal-styles.scss */
+/* line 33, ../sass/styles/_cardinal-styles.scss */
 .site-login a:hover,
 .site-login a:active {
   text-decoration: underline;
 }
 
-/* line 17, ../sass/styles/_cardinal-styles.scss */
+/* line 36, ../sass/styles/_cardinal-styles.scss */
 #site-slogan {
   color: white;
 }
 
-/* line 20, ../sass/styles/_cardinal-styles.scss */
+/* line 39, ../sass/styles/_cardinal-styles.scss */
 .site-main-menu {
   border-bottom: 0;
   background: #8c1515;
 }
 
 @media (min-width: 768px) {
-  /* line 25, ../sass/styles/_cardinal-styles.scss */
+  /* line 44, ../sass/styles/_cardinal-styles.scss */
   .navbar {
     margin-bottom: 0;
   }
 }
-/* line 29, ../sass/styles/_cardinal-styles.scss */
+/* line 48, ../sass/styles/_cardinal-styles.scss */
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
   text-transform: uppercase;
 }
 
-/* line 38, ../sass/styles/_cardinal-styles.scss */
+/* line 57, ../sass/styles/_cardinal-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -461,19 +482,19 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   color: #333333;
 }
 
-/* line 41, ../sass/styles/_cardinal-styles.scss */
+/* line 60, ../sass/styles/_cardinal-styles.scss */
 .roundedcorners .navbar .nav > li > a {
   border-radius: 5px 5px 0 0;
 }
 
 @media (max-width: 767px) {
-  /* line 45, ../sass/styles/_cardinal-styles.scss */
+  /* line 64, ../sass/styles/_cardinal-styles.scss */
   .navbar .btn-navbar {
     background: #8c1515;
     border: 1px solid white;
   }
 
-  /* line 54, ../sass/styles/_cardinal-styles.scss */
+  /* line 73, ../sass/styles/_cardinal-styles.scss */
   .navbar .btn-navbar:hover,
   .navbar .btn-navbar:focus,
   .navbar .btn-navbar:active,
@@ -484,40 +505,40 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     border: 1px solid white;
   }
 
-  /* line 58, ../sass/styles/_cardinal-styles.scss */
+  /* line 77, ../sass/styles/_cardinal-styles.scss */
   .roundedcorners .navbar .nav > li > a {
     border-radius: 5px;
     margin-right: 0;
   }
 }
-/* line 65, ../sass/styles/_cardinal-styles.scss */
+/* line 84, ../sass/styles/_cardinal-styles.scss */
 .main .menu li a:hover,
 .main .menu li a:focus,
 .main .menu li a.active {
   text-decoration: underline;
 }
 
-/* line 68, ../sass/styles/_cardinal-styles.scss */
+/* line 87, ../sass/styles/_cardinal-styles.scss */
 .well .caption {
   color: #a59d7c;
 }
 
-/* line 71, ../sass/styles/_cardinal-styles.scss */
+/* line 90, ../sass/styles/_cardinal-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 74, ../sass/styles/_cardinal-styles.scss */
+/* line 93, ../sass/styles/_cardinal-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 77, ../sass/styles/_cardinal-styles.scss */
+/* line 96, ../sass/styles/_cardinal-styles.scss */
 .site-footer a {
   color: white;
 }
 
-/* line 82, ../sass/styles/_cardinal-styles.scss */
+/* line 101, ../sass/styles/_cardinal-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -525,12 +546,12 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   text-decoration: underline;
 }
 
-/* line 86, ../sass/styles/_cardinal-styles.scss */
+/* line 105, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu {
   background: white;
 }
 
-/* line 92, ../sass/styles/_cardinal-styles.scss */
+/* line 111, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -539,7 +560,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background: #8c1515;
 }
 
-/* line 101, ../sass/styles/_cardinal-styles.scss */
+/* line 120, ../sass/styles/_cardinal-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -550,7 +571,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   border-top-color: #333333;
 }
 
-/* line 105, ../sass/styles/_cardinal-styles.scss */
+/* line 124, ../sass/styles/_cardinal-styles.scss */
 hr {
   border-top: 1px solid #f2f1eb;
 }

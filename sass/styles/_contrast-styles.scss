@@ -1,3 +1,22 @@
+/* Stanford Framework Specific */
+#header #logo {
+    border-right: 1px solid $clr-header-text;
+}
+
+#site-name a, 
+#site-name a:hover, 
+#site-name a, 
+#site-name a:focus, 
+#site-title-first-line a, 
+#site-title-first-line a:hover, 
+#site-title-first-line a:focus, 
+#site-title-second-line a, 
+#site-title-second-line a:hover, 
+#site-title-second-line a:focus {
+    color: $clr-header-text;
+}
+
+/* General */
 a:hover, 
 a:focus,
 .normal-link a:hover, .normal-link a:focus,
