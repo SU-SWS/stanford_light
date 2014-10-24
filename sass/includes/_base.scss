@@ -49,6 +49,9 @@ h5 {
 }
 h6 {
 }
+h2:first-child, h3:first-child, h4:first-child, body.cke_show_borders h2:first-child, body.cke_show_borders h3:first-child, body.cke_show_borders h4:first-child {
+    margin-top: 0;
+}
 strong {
 }
 .content ul li {
