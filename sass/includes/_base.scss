@@ -279,18 +279,32 @@ ul.nav-pills a.active {
     background: transparent;
 }
 ul.pager li a {
-    border-radius: 6px; 
+    @include border-radius(6px); 
     border: 0px; 
     padding: 4px 10px;
 }
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 }
 ul.pager li.pager-current {
-    border-radius: 6px; 
+    @include border-radius(6px); 
     border: 0px; 
     padding: 4px 10px; 
     margin: 0;
 }
 .item-list .pager li {
     padding: 0;
+}
+
+#nav-search {
+    margin-right: 0;
+}
+#block-search-form input.search-query {
+    @include border-radius(6px); 
+    padding-left: 10px; 
+    padding-right: 33px;
+}
+#block-search-form input.search-query:focus {
+}
+.navbar #block-search-form input.btn-search {
+    top: 2px;
 }

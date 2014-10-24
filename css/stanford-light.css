@@ -361,6 +361,10 @@ ul.nav-pills a.active {
 
 /* line 281, ../sass/includes/_base.scss */
 ul.pager li a {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
   border: 0px;
   padding: 4px 10px;
@@ -368,6 +372,10 @@ ul.pager li a {
 
 /* line 288, ../sass/includes/_base.scss */
 ul.pager li.pager-current {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
   border: 0px;
   padding: 4px 10px;
@@ -377,6 +385,27 @@ ul.pager li.pager-current {
 /* line 294, ../sass/includes/_base.scss */
 .item-list .pager li {
   padding: 0;
+}
+
+/* line 298, ../sass/includes/_base.scss */
+#nav-search {
+  margin-right: 0;
+}
+
+/* line 301, ../sass/includes/_base.scss */
+#block-search-form input.search-query {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 33px;
+}
+
+/* line 308, ../sass/includes/_base.scss */
+.navbar #block-search-form input.btn-search {
+  top: 2px;
 }
 
 /* line 1, ../sass/includes/_module-header-bkg-img.scss */

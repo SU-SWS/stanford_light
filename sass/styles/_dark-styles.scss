@@ -77,3 +77,6 @@ th a:hover, th a:focus {
         color: $clr-text;
     }
 }
+#block-search-form input.search-query {
+    color: $clr-page-bkg; 
+}
