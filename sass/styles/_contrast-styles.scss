@@ -181,3 +181,6 @@ th a:hover, th a:focus {
         text-decoration: underline;
     }
 }
+ul.pager li a {
+    color: $clr-page-bkg;
+}

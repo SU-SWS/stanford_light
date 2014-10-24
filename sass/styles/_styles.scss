@@ -196,6 +196,7 @@ td.active {
 }
 ul.pager li a {
     background-color: $clr-well-bkg; 
+    color: $clr-text;
 }
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     background-color: $clr-link; 

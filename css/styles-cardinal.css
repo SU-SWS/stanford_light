@@ -266,9 +266,10 @@ td.active {
 /* line 197, ../sass/styles/_styles.scss */
 ul.pager li a {
   background-color: #f2f1eb;
+  color: #333333;
 }
 
-/* line 200, ../sass/styles/_styles.scss */
+/* line 201, ../sass/styles/_styles.scss */
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background-color: #8c1515;
   color: white;

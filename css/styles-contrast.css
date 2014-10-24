@@ -266,9 +266,10 @@ td.active {
 /* line 197, ../sass/styles/_styles.scss */
 ul.pager li a {
   background-color: #333333;
+  color: #333333;
 }
 
-/* line 200, ../sass/styles/_styles.scss */
+/* line 201, ../sass/styles/_styles.scss */
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background-color: #8c1515;
   color: white;
@@ -527,4 +528,9 @@ th a:hover, th a:focus {
 .banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
   color: white;
   text-decoration: underline;
+}
+
+/* line 184, ../sass/styles/_contrast-styles.scss */
+ul.pager li a {
+  color: white;
 }
