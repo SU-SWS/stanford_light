@@ -54,7 +54,8 @@
 .navbar .nav > .active > a:hover, 
 .navbar .nav > .active > a:focus, 
 .navbar .nav > li > a:focus, 
-.navbar .nav > li > a:hover {
+.navbar .nav > li > a:hover,
+.navbar .nav > .active-trail > a {
     color: $clr-text;
 }
 .roundedcorners .navbar .nav > li > a {
@@ -108,7 +109,8 @@
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus, 
 .dropdown-submenu:hover > a, 
-.dropdown-submenu:focus > a {
+.dropdown-submenu:focus > a,
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     color: $clr-page-bkg;
     background: $clr-header-bkg;
 }

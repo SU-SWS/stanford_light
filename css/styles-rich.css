@@ -165,238 +165,249 @@ td.active {
   background: transparent;
 }
 
-/* line 138, ../sass/styles/_styles.scss */
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+/* line 143, ../sass/styles/_styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover,
+.navbar .nav > .active-trail > a {
   color: #5e3032;
   background: transparent;
 }
 
-/* line 142, ../sass/styles/_styles.scss */
-.sidebar .nav li a:hover, .sidebar .nav li a:focus, .sidebar .nav li a.active {
+/* line 150, ../sass/styles/_styles.scss */
+.sidebar .nav li a:hover,
+.sidebar .nav li a:focus,
+.sidebar .nav li a.active,
+.sidebar .nav li a.active-trail {
   color: #3f3c30;
 }
 
-/* line 145, ../sass/styles/_styles.scss */
+/* line 153, ../sass/styles/_styles.scss */
 .dropdown-menu {
   background: #d5d0c0;
   border: 1px solid #d5d0c0;
+  right: 1em;
+  padding: 0;
 }
 
-/* line 149, ../sass/styles/_styles.scss */
+/* line 159, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background: transparent;
   color: #3f3c30;
 }
 
-/* line 153, ../sass/styles/_styles.scss */
+/* line 163, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
   color: #5e3032;
   background: transparent;
 }
 
-/* line 157, ../sass/styles/_styles.scss */
+/* line 167, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: #3f3c30;
   border-top-color: #3f3c30;
 }
 
-/* line 161, ../sass/styles/_styles.scss */
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+/* line 172, ../sass/styles/_styles.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a,
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #d5d0c0;
   background: #3f3c30;
 }
 
-/* line 165, ../sass/styles/_styles.scss */
+/* line 176, ../sass/styles/_styles.scss */
 .bodybg .sidebar .region, .bodybg .content-wrapper {
   background-color: #fbfbf9;
 }
 
-/* line 168, ../sass/styles/_styles.scss */
+/* line 179, ../sass/styles/_styles.scss */
 .bodybg .sidebar .region {
   opacity: 1;
 }
 
-/* line 171, ../sass/styles/_styles.scss */
+/* line 182, ../sass/styles/_styles.scss */
 .borders .sidebar .region, .borders .content-wrapper, .bodybg.borders .breadcrumb {
   border: 1px solid #d5d0c0;
 }
 
-/* line 174, ../sass/styles/_styles.scss */
+/* line 185, ../sass/styles/_styles.scss */
 .roundedcorners .well {
   border-radius: 5px;
 }
 
-/* line 177, ../sass/styles/_styles.scss */
+/* line 188, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: #fbfbf9;
   border-radius: 0;
 }
 
-/* line 181, ../sass/styles/_styles.scss */
+/* line 192, ../sass/styles/_styles.scss */
 .bean-stanford-social-media-connect a {
   opacity: 0.75;
 }
 
-/* line 184, ../sass/styles/_styles.scss */
+/* line 195, ../sass/styles/_styles.scss */
 .site-footer {
   border-top: 1px solid #d5d0c0;
 }
 
-/* line 187, ../sass/styles/_styles.scss */
+/* line 198, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
   background: #fbfbf9;
 }
 
-/* line 190, ../sass/styles/_styles.scss */
+/* line 201, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main {
   color: #fbfbf9;
   /* page background color */
 }
 
-/* line 193, ../sass/styles/_styles.scss */
+/* line 204, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main a {
   color: #fbfbf9;
   /* well link color */
 }
 
-/* line 196, ../sass/styles/_styles.scss */
+/* line 207, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well {
   color: #3f3c30;
   /* well text color */
 }
 
-/* line 199, ../sass/styles/_styles.scss */
+/* line 210, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well a {
   color: #8f7029;
   /* well link color */
 }
 
-/* line 202, ../sass/styles/_styles.scss */
+/* line 213, ../sass/styles/_styles.scss */
 .views-row-lines .views-row {
   border-color: #d5d0c0;
 }
 
-/* line 205, ../sass/styles/_styles.scss */
+/* line 216, ../sass/styles/_styles.scss */
 ul.pager li a {
   background-color: #d5d0c0;
   color: #3f3c30;
 }
 
-/* line 209, ../sass/styles/_styles.scss */
+/* line 220, ../sass/styles/_styles.scss */
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background-color: #8f7029;
   color: #fbfbf9;
 }
 
-/* line 213, ../sass/styles/_styles.scss */
+/* line 224, ../sass/styles/_styles.scss */
 .date-stacked {
   background: #6a6860;
 }
-/* line 215, ../sass/styles/_styles.scss */
+/* line 226, ../sass/styles/_styles.scss */
 .date-stacked .date-month, .date-stacked .date-day {
   color: #fbfbf9;
 }
 
 /* Mini-calendar navigtaion */
-/* line 220, ../sass/styles/_styles.scss */
+/* line 231, ../sass/styles/_styles.scss */
 .calendar-calendar td.mini a, .calendar-calendar td.mini .mini-day-off {
   color: #3f3c30;
 }
 
-/* line 223, ../sass/styles/_styles.scss */
+/* line 234, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td {
   border-color: #fbfbf9;
   background: #d5d0c0;
 }
 
-/* line 227, ../sass/styles/_styles.scss */
+/* line 238, ../sass/styles/_styles.scss */
 .calendar-calendar table.mini td.empty {
   border-color: #fbfbf9;
 }
 
-/* line 230, ../sass/styles/_styles.scss */
+/* line 241, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td.has-events {
   background: #bfbbac;
 }
 
-/* line 233, ../sass/styles/_styles.scss */
+/* line 244, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td.today {
   background: #8f7029;
 }
 
-/* line 236, ../sass/styles/_styles.scss */
+/* line 247, ../sass/styles/_styles.scss */
 .calendar-calendar td.mini .mini-day-off {
   color: #3f3c30;
 }
 
-/* line 239, ../sass/styles/_styles.scss */
+/* line 250, ../sass/styles/_styles.scss */
 .calendar-calendar td.today .mini-day-off {
   color: #fbfbf9;
 }
 
-/* line 242, ../sass/styles/_styles.scss */
+/* line 253, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.has-events a:hover {
   background: #8f7029;
   color: #fbfbf9;
 }
 
-/* line 246, ../sass/styles/_styles.scss */
+/* line 257, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.today a, .calendar-calendar tr td.today a:hover {
   background: #8f7029;
   color: #fbfbf9;
 }
 
-/* line 250, ../sass/styles/_styles.scss */
+/* line 261, ../sass/styles/_styles.scss */
 .calendar-calendar table.mini td.empty {
   background: #bfbbac;
 }
 
-/* line 253, ../sass/styles/_styles.scss */
+/* line 264, ../sass/styles/_styles.scss */
 .calendar-calendar th.days {
   background: #d5d0c0;
   color: #3f3c30;
 }
 
-/* line 257, ../sass/styles/_styles.scss */
+/* line 268, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper {
   background: #d5d0c0;
 }
 
-/* line 260, ../sass/styles/_styles.scss */
+/* line 271, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a {
   color: #8f7029;
 }
 
-/* line 263, ../sass/styles/_styles.scss */
+/* line 274, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a:hover {
   color: #8f7029;
 }
 
-/* line 266, ../sass/styles/_styles.scss */
+/* line 277, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
   background: #fbfbf9;
   color: #bfbbac;
 }
 
-/* line 270, ../sass/styles/_styles.scss */
+/* line 281, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a:hover, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a:hover {
   background-color: #8f7029;
   color: #fbfbf9;
 }
 
-/* line 274, ../sass/styles/_styles.scss */
+/* line 285, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
   background-color: #8f7029;
   color: #fbfbf9;
 }
 
-/* line 279, ../sass/styles/_styles.scss */
+/* line 290, ../sass/styles/_styles.scss */
 #block-search-form input.search-query {
   border: 2px solid #d5d0c0;
   color: #3f3c30;
 }
 
-/* line 283, ../sass/styles/_styles.scss */
+/* line 294, ../sass/styles/_styles.scss */
 #block-search-form input.search-query:focus {
   color: black;
   -moz-box-shadow: 0px 0px 5px 3px #d5d0c0;
@@ -420,37 +431,38 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   border-bottom: 5px solid transparent;
 }
 
-/* line 15, ../sass/styles/_rich-styles.scss */
+/* line 16, ../sass/styles/_rich-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
 .navbar .nav > li > a:focus,
-.navbar .nav > li > a:hover {
+.navbar .nav > li > a:hover,
+.navbar .nav > .active-trail > a {
   border-bottom: 5px solid #5e3032;
 }
 
-/* line 18, ../sass/styles/_rich-styles.scss */
+/* line 19, ../sass/styles/_rich-styles.scss */
 h2 a:hover, h2 a:focus {
   text-decoration: none;
 }
 
-/* line 22, ../sass/styles/_rich-styles.scss */
+/* line 23, ../sass/styles/_rich-styles.scss */
 .well a,
 .well .menu li a {
   color: #5e4a1b;
 }
 
-/* line 25, ../sass/styles/_rich-styles.scss */
+/* line 26, ../sass/styles/_rich-styles.scss */
 .site-footer {
   color: #fbfbf9;
 }
 
-/* line 28, ../sass/styles/_rich-styles.scss */
+/* line 29, ../sass/styles/_rich-styles.scss */
 .site-footer .block h2 {
   color: #fbfbf9;
 }
 
-/* line 34, ../sass/styles/_rich-styles.scss */
+/* line 35, ../sass/styles/_rich-styles.scss */
 .site-footer a,
 .site-footer a:hover,
 .site-footer a:focus,
@@ -458,7 +470,7 @@ h2 a:hover, h2 a:focus {
   color: #fbfbf9;
 }
 
-/* line 39, ../sass/styles/_rich-styles.scss */
+/* line 40, ../sass/styles/_rich-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -466,26 +478,26 @@ h2 a:hover, h2 a:focus {
 }
 
 @media (max-width: 767px) {
-  /* line 43, ../sass/styles/_rich-styles.scss */
+  /* line 44, ../sass/styles/_rich-styles.scss */
   .navbar .btn-navbar {
     background: #5e3032;
   }
 }
-/* line 47, ../sass/styles/_rich-styles.scss */
+/* line 48, ../sass/styles/_rich-styles.scss */
 .well .caption {
   color: #474640;
 }
 
-/* line 50, ../sass/styles/_rich-styles.scss */
+/* line 51, ../sass/styles/_rich-styles.scss */
 th a {
   color: #644e1c;
 }
 
-/* line 54, ../sass/styles/_rich-styles.scss */
+/* line 55, ../sass/styles/_rich-styles.scss */
 .banner-overlay a.more-link, .banner-overlay .more-link a {
   color: #3f3c30;
 }
-/* line 58, ../sass/styles/_rich-styles.scss */
+/* line 59, ../sass/styles/_rich-styles.scss */
 .banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
 .banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
   text-decoration: underline;

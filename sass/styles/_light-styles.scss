@@ -19,7 +19,8 @@ a:focus,
 .navbar .nav > .active > a:hover, 
 .navbar .nav > .active > a:focus, 
 .navbar .nav > li > a:focus, 
-.navbar .nav > li > a:hover {
+.navbar .nav > li > a:hover, 
+.navbar .nav > .active-trail > a {
     border-bottom: 5px solid $clr-menu-link-border;
 }
 @media (max-width: 767px) {
