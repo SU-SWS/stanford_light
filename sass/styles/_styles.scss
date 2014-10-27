@@ -198,18 +198,20 @@ td.active {
 .front.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
     background: $clr-header-bkg;
 }
-.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main {
-    color: $clr-page-bkg; /* page background color */
+
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main {
+    color: $clr-page-bkg; /* text color */
 }
-.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main a {
-    color: $clr-page-bkg; /* well link color */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
+    color: $clr-page-bkg; /* link color */
 }
-.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well {
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well {
     color: $clr-text; /* well text color */
 }
-.front.header-bkg.header-bkg-style-frontbleed.style-custom-styles-light .main .well a {
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well a {
     color: $clr-link; /* well link color */
 }
+
 .views-row-lines .views-row {
     border-color: $clr-hr;
 }
