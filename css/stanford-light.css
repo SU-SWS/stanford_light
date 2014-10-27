@@ -513,6 +513,7 @@ ul.pager li.pager-current {
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
   padding: 0.25em 0.5em;
   border: 0;
+  margin-right: 0.5em;
 }
 
 /* line 1, ../sass/includes/_module-navbar.scss */

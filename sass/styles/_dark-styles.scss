@@ -75,6 +75,17 @@ a.btn:focus,
     color: $clr-text;
     background: $clr-header-bkg;
 }
+.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+    .navbar .nav > .active > a, 
+    .navbar .nav > .active > a:hover, 
+    .navbar .nav > .active > a:focus, 
+    .navbar .nav > li > a:focus, 
+    .navbar .nav > li > a:hover,
+    .navbar .nav > .active-trail > a {
+        color: $clr-header-bkg;
+        background: $clr-menu-text-hvr;
+    }
+}
 th, td {
     border-color: $clr-text;
 }

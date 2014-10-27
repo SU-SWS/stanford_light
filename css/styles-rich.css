@@ -441,28 +441,39 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   border-bottom: 5px solid #5e3032;
 }
 
-/* line 19, ../sass/styles/_rich-styles.scss */
+/* line 25, ../sass/styles/_rich-styles.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:hover,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:focus,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a:focus,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a:hover,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active-trail > a {
+  color: #fbfbf9;
+  background: #5e3032;
+}
+
+/* line 30, ../sass/styles/_rich-styles.scss */
 h2 a:hover, h2 a:focus {
   text-decoration: none;
 }
 
-/* line 23, ../sass/styles/_rich-styles.scss */
+/* line 34, ../sass/styles/_rich-styles.scss */
 .well a,
 .well .menu li a {
   color: #5e4a1b;
 }
 
-/* line 26, ../sass/styles/_rich-styles.scss */
+/* line 37, ../sass/styles/_rich-styles.scss */
 .site-footer {
   color: #fbfbf9;
 }
 
-/* line 29, ../sass/styles/_rich-styles.scss */
+/* line 40, ../sass/styles/_rich-styles.scss */
 .site-footer .block h2 {
   color: #fbfbf9;
 }
 
-/* line 35, ../sass/styles/_rich-styles.scss */
+/* line 46, ../sass/styles/_rich-styles.scss */
 .site-footer a,
 .site-footer a:hover,
 .site-footer a:focus,
@@ -470,7 +481,7 @@ h2 a:hover, h2 a:focus {
   color: #fbfbf9;
 }
 
-/* line 40, ../sass/styles/_rich-styles.scss */
+/* line 51, ../sass/styles/_rich-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -478,26 +489,26 @@ h2 a:hover, h2 a:focus {
 }
 
 @media (max-width: 767px) {
-  /* line 44, ../sass/styles/_rich-styles.scss */
+  /* line 55, ../sass/styles/_rich-styles.scss */
   .navbar .btn-navbar {
     background: #5e3032;
   }
 }
-/* line 48, ../sass/styles/_rich-styles.scss */
+/* line 59, ../sass/styles/_rich-styles.scss */
 .well .caption {
   color: #474640;
 }
 
-/* line 51, ../sass/styles/_rich-styles.scss */
+/* line 62, ../sass/styles/_rich-styles.scss */
 th a {
   color: #644e1c;
 }
 
-/* line 55, ../sass/styles/_rich-styles.scss */
+/* line 66, ../sass/styles/_rich-styles.scss */
 .banner-overlay a.more-link, .banner-overlay .more-link a {
   color: #3f3c30;
 }
-/* line 59, ../sass/styles/_rich-styles.scss */
+/* line 70, ../sass/styles/_rich-styles.scss */
 .banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
 .banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
   text-decoration: underline;

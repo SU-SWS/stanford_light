@@ -41,3 +41,14 @@ a:focus,
 .well .caption {
     color: darken( $clr-icons, 15% );
 }
+.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+    .navbar .nav > .active > a, 
+    .navbar .nav > .active > a:hover, 
+    .navbar .nav > .active > a:focus, 
+    .navbar .nav > li > a:focus, 
+    .navbar .nav > li > a:hover,
+    .navbar .nav > .active-trail > a {
+        color: $clr-menu-text-hvr;
+        background: $clr-menu-link-border;
+    }
+}

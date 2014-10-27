@@ -472,3 +472,14 @@ a:focus,
 .well .caption {
   color: #6a655c;
 }
+
+/* line 50, ../sass/styles/_light-styles.scss */
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:hover,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:focus,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a:focus,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a:hover,
+.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active-trail > a {
+  color: #333333;
+  background: #e9e6df;
+}

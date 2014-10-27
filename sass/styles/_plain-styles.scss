@@ -1,0 +1,11 @@
+.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+    .navbar .nav > .active > a, 
+    .navbar .nav > .active > a:hover, 
+    .navbar .nav > .active > a:focus, 
+    .navbar .nav > li > a:focus, 
+    .navbar .nav > li > a:hover,
+    .navbar .nav > .active-trail > a {
+        color: $clr-page-bkg;
+        background: $clr-menu-text-hvr;
+    }
+}
