@@ -494,20 +494,18 @@ ul.pager li.pager-current {
 }
 
 /* line 60, ../sass/includes/_module-header-bkg-img.scss */
-.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+.front.header-bkg.header-bkg-style-frontbleed .site-main-menu {
   border: 0;
   background: transparent;
 }
 
 /* line 64, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
-  padding: 0.75em 1em;
+  padding: 0.5em;
 }
-
-/* line 67, ../sass/includes/_module-header-bkg-img.scss */
+/* line 66, ../sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
-  border-bottom: 0;
-  padding-bottom: 0;
+  padding: 0.25em 0.5em;
 }
 
 /* line 1, ../sass/includes/_module-navbar.scss */
