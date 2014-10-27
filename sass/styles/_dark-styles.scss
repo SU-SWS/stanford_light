@@ -127,3 +127,9 @@ th a:hover, th a:focus {
 #block-search-form input.search-query {
     color: $clr-page-bkg; 
 }
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main {
+    color: $clr-text; /* text color */
+}
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
+    color: $clr-link; /* link color */
+}

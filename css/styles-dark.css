@@ -589,3 +589,15 @@ th a:hover, th a:focus {
 #block-search-form input.search-query {
   color: #2e2d29;
 }
+
+/* line 130, ../sass/styles/_dark-styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main {
+  color: #fbfbf9;
+  /* text color */
+}
+
+/* line 133, ../sass/styles/_dark-styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
+  color: #b3995d;
+  /* link color */
+}
