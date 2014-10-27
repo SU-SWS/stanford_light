@@ -61,10 +61,15 @@
     border: 0;
     background: transparent;
 }
+.header-bkg.header-bkg-style-frontbleed .site-main-menu {
+    padding: 0;
+}
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
     padding: 0.5em;
+    margin: 0;
     .nav > li > a {
         padding: 0.25em 0.5em;
+        border: 0;
     }
 }
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
