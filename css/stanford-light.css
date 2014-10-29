@@ -657,16 +657,17 @@ ul.pager li.pager-current {
 
 /* line 12, ../sass/includes/_module-sidebar-nav.scss */
 .site-footer .menu li a {
-  padding: 0 0 0.25em 0;
+  line-height: 1.4em;
+  padding: 0 0 0.5em;
 }
 
-/* line 16, ../sass/includes/_module-sidebar-nav.scss */
+/* line 17, ../sass/includes/_module-sidebar-nav.scss */
 .main .content > .menu > li > a,
 .site-footer .content > .menu > li > a {
   font-weight: 600;
 }
 
-/* line 26, ../sass/includes/_module-sidebar-nav.scss */
+/* line 27, ../sass/includes/_module-sidebar-nav.scss */
 .main .menu li a:hover,
 .main .menu li a:focus,
 .main .menu li a.active,
@@ -678,7 +679,7 @@ ul.pager li.pager-current {
   background: transparent;
 }
 
-/* line 30, ../sass/includes/_module-sidebar-nav.scss */
+/* line 31, ../sass/includes/_module-sidebar-nav.scss */
 .main .menu li ul,
 .site-footer .menu li ul {
   padding-left: 1em;
