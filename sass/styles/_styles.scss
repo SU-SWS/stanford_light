@@ -59,6 +59,7 @@ strong {
 .descriptor-btn a:hover, a.descriptor-btn:hover, .descriptor-btn a:focus, a.descriptor-btn:focus {
     background-color: $clr-link-hvr;
     color: $clr-page-bkg;
+    text-decoration: none;
 }
 .credits {
 }
@@ -92,6 +93,7 @@ a.edit-link, .edit-link a {
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     background: $clr-btn-bkg-hvr;
     color: $clr-btn-text-hvr;
+    text-decoration: none;
 }
 
 td {
