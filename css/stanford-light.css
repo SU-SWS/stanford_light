@@ -119,7 +119,7 @@ blockquote.quote {
 }
 
 /* line 108, ../sass/includes/_base.scss */
-blockquote p {
+blockquote p, blockquote .more-link a, blockquote a.more-link {
   font-size: 20.8px;
   line-height: 1.5em;
   margin-bottom: 1em;
