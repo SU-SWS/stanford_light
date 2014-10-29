@@ -296,15 +296,16 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  padding: 1.3em;
 }
 
-/* line 238, ../sass/includes/_base.scss */
+/* line 239, ../sass/includes/_base.scss */
 .banner-overlay {
   height: auto;
   position: absolute;
 }
 
-/* line 242, ../sass/includes/_base.scss */
+/* line 243, ../sass/includes/_base.scss */
 .banner-overlay > div {
   background: rgba(0, 0, 0, 0.75);
   color: #F2F1EB;
@@ -314,52 +315,52 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   top: -190px;
 }
 
-/* line 250, ../sass/includes/_base.scss */
+/* line 251, ../sass/includes/_base.scss */
 .border-simple .banner-overlay > div {
   margin-left: 6px;
 }
 @media (max-width: 480px) {
-  /* line 250, ../sass/includes/_base.scss */
+  /* line 251, ../sass/includes/_base.scss */
   .border-simple .banner-overlay > div {
     margin-left: 0;
   }
 }
 
-/* line 256, ../sass/includes/_base.scss */
+/* line 257, ../sass/includes/_base.scss */
 .banner-overlay p {
   margin-bottom: 0;
 }
 
-/* line 259, ../sass/includes/_base.scss */
+/* line 260, ../sass/includes/_base.scss */
 .banner-overlay h2, .banner-overlay h3, .banner-overlay h4 {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
 
 @media (max-width: 480px) {
-  /* line 266, ../sass/includes/_base.scss */
+  /* line 267, ../sass/includes/_base.scss */
   .banner-overlay {
     position: inherit;
   }
 
-  /* line 269, ../sass/includes/_base.scss */
+  /* line 270, ../sass/includes/_base.scss */
   .banner-overlay > div {
     position: inherit;
     margin: 0px;
     max-width: 100%;
   }
 }
-/* line 275, ../sass/includes/_base.scss */
+/* line 276, ../sass/includes/_base.scss */
 ul.pager li {
   margin: 0;
 }
 
-/* line 278, ../sass/includes/_base.scss */
+/* line 279, ../sass/includes/_base.scss */
 ul.nav-pills a.active {
   background: transparent;
 }
 
-/* line 281, ../sass/includes/_base.scss */
+/* line 282, ../sass/includes/_base.scss */
 ul.pager li a {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -370,7 +371,7 @@ ul.pager li a {
   padding: 4px 10px;
 }
 
-/* line 288, ../sass/includes/_base.scss */
+/* line 289, ../sass/includes/_base.scss */
 ul.pager li.pager-current {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -382,17 +383,17 @@ ul.pager li.pager-current {
   margin: 0;
 }
 
-/* line 294, ../sass/includes/_base.scss */
+/* line 295, ../sass/includes/_base.scss */
 .item-list .pager li {
   padding: 0;
 }
 
-/* line 298, ../sass/includes/_base.scss */
+/* line 299, ../sass/includes/_base.scss */
 #nav-search {
   margin-right: 0;
 }
 
-/* line 301, ../sass/includes/_base.scss */
+/* line 302, ../sass/includes/_base.scss */
 #block-search-form input.search-query {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -403,7 +404,7 @@ ul.pager li.pager-current {
   padding-right: 33px;
 }
 
-/* line 308, ../sass/includes/_base.scss */
+/* line 309, ../sass/includes/_base.scss */
 .navbar #block-search-form input.btn-search {
   top: 2px;
 }
@@ -639,36 +640,47 @@ ul.pager li.pager-current {
   color: white;
 }
 
-/* line 1, ../sass/includes/_module-sidebar-nav.scss */
-.main .menu, .site-footer .menu {
+/* line 2, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu,
+.site-footer .menu {
   margin: 0;
 }
 
-/* line 4, ../sass/includes/_module-sidebar-nav.scss */
-.main .menu li, .site-footer .menu li {
+/* line 6, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu li,
+.site-footer .menu li {
   list-style-type: none;
   list-style-image: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 10, ../sass/includes/_module-sidebar-nav.scss */
-.main .menu li a, .site-footer .menu li a {
+/* line 12, ../sass/includes/_module-sidebar-nav.scss */
+.site-footer .menu li a {
   padding: 0 0 0.25em 0;
 }
 
-/* line 13, ../sass/includes/_module-sidebar-nav.scss */
-.main .content > .menu > li > a, .site-footer .content > .menu > li > a {
+/* line 16, ../sass/includes/_module-sidebar-nav.scss */
+.main .content > .menu > li > a,
+.site-footer .content > .menu > li > a {
   font-weight: 600;
 }
 
-/* line 16, ../sass/includes/_module-sidebar-nav.scss */
-.main .menu li a:hover, .main .menu li a:focus, .main .menu li a.active, .main .menu li a.active-trail, .site-footer .menu li a:hover, .site-footer .menu li a:focus, .site-footer .menu li a.active, .site-footer .menu li a.active-trail {
+/* line 26, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu li a:hover,
+.main .menu li a:focus,
+.main .menu li a.active,
+.main .menu li a.active-trail,
+.site-footer .menu li a:hover,
+.site-footer .menu li a:focus,
+.site-footer .menu li a.active,
+.site-footer .menu li a.active-trail {
   background: transparent;
 }
 
-/* line 19, ../sass/includes/_module-sidebar-nav.scss */
-.main .menu li ul, .site-footer .menu li ul {
+/* line 30, ../sass/includes/_module-sidebar-nav.scss */
+.main .menu li ul,
+.site-footer .menu li ul {
   padding-left: 1em;
 }
 

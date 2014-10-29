@@ -231,6 +231,7 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     border: none;
     @include border-radius(0);
     @include box-shadow(none);
+    padding: 1.3em;
 }
 .block.well h2 {
 }

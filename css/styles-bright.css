@@ -178,15 +178,79 @@ td.active {
   background: white;
 }
 
-/* line 152, ../sass/styles/_styles.scss */
+/* line 150, ../sass/styles/_styles.scss */
+.sidebar .block-menu,
+.sidebar .block-menu-block {
+  background: #006374;
+  padding: 1.3em;
+}
+
+/* line 155, ../sass/styles/_styles.scss */
+.sidebar .block-menu h2,
+.sidebar .block-menu-block h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+/* top level sidebar links */
+/* line 161, ../sass/styles/_styles.scss */
+.sidebar .block-menu .content > .menu > li > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a {
+  border-top: 1px solid #d6d6d6;
+  padding: 0.5em;
+}
+
+/* line 166, ../sass/styles/_styles.scss */
+.sidebar .block-menu .content > .menu > li.last > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+/* line 176, ../sass/styles/_styles.scss */
+.sidebar .block-menu .content > .menu > li.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
+.sidebar .block-menu .content > .menu > li > a.active,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+  background: #53284f;
+}
+
+/* nested sidebar links */
+/* line 181, ../sass/styles/_styles.scss */
+.sidebar .block-menu .content > .menu > li.expanded,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.expanded {
+  padding-bottom: 0.75em;
+}
+
+/* line 185, ../sass/styles/_styles.scss */
+.sidebar .block-menu .content > .menu > li li a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
+  padding: 0.25em 0;
+}
+
+/* line 193, ../sass/styles/_styles.scss */
+.sidebar .block-menu .content > .menu > li li a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover,
+.sidebar .block-menu .content > .menu > li li a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:focus,
+.sidebar .block-menu .content > .menu > li li a.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a.active-trail {
+  text-decoration: underline;
+}
+
+/* line 199, ../sass/styles/_styles.scss */
 .sidebar .nav li a:hover,
 .sidebar .nav li a:focus,
 .sidebar .nav li a.active,
 .sidebar .nav li a.active-trail {
   color: #333333;
+  text-decoration: none;
 }
 
-/* line 155, ../sass/styles/_styles.scss */
+/* line 203, ../sass/styles/_styles.scss */
 .dropdown-menu {
   background: #53284f;
   border: 1px solid #53284f;
@@ -194,222 +258,222 @@ td.active {
   padding: 0;
 }
 
-/* line 161, ../sass/styles/_styles.scss */
+/* line 209, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background: transparent;
   color: white;
 }
 
-/* line 165, ../sass/styles/_styles.scss */
+/* line 213, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
   color: #333333;
   background: white;
 }
 
-/* line 169, ../sass/styles/_styles.scss */
+/* line 217, ../sass/styles/_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: white;
   border-top-color: white;
 }
 
-/* line 174, ../sass/styles/_styles.scss */
+/* line 222, ../sass/styles/_styles.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a,
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #53284f;
   background: #333333;
 }
 
-/* line 178, ../sass/styles/_styles.scss */
+/* line 226, ../sass/styles/_styles.scss */
 .bodybg .sidebar .region, .bodybg .content-wrapper {
   background-color: white;
 }
 
-/* line 181, ../sass/styles/_styles.scss */
+/* line 229, ../sass/styles/_styles.scss */
 .bodybg .sidebar .region {
   opacity: 1;
 }
 
-/* line 184, ../sass/styles/_styles.scss */
+/* line 232, ../sass/styles/_styles.scss */
 .borders .sidebar .region, .borders .content-wrapper, .bodybg.borders .breadcrumb {
   border: 1px solid #53284f;
 }
 
-/* line 187, ../sass/styles/_styles.scss */
+/* line 235, ../sass/styles/_styles.scss */
 .roundedcorners .well {
   border-radius: 5px;
 }
 
-/* line 190, ../sass/styles/_styles.scss */
+/* line 238, ../sass/styles/_styles.scss */
 .breadcrumb {
   background-color: white;
   border-radius: 0;
 }
 
-/* line 194, ../sass/styles/_styles.scss */
+/* line 242, ../sass/styles/_styles.scss */
 .bean-stanford-social-media-connect a {
   opacity: 0.75;
 }
 
-/* line 197, ../sass/styles/_styles.scss */
+/* line 245, ../sass/styles/_styles.scss */
 .site-footer {
   border-top: 1px solid #53284f;
 }
 
-/* line 200, ../sass/styles/_styles.scss */
+/* line 248, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
   background: #53284f;
 }
 
-/* line 204, ../sass/styles/_styles.scss */
+/* line 252, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main {
   color: white;
   /* text color */
 }
 
-/* line 207, ../sass/styles/_styles.scss */
+/* line 255, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
   color: white;
   /* link color */
 }
 
-/* line 210, ../sass/styles/_styles.scss */
+/* line 258, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well {
   color: #333333;
   /* well text color */
 }
 
-/* line 213, ../sass/styles/_styles.scss */
+/* line 261, ../sass/styles/_styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well a {
   color: #007c92;
   /* well link color */
 }
 
-/* line 217, ../sass/styles/_styles.scss */
+/* line 265, ../sass/styles/_styles.scss */
 .views-row-lines .views-row {
   border-color: #888888;
 }
 
-/* line 220, ../sass/styles/_styles.scss */
+/* line 268, ../sass/styles/_styles.scss */
 ul.pager li a {
   background-color: #006374;
   color: #333333;
 }
 
-/* line 224, ../sass/styles/_styles.scss */
+/* line 272, ../sass/styles/_styles.scss */
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background-color: #007c92;
   color: white;
 }
 
-/* line 228, ../sass/styles/_styles.scss */
+/* line 276, ../sass/styles/_styles.scss */
 .date-stacked {
   background: #00313a;
 }
-/* line 230, ../sass/styles/_styles.scss */
+/* line 278, ../sass/styles/_styles.scss */
 .date-stacked .date-month, .date-stacked .date-day {
   color: white;
 }
 
 /* Mini-calendar navigtaion */
-/* line 235, ../sass/styles/_styles.scss */
+/* line 283, ../sass/styles/_styles.scss */
 .calendar-calendar td.mini a, .calendar-calendar td.mini .mini-day-off {
   color: #333333;
 }
 
-/* line 238, ../sass/styles/_styles.scss */
+/* line 286, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td {
   border-color: white;
   background: #006374;
 }
 
-/* line 242, ../sass/styles/_styles.scss */
+/* line 290, ../sass/styles/_styles.scss */
 .calendar-calendar table.mini td.empty {
   border-color: white;
 }
 
-/* line 245, ../sass/styles/_styles.scss */
+/* line 293, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td.has-events {
   background: #005968;
 }
 
-/* line 248, ../sass/styles/_styles.scss */
+/* line 296, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td.today {
   background: #007c92;
 }
 
-/* line 251, ../sass/styles/_styles.scss */
+/* line 299, ../sass/styles/_styles.scss */
 .calendar-calendar td.mini .mini-day-off {
   color: #333333;
 }
 
-/* line 254, ../sass/styles/_styles.scss */
+/* line 302, ../sass/styles/_styles.scss */
 .calendar-calendar td.today .mini-day-off {
   color: white;
 }
 
-/* line 257, ../sass/styles/_styles.scss */
+/* line 305, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.has-events a:hover {
   background: #007c92;
   color: white;
 }
 
-/* line 261, ../sass/styles/_styles.scss */
+/* line 309, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.today a, .calendar-calendar tr td.today a:hover {
   background: #007c92;
   color: white;
 }
 
-/* line 265, ../sass/styles/_styles.scss */
+/* line 313, ../sass/styles/_styles.scss */
 .calendar-calendar table.mini td.empty {
   background: #005968;
 }
 
-/* line 268, ../sass/styles/_styles.scss */
+/* line 316, ../sass/styles/_styles.scss */
 .calendar-calendar th.days {
   background: #006374;
   color: #333333;
 }
 
-/* line 272, ../sass/styles/_styles.scss */
+/* line 320, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper {
   background: #006374;
 }
 
-/* line 275, ../sass/styles/_styles.scss */
+/* line 323, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a {
   color: #007c92;
 }
 
-/* line 278, ../sass/styles/_styles.scss */
+/* line 326, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a:hover {
   color: #007c92;
 }
 
-/* line 281, ../sass/styles/_styles.scss */
+/* line 329, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
   background: white;
   color: #005968;
 }
 
-/* line 285, ../sass/styles/_styles.scss */
+/* line 333, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a:hover, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a:hover {
   background-color: #007c92;
   color: white;
 }
 
-/* line 289, ../sass/styles/_styles.scss */
+/* line 337, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
   background-color: #007c92;
   color: white;
 }
 
-/* line 294, ../sass/styles/_styles.scss */
+/* line 342, ../sass/styles/_styles.scss */
 #block-search-form input.search-query {
   border: 2px solid #006374;
   color: #333333;
 }
 
-/* line 298, ../sass/styles/_styles.scss */
+/* line 346, ../sass/styles/_styles.scss */
 #block-search-form input.search-query:focus {
   color: black;
   -moz-box-shadow: 0px 0px 5px 3px #006374;
@@ -720,4 +784,55 @@ ul.pager li a {
 .calendar-calendar .mini td,
 .calendar-calendar table.mini td.empty {
   border-color: #197281;
+}
+
+/* line 225, ../sass/styles/_bright-styles.scss */
+.sidebar .block-menu .content > .menu > li > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
+.sidebar .block-menu .content > .menu > li.last > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
+  border-color: #7fb1b9;
+  color: #ffce49;
+}
+
+/* line 238, ../sass/styles/_bright-styles.scss */
+.sidebar .nav li a:hover,
+.sidebar .nav li a:focus,
+.sidebar .nav li a.active,
+.sidebar .nav li a.active-trail,
+.sidebar .block-menu .content > .menu > li > a.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+  color: white;
+}
+
+/* line 246, ../sass/styles/_bright-styles.scss */
+.sidebar .block-menu .content > .menu > li > a.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+  text-decoration: none;
+}
+
+/* line 256, ../sass/styles/_bright-styles.scss */
+.sidebar .block-menu .content > .menu > li.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
+.sidebar .block-menu .content > .menu > li > a.active,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+  background: #33828f;
+}
+
+/* line 260, ../sass/styles/_bright-styles.scss */
+.sidebar .block-menu h2,
+.sidebar .block-menu-block h2 {
+  color: white;
 }

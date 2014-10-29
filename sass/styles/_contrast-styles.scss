@@ -234,3 +234,44 @@ ul.pager li a {
 .calendar-calendar table.mini td.empty {
     border-color: tint($clr-well-bkg, 10%);
 }
+.sidebar .block-menu .content > .menu > li > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
+.sidebar .block-menu .content > .menu > li.last > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a  {
+    border-color: tint($clr-well-bkg, 50%);
+    color: #b3995d;
+}
+.sidebar .nav li a:hover, 
+.sidebar .nav li a:focus, 
+.sidebar .nav li a.active,
+.sidebar .nav li a.active-trail,
+.sidebar .block-menu .content > .menu > li > a.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+    color: $clr-page-bkg;
+}
+.sidebar .block-menu .content > .menu > li > a.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+    text-decoration: none;
+}
+.sidebar .block-menu .content > .menu > li.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
+.sidebar .block-menu .content > .menu > li > a.active,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+    background: tint($clr-well-bkg, 10%);
+}
+.sidebar .block-menu h2,
+.sidebar .block-menu-block h2 {
+    color: $clr-page-bkg;
+}

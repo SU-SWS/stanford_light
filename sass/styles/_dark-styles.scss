@@ -133,3 +133,9 @@ th a:hover, th a:focus {
 .front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
     color: $clr-link; /* link color */
 }
+.sidebar .block-menu .content > .menu > li > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
+.sidebar .block-menu .content > .menu > li.last > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a  {
+    border-color: shade($clr-text, 70%);
+}
