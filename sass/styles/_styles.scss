@@ -145,7 +145,17 @@ td.active {
 .navbar .nav > .active-trail > a {
     color: $clr-menu-text-hvr;
     background: $clr-menu-bkg-hvr;
+    @media (max-width: 767px) {
+        color: $clr-header-bkg;
+        background: $clr-menu-text-hvr;
+    }
 }
+@media (max-width: 767px) {
+    #main-nav {
+        background: $clr-page-bkg;
+    }
+}
+
 .sidebar .block-menu,
 .sidebar .block-menu-block {
     background: $clr-well-bkg;
@@ -212,14 +222,26 @@ td.active {
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
     background: $clr-menu-bkg;
     color: $clr-menu-text;
+    @media (max-width: 767px) {
+        color: $clr-header-bkg;
+        background: $clr-menu-text-hvr;
+    }
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
     color: $clr-menu-text-hvr;
     background: $clr-menu-bkg-hvr;
+    @media (max-width: 767px) {
+        color: $clr-header-bkg;
+        background: $clr-menu-text-hvr;
+    }
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
     border-bottom-color: $clr-menu-text;
     border-top-color: $clr-menu-text;
+    @media (max-width: 767px) {
+        border-bottom-color: $clr-header-bkg;
+    border-top-color: $clr-header-bkg;
+    }
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a,
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {

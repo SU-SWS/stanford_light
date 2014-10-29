@@ -564,21 +564,28 @@ ul.pager li.pager-current {
 
   /* line 26, ../sass/includes/_module-navbar.scss */
   #main-nav {
-    margin-top: 20px;
+    margin: 0.5em 0;
+    padding: 1em;
   }
 
-  /* line 29, ../sass/includes/_module-navbar.scss */
+  /* line 30, ../sass/includes/_module-navbar.scss */
   .navbar .nav > li > a {
     margin-right: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
+    padding: 0.25em 0.5em;
   }
 
-  /* line 34, ../sass/includes/_module-navbar.scss */
+  /* line 36, ../sass/includes/_module-navbar.scss */
+  .navbar .nav > li.last > a {
+    margin-bottom: 0;
+  }
+
+  /* line 39, ../sass/includes/_module-navbar.scss */
   .navbar .btn-navbar {
     background-image: none;
     background: #8c1515;
@@ -590,14 +597,14 @@ ul.pager li.pager-current {
     text-shadow: none;
   }
 
-  /* line 42, ../sass/includes/_module-navbar.scss */
+  /* line 47, ../sass/includes/_module-navbar.scss */
   .navbar .btn-navbar .icon-bar {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
 
-  /* line 45, ../sass/includes/_module-navbar.scss */
+  /* line 50, ../sass/includes/_module-navbar.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #333333;
   }

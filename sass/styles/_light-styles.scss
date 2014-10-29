@@ -14,6 +14,10 @@ a:focus,
 .navbar .nav > li > a {
     padding-bottom: .25em;
     border-bottom: 5px solid transparent;
+    @media (max-width: 767px) {
+        border-bottom: 0;
+        padding: 0.25em 0.5em;
+    }
 }
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover, 
@@ -22,6 +26,9 @@ a:focus,
 .navbar .nav > li > a:hover, 
 .navbar .nav > .active-trail > a {
     border-bottom: 5px solid $clr-menu-link-border;
+    @media (max-width: 767px) {
+        border-bottom: 0;
+    }
 }
 @media (max-width: 767px) {
     .navbar {
