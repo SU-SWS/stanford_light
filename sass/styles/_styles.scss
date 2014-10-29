@@ -150,6 +150,9 @@ td.active {
 .sidebar .block-menu-block {
     background: $clr-well-bkg;
     padding: 1.3em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .sidebar .block-menu h2,
 .sidebar .block-menu-block h2 {
