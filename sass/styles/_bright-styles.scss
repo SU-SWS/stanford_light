@@ -60,11 +60,18 @@
 .navbar .nav > li > a:hover,
 .navbar .nav > .active-trail > a {
     color: $clr-text;
+    @media (max-width: 767px) {
+        color: $clr-header-bkg;
+        background: $clr-page-bkg;
+    }
 }
 .roundedcorners .navbar .nav > li > a {
     border-radius: 5px 5px 0 0;
 }
 @media (max-width: 767px) {
+    #main-nav {
+        background: shade($clr-header-bkg, 20%);
+    }
     .navbar .btn-navbar {
         border: 1px solid transparent;
         background: $clr-link;
@@ -82,7 +89,16 @@
         border-radius: 5px;
         margin-right: 0;
     }
+    .navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+        color: $clr-page-bkg;
+    }
+    .navbar .nav li.dropdown.open > .dropdown-toggle, 
+    .navbar .nav li.dropdown.active > .dropdown-toggle, 
+    .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+        color: $clr-page-bkg;
+    }
 }
+
 .main .menu li a:hover, 
 .main .menu li a:focus, 
 .main .menu li a.active {
