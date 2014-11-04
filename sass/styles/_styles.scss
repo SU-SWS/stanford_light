@@ -126,6 +126,31 @@ td.active {
 }
 .block.well h2 {
 }
+.tile-link {
+    margin-bottom: 1em;
+    background: $clr-btn-bkg;
+}
+.tile-link h2 {
+    margin-bottom: 0;
+}
+.tile-link h2 a {
+    display: block;
+    padding: 0.5em 0.75em;
+    color: $clr-btn-text;
+}
+.tile-link h2 a:hover, .tile-link h2 a:focus {
+    color: $clr-btn-text;
+    text-decoration: none;
+}
+.tile-link:hover, .tile-link:focus {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.content-body .tile-link .field.field-name-tile-display-image,
+.content-body .tile-link .field.field-name-tile-display-title,
+.content-body .tile-link .field.field-name-field-s-lp-item-image {
+    margin-bottom: 0;
+}
 .banner-overlay > div {
     background: $clr-well-bkg;
     background: rgba($clr-well-bkg, 0.8);
