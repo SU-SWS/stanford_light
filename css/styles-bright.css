@@ -802,61 +802,73 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   border-bottom-color: #333333;
   border-top-color: #333333;
 }
+@media (max-width: 767px) {
+  /* line 171, ../sass/styles/_bright-styles.scss */
+  .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
+  .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
+  .navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret,
+  .navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret,
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+    border-bottom-color: white;
+    border-top-color: white;
+  }
+}
 
-/* line 175, ../sass/styles/_bright-styles.scss */
+/* line 179, ../sass/styles/_bright-styles.scss */
 hr {
   border-top: 1px solid #888888;
 }
 
-/* line 178, ../sass/styles/_bright-styles.scss */
+/* line 182, ../sass/styles/_bright-styles.scss */
 th, td {
   border-color: #006374;
 }
 
-/* line 181, ../sass/styles/_bright-styles.scss */
+/* line 185, ../sass/styles/_bright-styles.scss */
 th {
   background: #006374;
   color: white;
 }
 
-/* line 185, ../sass/styles/_bright-styles.scss */
+/* line 189, ../sass/styles/_bright-styles.scss */
 td.active {
   background: rgba(0, 99, 116, 0.5);
 }
 
-/* line 188, ../sass/styles/_bright-styles.scss */
+/* line 192, ../sass/styles/_bright-styles.scss */
 th a {
   color: #ffce49;
 }
 
-/* line 191, ../sass/styles/_bright-styles.scss */
+/* line 195, ../sass/styles/_bright-styles.scss */
 th a:hover, th a:focus {
   color: white;
   text-decoration: underline;
 }
 
-/* line 196, ../sass/styles/_bright-styles.scss */
+/* line 200, ../sass/styles/_bright-styles.scss */
 .banner-overlay h2, .banner-overlay p {
   color: white;
 }
-/* line 199, ../sass/styles/_bright-styles.scss */
+/* line 203, ../sass/styles/_bright-styles.scss */
 .banner-overlay a.more-link, .banner-overlay .more-link a {
   color: #ffce49;
 }
-/* line 203, ../sass/styles/_bright-styles.scss */
+/* line 207, ../sass/styles/_bright-styles.scss */
 .banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
 .banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
   color: white;
   text-decoration: underline;
 }
 
-/* line 208, ../sass/styles/_bright-styles.scss */
+/* line 212, ../sass/styles/_bright-styles.scss */
 ul.pager li a {
   color: white;
   background: #333333;
 }
 
-/* line 216, ../sass/styles/_bright-styles.scss */
+/* line 220, ../sass/styles/_bright-styles.scss */
 .calendar-calendar th.days,
 .calendar-calendar td.mini .mini-day-off,
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a,
@@ -865,7 +877,7 @@ ul.pager li a {
   color: white;
 }
 
-/* line 221, ../sass/styles/_bright-styles.scss */
+/* line 225, ../sass/styles/_bright-styles.scss */
 .calendar-calendar tr td.today a,
 .calendar-calendar tr td.today a:hover,
 .calendar-calendar tr td.has-events a:hover {
@@ -873,28 +885,28 @@ ul.pager li a {
   color: #333333;
 }
 
-/* line 225, ../sass/styles/_bright-styles.scss */
+/* line 229, ../sass/styles/_bright-styles.scss */
 .calendar-calendar .mini td.has-events {
   background: #007c92;
 }
 
-/* line 228, ../sass/styles/_bright-styles.scss */
+/* line 232, ../sass/styles/_bright-styles.scss */
 .calendar-calendar td.mini a {
   color: white;
 }
 
-/* line 231, ../sass/styles/_bright-styles.scss */
+/* line 235, ../sass/styles/_bright-styles.scss */
 .calendar-calendar table.mini td.empty {
   background: #197281;
 }
 
-/* line 235, ../sass/styles/_bright-styles.scss */
+/* line 239, ../sass/styles/_bright-styles.scss */
 .calendar-calendar .mini td,
 .calendar-calendar table.mini td.empty {
   border-color: #197281;
 }
 
-/* line 241, ../sass/styles/_bright-styles.scss */
+/* line 245, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu .content > .menu > li.last > a,
@@ -903,7 +915,7 @@ ul.pager li a {
   color: #ffce49;
 }
 
-/* line 254, ../sass/styles/_bright-styles.scss */
+/* line 258, ../sass/styles/_bright-styles.scss */
 .sidebar .nav li a:hover,
 .sidebar .nav li a:focus,
 .sidebar .nav li a.active,
@@ -917,7 +929,7 @@ ul.pager li a {
   color: white;
 }
 
-/* line 262, ../sass/styles/_bright-styles.scss */
+/* line 266, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu .content > .menu > li > a.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
 .sidebar .block-menu .content > .menu > li > a:hover,
@@ -927,7 +939,7 @@ ul.pager li a {
   text-decoration: none;
 }
 
-/* line 272, ../sass/styles/_bright-styles.scss */
+/* line 276, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu .content > .menu > li.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
 .sidebar .block-menu .content > .menu > li > a.active,
@@ -939,7 +951,7 @@ ul.pager li a {
   background: #33828f;
 }
 
-/* line 276, ../sass/styles/_bright-styles.scss */
+/* line 280, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu h2,
 .sidebar .block-menu-block h2 {
   color: white;

@@ -171,6 +171,10 @@
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
     border-bottom-color: $clr-menu-text-hvr;
     border-top-color: $clr-menu-text-hvr;
+    @media (max-width: 767px) {
+        border-bottom-color: $clr-page-bkg;
+        border-top-color: $clr-page-bkg;
+    }
 }
 hr {
     border-top: 1px solid $clr-hr;
