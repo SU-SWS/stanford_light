@@ -68,6 +68,31 @@
 .roundedcorners .navbar .nav > li > a {
     border-radius: 5px 5px 0 0;
 }
+.dropdown-menu {
+    background: $clr-page-bkg;
+    right: 6px;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus, 
+.dropdown-submenu:hover > a, 
+.dropdown-submenu:focus > a,
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: $clr-page-bkg;
+    background: $clr-header-bkg;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
+    border-bottom-color: $clr-menu-text-hvr;
+    border-top-color: $clr-menu-text-hvr;
+    @media (max-width: 767px) {
+        border-bottom-color: $clr-header-bkg;
+        border-top-color: $clr-header-bkg;
+    }
+}
 @media (max-width: 767px) {
     #main-nav {
         background: shade($clr-header-bkg, 20%);
@@ -89,12 +114,34 @@
         border-radius: 5px;
         margin-right: 0;
     }
-    .navbar .nav li.dropdown.open > .dropdown-toggle:hover, .navbar .nav li.dropdown.open > .dropdown-toggle:focus, .navbar .nav li.dropdown.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.active > .dropdown-toggle:focus, .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
-        color: $clr-page-bkg;
+    .navbar .nav li.dropdown.open > .dropdown-toggle:hover, 
+    .navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
+    .navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
+    .navbar .nav li.dropdown.active > .dropdown-toggle:focus, 
+    .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, 
+    .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+        color: $clr-header-bkg;
+        background: $clr-page-bkg;
     }
     .navbar .nav li.dropdown.open > .dropdown-toggle, 
     .navbar .nav li.dropdown.active > .dropdown-toggle, 
     .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+        color: $clr-header-bkg;
+        background: $clr-page-bkg;
+    }
+    .navbar .nav li.dropdown.open {
+        background: $clr-page-bkg;
+    }
+    .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+        border-bottom-color: $clr-header-bkg;
+        border-top-color: $clr-header-bkg;
+    }
+    .nav-collapse .dropdown-menu a {
+        color: $clr-header-bkg;
+    }
+    .nav-collapse .dropdown-menu a.active-trail,
+    .nav-collapse .dropdown-menu a:hover, 
+    .nav-collapse .dropdown-menu a:focus {
         color: $clr-page-bkg;
     }
 }
@@ -151,31 +198,6 @@
 .site-footer a.active {
     color: $clr-page-bkg;
     text-decoration: underline;
-}
-.dropdown-menu {
-    background: $clr-page-bkg;
-    right: 6px;
-}
-.dropdown-menu > li > a:hover, 
-.dropdown-menu > li > a:focus, 
-.dropdown-submenu:hover > a, 
-.dropdown-submenu:focus > a,
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    color: $clr-page-bkg;
-    background: $clr-header-bkg;
-}
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret, 
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret, 
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret, 
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus .caret, 
-.navbar .nav li.dropdown.active > .dropdown-toggle:focus .caret, 
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus .caret {
-    border-bottom-color: $clr-menu-text-hvr;
-    border-top-color: $clr-menu-text-hvr;
-    @media (max-width: 767px) {
-        border-bottom-color: $clr-page-bkg;
-        border-top-color: $clr-page-bkg;
-    }
 }
 hr {
     border-top: 1px solid $clr-hr;
