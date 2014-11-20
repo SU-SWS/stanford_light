@@ -66,6 +66,7 @@ a.btn:focus,
 }
 .dropdown-menu {
     background: $clr-text;
+    border-color: $clr-text;
 }
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus, 

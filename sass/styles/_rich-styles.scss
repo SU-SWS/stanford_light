@@ -16,6 +16,9 @@
 .navbar .nav > .active-trail > a {
     border-bottom: 5px solid $clr-menu-link-border;
 }
+.dropdown-menu {
+    border-color: $clr-text;
+}
 .header-bkg.header-bkg-style-frontbleed .site-main-menu {
     .navbar .nav > .active > a, 
     .navbar .nav > .active > a:hover, 

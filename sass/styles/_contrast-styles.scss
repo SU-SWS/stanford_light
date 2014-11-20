@@ -147,6 +147,8 @@ a:focus,
 }
 .dropdown-menu {
     background: $clr-page-bkg;
+    border-color: $clr-text;
+    right: 6px;
 }
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus, 

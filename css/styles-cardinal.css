@@ -743,9 +743,10 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 /* line 106, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu {
   background: white;
+  right: 6px;
 }
 
-/* line 113, ../sass/styles/_cardinal-styles.scss */
+/* line 114, ../sass/styles/_cardinal-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -755,7 +756,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background: #8c1515;
 }
 
-/* line 122, ../sass/styles/_cardinal-styles.scss */
+/* line 123, ../sass/styles/_cardinal-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -766,12 +767,12 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   border-top-color: #333333;
 }
 
-/* line 126, ../sass/styles/_cardinal-styles.scss */
+/* line 127, ../sass/styles/_cardinal-styles.scss */
 hr {
   border-top: 1px solid #f2f1eb;
 }
 
-/* line 136, ../sass/styles/_cardinal-styles.scss */
+/* line 137, ../sass/styles/_cardinal-styles.scss */
 .sidebar .block-menu .content > .menu > li.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
 .sidebar .block-menu .content > .menu > li > a.active,
@@ -783,7 +784,7 @@ hr {
   background: white;
 }
 
-/* line 144, ../sass/styles/_cardinal-styles.scss */
+/* line 145, ../sass/styles/_cardinal-styles.scss */
 .sidebar .block-menu .content > .menu > li > a.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
 .sidebar .block-menu .content > .menu > li > a:hover,

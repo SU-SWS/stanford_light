@@ -634,33 +634,40 @@ ul.pager li.pager-current {
 }
 
 /* line 6, ../sass/includes/_module-navbar-dropdown.scss */
+.dropdown-menu > li > a {
+  white-space: inherit;
+  line-height: 1.4em;
+  padding: 0.5em 1em;
+}
+
+/* line 11, ../sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav > li > .dropdown-menu:before {
   display: none;
 }
 
-/* line 9, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 14, ../sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav > li > .dropdown-menu:after {
   display: none;
 }
 
-/* line 12, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 17, ../sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background: transparent;
   color: #333333;
 }
 
-/* line 16, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 21, ../sass/includes/_module-navbar-dropdown.scss */
 .nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover, .nav > li.dropdown.open.active > a:focus {
   border-color: transparent;
 }
 
-/* line 19, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 24, ../sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: #333333;
   border-top-color: #333333;
 }
 
-/* line 23, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 28, ../sass/includes/_module-navbar-dropdown.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   background: #333333;
   color: white;

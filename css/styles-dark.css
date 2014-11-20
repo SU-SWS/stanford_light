@@ -685,9 +685,10 @@ a.btn:focus,
 /* line 67, ../sass/styles/_dark-styles.scss */
 .dropdown-menu {
   background: #fbfbf9;
+  border-color: #fbfbf9;
 }
 
-/* line 74, ../sass/styles/_dark-styles.scss */
+/* line 75, ../sass/styles/_dark-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -697,7 +698,7 @@ a.btn:focus,
   background: #282724;
 }
 
-/* line 84, ../sass/styles/_dark-styles.scss */
+/* line 85, ../sass/styles/_dark-styles.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:hover,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:focus,
@@ -708,43 +709,43 @@ a.btn:focus,
   background: #fbfbf9;
 }
 
-/* line 89, ../sass/styles/_dark-styles.scss */
+/* line 90, ../sass/styles/_dark-styles.scss */
 th, td {
   border-color: #fbfbf9;
 }
 
-/* line 92, ../sass/styles/_dark-styles.scss */
+/* line 93, ../sass/styles/_dark-styles.scss */
 th {
   background: #fbfbf9;
   color: #232220;
 }
 
-/* line 96, ../sass/styles/_dark-styles.scss */
+/* line 97, ../sass/styles/_dark-styles.scss */
 td.active {
   background: rgba(251, 251, 249, 0.2);
 }
 
-/* line 99, ../sass/styles/_dark-styles.scss */
+/* line 100, ../sass/styles/_dark-styles.scss */
 th a {
   color: #7d6b41;
 }
 
-/* line 102, ../sass/styles/_dark-styles.scss */
+/* line 103, ../sass/styles/_dark-styles.scss */
 th a:hover, th a:focus {
   color: #2e2d29;
   text-decoration: underline;
 }
 
-/* line 106, ../sass/styles/_dark-styles.scss */
+/* line 107, ../sass/styles/_dark-styles.scss */
 .date-stacked {
   background: #4f4e4c;
 }
-/* line 108, ../sass/styles/_dark-styles.scss */
+/* line 109, ../sass/styles/_dark-styles.scss */
 .date-stacked .date-month, .date-stacked .date-day {
   color: #fbfbf9;
 }
 
-/* line 114, ../sass/styles/_dark-styles.scss */
+/* line 115, ../sass/styles/_dark-styles.scss */
 .calendar-calendar tr td.today a,
 .calendar-calendar tr td.today a:hover,
 .calendar-calendar tr td.has-events a:hover {
@@ -752,39 +753,39 @@ th a:hover, th a:focus {
   color: #2e2d29;
 }
 
-/* line 118, ../sass/styles/_dark-styles.scss */
+/* line 119, ../sass/styles/_dark-styles.scss */
 .calendar-calendar .mini td.has-events {
   background: #b3995d;
 }
 
-/* line 121, ../sass/styles/_dark-styles.scss */
+/* line 122, ../sass/styles/_dark-styles.scss */
 .calendar-calendar td.mini a {
   color: #2e2d29;
 }
 
-/* line 124, ../sass/styles/_dark-styles.scss */
+/* line 125, ../sass/styles/_dark-styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
   background: #575753;
 }
 
-/* line 127, ../sass/styles/_dark-styles.scss */
+/* line 128, ../sass/styles/_dark-styles.scss */
 #block-search-form input.search-query {
   color: #2e2d29;
 }
 
-/* line 130, ../sass/styles/_dark-styles.scss */
+/* line 131, ../sass/styles/_dark-styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main {
   color: #fbfbf9;
   /* text color */
 }
 
-/* line 133, ../sass/styles/_dark-styles.scss */
+/* line 134, ../sass/styles/_dark-styles.scss */
 .front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
   color: #b3995d;
   /* link color */
 }
 
-/* line 139, ../sass/styles/_dark-styles.scss */
+/* line 140, ../sass/styles/_dark-styles.scss */
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu .content > .menu > li.last > a,
