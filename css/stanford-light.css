@@ -1,91 +1,91 @@
 @media (max-width: 767px) {
-  /* line 4, ../sass/includes/_base.scss */
+  /* line 4, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
   body {
     padding: 0;
   }
 
-  /* line 7, ../sass/includes/_base.scss */
+  /* line 7, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
   .container {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
-/* line 12, ../sass/includes/_base.scss */
+/* line 12, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .header {
   margin: 0;
   padding: 30px 0;
   min-height: 60px;
 }
 
-/* line 17, ../sass/includes/_base.scss */
+/* line 17, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .red-bar .header {
   border-top: 10px solid #8c1515;
 }
 
-/* line 20, ../sass/includes/_base.scss */
+/* line 20, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .nav-search {
   margin-right: 2%;
   margin-top: -90px;
 }
 @media (max-width: 767px) {
-  /* line 20, ../sass/includes/_base.scss */
+  /* line 20, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
   .nav-search {
     margin: -7px 0 0 0;
   }
 }
 
-/* line 29, ../sass/includes/_base.scss */
+/* line 29, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .main {
   padding-top: 40px;
   padding-bottom: 20px;
   margin: 0;
 }
 
-/* line 34, ../sass/includes/_base.scss */
+/* line 34, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .mc-content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 37, ../sass/includes/_base.scss */
+/* line 37, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .site-footer {
   margin: 0;
   padding: 30px 0 20px 0;
 }
 
-/* line 55, ../sass/includes/_base.scss */
+/* line 55, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 h2:first-child, h3:first-child, h4:first-child, body.cke_show_borders h2:first-child, body.cke_show_borders h3:first-child, body.cke_show_borders h4:first-child {
   margin-top: 0;
 }
 
-/* line 60, ../sass/includes/_base.scss */
+/* line 60, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .content ul li {
   list-style-type: square;
 }
 
-/* line 63, ../sass/includes/_base.scss */
+/* line 63, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .site-logo img {
   margin-right: 15px;
 }
 @media (max-width: 480px) {
-  /* line 63, ../sass/includes/_base.scss */
+  /* line 63, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
   .site-logo img {
     margin-right: 0;
   }
 }
 
-/* line 69, ../sass/includes/_base.scss */
+/* line 69, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 #name-and-slogan {
   padding-left: 0;
 }
 
-/* line 72, ../sass/includes/_base.scss */
+/* line 72, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .site-name {
   margin-left: -4px;
 }
 
-/* line 83, ../sass/includes/_base.scss */
+/* line 83, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .descriptor-btn a, a.descriptor-btn {
   padding: 3px 9px;
   -webkit-border-radius: 5px;
@@ -99,19 +99,19 @@ h2:first-child, h3:first-child, h4:first-child, body.cke_show_borders h2:first-c
   display: inline-block;
 }
 
-/* line 93, ../sass/includes/_base.scss */
+/* line 93, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .caption {
   margin-bottom: 0;
 }
 
-/* line 97, ../sass/includes/_base.scss */
+/* line 97, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .quote {
   font-size: 1.3em;
   line-height: 1.5em;
   quotes: '\201c' '\201d';
 }
 
-/* line 102, ../sass/includes/_base.scss */
+/* line 102, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 blockquote {
   padding: 2em 3em 1em;
   border: 0;
@@ -119,37 +119,37 @@ blockquote {
   margin: 0 60px 30px;
 }
 
-/* line 108, ../sass/includes/_base.scss */
+/* line 108, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 blockquote.quote {
   padding: .5em 3em 1em;
 }
 
-/* line 111, ../sass/includes/_base.scss */
+/* line 111, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 blockquote p, blockquote .more-link a, blockquote a.more-link {
   font-size: 20.8px;
   line-height: 1.5em;
   margin-bottom: 1em;
 }
 
-/* line 116, ../sass/includes/_base.scss */
+/* line 116, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 blockquote > p:first-child {
   line-height: 1.5em;
   padding-left: 0;
   text-indent: 0;
 }
 
-/* line 121, ../sass/includes/_base.scss */
+/* line 121, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 p.quote {
   text-indent: -1em;
 }
 
-/* line 124, ../sass/includes/_base.scss */
+/* line 124, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 p.quote:before {
   position: relative;
   left: -5px;
 }
 
-/* line 129, ../sass/includes/_base.scss */
+/* line 129, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .quote:before, .quote:after,
 div.quote p:last-child:after, blockquote.quote p:last-child:after {
   font-size: 40px;
@@ -157,29 +157,29 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after {
   opacity: 0.5;
 }
 
-/* line 134, ../sass/includes/_base.scss */
+/* line 134, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .quote:before {
   content: open-quote;
 }
 
-/* line 137, ../sass/includes/_base.scss */
+/* line 137, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .quote:after {
   content: close-quote;
 }
 
-/* line 140, ../sass/includes/_base.scss */
+/* line 140, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 div.quote:before, blockquote.quote:before {
   left: -27px;
   position: relative;
   top: 34px;
 }
 
-/* line 145, ../sass/includes/_base.scss */
+/* line 145, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 div.quote:after, blockquote.quote:after {
   display: none;
 }
 
-/* line 148, ../sass/includes/_base.scss */
+/* line 148, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after {
   content: close-quote;
   line-height: 0;
@@ -188,7 +188,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   top: 20px;
 }
 
-/* line 156, ../sass/includes/_base.scss */
+/* line 156, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .big-text {
   font-size: 3em;
   font-weight: 500;
@@ -197,7 +197,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   margin-bottom: 0.5em;
 }
 
-/* line 163, ../sass/includes/_base.scss */
+/* line 163, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .infotext {
   font-size: 4em;
   font-weight: 600;
@@ -206,7 +206,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   letter-spacing: -0.05em;
 }
 
-/* line 170, ../sass/includes/_base.scss */
+/* line 170, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .circle-image img {
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
@@ -215,7 +215,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   border-radius: 10em;
 }
 
-/* line 178, ../sass/includes/_base.scss */
+/* line 178, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -230,7 +230,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 187, ../sass/includes/_base.scss */
+/* line 187, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.more-link, .more-link a {
   text-transform: none;
   display: inline;
@@ -239,12 +239,12 @@ a.more-link, .more-link a {
   letter-spacing: 0;
 }
 
-/* line 194, ../sass/includes/_base.scss */
+/* line 194, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 199, ../sass/includes/_base.scss */
+/* line 199, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -257,17 +257,17 @@ a.edit-link, .edit-link a {
   text-decoration: none;
 }
 
-/* line 206, ../sass/includes/_base.scss */
+/* line 206, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 209, ../sass/includes/_base.scss */
+/* line 209, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.btn.btn-red, .btn.btn-red a {
   background: #8c1515;
 }
 
-/* line 212, ../sass/includes/_base.scss */
+/* line 212, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   background-image: url("../../images/btn-arrow-left.png");
   background-position: 10px center;
@@ -276,7 +276,7 @@ a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   text-align: right;
 }
 
-/* line 219, ../sass/includes/_base.scss */
+/* line 219, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
   background-image: url("../../images/btn-arrow-right.png");
   background-position: 93% center;
@@ -286,12 +286,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   text-align: left;
 }
 
-/* line 230, ../sass/includes/_base.scss */
+/* line 230, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 233, ../sass/includes/_base.scss */
+/* line 233, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -305,13 +305,13 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   padding: 1.3em;
 }
 
-/* line 242, ../sass/includes/_base.scss */
+/* line 242, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .banner-overlay {
   height: auto;
   position: absolute;
 }
 
-/* line 246, ../sass/includes/_base.scss */
+/* line 246, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .banner-overlay > div {
   background: rgba(0, 0, 0, 0.75);
   color: #F2F1EB;
@@ -321,52 +321,52 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   top: -190px;
 }
 
-/* line 254, ../sass/includes/_base.scss */
+/* line 254, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .border-simple .banner-overlay > div {
   margin-left: 6px;
 }
 @media (max-width: 480px) {
-  /* line 254, ../sass/includes/_base.scss */
+  /* line 254, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
   .border-simple .banner-overlay > div {
     margin-left: 0;
   }
 }
 
-/* line 260, ../sass/includes/_base.scss */
+/* line 260, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .banner-overlay p {
   margin-bottom: 0;
 }
 
-/* line 263, ../sass/includes/_base.scss */
+/* line 263, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .banner-overlay h2, .banner-overlay h3, .banner-overlay h4 {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
 
 @media (max-width: 480px) {
-  /* line 270, ../sass/includes/_base.scss */
+  /* line 270, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
   .banner-overlay {
     position: inherit;
   }
 
-  /* line 273, ../sass/includes/_base.scss */
+  /* line 273, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
   .banner-overlay > div {
     position: inherit;
     margin: 0px;
     max-width: 100%;
   }
 }
-/* line 279, ../sass/includes/_base.scss */
+/* line 279, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 ul.pager li {
   margin: 0;
 }
 
-/* line 282, ../sass/includes/_base.scss */
+/* line 282, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 ul.nav-pills a.active {
   background: transparent;
 }
 
-/* line 285, ../sass/includes/_base.scss */
+/* line 285, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 ul.pager li a {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -377,7 +377,7 @@ ul.pager li a {
   padding: 4px 10px;
 }
 
-/* line 292, ../sass/includes/_base.scss */
+/* line 292, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 ul.pager li.pager-current {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -389,17 +389,17 @@ ul.pager li.pager-current {
   margin: 0;
 }
 
-/* line 298, ../sass/includes/_base.scss */
+/* line 298, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .item-list .pager li {
   padding: 0;
 }
 
-/* line 302, ../sass/includes/_base.scss */
+/* line 302, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 #nav-search {
   margin-right: 0;
 }
 
-/* line 305, ../sass/includes/_base.scss */
+/* line 305, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 #block-search-form input.search-query {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -410,51 +410,51 @@ ul.pager li.pager-current {
   padding-right: 33px;
 }
 
-/* line 312, ../sass/includes/_base.scss */
+/* line 312, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_base.scss */
 .navbar #block-search-form input.btn-search {
   top: 2px;
 }
 
-/* line 1, ../sass/includes/_module-header-bkg-img.scss */
+/* line 1, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg .header {
   min-height: 60px;
 }
 
-/* line 4, ../sass/includes/_module-header-bkg-img.scss */
+/* line 4, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .front.header-bkg .header {
   min-height: 175px;
 }
 
-/* line 7, ../sass/includes/_module-header-bkg-img.scss */
+/* line 7, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .front.header-bkg .nav-search {
   margin-top: -205px;
 }
 @media (max-width: 767px) {
-  /* line 7, ../sass/includes/_module-header-bkg-img.scss */
+  /* line 7, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
   .front.header-bkg .nav-search {
     margin-top: 0;
   }
 }
 
-/* line 13, ../sass/includes/_module-header-bkg-img.scss */
+/* line 13, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .front.header-bkg.header-bkg-style-frontbleed .header {
   min-height: 60px;
 }
 
-/* line 17, ../sass/includes/_module-header-bkg-img.scss */
+/* line 17, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-style-frontbleed .nav-search,
 .front.header-bkg.header-bkg-style-frontbleed .nav-search {
   margin-top: -100px;
 }
 @media (max-width: 767px) {
-  /* line 17, ../sass/includes/_module-header-bkg-img.scss */
+  /* line 17, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
   .header-bkg.header-bkg-style-frontbleed .nav-search,
   .front.header-bkg.header-bkg-style-frontbleed .nav-search {
     margin-top: 0;
   }
 }
 
-/* line 23, ../sass/includes/_module-header-bkg-img.scss */
+/* line 23, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-image .header {
   background-repeat: no-repeat;
   background-position: center 30%;
@@ -462,36 +462,36 @@ ul.pager li.pager-current {
   margin: 0;
 }
 @media (max-width: 380px) {
-  /* line 23, ../sass/includes/_module-header-bkg-img.scss */
+  /* line 23, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
   .header-bkg.header-bkg-image .header {
     background-size: cover;
   }
 }
 
-/* line 32, ../sass/includes/_module-header-bkg-img.scss */
+/* line 32, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg .site-main-menu {
   padding-top: 10px;
 }
 
 @media (max-width: 767px) {
-  /* line 36, ../sass/includes/_module-header-bkg-img.scss */
+  /* line 36, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
   .header-bkg .site-main-menu {
     padding-top: 0px;
   }
 
-  /* line 39, ../sass/includes/_module-header-bkg-img.scss */
+  /* line 39, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
   .front.header-bkg.header-bkg-image .header {
     min-height: 150px;
   }
 }
-/* line 43, ../sass/includes/_module-header-bkg-img.scss */
+/* line 43, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-wallpaper .header {
   background-repeat: repeat;
   background-position: center top;
   margin: 0;
 }
 
-/* line 53, ../sass/includes/_module-header-bkg-img.scss */
+/* line 53, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-text-light .site-name a,
 .header-bkg.header-bkg-text-light .site-name a:hover,
 .header-bkg.header-bkg-text-light .site-name a:active,
@@ -502,7 +502,7 @@ ul.pager li.pager-current {
   text-shadow: 0 0 2px #333333;
 }
 
-/* line 62, ../sass/includes/_module-header-bkg-img.scss */
+/* line 62, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-text-dark .site-name a,
 .header-bkg.header-bkg-text-dark .site-name a:hover,
 .header-bkg.header-bkg-text-dark .site-name a:active,
@@ -513,30 +513,30 @@ ul.pager li.pager-current {
   text-shadow: 0 0 2px white;
 }
 
-/* line 66, ../sass/includes/_module-header-bkg-img.scss */
+/* line 66, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .front.header-bkg.header-bkg-style-frontbleed .site-main-menu {
   border: 0;
   background: transparent;
 }
 
-/* line 70, ../sass/includes/_module-header-bkg-img.scss */
+/* line 70, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu {
   padding: 0;
 }
 
-/* line 73, ../sass/includes/_module-header-bkg-img.scss */
+/* line 73, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
   padding: 0.5em;
   margin: 0;
 }
-/* line 76, ../sass/includes/_module-header-bkg-img.scss */
+/* line 76, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-header-bkg-img.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > li > a {
   padding: 0.25em 0.5em;
   border: 0;
   margin-right: 0.5em;
 }
 
-/* line 1, ../sass/includes/_module-navbar.scss */
+/* line 1, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
 .navbar-inner {
   background-color: transparent;
   background-image: none;
@@ -547,7 +547,7 @@ ul.pager li.pager-current {
   padding: 0;
 }
 
-/* line 8, ../sass/includes/_module-navbar.scss */
+/* line 8, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   background-color: transparent;
   color: #000;
@@ -556,32 +556,32 @@ ul.pager li.pager-current {
   box-shadow: none;
 }
 
-/* line 13, ../sass/includes/_module-navbar.scss */
+/* line 13, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
 .navbar .nav > li > a {
   padding: 0;
   text-shadow: none;
   margin-right: 1em;
 }
 
-/* line 18, ../sass/includes/_module-navbar.scss */
+/* line 18, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
 .navbar .nav > li:last-child > a {
   margin-right: 0;
 }
 
 @media (max-width: 767px) {
-  /* line 22, ../sass/includes/_module-navbar.scss */
+  /* line 22, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
   .navbar {
     margin-bottom: 10px;
     margin-top: 10px;
   }
 
-  /* line 26, ../sass/includes/_module-navbar.scss */
+  /* line 26, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
   #main-nav {
     margin: 0.5em 0;
     padding: 1em;
   }
 
-  /* line 30, ../sass/includes/_module-navbar.scss */
+  /* line 30, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
   .navbar .nav > li > a {
     margin-right: 0;
     margin-bottom: 0.25em;
@@ -593,12 +593,12 @@ ul.pager li.pager-current {
     padding: 0.25em 0.5em;
   }
 
-  /* line 36, ../sass/includes/_module-navbar.scss */
+  /* line 36, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
   .navbar .nav > li.last > a {
     margin-bottom: 0;
   }
 
-  /* line 39, ../sass/includes/_module-navbar.scss */
+  /* line 39, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
   .navbar .btn-navbar {
     background-image: none;
     background: #8c1515;
@@ -610,19 +610,19 @@ ul.pager li.pager-current {
     text-shadow: none;
   }
 
-  /* line 47, ../sass/includes/_module-navbar.scss */
+  /* line 47, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
   .navbar .btn-navbar .icon-bar {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
 
-  /* line 50, ../sass/includes/_module-navbar.scss */
+  /* line 50, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
     background: #333333;
   }
 }
-/* line 1, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 1, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .dropdown-menu {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -633,53 +633,53 @@ ul.pager li.pager-current {
   border: 0;
 }
 
-/* line 6, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 6, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .dropdown-menu > li > a {
   white-space: inherit;
   line-height: 1.4em;
   padding: 0.5em 1em;
 }
 
-/* line 11, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 11, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav > li > .dropdown-menu:before {
   display: none;
 }
 
-/* line 14, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 14, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav > li > .dropdown-menu:after {
   display: none;
 }
 
-/* line 17, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 17, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background: transparent;
   color: #333333;
 }
 
-/* line 21, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 21, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover, .nav > li.dropdown.open.active > a:focus {
   border-color: transparent;
 }
 
-/* line 24, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 24, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-bottom-color: #333333;
   border-top-color: #333333;
 }
 
-/* line 28, ../sass/includes/_module-navbar-dropdown.scss */
+/* line 28, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-navbar-dropdown.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   background: #333333;
   color: white;
 }
 
-/* line 2, ../sass/includes/_module-sidebar-nav.scss */
+/* line 2, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sidebar-nav.scss */
 .main .menu,
 .site-footer .menu {
   margin: 0;
 }
 
-/* line 6, ../sass/includes/_module-sidebar-nav.scss */
+/* line 6, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sidebar-nav.scss */
 .main .menu li,
 .site-footer .menu li {
   list-style-type: none;
@@ -688,19 +688,19 @@ ul.pager li.pager-current {
   padding: 0;
 }
 
-/* line 12, ../sass/includes/_module-sidebar-nav.scss */
+/* line 12, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sidebar-nav.scss */
 .site-footer .menu li a {
   line-height: 1.4em;
   padding: 0 0 0.5em;
 }
 
-/* line 17, ../sass/includes/_module-sidebar-nav.scss */
+/* line 17, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sidebar-nav.scss */
 .main .content > .menu > li > a,
 .site-footer .content > .menu > li > a {
   font-weight: 600;
 }
 
-/* line 27, ../sass/includes/_module-sidebar-nav.scss */
+/* line 27, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sidebar-nav.scss */
 .main .menu li a:hover,
 .main .menu li a:focus,
 .main .menu li a.active,
@@ -712,34 +712,34 @@ ul.pager li.pager-current {
   background: transparent;
 }
 
-/* line 31, ../sass/includes/_module-sidebar-nav.scss */
+/* line 31, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sidebar-nav.scss */
 .main .menu li ul,
 .site-footer .menu li ul {
   padding-left: 1em;
 }
 
-/* line 1, ../sass/includes/_module-bodybg.scss */
+/* line 1, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-bodybg.scss */
 .bodybg .sidebar .region {
   padding: 15px;
 }
 
-/* line 4, ../sass/includes/_module-bodybg.scss */
+/* line 4, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-bodybg.scss */
 .bodybg .content-wrapper {
   padding: 30px;
 }
 @media (max-width: 767px) {
-  /* line 4, ../sass/includes/_module-bodybg.scss */
+  /* line 4, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-bodybg.scss */
   .bodybg .content-wrapper {
     padding: 15px;
   }
 }
 
-/* line 10, ../sass/includes/_module-bodybg.scss */
+/* line 10, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-bodybg.scss */
 .bodybg .breadcrumb {
   padding: 8px 30px;
 }
 
-/* line 1, ../sass/includes/_module-breadcrumb.scss */
+/* line 1, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-breadcrumb.scss */
 #breadcrumb {
   padding: 0 1% 0 0;
   -webkit-box-sizing: border-box;
@@ -747,23 +747,23 @@ ul.pager li.pager-current {
   box-sizing: border-box;
 }
 @media (max-width: 767px) {
-  /* line 1, ../sass/includes/_module-breadcrumb.scss */
+  /* line 1, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-breadcrumb.scss */
   #breadcrumb {
     padding: 0;
   }
 }
 
-/* line 8, ../sass/includes/_module-breadcrumb.scss */
+/* line 8, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-breadcrumb.scss */
 .breadcrumb {
   padding: 8px 10px;
 }
 
-/* line 11, ../sass/includes/_module-breadcrumb.scss */
+/* line 11, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-breadcrumb.scss */
 .roundedcorners .breadcrumb {
   border-radius: 5px;
 }
 
-/* line 1, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 1, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts {
   background: #4D4F53;
   margin: 0px;
@@ -772,13 +772,13 @@ ul.pager li.pager-current {
   font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
 
-/* line 8, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 8, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts .nav {
   margin: 0;
   padding: 0;
 }
 
-/* line 12, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 12, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu a, #admin-shortcuts .content a {
   background: #4D4F53;
   color: #fff;
@@ -786,65 +786,65 @@ ul.pager li.pager-current {
   font-weight: normal;
 }
 
-/* line 18, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 18, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu a:hover, #admin-shortcuts ul.menu a:active, #admin-shortcuts .content a:hover, #admin-shortcuts .content a:active {
   background: #222;
   border-radius: 5px;
 }
 
-/* line 22, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 22, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu > li > a:hover, #admin-shortcuts ul.menu > li > a:active, #admin-shortcuts .content > ul > li > a:hover, #admin-shortcuts .content > ul > li > a:active {
   background: #222;
   border-radius: 10px;
 }
 
-/* line 26, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 26, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu, #admin-shortcuts .content ul {
   background: #4D4F53;
 }
 
-/* line 29, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 29, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu li, #admin-shortcuts .content ul li {
   display: inline-block;
   margin: 0;
 }
 
-/* line 33, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 33, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu li ul, #admin-shortcuts .content ul li ul {
   display: none;
 }
 
-/* line 36, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 36, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu li:hover ul, #admin-shortcuts .content ul li:hover ul {
   display: block;
   position: absolute;
   width: 200px;
 }
 
-/* line 41, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 41, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu ul li, #admin-shortcuts .content ul ul li {
   display: block;
 }
 
-/* line 44, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 44, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu ul a, #admin-shortcuts .content ul ul a {
   padding-left: 20px;
 }
 
-/* line 47, ../sass/includes/_module-admin-shortcuts.scss */
+/* line 47, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-admin-shortcuts.scss */
 #admin-shortcuts ul.menu .caret, #admin-shortcuts .content .caret {
   border-bottom-color: #fff;
   border-top-color: #fff;
 }
 
 /* WebAuth Authentication */
-/* line 2, ../sass/includes/_module-site-login.scss */
+/* line 2, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-webauth h2 {
   display: none;
 }
 
 /* User Login */
-/* line 6, ../sass/includes/_module-site-login.scss */
+/* line 6, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-user {
   display: table;
   float: right;
@@ -852,74 +852,74 @@ ul.pager li.pager-current {
   margin-bottom: 10px;
 }
 
-/* line 12, ../sass/includes/_module-site-login.scss */
+/* line 12, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-user h2 {
   display: none;
 }
 
-/* line 15, ../sass/includes/_module-site-login.scss */
+/* line 15, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-user form {
   display: table-row;
 }
 
-/* line 18, ../sass/includes/_module-site-login.scss */
+/* line 18, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-user .form-item {
   display: table-cell;
   padding-right: 10px;
 }
 
-/* line 22, ../sass/includes/_module-site-login.scss */
+/* line 22, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-user .form-item input {
   width: 120px;
 }
 
-/* line 25, ../sass/includes/_module-site-login.scss */
+/* line 25, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-user .item-list {
   display: none;
 }
 
-/* line 28, ../sass/includes/_module-site-login.scss */
+/* line 28, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
 .region-site-login .block-user .form-actions {
   display: table-cell;
   vertical-align: bottom;
 }
 
 @media (max-width: 480px) {
-  /* line 33, ../sass/includes/_module-site-login.scss */
+  /* line 33, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
   .region-site-login .block-user {
     display: block;
     float: none;
   }
 
-  /* line 37, ../sass/includes/_module-site-login.scss */
+  /* line 37, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
   .region-site-login .block-user form {
     display: block;
   }
 
-  /* line 40, ../sass/includes/_module-site-login.scss */
+  /* line 40, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
   .region-site-login .block-user .form-item {
     display: block;
   }
 
-  /* line 43, ../sass/includes/_module-site-login.scss */
+  /* line 43, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
   .region-site-login .block-user .form-item input {
     width: 100%;
   }
 
-  /* line 46, ../sass/includes/_module-site-login.scss */
+  /* line 46, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-site-login.scss */
   .region-site-login .block-user .form-actions {
     display: block;
   }
 }
 /* ----- Sticky Global Footer --------------- */
-/* line 2, ../sass/includes/_module-sticky-footer.scss */
+/* line 2, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sticky-footer.scss */
 html, body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 /* Wrapper for page content to push down footer */
-/* line 7, ../sass/includes/_module-sticky-footer.scss */
+/* line 7, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sticky-footer.scss */
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -929,12 +929,12 @@ html, body {
 }
 
 /* Set the fixed height of the push div */
-/* line 15, ../sass/includes/_module-sticky-footer.scss */
+/* line 15, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sticky-footer.scss */
 #push {
   height: 90px;
 }
 
-/* line 18, ../sass/includes/_module-sticky-footer.scss */
+/* line 18, C:/wamp/www/d7/test/sites/all/themes/stanford_light/sass/includes/_module-sticky-footer.scss */
 body.admin-menu {
   height: calc(100% - 28px);
 }

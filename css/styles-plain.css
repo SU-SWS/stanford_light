@@ -607,7 +607,13 @@ a:focus,
   text-decoration: underline;
 }
 
-/* line 14, ../sass/styles/_plain-styles.scss */
+/* line 8, ../sass/styles/_plain-styles.scss */
+.header-bkg a.element-invisible.element-focusable {
+  color: #333333;
+  background: white;
+}
+
+/* line 18, ../sass/styles/_plain-styles.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:hover,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:focus,

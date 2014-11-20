@@ -5,6 +5,10 @@ a:focus,
 .normal-link h3 a:hover, .normal-link h3 a:focus {
     text-decoration: underline;
 }
+.header-bkg a.element-invisible.element-focusable {
+    color: $clr-text;
+    background: $clr-page-bkg;
+}
 .header-bkg .navbar {
     margin-bottom: 10px;
 }

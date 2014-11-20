@@ -34,6 +34,10 @@ a:focus,
     border: 1px solid $clr-well-bkg;
     color: $clr-well-bkg;
 }
+.header-bkg a.element-invisible.element-focusable {
+    color: $clr-text;
+    background: $clr-page-bkg;
+}
 .header-bkg .site-main-menu {
     padding-top: 0px;
 }

@@ -17,6 +17,10 @@
 }
 
 /* General */
+.header-bkg a.element-invisible.element-focusable {
+    color: $clr-text;
+    background: $clr-page-bkg;
+}
 .header-bkg .navbar {
     margin-bottom: 10px;
 }

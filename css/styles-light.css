@@ -608,29 +608,35 @@ a:focus,
 }
 
 /* line 8, ../sass/styles/_light-styles.scss */
+.header-bkg a.element-invisible.element-focusable {
+  color: #333333;
+  background: #fbfbf9;
+}
+
+/* line 12, ../sass/styles/_light-styles.scss */
 .header-bkg .navbar {
   margin-bottom: 10px;
 }
 
-/* line 11, ../sass/styles/_light-styles.scss */
+/* line 15, ../sass/styles/_light-styles.scss */
 .header-bkg .site-main-menu {
   border-top: 1px solid #e9e6df;
 }
 
-/* line 14, ../sass/styles/_light-styles.scss */
+/* line 18, ../sass/styles/_light-styles.scss */
 .navbar .nav > li > a {
   padding-bottom: .25em;
   border-bottom: 5px solid transparent;
 }
 @media (max-width: 767px) {
-  /* line 14, ../sass/styles/_light-styles.scss */
+  /* line 18, ../sass/styles/_light-styles.scss */
   .navbar .nav > li > a {
     border-bottom: 0;
     padding: 0.25em 0.5em;
   }
 }
 
-/* line 27, ../sass/styles/_light-styles.scss */
+/* line 31, ../sass/styles/_light-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -640,7 +646,7 @@ a:focus,
   border-bottom: 5px solid #e9e6df;
 }
 @media (max-width: 767px) {
-  /* line 27, ../sass/styles/_light-styles.scss */
+  /* line 31, ../sass/styles/_light-styles.scss */
   .navbar .nav > .active > a,
   .navbar .nav > .active > a:hover,
   .navbar .nav > .active > a:focus,
@@ -652,12 +658,12 @@ a:focus,
 }
 
 @media (max-width: 767px) {
-  /* line 34, ../sass/styles/_light-styles.scss */
+  /* line 38, ../sass/styles/_light-styles.scss */
   .navbar {
     margin-top: 0;
   }
 }
-/* line 41, ../sass/styles/_light-styles.scss */
+/* line 45, ../sass/styles/_light-styles.scss */
 .site-footer .menu li a:hover,
 .site-footer .menu li a:focus,
 .site-footer .menu li a.active,
@@ -665,12 +671,12 @@ a:focus,
   text-decoration: underline;
 }
 
-/* line 44, ../sass/styles/_light-styles.scss */
+/* line 48, ../sass/styles/_light-styles.scss */
 .well .caption {
   color: #6a655c;
 }
 
-/* line 53, ../sass/styles/_light-styles.scss */
+/* line 57, ../sass/styles/_light-styles.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:hover,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:focus,

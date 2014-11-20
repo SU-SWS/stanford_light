@@ -620,59 +620,65 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 
 /* General */
 /* line 20, ../sass/styles/_bright-styles.scss */
+.header-bkg a.element-invisible.element-focusable {
+  color: #333333;
+  background: white;
+}
+
+/* line 24, ../sass/styles/_bright-styles.scss */
 .header-bkg .site-main-menu {
   padding-top: 0px;
 }
 
-/* line 25, ../sass/styles/_bright-styles.scss */
+/* line 29, ../sass/styles/_bright-styles.scss */
 .site-name a,
 .site-name a:hover,
 .site-name a:active {
   color: white;
 }
 
-/* line 29, ../sass/styles/_bright-styles.scss */
+/* line 33, ../sass/styles/_bright-styles.scss */
 .site-login,
 .site-login a {
   color: white;
 }
 
-/* line 33, ../sass/styles/_bright-styles.scss */
+/* line 37, ../sass/styles/_bright-styles.scss */
 .site-login a:hover,
 .site-login a:active {
   text-decoration: underline;
 }
 
-/* line 36, ../sass/styles/_bright-styles.scss */
+/* line 40, ../sass/styles/_bright-styles.scss */
 #site-slogan {
   color: white;
 }
 
-/* line 39, ../sass/styles/_bright-styles.scss */
+/* line 43, ../sass/styles/_bright-styles.scss */
 .site-main-menu {
   border-bottom: 0;
   background: #53284f;
 }
 
-/* line 43, ../sass/styles/_bright-styles.scss */
+/* line 47, ../sass/styles/_bright-styles.scss */
 .descriptor-btn a, a.descriptor-btn {
   color: white;
 }
 
 @media (min-width: 768px) {
-  /* line 47, ../sass/styles/_bright-styles.scss */
+  /* line 51, ../sass/styles/_bright-styles.scss */
   .navbar {
     margin-bottom: 0;
   }
 }
-/* line 51, ../sass/styles/_bright-styles.scss */
+/* line 55, ../sass/styles/_bright-styles.scss */
 .navbar .nav > li > a {
   padding: 0.5em 1em;
   margin-right: 0.25em;
   text-transform: uppercase;
 }
 
-/* line 61, ../sass/styles/_bright-styles.scss */
+/* line 65, ../sass/styles/_bright-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -682,7 +688,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   color: #333333;
 }
 @media (max-width: 767px) {
-  /* line 61, ../sass/styles/_bright-styles.scss */
+  /* line 65, ../sass/styles/_bright-styles.scss */
   .navbar .nav > .active > a,
   .navbar .nav > .active > a:hover,
   .navbar .nav > .active > a:focus,
@@ -694,18 +700,18 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   }
 }
 
-/* line 68, ../sass/styles/_bright-styles.scss */
+/* line 72, ../sass/styles/_bright-styles.scss */
 .roundedcorners .navbar .nav > li > a {
   border-radius: 5px 5px 0 0;
 }
 
-/* line 71, ../sass/styles/_bright-styles.scss */
+/* line 75, ../sass/styles/_bright-styles.scss */
 .dropdown-menu {
   background: white;
   right: 6px;
 }
 
-/* line 79, ../sass/styles/_bright-styles.scss */
+/* line 83, ../sass/styles/_bright-styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -715,7 +721,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background: #53284f;
 }
 
-/* line 88, ../sass/styles/_bright-styles.scss */
+/* line 92, ../sass/styles/_bright-styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -726,7 +732,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   border-top-color: #333333;
 }
 @media (max-width: 767px) {
-  /* line 88, ../sass/styles/_bright-styles.scss */
+  /* line 92, ../sass/styles/_bright-styles.scss */
   .navbar .nav li.dropdown.open > .dropdown-toggle:hover .caret,
   .navbar .nav li.dropdown.active > .dropdown-toggle:hover .caret,
   .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover .caret,
@@ -739,18 +745,18 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 }
 
 @media (max-width: 767px) {
-  /* line 97, ../sass/styles/_bright-styles.scss */
+  /* line 101, ../sass/styles/_bright-styles.scss */
   #main-nav {
     background: #42203f;
   }
 
-  /* line 100, ../sass/styles/_bright-styles.scss */
+  /* line 104, ../sass/styles/_bright-styles.scss */
   .navbar .btn-navbar {
     border: 1px solid transparent;
     background: #007c92;
   }
 
-  /* line 109, ../sass/styles/_bright-styles.scss */
+  /* line 113, ../sass/styles/_bright-styles.scss */
   .navbar .btn-navbar:hover,
   .navbar .btn-navbar:focus,
   .navbar .btn-navbar:active,
@@ -761,13 +767,13 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     border: 1px solid white;
   }
 
-  /* line 113, ../sass/styles/_bright-styles.scss */
+  /* line 117, ../sass/styles/_bright-styles.scss */
   .roundedcorners .navbar .nav > li > a {
     border-radius: 5px;
     margin-right: 0;
   }
 
-  /* line 122, ../sass/styles/_bright-styles.scss */
+  /* line 126, ../sass/styles/_bright-styles.scss */
   .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
   .navbar .nav li.dropdown.open > .dropdown-toggle:focus,
   .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
@@ -778,7 +784,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     background: white;
   }
 
-  /* line 128, ../sass/styles/_bright-styles.scss */
+  /* line 132, ../sass/styles/_bright-styles.scss */
   .navbar .nav li.dropdown.open > .dropdown-toggle,
   .navbar .nav li.dropdown.active > .dropdown-toggle,
   .navbar .nav li.dropdown.open.active > .dropdown-toggle {
@@ -786,47 +792,47 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
     background: white;
   }
 
-  /* line 132, ../sass/styles/_bright-styles.scss */
+  /* line 136, ../sass/styles/_bright-styles.scss */
   .navbar .nav li.dropdown.open {
     background: white;
   }
 
-  /* line 135, ../sass/styles/_bright-styles.scss */
+  /* line 139, ../sass/styles/_bright-styles.scss */
   .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
     border-bottom-color: #53284f;
     border-top-color: #53284f;
   }
 
-  /* line 139, ../sass/styles/_bright-styles.scss */
+  /* line 143, ../sass/styles/_bright-styles.scss */
   .nav-collapse .dropdown-menu a {
     color: #53284f;
   }
 
-  /* line 144, ../sass/styles/_bright-styles.scss */
+  /* line 148, ../sass/styles/_bright-styles.scss */
   .nav-collapse .dropdown-menu a.active-trail,
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
     color: white;
   }
 }
-/* line 151, ../sass/styles/_bright-styles.scss */
+/* line 155, ../sass/styles/_bright-styles.scss */
 .main .menu li a:hover,
 .main .menu li a:focus,
 .main .menu li a.active {
   text-decoration: underline;
 }
 
-/* line 154, ../sass/styles/_bright-styles.scss */
+/* line 158, ../sass/styles/_bright-styles.scss */
 .well {
   color: white;
 }
 
-/* line 157, ../sass/styles/_bright-styles.scss */
+/* line 161, ../sass/styles/_bright-styles.scss */
 .well .caption {
   color: #d9d9d9;
 }
 
-/* line 165, ../sass/styles/_bright-styles.scss */
+/* line 169, ../sass/styles/_bright-styles.scss */
 .well h2,
 .well h3,
 .well h4,
@@ -836,19 +842,19 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   color: white;
 }
 
-/* line 169, ../sass/styles/_bright-styles.scss */
+/* line 173, ../sass/styles/_bright-styles.scss */
 .well h2 a:hover,
 .well h2 a:focus {
   text-decoration: underline;
 }
 
-/* line 173, ../sass/styles/_bright-styles.scss */
+/* line 177, ../sass/styles/_bright-styles.scss */
 .well a,
 .well .menu li a {
   color: #ffce49;
 }
 
-/* line 183, ../sass/styles/_bright-styles.scss */
+/* line 187, ../sass/styles/_bright-styles.scss */
 .well a:hover,
 .well a:focus,
 .well .menu li a:hover,
@@ -861,22 +867,22 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   text-decoration: underline;
 }
 
-/* line 187, ../sass/styles/_bright-styles.scss */
+/* line 191, ../sass/styles/_bright-styles.scss */
 .site-footer {
   color: white;
 }
 
-/* line 190, ../sass/styles/_bright-styles.scss */
+/* line 194, ../sass/styles/_bright-styles.scss */
 .site-footer .block h2 {
   color: white;
 }
 
-/* line 193, ../sass/styles/_bright-styles.scss */
+/* line 197, ../sass/styles/_bright-styles.scss */
 .site-footer a {
   color: #ffce49;
 }
 
-/* line 198, ../sass/styles/_bright-styles.scss */
+/* line 202, ../sass/styles/_bright-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -884,60 +890,60 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   text-decoration: underline;
 }
 
-/* line 202, ../sass/styles/_bright-styles.scss */
+/* line 206, ../sass/styles/_bright-styles.scss */
 hr {
   border-top: 1px solid #888888;
 }
 
-/* line 205, ../sass/styles/_bright-styles.scss */
+/* line 209, ../sass/styles/_bright-styles.scss */
 th, td {
   border-color: #006374;
 }
 
-/* line 208, ../sass/styles/_bright-styles.scss */
+/* line 212, ../sass/styles/_bright-styles.scss */
 th {
   background: #006374;
   color: white;
 }
 
-/* line 212, ../sass/styles/_bright-styles.scss */
+/* line 216, ../sass/styles/_bright-styles.scss */
 td.active {
   background: rgba(0, 99, 116, 0.5);
 }
 
-/* line 215, ../sass/styles/_bright-styles.scss */
+/* line 219, ../sass/styles/_bright-styles.scss */
 th a {
   color: #ffce49;
 }
 
-/* line 218, ../sass/styles/_bright-styles.scss */
+/* line 222, ../sass/styles/_bright-styles.scss */
 th a:hover, th a:focus {
   color: white;
   text-decoration: underline;
 }
 
-/* line 223, ../sass/styles/_bright-styles.scss */
+/* line 227, ../sass/styles/_bright-styles.scss */
 .banner-overlay h2, .banner-overlay p {
   color: white;
 }
-/* line 226, ../sass/styles/_bright-styles.scss */
+/* line 230, ../sass/styles/_bright-styles.scss */
 .banner-overlay a.more-link, .banner-overlay .more-link a {
   color: #ffce49;
 }
-/* line 230, ../sass/styles/_bright-styles.scss */
+/* line 234, ../sass/styles/_bright-styles.scss */
 .banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
 .banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
   color: white;
   text-decoration: underline;
 }
 
-/* line 235, ../sass/styles/_bright-styles.scss */
+/* line 239, ../sass/styles/_bright-styles.scss */
 ul.pager li a {
   color: white;
   background: #333333;
 }
 
-/* line 243, ../sass/styles/_bright-styles.scss */
+/* line 247, ../sass/styles/_bright-styles.scss */
 .calendar-calendar th.days,
 .calendar-calendar td.mini .mini-day-off,
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a,
@@ -946,7 +952,7 @@ ul.pager li a {
   color: white;
 }
 
-/* line 248, ../sass/styles/_bright-styles.scss */
+/* line 252, ../sass/styles/_bright-styles.scss */
 .calendar-calendar tr td.today a,
 .calendar-calendar tr td.today a:hover,
 .calendar-calendar tr td.has-events a:hover {
@@ -954,28 +960,28 @@ ul.pager li a {
   color: #333333;
 }
 
-/* line 252, ../sass/styles/_bright-styles.scss */
+/* line 256, ../sass/styles/_bright-styles.scss */
 .calendar-calendar .mini td.has-events {
   background: #007c92;
 }
 
-/* line 255, ../sass/styles/_bright-styles.scss */
+/* line 259, ../sass/styles/_bright-styles.scss */
 .calendar-calendar td.mini a {
   color: white;
 }
 
-/* line 258, ../sass/styles/_bright-styles.scss */
+/* line 262, ../sass/styles/_bright-styles.scss */
 .calendar-calendar table.mini td.empty {
   background: #197281;
 }
 
-/* line 262, ../sass/styles/_bright-styles.scss */
+/* line 266, ../sass/styles/_bright-styles.scss */
 .calendar-calendar .mini td,
 .calendar-calendar table.mini td.empty {
   border-color: #197281;
 }
 
-/* line 268, ../sass/styles/_bright-styles.scss */
+/* line 272, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu .content > .menu > li.last > a,
@@ -984,7 +990,7 @@ ul.pager li a {
   color: #ffce49;
 }
 
-/* line 281, ../sass/styles/_bright-styles.scss */
+/* line 285, ../sass/styles/_bright-styles.scss */
 .sidebar .nav li a:hover,
 .sidebar .nav li a:focus,
 .sidebar .nav li a.active,
@@ -998,7 +1004,7 @@ ul.pager li a {
   color: white;
 }
 
-/* line 289, ../sass/styles/_bright-styles.scss */
+/* line 293, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu .content > .menu > li > a.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
 .sidebar .block-menu .content > .menu > li > a:hover,
@@ -1008,7 +1014,7 @@ ul.pager li a {
   text-decoration: none;
 }
 
-/* line 299, ../sass/styles/_bright-styles.scss */
+/* line 303, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu .content > .menu > li.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
 .sidebar .block-menu .content > .menu > li > a.active,
@@ -1020,7 +1026,7 @@ ul.pager li a {
   background: #33828f;
 }
 
-/* line 303, ../sass/styles/_bright-styles.scss */
+/* line 307, ../sass/styles/_bright-styles.scss */
 .sidebar .block-menu h2,
 .sidebar .block-menu-block h2 {
   color: white;
