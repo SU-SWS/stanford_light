@@ -40,10 +40,17 @@ h6 {
 }
 strong {
 }
-.site-name {
+.site-name,
+#site-title-first-line, 
+#site-title-second-line {
 }
-.site-name a, .site-name a:hover {
+.site-name a, .site-name a:hover,
+#site-title-first-line a, #site-title-first-line a:hover,
+#site-title-second-line a, #site-title-second-line a:hover {
     color: $clr-text;
+}
+#site-title-first-line.site-title-uppercase a, #site-title-first-line.site-title-uppercase a:hover {
+    font-weight: 400;
 }
 #site-slogan {
     color: $clr-text;
