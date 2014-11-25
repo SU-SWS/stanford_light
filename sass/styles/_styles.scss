@@ -334,18 +334,53 @@ td.active {
 .front.header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar {
     background: $clr-header-bkg;
 }
-
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main {
-    color: $clr-page-bkg; /* text color */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar {
+    color: $clr-light-text; /* text color */
 }
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
-    color: $clr-page-bkg; /* link color */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content a,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar a {
+    color: $clr-light-link; /* link color */
 }
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well {
-    color: $clr-text; /* well text color */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content .nav-tabs a.active,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content .nav-tabs a:hover {
+    color: $clr-link; /* heading color */
 }
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well a {
-    color: $clr-link; /* well link color */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .main .mc-content h6,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h6 {
+    color: $clr-light-text; /* heading color */
+}
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu {
+    color: $clr-well-text; /* well text color */
+}
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well a,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu a {
+    color: $clr-well-link; /* well link color */
+}
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h6,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h6 {
+    color: $clr-well-text; /* heading color */
 }
 
 .views-row-lines .views-row {

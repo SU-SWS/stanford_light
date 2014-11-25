@@ -449,155 +449,200 @@ td.active {
 }
 
 /* line 338, ../sass/styles/_styles.scss */
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main {
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar {
   color: white;
   /* text color */
 }
 
-/* line 341, ../sass/styles/_styles.scss */
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main a {
-  color: white;
+/* line 342, ../sass/styles/_styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content a,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar a {
+  color: #b3995d;
   /* link color */
 }
 
-/* line 344, ../sass/styles/_styles.scss */
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well {
-  color: #333333;
+/* line 346, ../sass/styles/_styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content .nav-tabs a.active,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content .nav-tabs a:hover {
+  color: #8c1515;
+  /* heading color */
+}
+
+/* line 360, ../sass/styles/_styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .mc-content h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .main .mc-content h6,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .sidebar h6 {
+  color: white;
+  /* heading color */
+}
+
+/* line 364, ../sass/styles/_styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu {
+  color: white;
   /* well text color */
 }
 
-/* line 347, ../sass/styles/_styles.scss */
-.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well a {
-  color: #8c1515;
+/* line 368, ../sass/styles/_styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well a,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu a {
+  color: #b3995d;
   /* well link color */
 }
 
-/* line 351, ../sass/styles/_styles.scss */
+/* line 382, ../sass/styles/_styles.scss */
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .well h6,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h1,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h2,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h3,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h4,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h5,
+.front.header-bkg.header-bkg-style-frontbleed.header-bkg-text-light .main .block-menu h6 {
+  color: white;
+  /* heading color */
+}
+
+/* line 386, ../sass/styles/_styles.scss */
 .views-row-lines .views-row {
   border-color: #e9e9e9;
 }
 
-/* line 354, ../sass/styles/_styles.scss */
+/* line 389, ../sass/styles/_styles.scss */
 ul.pager li a {
   background-color: #333333;
   color: #333333;
 }
 
-/* line 358, ../sass/styles/_styles.scss */
+/* line 393, ../sass/styles/_styles.scss */
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background-color: #8c1515;
   color: white;
 }
 
-/* line 362, ../sass/styles/_styles.scss */
+/* line 397, ../sass/styles/_styles.scss */
 .date-stacked {
   background: #191919;
 }
-/* line 364, ../sass/styles/_styles.scss */
+/* line 399, ../sass/styles/_styles.scss */
 .date-stacked .date-month, .date-stacked .date-day {
   color: white;
 }
 
 /* Mini-calendar navigtaion */
-/* line 369, ../sass/styles/_styles.scss */
+/* line 404, ../sass/styles/_styles.scss */
 .calendar-calendar td.mini a, .calendar-calendar td.mini .mini-day-off {
   color: #333333;
 }
 
-/* line 372, ../sass/styles/_styles.scss */
+/* line 407, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td {
   border-color: white;
   background: #333333;
 }
 
-/* line 376, ../sass/styles/_styles.scss */
+/* line 411, ../sass/styles/_styles.scss */
 .calendar-calendar table.mini td.empty {
   border-color: white;
 }
 
-/* line 379, ../sass/styles/_styles.scss */
+/* line 414, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td.has-events {
   background: #2d2d2d;
 }
 
-/* line 382, ../sass/styles/_styles.scss */
+/* line 417, ../sass/styles/_styles.scss */
 .calendar-calendar .mini td.today {
   background: #8c1515;
 }
 
-/* line 385, ../sass/styles/_styles.scss */
+/* line 420, ../sass/styles/_styles.scss */
 .calendar-calendar td.mini .mini-day-off {
   color: #333333;
 }
 
-/* line 388, ../sass/styles/_styles.scss */
+/* line 423, ../sass/styles/_styles.scss */
 .calendar-calendar td.today .mini-day-off {
   color: white;
 }
 
-/* line 391, ../sass/styles/_styles.scss */
+/* line 426, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.has-events a:hover {
   background: #8c1515;
   color: white;
 }
 
-/* line 395, ../sass/styles/_styles.scss */
+/* line 430, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.today a, .calendar-calendar tr td.today a:hover {
   background: #8c1515;
   color: white;
 }
 
-/* line 399, ../sass/styles/_styles.scss */
+/* line 434, ../sass/styles/_styles.scss */
 .calendar-calendar table.mini td.empty {
   background: #2d2d2d;
 }
 
-/* line 402, ../sass/styles/_styles.scss */
+/* line 437, ../sass/styles/_styles.scss */
 .calendar-calendar th.days {
   background: #333333;
   color: #333333;
 }
 
-/* line 406, ../sass/styles/_styles.scss */
+/* line 441, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper {
   background: #333333;
 }
 
-/* line 409, ../sass/styles/_styles.scss */
+/* line 444, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a {
   color: #8c1515;
 }
 
-/* line 412, ../sass/styles/_styles.scss */
+/* line 447, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .date-heading a:hover {
   color: #8c1515;
 }
 
-/* line 415, ../sass/styles/_styles.scss */
+/* line 450, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a {
   background: white;
   color: #2d2d2d;
 }
 
-/* line 419, ../sass/styles/_styles.scss */
+/* line 454, ../sass/styles/_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-prev a:hover, .view-stanford-events-calendar .date-nav-wrapper .date-nav .pager li.date-next a:hover {
   background-color: #8c1515;
   color: white;
 }
 
-/* line 423, ../sass/styles/_styles.scss */
+/* line 458, ../sass/styles/_styles.scss */
 .calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
   background-color: #8c1515;
   color: white;
 }
 
-/* line 428, ../sass/styles/_styles.scss */
+/* line 463, ../sass/styles/_styles.scss */
 #block-search-form input.search-query {
   border: 2px solid #333333;
   color: #333333;
 }
 
-/* line 432, ../sass/styles/_styles.scss */
+/* line 467, ../sass/styles/_styles.scss */
 #block-search-form input.search-query:focus {
   color: black;
   -moz-box-shadow: 0px 0px 5px 3px #333333;
