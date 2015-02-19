@@ -661,18 +661,18 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   margin-bottom: 10px;
 }
 
-/* line 8, ../sass/styles/_rich-styles.scss */
+/* line 9, ../sass/styles/_rich-styles.scss */
 .header-bkg .site-main-menu {
   border-top: 1px solid #d5d0c0;
 }
 
-/* line 11, ../sass/styles/_rich-styles.scss */
+/* line 12, ../sass/styles/_rich-styles.scss */
 .navbar .nav > li > a {
   padding-bottom: .25em;
   border-bottom: 5px solid transparent;
 }
 
-/* line 20, ../sass/styles/_rich-styles.scss */
+/* line 21, ../sass/styles/_rich-styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -682,12 +682,12 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   border-bottom: 5px solid #5e3032;
 }
 
-/* line 23, ../sass/styles/_rich-styles.scss */
+/* line 24, ../sass/styles/_rich-styles.scss */
 .dropdown-menu {
   border-color: #3f3c30;
 }
 
-/* line 32, ../sass/styles/_rich-styles.scss */
+/* line 33, ../sass/styles/_rich-styles.scss */
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:hover,
 .header-bkg.header-bkg-style-frontbleed .site-main-menu .navbar .nav > .active > a:focus,
@@ -698,28 +698,28 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background: #5e3032;
 }
 
-/* line 37, ../sass/styles/_rich-styles.scss */
+/* line 38, ../sass/styles/_rich-styles.scss */
 h2 a:hover, h2 a:focus {
   text-decoration: none;
 }
 
-/* line 41, ../sass/styles/_rich-styles.scss */
+/* line 42, ../sass/styles/_rich-styles.scss */
 .well a,
 .well .menu li a {
   color: #5e4a1b;
 }
 
-/* line 44, ../sass/styles/_rich-styles.scss */
+/* line 45, ../sass/styles/_rich-styles.scss */
 .site-footer {
   color: #fbfbf9;
 }
 
-/* line 47, ../sass/styles/_rich-styles.scss */
+/* line 48, ../sass/styles/_rich-styles.scss */
 .site-footer .block h2 {
   color: #fbfbf9;
 }
 
-/* line 53, ../sass/styles/_rich-styles.scss */
+/* line 54, ../sass/styles/_rich-styles.scss */
 .site-footer a,
 .site-footer a:hover,
 .site-footer a:focus,
@@ -727,7 +727,7 @@ h2 a:hover, h2 a:focus {
   color: #fbfbf9;
 }
 
-/* line 58, ../sass/styles/_rich-styles.scss */
+/* line 59, ../sass/styles/_rich-styles.scss */
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a.active {
@@ -735,32 +735,32 @@ h2 a:hover, h2 a:focus {
 }
 
 @media (max-width: 767px) {
-  /* line 62, ../sass/styles/_rich-styles.scss */
+  /* line 63, ../sass/styles/_rich-styles.scss */
   .navbar .btn-navbar {
     background: #5e3032;
   }
 }
-/* line 66, ../sass/styles/_rich-styles.scss */
+/* line 67, ../sass/styles/_rich-styles.scss */
 .well .caption {
   color: #474640;
 }
 
-/* line 69, ../sass/styles/_rich-styles.scss */
+/* line 70, ../sass/styles/_rich-styles.scss */
 th a {
   color: #644e1c;
 }
 
-/* line 73, ../sass/styles/_rich-styles.scss */
+/* line 74, ../sass/styles/_rich-styles.scss */
 .banner-overlay a.more-link, .banner-overlay .more-link a {
   color: #3f3c30;
 }
-/* line 77, ../sass/styles/_rich-styles.scss */
+/* line 78, ../sass/styles/_rich-styles.scss */
 .banner-overlay a.more-link:hover, .banner-overlay .more-link a:hover,
 .banner-overlay a.more-link:focus, .banner-overlay .more-link a:focus {
   text-decoration: underline;
 }
 
-/* line 84, ../sass/styles/_rich-styles.scss */
+/* line 85, ../sass/styles/_rich-styles.scss */
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu .content > .menu > li.last > a,
@@ -769,7 +769,7 @@ th a {
   color: #5e4a1b;
 }
 
-/* line 92, ../sass/styles/_rich-styles.scss */
+/* line 93, ../sass/styles/_rich-styles.scss */
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
 .sidebar .block-menu .content > .menu > li > a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
@@ -778,7 +778,7 @@ th a {
   color: #3f3c30;
 }
 
-/* line 102, ../sass/styles/_rich-styles.scss */
+/* line 103, ../sass/styles/_rich-styles.scss */
 .sidebar .block-menu .content > .menu > li.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
 .sidebar .block-menu .content > .menu > li > a.active,
