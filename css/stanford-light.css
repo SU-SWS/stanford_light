@@ -266,12 +266,31 @@ a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 212, ../sass/includes/_base.scss */
+/* line 213, ../sass/includes/_base.scss */
+.view-courses-reference .views-field-title div a {
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  padding: 0.5em 1em;
+  border: 1px solid #cccccc;
+  font-size: .8em;
+  text-decoration: none;
+}
+
+/* line 221, ../sass/includes/_base.scss */
+.view-courses-reference .views-field-title div a:hover,
+.view-courses-reference .views-field-title div a:focus {
+  background: #dddddd;
+}
+
+/* line 225, ../sass/includes/_base.scss */
 a.btn.btn-red, .btn.btn-red a {
   background: #8c1515;
 }
 
-/* line 215, ../sass/includes/_base.scss */
+/* line 228, ../sass/includes/_base.scss */
 a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   background-image: url("../../images/btn-arrow-left.png");
   background-position: 10px center;
@@ -280,7 +299,7 @@ a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   text-align: right;
 }
 
-/* line 222, ../sass/includes/_base.scss */
+/* line 235, ../sass/includes/_base.scss */
 a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
   background-image: url("../../images/btn-arrow-right.png");
   background-position: 93% center;
@@ -290,12 +309,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   text-align: left;
 }
 
-/* line 233, ../sass/includes/_base.scss */
+/* line 246, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 236, ../sass/includes/_base.scss */
+/* line 249, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -309,17 +328,17 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   padding: 1.3em;
 }
 
-/* line 244, ../sass/includes/_base.scss */
+/* line 257, ../sass/includes/_base.scss */
 ul.pager li {
   margin: 0;
 }
 
-/* line 247, ../sass/includes/_base.scss */
+/* line 260, ../sass/includes/_base.scss */
 ul.nav-pills a.active {
   background: transparent;
 }
 
-/* line 250, ../sass/includes/_base.scss */
+/* line 263, ../sass/includes/_base.scss */
 ul.pager li a {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -330,7 +349,7 @@ ul.pager li a {
   padding: 4px 10px;
 }
 
-/* line 257, ../sass/includes/_base.scss */
+/* line 270, ../sass/includes/_base.scss */
 ul.pager li.pager-current {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -342,17 +361,17 @@ ul.pager li.pager-current {
   margin: 0;
 }
 
-/* line 263, ../sass/includes/_base.scss */
+/* line 276, ../sass/includes/_base.scss */
 .item-list .pager li {
   padding: 0;
 }
 
-/* line 267, ../sass/includes/_base.scss */
+/* line 280, ../sass/includes/_base.scss */
 #nav-search {
   margin-right: 0;
 }
 
-/* line 270, ../sass/includes/_base.scss */
+/* line 283, ../sass/includes/_base.scss */
 #block-search-form input.search-query {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -363,7 +382,7 @@ ul.pager li.pager-current {
   padding-right: 33px;
 }
 
-/* line 277, ../sass/includes/_base.scss */
+/* line 290, ../sass/includes/_base.scss */
 .navbar #block-search-form input.btn-search {
   top: 2px;
 }

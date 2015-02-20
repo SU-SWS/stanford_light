@@ -209,6 +209,19 @@ a.edit-link, .edit-link a {
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
     background: $clr-gray-light;
 }
+
+.view-courses-reference .views-field-title div a {
+    @include border-radius(0.3em);
+    padding: 0.5em 1em;
+    border: 1px solid $clr-gray;
+    font-size: .8em;
+    text-decoration: none;
+}
+.view-courses-reference .views-field-title div a:hover,
+.view-courses-reference .views-field-title div a:focus {
+    background: $clr-gray-light;
+}
+
 a.btn.btn-red, .btn.btn-red a {
     background: $clr-cardinal;
 }
