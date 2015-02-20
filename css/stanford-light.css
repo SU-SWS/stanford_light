@@ -53,39 +53,43 @@
   margin: 0;
   padding: 30px 0 20px 0;
 }
+/* line 40, ../sass/includes/_base.scss */
+.site-footer .block {
+  margin-bottom: 30px;
+}
 
-/* line 55, ../sass/includes/_base.scss */
+/* line 58, ../sass/includes/_base.scss */
 h2:first-child, h3:first-child, h4:first-child, body.cke_show_borders h2:first-child, body.cke_show_borders h3:first-child, body.cke_show_borders h4:first-child {
   margin-top: 0;
 }
 
-/* line 60, ../sass/includes/_base.scss */
+/* line 63, ../sass/includes/_base.scss */
 .content ul li {
   list-style-type: square;
 }
 
-/* line 63, ../sass/includes/_base.scss */
+/* line 66, ../sass/includes/_base.scss */
 .site-logo img {
   margin-right: 15px;
 }
 @media (max-width: 480px) {
-  /* line 63, ../sass/includes/_base.scss */
+  /* line 66, ../sass/includes/_base.scss */
   .site-logo img {
     margin-right: 0;
   }
 }
 
-/* line 69, ../sass/includes/_base.scss */
+/* line 72, ../sass/includes/_base.scss */
 #name-and-slogan {
   padding-left: 0;
 }
 
-/* line 72, ../sass/includes/_base.scss */
+/* line 75, ../sass/includes/_base.scss */
 .site-name {
   margin-left: -4px;
 }
 
-/* line 83, ../sass/includes/_base.scss */
+/* line 86, ../sass/includes/_base.scss */
 .descriptor-btn a, a.descriptor-btn {
   padding: 3px 9px;
   -webkit-border-radius: 5px;
@@ -99,19 +103,19 @@ h2:first-child, h3:first-child, h4:first-child, body.cke_show_borders h2:first-c
   display: inline-block;
 }
 
-/* line 93, ../sass/includes/_base.scss */
+/* line 96, ../sass/includes/_base.scss */
 .caption {
   margin-bottom: 0;
 }
 
-/* line 97, ../sass/includes/_base.scss */
+/* line 100, ../sass/includes/_base.scss */
 .quote {
   font-size: 1.3em;
   line-height: 1.5em;
   quotes: '\201c' '\201d';
 }
 
-/* line 102, ../sass/includes/_base.scss */
+/* line 105, ../sass/includes/_base.scss */
 blockquote {
   padding: 2em 3em 1em;
   border: 0;
@@ -119,37 +123,37 @@ blockquote {
   margin: 0 60px 30px;
 }
 
-/* line 108, ../sass/includes/_base.scss */
+/* line 111, ../sass/includes/_base.scss */
 blockquote.quote {
   padding: .5em 3em 1em;
 }
 
-/* line 111, ../sass/includes/_base.scss */
+/* line 114, ../sass/includes/_base.scss */
 blockquote p, blockquote .more-link a, blockquote a.more-link {
   font-size: 20.8px;
   line-height: 1.5em;
   margin-bottom: 1em;
 }
 
-/* line 116, ../sass/includes/_base.scss */
+/* line 119, ../sass/includes/_base.scss */
 blockquote > p:first-child {
   line-height: 1.5em;
   padding-left: 0;
   text-indent: 0;
 }
 
-/* line 121, ../sass/includes/_base.scss */
+/* line 124, ../sass/includes/_base.scss */
 p.quote {
   text-indent: -1em;
 }
 
-/* line 124, ../sass/includes/_base.scss */
+/* line 127, ../sass/includes/_base.scss */
 p.quote:before {
   position: relative;
   left: -5px;
 }
 
-/* line 129, ../sass/includes/_base.scss */
+/* line 132, ../sass/includes/_base.scss */
 .quote:before, .quote:after,
 div.quote p:last-child:after, blockquote.quote p:last-child:after {
   font-size: 40px;
@@ -157,29 +161,29 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after {
   opacity: 0.5;
 }
 
-/* line 134, ../sass/includes/_base.scss */
+/* line 137, ../sass/includes/_base.scss */
 .quote:before {
   content: open-quote;
 }
 
-/* line 137, ../sass/includes/_base.scss */
+/* line 140, ../sass/includes/_base.scss */
 .quote:after {
   content: close-quote;
 }
 
-/* line 140, ../sass/includes/_base.scss */
+/* line 143, ../sass/includes/_base.scss */
 div.quote:before, blockquote.quote:before {
   left: -27px;
   position: relative;
   top: 34px;
 }
 
-/* line 145, ../sass/includes/_base.scss */
+/* line 148, ../sass/includes/_base.scss */
 div.quote:after, blockquote.quote:after {
   display: none;
 }
 
-/* line 148, ../sass/includes/_base.scss */
+/* line 151, ../sass/includes/_base.scss */
 div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after {
   content: close-quote;
   line-height: 0;
@@ -188,7 +192,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   top: 20px;
 }
 
-/* line 156, ../sass/includes/_base.scss */
+/* line 159, ../sass/includes/_base.scss */
 .big-text {
   font-size: 3em;
   font-weight: 500;
@@ -197,7 +201,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   margin-bottom: 0.5em;
 }
 
-/* line 163, ../sass/includes/_base.scss */
+/* line 166, ../sass/includes/_base.scss */
 .infotext {
   font-size: 4em;
   font-weight: 600;
@@ -206,7 +210,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   letter-spacing: -0.05em;
 }
 
-/* line 170, ../sass/includes/_base.scss */
+/* line 173, ../sass/includes/_base.scss */
 .circle-image img {
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
@@ -215,7 +219,7 @@ div.quote p:last-child:after, blockquote.quote p:last-child:after, p.quote:after
   border-radius: 10em;
 }
 
-/* line 178, ../sass/includes/_base.scss */
+/* line 181, ../sass/includes/_base.scss */
 a.btn, .btn a {
   padding: 0.5em 1em;
   border: none;
@@ -230,7 +234,7 @@ a.btn, .btn a {
   border-radius: 0.3em;
 }
 
-/* line 187, ../sass/includes/_base.scss */
+/* line 190, ../sass/includes/_base.scss */
 a.more-link, .more-link a {
   text-transform: none;
   display: inline;
@@ -239,12 +243,12 @@ a.more-link, .more-link a {
   letter-spacing: 0;
 }
 
-/* line 194, ../sass/includes/_base.scss */
+/* line 197, ../sass/includes/_base.scss */
 a.more-link:after, .more-link a:after {
   content: " »";
 }
 
-/* line 199, ../sass/includes/_base.scss */
+/* line 202, ../sass/includes/_base.scss */
 a.edit-link, .edit-link a {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
@@ -257,17 +261,17 @@ a.edit-link, .edit-link a {
   text-decoration: none;
 }
 
-/* line 206, ../sass/includes/_base.scss */
+/* line 209, ../sass/includes/_base.scss */
 a.edit-link:hover, a.edit-link:focus, .edit-link a:hover, .edit-link a:focus {
   background: #dddddd;
 }
 
-/* line 209, ../sass/includes/_base.scss */
+/* line 212, ../sass/includes/_base.scss */
 a.btn.btn-red, .btn.btn-red a {
   background: #8c1515;
 }
 
-/* line 212, ../sass/includes/_base.scss */
+/* line 215, ../sass/includes/_base.scss */
 a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   background-image: url("../../images/btn-arrow-left.png");
   background-position: 10px center;
@@ -276,7 +280,7 @@ a.btn.btn-arrow-left, a.btn.btn-arrow-left:hover, a.btn.btn-arrow-left:focus {
   text-align: right;
 }
 
-/* line 219, ../sass/includes/_base.scss */
+/* line 222, ../sass/includes/_base.scss */
 a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
   background-image: url("../../images/btn-arrow-right.png");
   background-position: 93% center;
@@ -286,12 +290,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   text-align: left;
 }
 
-/* line 230, ../sass/includes/_base.scss */
+/* line 233, ../sass/includes/_base.scss */
 .block > h2 {
   margin-top: 0;
 }
 
-/* line 233, ../sass/includes/_base.scss */
+/* line 236, ../sass/includes/_base.scss */
 .well {
   border: none;
   -webkit-border-radius: 0;
@@ -305,17 +309,17 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   padding: 1.3em;
 }
 
-/* line 241, ../sass/includes/_base.scss */
+/* line 244, ../sass/includes/_base.scss */
 ul.pager li {
   margin: 0;
 }
 
-/* line 244, ../sass/includes/_base.scss */
+/* line 247, ../sass/includes/_base.scss */
 ul.nav-pills a.active {
   background: transparent;
 }
 
-/* line 247, ../sass/includes/_base.scss */
+/* line 250, ../sass/includes/_base.scss */
 ul.pager li a {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -326,7 +330,7 @@ ul.pager li a {
   padding: 4px 10px;
 }
 
-/* line 254, ../sass/includes/_base.scss */
+/* line 257, ../sass/includes/_base.scss */
 ul.pager li.pager-current {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -338,17 +342,17 @@ ul.pager li.pager-current {
   margin: 0;
 }
 
-/* line 260, ../sass/includes/_base.scss */
+/* line 263, ../sass/includes/_base.scss */
 .item-list .pager li {
   padding: 0;
 }
 
-/* line 264, ../sass/includes/_base.scss */
+/* line 267, ../sass/includes/_base.scss */
 #nav-search {
   margin-right: 0;
 }
 
-/* line 267, ../sass/includes/_base.scss */
+/* line 270, ../sass/includes/_base.scss */
 #block-search-form input.search-query {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -359,7 +363,7 @@ ul.pager li.pager-current {
   padding-right: 33px;
 }
 
-/* line 274, ../sass/includes/_base.scss */
+/* line 277, ../sass/includes/_base.scss */
 .navbar #block-search-form input.btn-search {
   top: 2px;
 }
