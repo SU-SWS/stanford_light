@@ -49,4 +49,12 @@ function stanford_light_preprocess_page(&$vars) {
   }
 
   $vars['styles'] = drupal_get_css();
+
+  // Save our CSS for the WYSIWYG to use.
+  $wysiwyg_css = drupal_add_css();
+  $css_files = array();
+  foreach ($wysiwyg_css as $wysiwyg_css_file) {
+    $css_files[] = $wysiwyg_css_file['data'];
+  }
+  variable_set('stanford_light_wysiwyg_css', $css_files);
 }
